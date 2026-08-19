@@ -1,0 +1,86 @@
+﻿@import "tailwindcss";
+
+:root {
+  --texas-blue: #002868;
+  --texas-red: #bf0a30;
+  --texas-white: #ffffff;
+  --texas-ink: #111827;
+  --texas-muted: #475569;
+  --texas-background: #f5f7fb;
+  --texas-panel: #ffffff;
+  --texas-soft-panel: #f8fafc;
+  --texas-border: #dbe4f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--texas-background);
+  color: var(--texas-ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.gsr-card {
+  background: var(--texas-panel);
+  border: 1px solid var(--texas-border);
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+}
+
+.texas-topbar {
+  background: #001f52;
+  color: white;
+}
+
+.texas-hero {
+  background:
+    linear-gradient(
+      120deg,
+      #001f52 0%,
+      #002868 58%,
+      #7e0923 100%
+    );
+}
+
+.texas-section-label {
+  color: var(--texas-red);
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.texas-red-rule {
+  border-top: 4px solid var(--texas-red);
+}
+
+.texas-blue-rule {
+  border-top: 4px solid var(--texas-blue);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
