@@ -116,70 +116,6 @@ function loadWeather(): WeatherReport {
     fs.readFileSync(filePath, "utf8")
   ) as WeatherReport;
 }
-function cleanDisplayText(value?: string) {
-  return String(value || "")
-    .replace(/â€™/g, "'")
-    .replace(/â€˜/g, "'")
-    .replace(/â€œ/g, '"')
-    .replace(/â€/g, '"')
-    .replace(/â€”/g, "-")
-    .replace(/â€“/g, "-")
-    .replace(/Â·/g, " - ")
-    .replace(/Â/g, "")
-    .trim();
-}
-
-function isObviousSportsStory(story: Story) {
-  const text = cleanDisplayText(
-    `${cleanDisplayText(story.headline)} ${story.title || ""}`
-  ).toLowerCase();
-
-  return [
-    "cowboys",
-    "houston texans",
-    "texans receiver",
-    "astros",
-    "texas rangers",
-    "mavericks",
-    "mavs",
-    "rockets",
-    "spurs",
-    "wembanyama",
-    "wemby",
-    "college football",
-    "high school football",
-    "longhorns",
-    "aggies",
-    "texas tech",
-    "tcu",
-    "baylor",
-    "smu",
-    "utsa",
-    "utep",
-    "touchdown",
-    "quarterback"
-  ].some(term => text.includes(term));
-}
-
-function isObviousNonBusinessStory(story: Story) {
-  const text = cleanDisplayText(
-    `${cleanDisplayText(story.headline)} ${story.title || ""}`
-  ).toLowerCase();
-
-  return [
-    "west nile",
-    "mosquito",
-    "screwworm",
-    "pet adoption",
-    "animal adoption",
-    "mental health",
-    "dementia",
-    "health study",
-    "medical study",
-    "sports scoreboard",
-    "high school sports"
-  ].some(term => text.includes(term));
-}
 function formatDate(value?: string) {
   if (!value) return "";
 
@@ -208,13 +144,13 @@ function StoryCard({
     <article className="gsr-card texas-red-rule p-5">
       <div className="flex flex-wrap items-center gap-2 text-xs font-bold uppercase tracking-wide text-slate-500">
         <span className="text-[#bf0a30]">
-          {cleanDisplayText(story.source)}
+          {story.source}
         </span>
 
         {story.region ? (
           <>
-            <span>ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢</span>
-            <span>{cleanDisplayText(story.region)}</span>
+            <span>Ã¢â‚¬Â¢</span>
+            <span>{story.region}</span>
           </>
         ) : null}
       </div>
@@ -226,7 +162,7 @@ function StoryCard({
           rel="noopener noreferrer"
           className="hover:text-[#002868]"
         >
-          {cleanDisplayText(story.headline)}
+          {story.headline}
         </a>
       </h3>
 
@@ -243,7 +179,7 @@ function StoryCard({
           rel="noopener noreferrer"
           className="text-sm font-black text-[#002868] hover:underline"
         >
-          Read original report ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢
+          Read original report Ã¢â€ â€™
         </a>
       </div>
     </article>
@@ -338,7 +274,7 @@ function TexasWeatherDesk({
 
               <div className="mt-4 flex items-end gap-2">
                 <span className="text-4xl font-black text-[#002868]">
-                  {location.temperature}Ã‚Â°
+                  {location.temperature}Â°
                 </span>
 
                 <span className="pb-1 text-sm font-bold text-slate-500">
@@ -361,7 +297,7 @@ function TexasWeatherDesk({
                   </p>
 
                   <p className="mt-1 text-sm font-bold text-slate-700">
-                    {location.next_period.temperature}Ã‚Â°{" "}
+                    {location.next_period.temperature}Â°{" "}
                     {location.next_period.forecast}
                   </p>
                 </div>
@@ -386,7 +322,7 @@ function TexasWeatherDesk({
           rel="noopener noreferrer"
           className="font-black text-[#002868] hover:underline"
         >
-          National Weather Service Ã¢â€ â€™
+          National Weather Service â†’
         </a>
       </div>
     </section>
@@ -395,61 +331,78 @@ function TexasWeatherDesk({
 function classifyTexasSport(story: Story) {
   const text = [
     story.headline,
-    story.title,
-    story.source,
-    story.region,
-    story.sport_desk
+    story.title
   ]
     .filter(Boolean)
     .join(" ")
     .toLowerCase();
 
-  const nflTerms = [
-    "dallas cowboys",
-    "cowboys",
-    "houston texans",
-    "texans",
-    "nfl"
-  ];
+  const hasAny = (terms: string[]) =>
+    terms.some(term => text.includes(term));
 
-  const mlbTerms = [
-    "texas rangers",
-    "rangers",
-    "houston astros",
-    "astros",
-    "mlb",
-    "major league baseball"
-  ];
+  if (
+    hasAny([
+      "high school football",
+      "texas high school football",
+      "uil football",
+      "football player",
+      "football season"
+    ]) &&
+    hasAny([
+      "texas",
+      "san antonio",
+      "houston",
+      "dallas",
+      "fort worth",
+      "austin",
+      "el paso",
+      "beaumont",
+      "amarillo",
+      "lubbock",
+      "waco",
+      "mcallen",
+      "rio grande valley"
+    ])
+  ) {
+    return "High School Football";
+  }
 
-  const nbaTerms = [
-    "dallas mavericks",
-    "mavericks",
-    "mavs",
-    "houston rockets",
-    "rockets",
-    "san antonio spurs",
-    "spurs",
-    "wembanyama",
-    "wemby",
-    "nba"
-  ];
+  if (
+    hasAny([
+      "houston astros",
+      "astros",
+      "texas rangers"
+    ])
+  ) {
+    return "MLB";
+  }
 
-  const highSchoolTerms = [
-    "high school football",
-    "texas high school football",
-    "friday night",
-    "uil football",
-    "uil",
-    "6a football",
-    "5a football",
-    "4a football",
-    "3a football",
-    "2a football",
-    "1a football"
-  ];
+  if (
+    hasAny([
+      "san antonio spurs",
+      "spurs",
+      "wembanyama",
+      "wemby",
+      "dallas mavericks",
+      "mavericks",
+      "mavs",
+      "houston rockets"
+    ])
+  ) {
+    return "NBA";
+  }
 
-  const collegeTerms = [
-    "college football",
+  if (
+    hasAny([
+      "dallas cowboys",
+      "cowboys",
+      "houston texans"
+    ])
+  ) {
+    return "NFL";
+  }
+
+  const texasCollegeTerms = [
     "texas longhorns",
     "longhorns",
     "texas a&m",
@@ -459,47 +412,47 @@ function classifyTexasSport(story: Story) {
     "tcu",
     "horned frogs",
     "baylor",
-    "bears",
     "smu",
-    "mustangs",
     "houston cougars",
     "rice owls",
     "utsa",
+    "utep",
     "north texas",
     "mean green",
-    "utep",
     "sam houston",
-    "texas state",
-    "sec football",
-    "big 12",
-    "acc football",
-    "ncaa football",
-    "on3"
+    "texas state"
   ];
 
-  if (highSchoolTerms.some(term => text.includes(term))) {
-    return "High School Football";
-  }
+  const footballTerms = [
+    "football",
+    "quarterback",
+    " qb ",
+    "wide receiver",
+    "receiver",
+    "running back",
+    "linebacker",
+    "defensive back",
+    "defensive end",
+    "offensive line",
+    "edge",
+    "touchdown",
+    "kickoff",
+    "recruit",
+    "commit",
+    "all-sec",
+    "all-american",
+    "playoff"
+  ];
 
-  if (mlbTerms.some(term => text.includes(term))) {
-    return "MLB";
-  }
-
-  if (nbaTerms.some(term => text.includes(term))) {
-    return "NBA";
-  }
-
-  if (nflTerms.some(term => text.includes(term))) {
-    return "NFL";
-  }
-
-  if (collegeTerms.some(term => text.includes(term))) {
+  if (
+    hasAny(texasCollegeTerms) &&
+    hasAny(footballTerms)
+  ) {
     return "College Football";
   }
 
   return null;
 }
-
 function sportDeskId(desk: string) {
   return `sports-${desk
     .toLowerCase()
@@ -564,7 +517,7 @@ function TexasSportsDesk({
                 </div>
 
                 <p className="mt-2 text-xs text-slate-500">
-                  View desk â†’
+                  View desk {"\u2192"}
                 </p>
               </a>
             )
@@ -638,15 +591,13 @@ export default function Page() {
   const weather = loadWeather();
 
   const news =
-    (report.sections?.["State News"] || [])
-      .filter(story => !isObviousSportsStory(story));
+    report.sections?.["State News"] || [];
 
   const politics =
     report.sections?.["State Politics"] || [];
 
   const business =
-    (report.sections?.["State Business"] || [])
-      .filter(story => !isObviousNonBusinessStory(story));
+    report.sections?.["State Business"] || [];
 
   const sports =
     report.sections?.["State Sports"] || [];
