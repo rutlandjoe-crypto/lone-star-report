@@ -116,6 +116,70 @@ function loadWeather(): WeatherReport {
     fs.readFileSync(filePath, "utf8")
   ) as WeatherReport;
 }
+function cleanDisplayText(value?: string) {
+  return String(value || "")
+    .replace(/â€™/g, "'")
+    .replace(/â€˜/g, "'")
+    .replace(/â€œ/g, '"')
+    .replace(/â€/g, '"')
+    .replace(/â€”/g, "-")
+    .replace(/â€“/g, "-")
+    .replace(/Â·/g, " - ")
+    .replace(/Â/g, "")
+    .trim();
+}
+
+function isObviousSportsStory(story: Story) {
+  const text = cleanDisplayText(
+    `${cleanDisplayText(story.headline)} ${story.title || ""}`
+  ).toLowerCase();
+
+  return [
+    "cowboys",
+    "houston texans",
+    "texans receiver",
+    "astros",
+    "texas rangers",
+    "mavericks",
+    "mavs",
+    "rockets",
+    "spurs",
+    "wembanyama",
+    "wemby",
+    "college football",
+    "high school football",
+    "longhorns",
+    "aggies",
+    "texas tech",
+    "tcu",
+    "baylor",
+    "smu",
+    "utsa",
+    "utep",
+    "touchdown",
+    "quarterback"
+  ].some(term => text.includes(term));
+}
+
+function isObviousNonBusinessStory(story: Story) {
+  const text = cleanDisplayText(
+    `${cleanDisplayText(story.headline)} ${story.title || ""}`
+  ).toLowerCase();
+
+  return [
+    "west nile",
+    "mosquito",
+    "screwworm",
+    "pet adoption",
+    "animal adoption",
+    "mental health",
+    "dementia",
+    "health study",
+    "medical study",
+    "sports scoreboard",
+    "high school sports"
+  ].some(term => text.includes(term));
+}
 function formatDate(value?: string) {
   if (!value) return "";
 
@@ -144,13 +208,13 @@ function StoryCard({
     <article className="gsr-card texas-red-rule p-5">
       <div className="flex flex-wrap items-center gap-2 text-xs font-bold uppercase tracking-wide text-slate-500">
         <span className="text-[#bf0a30]">
-          {story.source}
+          {cleanDisplayText(story.source)}
         </span>
 
         {story.region ? (
           <>
-            <span>Ã¢â‚¬Â¢</span>
-            <span>{story.region}</span>
+            <span>ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢</span>
+            <span>{cleanDisplayText(story.region)}</span>
           </>
         ) : null}
       </div>
@@ -162,7 +226,7 @@ function StoryCard({
           rel="noopener noreferrer"
           className="hover:text-[#002868]"
         >
-          {story.headline}
+          {cleanDisplayText(story.headline)}
         </a>
       </h3>
 
@@ -179,7 +243,7 @@ function StoryCard({
           rel="noopener noreferrer"
           className="text-sm font-black text-[#002868] hover:underline"
         >
-          Read original report Ã¢â€ â€™
+          Read original report ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢
         </a>
       </div>
     </article>
@@ -274,7 +338,7 @@ function TexasWeatherDesk({
 
               <div className="mt-4 flex items-end gap-2">
                 <span className="text-4xl font-black text-[#002868]">
-                  {location.temperature}Â°
+                  {location.temperature}Ã‚Â°
                 </span>
 
                 <span className="pb-1 text-sm font-bold text-slate-500">
@@ -297,7 +361,7 @@ function TexasWeatherDesk({
                   </p>
 
                   <p className="mt-1 text-sm font-bold text-slate-700">
-                    {location.next_period.temperature}Â°{" "}
+                    {location.next_period.temperature}Ã‚Â°{" "}
                     {location.next_period.forecast}
                   </p>
                 </div>
@@ -322,7 +386,7 @@ function TexasWeatherDesk({
           rel="noopener noreferrer"
           className="font-black text-[#002868] hover:underline"
         >
-          National Weather Service â†’
+          National Weather Service Ã¢â€ â€™
         </a>
       </div>
     </section>
@@ -500,7 +564,7 @@ function TexasSportsDesk({
                 </div>
 
                 <p className="mt-2 text-xs text-slate-500">
-                  View desk →
+                  View desk â†’
                 </p>
               </a>
             )
@@ -574,13 +638,15 @@ export default function Page() {
   const weather = loadWeather();
 
   const news =
-    report.sections?.["State News"] || [];
+    (report.sections?.["State News"] || [])
+      .filter(story => !isObviousSportsStory(story));
 
   const politics =
     report.sections?.["State Politics"] || [];
 
   const business =
-    report.sections?.["State Business"] || [];
+    (report.sections?.["State Business"] || [])
+      .filter(story => !isObviousNonBusinessStory(story));
 
   const sports =
     report.sections?.["State Sports"] || [];
