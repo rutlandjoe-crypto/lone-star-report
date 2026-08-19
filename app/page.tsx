@@ -149,7 +149,7 @@ function StoryCard({
 
         {story.region ? (
           <>
-            <span>â€¢</span>
+            <span>Ã¢â‚¬Â¢</span>
             <span>{story.region}</span>
           </>
         ) : null}
@@ -179,7 +179,7 @@ function StoryCard({
           rel="noopener noreferrer"
           className="text-sm font-black text-[#002868] hover:underline"
         >
-          Read original report â†’
+          Read original report Ã¢â€ â€™
         </a>
       </div>
     </article>
@@ -274,7 +274,7 @@ function TexasWeatherDesk({
 
               <div className="mt-4 flex items-end gap-2">
                 <span className="text-4xl font-black text-[#002868]">
-                  {location.temperature}°
+                  {location.temperature}Â°
                 </span>
 
                 <span className="pb-1 text-sm font-bold text-slate-500">
@@ -297,7 +297,7 @@ function TexasWeatherDesk({
                   </p>
 
                   <p className="mt-1 text-sm font-bold text-slate-700">
-                    {location.next_period.temperature}°{" "}
+                    {location.next_period.temperature}Â°{" "}
                     {location.next_period.forecast}
                   </p>
                 </div>
@@ -322,17 +322,149 @@ function TexasWeatherDesk({
           rel="noopener noreferrer"
           className="font-black text-[#002868] hover:underline"
         >
-          National Weather Service →
+          National Weather Service â†’
         </a>
       </div>
     </section>
   );
 }
+function classifyTexasSport(story: Story) {
+  const text = [
+    story.headline,
+    story.title,
+    story.source,
+    story.region,
+    story.sport_desk
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+
+  const nflTerms = [
+    "dallas cowboys",
+    "cowboys",
+    "houston texans",
+    "texans",
+    "nfl"
+  ];
+
+  const mlbTerms = [
+    "texas rangers",
+    "rangers",
+    "houston astros",
+    "astros",
+    "mlb",
+    "major league baseball"
+  ];
+
+  const nbaTerms = [
+    "dallas mavericks",
+    "mavericks",
+    "mavs",
+    "houston rockets",
+    "rockets",
+    "san antonio spurs",
+    "spurs",
+    "wembanyama",
+    "wemby",
+    "nba"
+  ];
+
+  const highSchoolTerms = [
+    "high school football",
+    "texas high school football",
+    "friday night",
+    "uil football",
+    "uil",
+    "6a football",
+    "5a football",
+    "4a football",
+    "3a football",
+    "2a football",
+    "1a football"
+  ];
+
+  const collegeTerms = [
+    "college football",
+    "texas longhorns",
+    "longhorns",
+    "texas a&m",
+    "aggies",
+    "texas tech",
+    "red raiders",
+    "tcu",
+    "horned frogs",
+    "baylor",
+    "bears",
+    "smu",
+    "mustangs",
+    "houston cougars",
+    "rice owls",
+    "utsa",
+    "north texas",
+    "mean green",
+    "utep",
+    "sam houston",
+    "texas state",
+    "sec football",
+    "big 12",
+    "acc football",
+    "ncaa football",
+    "on3"
+  ];
+
+  if (highSchoolTerms.some(term => text.includes(term))) {
+    return "High School Football";
+  }
+
+  if (mlbTerms.some(term => text.includes(term))) {
+    return "MLB";
+  }
+
+  if (nbaTerms.some(term => text.includes(term))) {
+    return "NBA";
+  }
+
+  if (nflTerms.some(term => text.includes(term))) {
+    return "NFL";
+  }
+
+  if (collegeTerms.some(term => text.includes(term))) {
+    return "College Football";
+  }
+
+  return null;
+}
+
+function sportDeskId(desk: string) {
+  return `sports-${desk
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "")}`;
+}
+
 function TexasSportsDesk({
   stories,
 }: {
   stories: Story[];
 }) {
+  const deskStories = SPORTS_DESKS.map(
+    desk => ({
+      desk,
+      stories: stories.filter(
+        story =>
+          classifyTexasSport(story) === desk
+      )
+    })
+  );
+
+  const classifiedCount =
+    deskStories.reduce(
+      (total, group) =>
+        total + group.stories.length,
+      0
+    );
+
   return (
     <section className="mx-auto max-w-7xl px-5 py-7">
       <div className="gsr-card texas-blue-rule p-6">
@@ -345,38 +477,98 @@ function TexasSportsDesk({
         </h2>
 
         <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-600">
-          NFL, MLB, NBA, college football and high school football coverage
-          from across the state.
+          NFL, MLB, NBA, college football and high school football
+          coverage from across Texas.
         </p>
 
         <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
-          {SPORTS_DESKS.map((desk) => (
-            <div
-              key={desk}
-              className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-4"
-            >
-              <p className="font-black text-[#002868]">
-                {desk}
-              </p>
-            </div>
-          ))}
+          {deskStories.map(
+            ({ desk, stories: deskItems }) => (
+              <a
+                key={desk}
+                href={`#${sportDeskId(desk)}`}
+                className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-4 transition hover:border-[#002868] hover:bg-white"
+              >
+                <div className="flex items-center justify-between gap-2">
+                  <p className="font-black text-[#002868]">
+                    {desk}
+                  </p>
+
+                  <span className="rounded-full bg-[#002868] px-2 py-1 text-xs font-black text-white">
+                    {deskItems.length}
+                  </span>
+                </div>
+
+                <p className="mt-2 text-xs text-slate-500">
+                  View desk →
+                </p>
+              </a>
+            )
+          )}
         </div>
+
+        <p className="mt-4 text-xs font-semibold text-slate-500">
+          {classifiedCount} of {stories.length} current State Sports
+          stories assigned to a Lone Star sports desk.
+        </p>
       </div>
 
-      <div className="mt-5 grid gap-5 md:grid-cols-2">
-        {stories.slice(0, 10).map(
-          (story, index) => (
-            <StoryCard
-              key={`${story.url}-${index}`}
-              story={story}
-            />
+      <div className="mt-8 space-y-10">
+        {deskStories.map(
+          ({ desk, stories: deskItems }) => (
+            <section
+              key={desk}
+              id={sportDeskId(desk)}
+              className="scroll-mt-6"
+            >
+              <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
+                <div>
+                  <p className="texas-section-label">
+                    Texas Sports
+                  </p>
+
+                  <h3 className="mt-1 text-2xl font-black text-slate-950">
+                    {desk}
+                  </h3>
+                </div>
+
+                <span className="text-xs font-bold uppercase tracking-wide text-slate-400">
+                  {deskItems.length} verified stories
+                </span>
+              </div>
+
+              {deskItems.length ? (
+                <div className="grid gap-5 md:grid-cols-2">
+                  {deskItems
+                    .slice(0, 8)
+                    .map(
+                      (story, index) => (
+                        <StoryCard
+                          key={`${desk}-${story.url}-${index}`}
+                          story={story}
+                        />
+                      )
+                    )}
+                </div>
+              ) : (
+                <div className="gsr-card p-5">
+                  <p className="font-black text-slate-800">
+                    No current verified {desk} stories.
+                  </p>
+
+                  <p className="mt-2 text-sm leading-6 text-slate-500">
+                    Lone Star will display coverage here when a verified
+                    story enters the State Sports feed.
+                  </p>
+                </div>
+              )}
+            </section>
           )
         )}
       </div>
     </section>
   );
 }
-
 export default function Page() {
   const report = loadReport();
   const weather = loadWeather();
