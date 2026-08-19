@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-19T19:43:30.747Z",
+  "checked_at": "2026-08-19T19:47:29.255Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 18,
   "sources": [
@@ -172,8 +172,8 @@
       "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 6,
-      "firewall_rejected": 0
+      "accepted": 1,
+      "firewall_rejected": 12
     }
   ],
   "firewall_rejections": [
@@ -191,6 +191,66 @@
       "source": "El Paso Times",
       "title": "OPINION: Why El Paso Water built a new headquarters",
       "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Conviva opens third El Paso clinic at former Armes estate",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Pediatric Cancer Goes Beyond a Victory Bell: How Research and Innovation Improve Survivorship Rates",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Trump tariffs bring greater certainty for some, uncertainty for others",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "New WordPress Plugin Scores Content by Search Intent Instead of Exact-Match Keywords",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Stuart Curry Dentistry Updates Address to Vestavia Hills, Same Location, Same Team",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "More Than Hair: How the Back-to-School Haircut Impacts Confidence",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Qué buscar al considerar un préstamo personal con garantía de auto",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Study suggests physical labor may raise dementia risk",
+      "reason": "blocked non-business or soft-content term"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "New research reveals how dogs can help teens cope with stress",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "El Paso County reboots controversial Coliseum RFPs amid challenge by Kennedy",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Exercise linked to better mental health in study of students",
+      "reason": "blocked non-business or soft-content term"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Why sleeping like a medieval person may be good for you",
+      "reason": "missing business relevance signal"
     }
   ]
 }

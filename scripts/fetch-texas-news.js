@@ -374,6 +374,122 @@ const POLITICS_TERMS = [
   "fifth circuit"
 ];
 
+const BUSINESS_REQUIRED_TERMS = [
+  "business",
+  "businesses",
+  "company",
+  "companies",
+  "economy",
+  "economic",
+  "jobs",
+  "job growth",
+  "employment",
+  "workforce",
+  "hiring",
+  "layoffs",
+  "real estate",
+  "commercial real estate",
+  "property",
+  "development",
+  "construction",
+  "developer",
+  "housing market",
+  "office market",
+  "retail",
+  "energy",
+  "ercot",
+  "oil",
+  "natural gas",
+  "lng",
+  "refinery",
+  "technology",
+  "tech company",
+  "startup",
+  "investment",
+  "investor",
+  "venture capital",
+  "private equity",
+  "bank",
+  "banking",
+  "finance",
+  "financial",
+  "revenue",
+  "earnings",
+  "sales",
+  "acquisition",
+  "merger",
+  "headquarters",
+  "expansion",
+  "manufacturing",
+  "factory",
+  "plant",
+  "industrial",
+  "logistics",
+  "port",
+  "trade",
+  "market",
+  "tax incentive",
+  "economic development"
+];
+
+const BUSINESS_BLOCKED_TERMS = [
+  "mental health",
+  "physical health",
+  "health study",
+  "medical study",
+  "dementia",
+  "exercise",
+  "fitness",
+  "diet",
+  "nutrition",
+  "wellness",
+  "lifestyle",
+  "beauty",
+  "fashion",
+  "recipe",
+  "travel tips",
+  "celebrity",
+  "entertainment",
+  "marketing tips",
+  "marketing advice",
+  "how to market",
+  "branding tips",
+  "social media tips",
+  "advertising tips",
+  "sponsored",
+  "advertorial"
+];
+
+function businessRelevanceCheck(title, description) {
+  const text = `${title} ${description}`.toLowerCase();
+
+  if (
+    BUSINESS_BLOCKED_TERMS.some(
+      term => text.includes(term)
+    )
+  ) {
+    return {
+      allowed: false,
+      reason: "blocked non-business or soft-content term"
+    };
+  }
+
+  if (
+    !BUSINESS_REQUIRED_TERMS.some(
+      term => text.includes(term)
+    )
+  ) {
+    return {
+      allowed: false,
+      reason: "missing business relevance signal"
+    };
+  }
+
+  return {
+    allowed: true,
+    reason: ""
+  };
+}
 const BUSINESS_TERMS = [
   "business",
   "economy",
@@ -883,6 +999,27 @@ function parseFeed(
       });
 
       continue;
+    }
+
+    if (
+      source.forceSection === "State Business" ||
+      source.type === "business-news"
+    ) {
+      const businessCheck =
+        businessRelevanceCheck(
+          title,
+          description
+        );
+
+      if (!businessCheck.allowed) {
+        rejected.push({
+          title,
+          reason:
+            businessCheck.reason
+        });
+
+        continue;
+      }
     }
 
     accepted.push({
