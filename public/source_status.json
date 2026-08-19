@@ -1,77 +1,174 @@
 {
-  "checked_at": "2026-08-19T19:26:19.054Z",
-  "minimum_required": 4,
-  "working_sources": 5,
+  "checked_at": "2026-08-19T19:34:27.552Z",
+  "editorial_firewall": "ACTIVE",
+  "working_sources": 17,
   "sources": [
     {
       "source": "The Texas Tribune",
       "region": "Statewide",
-      "url": "https://feeds.texastribune.org/feeds/main/",
+      "mode": "direct",
       "status": "working",
-      "accepted": 5
-    },
-    {
-      "source": "KUT",
-      "region": "Central Texas",
-      "url": "https://www.kut.org/index.rss",
-      "status": "failed",
-      "error": "feed returned no publishable stories"
-    },
-    {
-      "source": "KERA",
-      "region": "North Texas",
-      "url": "https://www.keranews.org/index.rss",
-      "status": "failed",
-      "error": "feed returned no publishable stories"
+      "accepted": 6,
+      "firewall_rejected": 0
     },
     {
       "source": "Houston Public Media",
       "region": "Houston / Gulf Coast",
-      "url": "https://www.houstonpublicmedia.org/feed/",
+      "mode": "direct",
       "status": "working",
-      "accepted": 5
+      "accepted": 6,
+      "firewall_rejected": 0
     },
     {
       "source": "Texas Public Radio",
       "region": "San Antonio / South Central Texas",
-      "url": "https://www.tpr.org/index.rss",
+      "mode": "direct",
       "status": "working",
-      "accepted": 5
+      "accepted": 5,
+      "firewall_rejected": 0
     },
     {
       "source": "San Antonio Report",
       "region": "San Antonio",
-      "url": "https://sanantonioreport.org/feed/",
+      "mode": "direct",
       "status": "working",
-      "accepted": 5
+      "accepted": 6,
+      "firewall_rejected": 1
     },
     {
       "source": "El Paso Matters",
       "region": "El Paso / Border",
-      "url": "https://elpasomatters.org/feed/",
+      "mode": "direct",
       "status": "working",
-      "accepted": 5
+      "accepted": 6,
+      "firewall_rejected": 1
     },
     {
-      "source": "Marfa Public Radio",
-      "region": "Far West Texas",
-      "url": "https://www.marfapublicradio.org/index.rss",
-      "status": "failed",
-      "error": "feed returned no publishable stories"
+      "source": "Houston Chronicle",
+      "region": "Houston / Gulf Coast",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
     },
     {
-      "source": "High Plains Public Radio",
-      "region": "Panhandle / High Plains",
-      "url": "https://www.hppr.org/index.rss",
+      "source": "The Dallas Morning News",
+      "region": "North Texas / DFW",
+      "mode": "discovery",
       "status": "failed",
-      "error": "feed returned no publishable stories"
+      "error": "no straight-news items accepted"
     },
     {
-      "source": "Laredo Morning Times",
-      "region": "Laredo / South Texas Border",
-      "url": "https://www.lmtonline.com/default/feed/news/",
+      "source": "Beaumont Enterprise",
+      "region": "Southeast Texas / Beaumont",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    },
+    {
+      "source": "Austin American-Statesman",
+      "region": "Austin / Central Texas",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    },
+    {
+      "source": "El Paso Times",
+      "region": "El Paso / West Texas",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 1
+    },
+    {
+      "source": "San Antonio Express-News",
+      "region": "San Antonio / South Central Texas",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    },
+    {
+      "source": "Dave Campbell's Texas Football",
+      "region": "Statewide",
+      "mode": "discovery",
       "status": "failed",
-      "error": "HTTP 404"
+      "error": "no straight-news items accepted"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "region": "Austin / Central Texas",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "region": "Central Texas",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    },
+    {
+      "source": "On3 - Texas Tech Red Raiders",
+      "region": "West Texas / Lubbock",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    },
+    {
+      "source": "On3 - TCU Horned Frogs",
+      "region": "North Texas / DFW",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    },
+    {
+      "source": "On3 - Baylor Bears",
+      "region": "Central Texas / Waco",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    },
+    {
+      "source": "On3 - SMU Mustangs",
+      "region": "North Texas / DFW",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    },
+    {
+      "source": "On3 - Houston Cougars",
+      "region": "Houston / Gulf Coast",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    }
+  ],
+  "firewall_rejections": [
+    {
+      "source": "San Antonio Report",
+      "title": "Doing business in San Antonio connects businesses with contracting opportunities",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "El Paso Matters",
+      "title": "Opinion: El Paso deserves a voice in Texas data center policy",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "El Paso Times",
+      "title": "OPINION: Why El Paso Water built a new headquarters",
+      "reason": "blocked editorial/opinion phrase"
     }
   ]
 }
