@@ -1,4 +1,4 @@
-﻿import EditorialStandard from "@/components/EditorialStandard";
+import EditorialStandard from "@/components/EditorialStandard";
 
 const GSR_NETWORK = [
   ["Sports", "https://globalsportsreport.com"],

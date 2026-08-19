@@ -1,4 +1,4 @@
-﻿export default function EditorialStandard() {
+export default function EditorialStandard() {
   return (
     <section className="mx-auto max-w-7xl px-5 py-6">
       <div className="rounded-2xl border border-white/10 bg-[#001f52] p-6 text-white shadow-md">
