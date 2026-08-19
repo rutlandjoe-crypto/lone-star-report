@@ -149,7 +149,7 @@ function StoryCard({
 
         {story.region ? (
           <>
-            <span>Ã¢â‚¬Â¢</span>
+            <span>&bull;</span>
             <span>{story.region}</span>
           </>
         ) : null}
@@ -179,7 +179,7 @@ function StoryCard({
           rel="noopener noreferrer"
           className="text-sm font-black text-[#002868] hover:underline"
         >
-          Read original report Ã¢â€ â€™
+          Read original report &rarr;
         </a>
       </div>
     </article>
@@ -274,7 +274,7 @@ function TexasWeatherDesk({
 
               <div className="mt-4 flex items-end gap-2">
                 <span className="text-4xl font-black text-[#002868]">
-                  {location.temperature}Â°
+                  {location.temperature}&deg;
                 </span>
 
                 <span className="pb-1 text-sm font-bold text-slate-500">
@@ -297,7 +297,7 @@ function TexasWeatherDesk({
                   </p>
 
                   <p className="mt-1 text-sm font-bold text-slate-700">
-                    {location.next_period.temperature}Â°{" "}
+                    {location.next_period.temperature}&deg;{" "}
                     {location.next_period.forecast}
                   </p>
                 </div>
@@ -322,7 +322,7 @@ function TexasWeatherDesk({
           rel="noopener noreferrer"
           className="font-black text-[#002868] hover:underline"
         >
-          National Weather Service â†’
+          National Weather Service &rarr;
         </a>
       </div>
     </section>
