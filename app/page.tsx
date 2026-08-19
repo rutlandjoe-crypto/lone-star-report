@@ -13,6 +13,30 @@ type Story = {
   sport_desk?: string | null;
 };
 
+type WeatherLocation = {
+  name: string;
+  region: string;
+  temperature: number;
+  temperature_unit: string;
+  forecast: string;
+  wind_speed: string;
+  wind_direction: string;
+  period: string;
+  next_period?: {
+    name: string;
+    temperature: number;
+    temperature_unit: string;
+    forecast: string;
+  } | null;
+};
+
+type WeatherReport = {
+  generated_at: string;
+  source: string;
+  source_url: string;
+  editorial_note: string;
+  locations: WeatherLocation[];
+};
 type Report = {
   platform: string;
   generated_at: string;
@@ -71,6 +95,27 @@ function loadReport(): Report {
   ) as Report;
 }
 
+function loadWeather(): WeatherReport {
+  const filePath = path.join(
+    process.cwd(),
+    "public",
+    "texas_weather.json"
+  );
+
+  if (!fs.existsSync(filePath)) {
+    return {
+      generated_at: "",
+      source: "National Weather Service",
+      source_url: "https://www.weather.gov/",
+      editorial_note: "Official National Weather Service forecast data.",
+      locations: []
+    };
+  }
+
+  return JSON.parse(
+    fs.readFileSync(filePath, "utf8")
+  ) as WeatherReport;
+}
 function formatDate(value?: string) {
   if (!value) return "";
 
@@ -104,7 +149,7 @@ function StoryCard({
 
         {story.region ? (
           <>
-            <span>•</span>
+            <span>â€¢</span>
             <span>{story.region}</span>
           </>
         ) : null}
@@ -134,7 +179,7 @@ function StoryCard({
           rel="noopener noreferrer"
           className="text-sm font-black text-[#002868] hover:underline"
         >
-          Read original report →
+          Read original report â†’
         </a>
       </div>
     </article>
@@ -190,6 +235,99 @@ function NewsSection({
   );
 }
 
+function TexasWeatherDesk({
+  weather,
+}: {
+  weather: WeatherReport;
+}) {
+  return (
+    <section className="mx-auto max-w-7xl px-5 py-7">
+      <div className="mb-5">
+        <p className="texas-section-label">
+          Statewide Forecast
+        </p>
+
+        <h2 className="mt-2 text-3xl font-black text-slate-950">
+          Texas Weather Desk
+        </h2>
+
+        <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-600">
+          Official National Weather Service forecasts from key regions
+          across Texas.
+        </p>
+      </div>
+
+      {weather.locations.length ? (
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {weather.locations.map((location) => (
+            <article
+              key={location.name}
+              className="gsr-card texas-blue-rule p-5"
+            >
+              <p className="text-xs font-black uppercase tracking-wide text-[#bf0a30]">
+                {location.region}
+              </p>
+
+              <h3 className="mt-2 text-xl font-black text-slate-950">
+                {location.name}
+              </h3>
+
+              <div className="mt-4 flex items-end gap-2">
+                <span className="text-4xl font-black text-[#002868]">
+                  {location.temperature}°
+                </span>
+
+                <span className="pb-1 text-sm font-bold text-slate-500">
+                  {location.temperature_unit}
+                </span>
+              </div>
+
+              <p className="mt-3 text-sm font-bold leading-5 text-slate-700">
+                {location.forecast}
+              </p>
+
+              <p className="mt-3 text-xs leading-5 text-slate-500">
+                Wind: {location.wind_direction} {location.wind_speed}
+              </p>
+
+              {location.next_period ? (
+                <div className="mt-4 border-t border-slate-200 pt-3">
+                  <p className="text-xs font-black uppercase tracking-wide text-slate-400">
+                    {location.next_period.name}
+                  </p>
+
+                  <p className="mt-1 text-sm font-bold text-slate-700">
+                    {location.next_period.temperature}°{" "}
+                    {location.next_period.forecast}
+                  </p>
+                </div>
+              ) : null}
+            </article>
+          ))}
+        </div>
+      ) : (
+        <div className="gsr-card p-5 text-sm text-slate-600">
+          Statewide weather data is temporarily unavailable.
+        </div>
+      )}
+
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
+        <span>
+          Source: National Weather Service
+        </span>
+
+        <a
+          href="https://www.weather.gov/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-black text-[#002868] hover:underline"
+        >
+          National Weather Service →
+        </a>
+      </div>
+    </section>
+  );
+}
 function TexasSportsDesk({
   stories,
 }: {
@@ -241,6 +379,7 @@ function TexasSportsDesk({
 
 export default function Page() {
   const report = loadReport();
+  const weather = loadWeather();
 
   const news =
     report.sections?.["State News"] || [];
@@ -384,6 +523,10 @@ export default function Page() {
           </p>
         </div>
       </section>
+
+      <TexasWeatherDesk
+        weather={weather}
+      />
 
       <NewsSection
         label="Texas Desk"

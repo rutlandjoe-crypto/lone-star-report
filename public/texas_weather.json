@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-08-19T20:21:05.477Z",
+  "source": "National Weather Service",
+  "source_url": "https://www.weather.gov/",
+  "editorial_note": "Official National Weather Service forecast data.",
+  "locations": [
+    {
+      "name": "Amarillo",
+      "region": "Panhandle",
+      "temperature": 102,
+      "temperature_unit": "F",
+      "forecast": "Sunny",
+      "wind_speed": "10 mph",
+      "wind_direction": "SSW",
+      "period": "This Afternoon",
+      "next_period": {
+        "name": "Tonight",
+        "temperature": 70,
+        "temperature_unit": "F",
+        "forecast": "Partly Cloudy"
+      },
+      "source": "National Weather Service"
+    },
+    {
+      "name": "El Paso",
+      "region": "West Texas",
+      "temperature": 101,
+      "temperature_unit": "F",
+      "forecast": "Sunny",
+      "wind_speed": "6 mph",
+      "wind_direction": "SSW",
+      "period": "This Afternoon",
+      "next_period": {
+        "name": "Tonight",
+        "temperature": 75,
+        "temperature_unit": "F",
+        "forecast": "Mostly Clear"
+      },
+      "source": "National Weather Service"
+    },
+    {
+      "name": "Dallas-Fort Worth",
+      "region": "North Texas",
+      "temperature": 105,
+      "temperature_unit": "F",
+      "forecast": "Mostly Sunny",
+      "wind_speed": "5 to 10 mph",
+      "wind_direction": "SSW",
+      "period": "This Afternoon",
+      "next_period": {
+        "name": "Tonight",
+        "temperature": 81,
+        "temperature_unit": "F",
+        "forecast": "Mostly Clear"
+      },
+      "source": "National Weather Service"
+    },
+    {
+      "name": "Austin",
+      "region": "Central Texas",
+      "temperature": 103,
+      "temperature_unit": "F",
+      "forecast": "Mostly Sunny",
+      "wind_speed": "5 mph",
+      "wind_direction": "S",
+      "period": "This Afternoon",
+      "next_period": {
+        "name": "Tonight",
+        "temperature": 79,
+        "temperature_unit": "F",
+        "forecast": "Mostly Clear"
+      },
+      "source": "National Weather Service"
+    },
+    {
+      "name": "San Antonio",
+      "region": "South Central Texas",
+      "temperature": 101,
+      "temperature_unit": "F",
+      "forecast": "Mostly Sunny",
+      "wind_speed": "5 to 10 mph",
+      "wind_direction": "S",
+      "period": "This Afternoon",
+      "next_period": {
+        "name": "Tonight",
+        "temperature": 77,
+        "temperature_unit": "F",
+        "forecast": "Partly Cloudy"
+      },
+      "source": "National Weather Service"
+    },
+    {
+      "name": "Houston",
+      "region": "Gulf Coast",
+      "temperature": 98,
+      "temperature_unit": "F",
+      "forecast": "Sunny",
+      "wind_speed": "5 to 10 mph",
+      "wind_direction": "S",
+      "period": "This Afternoon",
+      "next_period": {
+        "name": "Tonight",
+        "temperature": 79,
+        "temperature_unit": "F",
+        "forecast": "Mostly Clear"
+      },
+      "source": "National Weather Service"
+    },
+    {
+      "name": "Beaumont",
+      "region": "Southeast Texas",
+      "temperature": 95,
+      "temperature_unit": "F",
+      "forecast": "Sunny",
+      "wind_speed": "5 mph",
+      "wind_direction": "SW",
+      "period": "This Afternoon",
+      "next_period": {
+        "name": "Tonight",
+        "temperature": 75,
+        "temperature_unit": "F",
+        "forecast": "Mostly Clear"
+      },
+      "source": "National Weather Service"
+    },
+    {
+      "name": "McAllen",
+      "region": "Rio Grande Valley",
+      "temperature": 101,
+      "temperature_unit": "F",
+      "forecast": "Mostly Sunny",
+      "wind_speed": "13 mph",
+      "wind_direction": "SE",
+      "period": "This Afternoon",
+      "next_period": {
+        "name": "Tonight",
+        "temperature": 81,
+        "temperature_unit": "F",
+        "forecast": "Partly Cloudy"
+      },
+      "source": "National Weather Service"
+    }
+  ],
+  "failures": []
+}
