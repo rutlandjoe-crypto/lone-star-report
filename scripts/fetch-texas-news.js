@@ -543,6 +543,115 @@ const BUSINESS_REQUIRED_TERMS = [
   "economic development"
 ];
 
+const BUSINESS_TEXAS_TERMS = [
+  "texas",
+  "houston",
+  "dallas",
+  "fort worth",
+  "dfw",
+  "austin",
+  "san antonio",
+  "el paso",
+  "beaumont",
+  "lubbock",
+  "waco",
+  "corpus christi",
+  "rio grande valley",
+  "laredo",
+  "amarillo",
+  "midland",
+  "odessa",
+  "permian basin",
+  "gulf coast",
+  "ercot",
+  "port houston",
+  "port of houston",
+  "texas economy",
+  "texas jobs",
+  "texas business",
+  "texas workforce",
+  "texas real estate",
+  "texas energy"
+];
+
+const BUSINESS_HARD_BLOCK_TERMS = [
+  "sports scoreboard",
+  "high school sports",
+  "football scoreboard",
+  "basketball scoreboard",
+  "sportswatch",
+  "daily listings",
+  "recipe",
+  "pizza come together",
+  "restaurant review",
+  "food review",
+  "best restaurants",
+  "celebrity",
+  "movie",
+  "television",
+  "music festival",
+  "concert",
+  "fashion",
+  "beauty",
+  "travel tips",
+  "vacation",
+  "horoscope",
+  "crossword",
+  "pennsylvania",
+  "new york stocks",
+  "wall street stocks",
+  "u.s. stocks",
+  "global markets",
+  "united arab emirates",
+  "iran trade",
+  "international trade with iran"
+];
+
+const AUTHORITATIVE_TEXAS_BUSINESS_SOURCES = [
+  "Texas Comptroller",
+  "Dallas Fed Economic Updates",
+  "Dallas Fed News Releases"
+];
+
+function texasBusinessGeographyCheck(title, description, source) {
+  if (
+    AUTHORITATIVE_TEXAS_BUSINESS_SOURCES.includes(source.name)
+  ) {
+    return {
+      allowed: true,
+      reason: ""
+    };
+  }
+
+  const text = `${title} ${description}`.toLowerCase();
+
+  if (
+    BUSINESS_HARD_BLOCK_TERMS.some(
+      term => text.includes(term)
+    )
+  ) {
+    return {
+      allowed: false,
+      reason: "blocked non-Texas or non-business content"
+    };
+  }
+
+  if (
+    !BUSINESS_TEXAS_TERMS.some(
+      term => text.includes(term)
+    )
+  ) {
+    return {
+      allowed: false,
+      reason: "missing Texas relevance signal"
+    };
+  }
+
+  return {
+    allowed: true,
+    reason: ""
+  };
+}
 const BUSINESS_BLOCKED_TERMS = [
   "mental health",
   "physical health",
@@ -1127,6 +1236,23 @@ function parseFeed(
           title,
           reason:
             businessCheck.reason
+        });
+
+        continue;
+      }
+
+      const geographyCheck =
+        texasBusinessGeographyCheck(
+          title,
+          description,
+          source
+        );
+
+      if (!geographyCheck.allowed) {
+        rejected.push({
+          title,
+          reason:
+            geographyCheck.reason
         });
 
         continue;
