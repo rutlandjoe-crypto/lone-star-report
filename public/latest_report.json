@@ -1,17 +1,63 @@
 {
   "platform": "GSR Lone Star Report",
-  "generated_at": "2026-08-19T19:20:50.525Z",
-  "editorial_standard": "Journalistic integrity first. Straight-news and authoritative sources only.",
-  "sourcing_policy": "Source headlines and URLs are preserved. No fabricated summaries, facts or links.",
+  "generated_at": "2026-08-19T19:26:19.088Z",
+  "editorial_standard": "Journalistic integrity first. Straight-news, nonprofit-news and public-media sources only.",
+  "sourcing_policy": "Original source headlines and URLs are preserved. Opinion, commentary, sponsored content and unsupported material are excluded.",
+  "diversity_policy": "Maximum 5 homepage stories per source in this source-network pass.",
+  "working_source_count": 5,
+  "source_counts": {
+    "San Antonio Report": 4,
+    "Houston Public Media": 4,
+    "The Texas Tribune": 5,
+    "El Paso Matters": 5,
+    "Texas Public Radio": 5
+  },
+  "region_counts": {
+    "San Antonio": 4,
+    "Houston / Gulf Coast": 4,
+    "Statewide": 5,
+    "El Paso / Border": 5,
+    "San Antonio / South Central Texas": 5
+  },
   "homepage_cards": [
+    {
+      "headline": "Alamo Colleges District eyes higher tax rate amid enrollment growth, budget pressures",
+      "title": "Alamo Colleges District eyes higher tax rate amid enrollment growth, budget pressures",
+      "url": "https://sanantonioreport.org/alamo-colleges-district-higher-property-tax-rate-increase-san-antonio/",
+      "source": "San Antonio Report",
+      "source_type": "nonprofit-news",
+      "region": "San Antonio",
+      "published_at": "Wed, 19 Aug 2026 18:52:30 +0000",
+      "section": "State News"
+    },
+    {
+      "headline": "Much of Texas to reach highs of over 100 degrees this weekend",
+      "title": "Much of Texas to reach highs of over 100 degrees this weekend",
+      "url": "https://www.houstonpublicmedia.org/articles/news/weather/2026/08/19/559848/much-of-texas-to-reach-highs-of-over-100f-the-weekend/?utm_source=rss-weather-article&utm_medium=link&utm_campaign=hpm-rss-link",
+      "source": "Houston Public Media",
+      "source_type": "public-media",
+      "region": "Houston / Gulf Coast",
+      "published_at": "Wed, 19 Aug 2026 18:02:25 +0000",
+      "section": "State News"
+    },
     {
       "headline": "How Corpus Christi’s water emergency exposed flaws in Texas’ water planning",
       "title": "How Corpus Christi’s water emergency exposed flaws in Texas’ water planning",
       "url": "https://feeds.texastribune.org/link/16799/17423219/texas-water-planning-drought-corpus-christi",
       "source": "The Texas Tribune",
       "source_type": "straight-news",
-      "source_scope": "statewide",
+      "region": "Statewide",
       "published_at": "Wed, 19 Aug 2026 18:01:30 +0000",
+      "section": "State News"
+    },
+    {
+      "headline": "Confused about Big Bend area border plans? Here's what you need to know.",
+      "title": "Confused about Big Bend area border plans? Here's what you need to know.",
+      "url": "https://www.houstonpublicmedia.org/articles/news/politics/2026/08/19/559857/confused-about-big-bend-area-border-plans-heres-what-you-need-to-know/?utm_source=rss-politics-article&utm_medium=link&utm_campaign=hpm-rss-link",
+      "source": "Houston Public Media",
+      "source_type": "public-media",
+      "region": "Houston / Gulf Coast",
+      "published_at": "Wed, 19 Aug 2026 17:57:55 +0000",
       "section": "State News"
     },
     {
@@ -20,9 +66,49 @@
       "url": "https://feeds.texastribune.org/link/16799/17423220/texas-dan-patrick-obscene-books-school-libraries-penalties",
       "source": "The Texas Tribune",
       "source_type": "straight-news",
-      "source_scope": "statewide",
+      "region": "Statewide",
       "published_at": "Wed, 19 Aug 2026 17:48:15 +0000",
       "section": "State Politics"
+    },
+    {
+      "headline": "Rental units in Houston must provide air conditioning under new ordinance",
+      "title": "Rental units in Houston must provide air conditioning under new ordinance",
+      "url": "https://www.houstonpublicmedia.org/articles/news/city-of-houston/2026/08/19/559831/houston-air-conditioning-ordinance-apartments/?utm_source=rss-city-of-houston-article&utm_medium=link&utm_campaign=hpm-rss-link",
+      "source": "Houston Public Media",
+      "source_type": "public-media",
+      "region": "Houston / Gulf Coast",
+      "published_at": "Wed, 19 Aug 2026 15:28:01 +0000",
+      "section": "State Politics"
+    },
+    {
+      "headline": "Hearings for Karmelo Anthony's appeal start Wednesday. Here's what you need to know",
+      "title": "Hearings for Karmelo Anthony's appeal start Wednesday. Here's what you need to know",
+      "url": "https://www.houstonpublicmedia.org/articles/court/2026/08/19/559823/hearings-for-karmelo-anthonys-appeal-start-wednesday-heres-what-you-need-to-know/?utm_source=rss-court-article&utm_medium=link&utm_campaign=hpm-rss-link",
+      "source": "Houston Public Media",
+      "source_type": "public-media",
+      "region": "Houston / Gulf Coast",
+      "published_at": "Wed, 19 Aug 2026 14:56:25 +0000",
+      "section": "State News"
+    },
+    {
+      "headline": "Which San Antonio school districts have tax measures on the ballot this November?",
+      "title": "Which San Antonio school districts have tax measures on the ballot this November?",
+      "url": "https://sanantonioreport.org/school-tax-elections-november-2026-ballot/",
+      "source": "San Antonio Report",
+      "source_type": "nonprofit-news",
+      "region": "San Antonio",
+      "published_at": "Wed, 19 Aug 2026 13:00:00 +0000",
+      "section": "State Politics"
+    },
+    {
+      "headline": "Third Thursdays brings arts Downtown, El Fresco closes summer season",
+      "title": "Third Thursdays brings arts Downtown, El Fresco closes summer season",
+      "url": "https://elpasomatters.org/2026/08/19/el-paso-things-to-do-third-thursdays-el-fresco-utep-texas-western-gold-rush/",
+      "source": "El Paso Matters",
+      "source_type": "nonprofit-news",
+      "region": "El Paso / Border",
+      "published_at": "Wed, 19 Aug 2026 13:00:00 +0000",
+      "section": "State News"
     },
     {
       "headline": "A surrogate’s fight for parental rights in Dallas could discourage surrogacy use in Texas, lawyers say",
@@ -30,8 +116,88 @@
       "url": "https://feeds.texastribune.org/link/16799/17422830/texas-surrogacy-agreement-laws-parental-rights-abortion",
       "source": "The Texas Tribune",
       "source_type": "straight-news",
-      "source_scope": "statewide",
+      "region": "Statewide",
       "published_at": "Wed, 19 Aug 2026 10:00:00 +0000",
+      "section": "State News"
+    },
+    {
+      "headline": "San Antonio’s first crisis nursery opens with a collaborative ‘Puro San Antonio’ model",
+      "title": "San Antonio’s first crisis nursery opens with a collaborative ‘Puro San Antonio’ model",
+      "url": "https://sanantonioreport.org/first-crisis-nursery-opens-puro-san-antonio-model/",
+      "source": "San Antonio Report",
+      "source_type": "nonprofit-news",
+      "region": "San Antonio",
+      "published_at": "Wed, 19 Aug 2026 10:00:00 +0000",
+      "section": "State News"
+    },
+    {
+      "headline": "Broadband grants paused as critics allege favoritism toward Elon Musk’s Starlink",
+      "title": "Broadband grants paused as critics allege favoritism toward Elon Musk’s Starlink",
+      "url": "https://www.tpr.org/economy-and-labor/2026-08-18/broadband-grants-paused-as-critics-allege-favoritism-toward-elon-musks-starlink",
+      "source": "Texas Public Radio",
+      "source_type": "public-media",
+      "region": "San Antonio / South Central Texas",
+      "published_at": "Wed, 19 Aug 2026 03:25:48 GMT",
+      "section": "State Business"
+    },
+    {
+      "headline": "Permian Basin community seeks fix for radium in its drinking water",
+      "title": "Permian Basin community seeks fix for radium in its drinking water",
+      "url": "https://www.tpr.org/environment/2026-08-18/permian-basin-community-seeks-fix-for-radium-in-its-drinking-water",
+      "source": "Texas Public Radio",
+      "source_type": "public-media",
+      "region": "San Antonio / South Central Texas",
+      "published_at": "Wed, 19 Aug 2026 03:15:28 GMT",
+      "section": "State Sports"
+    },
+    {
+      "headline": "After hours of tense debate, divided El Paso City Council adopts budget, raises taxes",
+      "title": "After hours of tense debate, divided El Paso City Council adopts budget, raises taxes",
+      "url": "https://elpasomatters.org/2026/08/18/el-paso-city-council-approves-fy-2027-budget-tax-rate-raise-taxes/",
+      "source": "El Paso Matters",
+      "source_type": "nonprofit-news",
+      "region": "El Paso / Border",
+      "published_at": "Wed, 19 Aug 2026 01:24:36 +0000",
+      "section": "State News"
+    },
+    {
+      "headline": "Bexar County begins tough budget talks, commissioners set tone with pay freeze",
+      "title": "Bexar County begins tough budget talks, commissioners set tone with pay freeze",
+      "url": "https://www.tpr.org/government-politics/2026-08-18/bexar-county-begins-tough-budget-talks-commissioners-set-tone-with-pay-freeze",
+      "source": "Texas Public Radio",
+      "source_type": "public-media",
+      "region": "San Antonio / South Central Texas",
+      "published_at": "Tue, 18 Aug 2026 23:57:09 GMT",
+      "section": "State News"
+    },
+    {
+      "headline": "UT San Antonio delays start of fall semester after cyber breach",
+      "title": "UT San Antonio delays start of fall semester after cyber breach",
+      "url": "https://www.tpr.org/education/2026-08-17/ut-san-antonio-systems-go-offline-after-attempted-cybersecurity-breach",
+      "source": "Texas Public Radio",
+      "source_type": "public-media",
+      "region": "San Antonio / South Central Texas",
+      "published_at": "Tue, 18 Aug 2026 23:00:00 GMT",
+      "section": "State News"
+    },
+    {
+      "headline": "Doing business in San Antonio connects businesses with contracting opportunities",
+      "title": "Doing business in San Antonio connects businesses with contracting opportunities",
+      "url": "https://sanantonioreport.org/doing-business-in-san-antonio-connects-businesses-with-contracting-opportunities-sponsored/",
+      "source": "San Antonio Report",
+      "source_type": "nonprofit-news",
+      "region": "San Antonio",
+      "published_at": "Tue, 18 Aug 2026 23:00:00 +0000",
+      "section": "State Business"
+    },
+    {
+      "headline": "Texas horned lizards: Science is helping them to survive",
+      "title": "Texas horned lizards: Science is helping them to survive",
+      "url": "https://www.tpr.org/science-technology/2026-08-18/texas-horned-lizards-science-is-helping-them-to-survive",
+      "source": "Texas Public Radio",
+      "source_type": "public-media",
+      "region": "San Antonio / South Central Texas",
+      "published_at": "Tue, 18 Aug 2026 22:54:20 GMT",
       "section": "State News"
     },
     {
@@ -40,7 +206,7 @@
       "url": "https://feeds.texastribune.org/link/16799/17422554/texas-public-schools-h1b-visa-ban-proposal",
       "source": "The Texas Tribune",
       "source_type": "straight-news",
-      "source_scope": "statewide",
+      "region": "Statewide",
       "published_at": "Tue, 18 Aug 2026 22:31:36 +0000",
       "section": "State Politics"
     },
@@ -50,161 +216,101 @@
       "url": "https://feeds.texastribune.org/link/16799/17422555/texas-big-bend-national-park-border-wall-plans-explainer",
       "source": "The Texas Tribune",
       "source_type": "straight-news",
-      "source_scope": "statewide",
+      "region": "Statewide",
       "published_at": "Tue, 18 Aug 2026 22:04:29 +0000",
       "section": "State News"
     },
     {
-      "headline": "Minnesota sues Abbott to force extradition of ICE agent accused of shooting Venezuelan man",
-      "title": "Minnesota sues Abbott to force extradition of ICE agent accused of shooting Venezuelan man",
-      "url": "https://feeds.texastribune.org/link/16799/17422433/minnesota-sues-abbott-texas-ice-agent-extradition-lawsuit",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Tue, 18 Aug 2026 18:58:02 +0000",
+      "headline": "Podcast: DHS scrapped its 8,500-person Socorro detention center plan. What happens to the warehouses now?",
+      "title": "Podcast: DHS scrapped its 8,500-person Socorro detention center plan. What happens to the warehouses now?",
+      "url": "https://elpasomatters.org/2026/08/18/el-paso-matters-podcast-ice-dhs-socorro-texas-detention-centers-trump/",
+      "source": "El Paso Matters",
+      "source_type": "nonprofit-news",
+      "region": "El Paso / Border",
+      "published_at": "Tue, 18 Aug 2026 18:37:52 +0000",
       "section": "State Politics"
     },
     {
-      "headline": "Texas Tribune Festival 2026: Our full lineup is here",
-      "title": "Texas Tribune Festival 2026: Our full lineup is here",
-      "url": "https://feeds.texastribune.org/link/16799/17422153/texas-tribune-festival-2026-lineup",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Tue, 18 Aug 2026 11:00:00 +0000",
+      "headline": "Inside ICE’s broken system for inspecting detention facilities",
+      "title": "Inside ICE’s broken system for inspecting detention facilities",
+      "url": "https://elpasomatters.org/2026/08/18/ice-detention-facilities-inspection-broken-system-pogo-project-on-government-oversight/",
+      "source": "El Paso Matters",
+      "source_type": "nonprofit-news",
+      "region": "El Paso / Border",
+      "published_at": "Tue, 18 Aug 2026 13:15:00 +0000",
       "section": "State News"
     },
     {
-      "headline": "Colorado school district rejects controversial reading curriculum because of errors, Texas focus",
-      "title": "Colorado school district rejects controversial reading curriculum because of errors, Texas focus",
-      "url": "https://feeds.texastribune.org/link/16799/17422154/colorado-school-district-houston-texas-bluebonnet-errors",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Tue, 18 Aug 2026 10:00:00 +0000",
-      "section": "State News"
-    },
-    {
-      "headline": "Protecting Texas university research from foreign adversaries focus of House hearing",
-      "title": "Protecting Texas university research from foreign adversaries focus of House hearing",
-      "url": "https://feeds.texastribune.org/link/16799/17422155/texas-universities-education-foreign-influence",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Tue, 18 Aug 2026 10:00:00 +0000",
-      "section": "State Sports"
-    },
-    {
-      "headline": "Texas counties sue feds for trying to tie election security policies to anti-terrorism funding",
-      "title": "Texas counties sue feds for trying to tie election security policies to anti-terrorism funding",
-      "url": "https://feeds.texastribune.org/link/16799/17421897/texas-election-security-grant-lawsuit-homeland-security-funding-harris-el-paso-county",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Mon, 17 Aug 2026 22:14:13 +0000",
+      "headline": "Socorro ISD calls for tax ratification election to fund teachers, raises, student programs",
+      "title": "Socorro ISD calls for tax ratification election to fund teachers, raises, student programs",
+      "url": "https://elpasomatters.org/2026/08/17/sisd-socorro-isd-calls-for-vatre-voter-approval-tax-ratification-election/",
+      "source": "El Paso Matters",
+      "source_type": "nonprofit-news",
+      "region": "El Paso / Border",
+      "published_at": "Tue, 18 Aug 2026 01:16:57 +0000",
       "section": "State Politics"
-    },
-    {
-      "headline": "Feds pausing Big Bend border construction while CBP commissioner visits the park",
-      "title": "Feds pausing Big Bend border construction while CBP commissioner visits the park",
-      "url": "https://feeds.texastribune.org/link/16799/17421728/texas-big-bend-national-park-border-wall-construction-pause",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Mon, 17 Aug 2026 18:13:16 +0000",
-      "section": "State News"
-    },
-    {
-      "headline": "Texas cities eye property tax hikes, spending cuts amid yawning budget gaps",
-      "title": "Texas cities eye property tax hikes, spending cuts amid yawning budget gaps",
-      "url": "https://feeds.texastribune.org/link/16799/17421462/texas-city-budgets-cuts-tax-hikes",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Mon, 17 Aug 2026 10:00:00 +0000",
-      "section": "State Business"
-    },
-    {
-      "headline": "Can Austin break the costly cycle of homelessness, jail and crisis? A new program aims to do that.",
-      "title": "Can Austin break the costly cycle of homelessness, jail and crisis? A new program aims to do that.",
-      "url": "https://feeds.texastribune.org/link/16799/17421463/austin-no-wrong-door-jail-homelessness-program",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Mon, 17 Aug 2026 10:00:00 +0000",
-      "section": "State News"
-    },
-    {
-      "headline": "Fifth Circuit reaffirms death row inmate Brittany Holberg’s conviction",
-      "title": "Fifth Circuit reaffirms death row inmate Brittany Holberg’s conviction",
-      "url": "https://feeds.texastribune.org/link/16799/17418677/texas-death-row-brittany-holberg-appeal-denied-fifth-circuit",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Sat, 15 Aug 2026 02:04:38 +0000",
-      "section": "State News"
-    },
-    {
-      "headline": "Greg Abbott threatens Dallas, Houston airports’ grant funds over Islamic washing facilities",
-      "title": "Greg Abbott threatens Dallas, Houston airports’ grant funds over Islamic washing facilities",
-      "url": "https://feeds.texastribune.org/link/16799/17418678/texas-greg-abbott-dfw-iah-airport-islam-ablution-facility-grant",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Sat, 15 Aug 2026 00:45:20 +0000",
-      "section": "State Politics"
-    },
-    {
-      "headline": "Rio Grande Valley residents are feeling more negative about their lives. That could spill into the voting booth.",
-      "title": "Rio Grande Valley residents are feeling more negative about their lives. That could spill into the voting booth.",
-      "url": "https://feeds.texastribune.org/link/16799/17417349/texas-rio-grande-valley-life-satisfaction-survey",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Thu, 13 Aug 2026 16:00:16 +0000",
-      "section": "State Politics"
-    },
-    {
-      "headline": "Buyouts offered to nearly a quarter of UT Tyler employees amid budget shortfall",
-      "title": "Buyouts offered to nearly a quarter of UT Tyler employees amid budget shortfall",
-      "url": "https://feeds.texastribune.org/link/16799/17371953/ut-tyler-texas-university-buyouts",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Thu, 02 Jul 2026 22:14:14 +0000",
-      "section": "State News"
-    },
-    {
-      "headline": "Special election set to replace Texas Sen. Brian Birdwell, who resigned for Pentagon post",
-      "title": "Special election set to replace Texas Sen. Brian Birdwell, who resigned for Pentagon post",
-      "url": "https://feeds.texastribune.org/link/16799/17343821/texas-brian-birdwell-assistant-secretary-defense-department",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Tue, 19 May 2026 00:11:38 +0000",
-      "section": "State Politics"
-    },
-    {
-      "headline": "Families ask U.S. Supreme Court to rule on Texas’ Ten Commandments requirement for public schools",
-      "title": "Families ask U.S. Supreme Court to rule on Texas’ Ten Commandments requirement for public schools",
-      "url": "https://feeds.texastribune.org/link/16799/17258411/texas-ten-commandments-5th-circuit-court",
-      "source": "The Texas Tribune",
-      "source_type": "straight-news",
-      "source_scope": "statewide",
-      "published_at": "Tue, 20 Jan 2026 11:00:00 +0000",
-      "section": "State News"
     }
   ],
   "sections": {
     "State News": [
+      {
+        "headline": "Alamo Colleges District eyes higher tax rate amid enrollment growth, budget pressures",
+        "title": "Alamo Colleges District eyes higher tax rate amid enrollment growth, budget pressures",
+        "url": "https://sanantonioreport.org/alamo-colleges-district-higher-property-tax-rate-increase-san-antonio/",
+        "source": "San Antonio Report",
+        "source_type": "nonprofit-news",
+        "region": "San Antonio",
+        "published_at": "Wed, 19 Aug 2026 18:52:30 +0000",
+        "section": "State News"
+      },
+      {
+        "headline": "Much of Texas to reach highs of over 100 degrees this weekend",
+        "title": "Much of Texas to reach highs of over 100 degrees this weekend",
+        "url": "https://www.houstonpublicmedia.org/articles/news/weather/2026/08/19/559848/much-of-texas-to-reach-highs-of-over-100f-the-weekend/?utm_source=rss-weather-article&utm_medium=link&utm_campaign=hpm-rss-link",
+        "source": "Houston Public Media",
+        "source_type": "public-media",
+        "region": "Houston / Gulf Coast",
+        "published_at": "Wed, 19 Aug 2026 18:02:25 +0000",
+        "section": "State News"
+      },
       {
         "headline": "How Corpus Christi’s water emergency exposed flaws in Texas’ water planning",
         "title": "How Corpus Christi’s water emergency exposed flaws in Texas’ water planning",
         "url": "https://feeds.texastribune.org/link/16799/17423219/texas-water-planning-drought-corpus-christi",
         "source": "The Texas Tribune",
         "source_type": "straight-news",
-        "source_scope": "statewide",
+        "region": "Statewide",
         "published_at": "Wed, 19 Aug 2026 18:01:30 +0000",
+        "section": "State News"
+      },
+      {
+        "headline": "Confused about Big Bend area border plans? Here's what you need to know.",
+        "title": "Confused about Big Bend area border plans? Here's what you need to know.",
+        "url": "https://www.houstonpublicmedia.org/articles/news/politics/2026/08/19/559857/confused-about-big-bend-area-border-plans-heres-what-you-need-to-know/?utm_source=rss-politics-article&utm_medium=link&utm_campaign=hpm-rss-link",
+        "source": "Houston Public Media",
+        "source_type": "public-media",
+        "region": "Houston / Gulf Coast",
+        "published_at": "Wed, 19 Aug 2026 17:57:55 +0000",
+        "section": "State News"
+      },
+      {
+        "headline": "Hearings for Karmelo Anthony's appeal start Wednesday. Here's what you need to know",
+        "title": "Hearings for Karmelo Anthony's appeal start Wednesday. Here's what you need to know",
+        "url": "https://www.houstonpublicmedia.org/articles/court/2026/08/19/559823/hearings-for-karmelo-anthonys-appeal-start-wednesday-heres-what-you-need-to-know/?utm_source=rss-court-article&utm_medium=link&utm_campaign=hpm-rss-link",
+        "source": "Houston Public Media",
+        "source_type": "public-media",
+        "region": "Houston / Gulf Coast",
+        "published_at": "Wed, 19 Aug 2026 14:56:25 +0000",
+        "section": "State News"
+      },
+      {
+        "headline": "Third Thursdays brings arts Downtown, El Fresco closes summer season",
+        "title": "Third Thursdays brings arts Downtown, El Fresco closes summer season",
+        "url": "https://elpasomatters.org/2026/08/19/el-paso-things-to-do-third-thursdays-el-fresco-utep-texas-western-gold-rush/",
+        "source": "El Paso Matters",
+        "source_type": "nonprofit-news",
+        "region": "El Paso / Border",
+        "published_at": "Wed, 19 Aug 2026 13:00:00 +0000",
         "section": "State News"
       },
       {
@@ -213,8 +319,58 @@
         "url": "https://feeds.texastribune.org/link/16799/17422830/texas-surrogacy-agreement-laws-parental-rights-abortion",
         "source": "The Texas Tribune",
         "source_type": "straight-news",
-        "source_scope": "statewide",
+        "region": "Statewide",
         "published_at": "Wed, 19 Aug 2026 10:00:00 +0000",
+        "section": "State News"
+      },
+      {
+        "headline": "San Antonio’s first crisis nursery opens with a collaborative ‘Puro San Antonio’ model",
+        "title": "San Antonio’s first crisis nursery opens with a collaborative ‘Puro San Antonio’ model",
+        "url": "https://sanantonioreport.org/first-crisis-nursery-opens-puro-san-antonio-model/",
+        "source": "San Antonio Report",
+        "source_type": "nonprofit-news",
+        "region": "San Antonio",
+        "published_at": "Wed, 19 Aug 2026 10:00:00 +0000",
+        "section": "State News"
+      },
+      {
+        "headline": "After hours of tense debate, divided El Paso City Council adopts budget, raises taxes",
+        "title": "After hours of tense debate, divided El Paso City Council adopts budget, raises taxes",
+        "url": "https://elpasomatters.org/2026/08/18/el-paso-city-council-approves-fy-2027-budget-tax-rate-raise-taxes/",
+        "source": "El Paso Matters",
+        "source_type": "nonprofit-news",
+        "region": "El Paso / Border",
+        "published_at": "Wed, 19 Aug 2026 01:24:36 +0000",
+        "section": "State News"
+      },
+      {
+        "headline": "Bexar County begins tough budget talks, commissioners set tone with pay freeze",
+        "title": "Bexar County begins tough budget talks, commissioners set tone with pay freeze",
+        "url": "https://www.tpr.org/government-politics/2026-08-18/bexar-county-begins-tough-budget-talks-commissioners-set-tone-with-pay-freeze",
+        "source": "Texas Public Radio",
+        "source_type": "public-media",
+        "region": "San Antonio / South Central Texas",
+        "published_at": "Tue, 18 Aug 2026 23:57:09 GMT",
+        "section": "State News"
+      },
+      {
+        "headline": "UT San Antonio delays start of fall semester after cyber breach",
+        "title": "UT San Antonio delays start of fall semester after cyber breach",
+        "url": "https://www.tpr.org/education/2026-08-17/ut-san-antonio-systems-go-offline-after-attempted-cybersecurity-breach",
+        "source": "Texas Public Radio",
+        "source_type": "public-media",
+        "region": "San Antonio / South Central Texas",
+        "published_at": "Tue, 18 Aug 2026 23:00:00 GMT",
+        "section": "State News"
+      },
+      {
+        "headline": "Texas horned lizards: Science is helping them to survive",
+        "title": "Texas horned lizards: Science is helping them to survive",
+        "url": "https://www.tpr.org/science-technology/2026-08-18/texas-horned-lizards-science-is-helping-them-to-survive",
+        "source": "Texas Public Radio",
+        "source_type": "public-media",
+        "region": "San Antonio / South Central Texas",
+        "published_at": "Tue, 18 Aug 2026 22:54:20 GMT",
         "section": "State News"
       },
       {
@@ -223,78 +379,18 @@
         "url": "https://feeds.texastribune.org/link/16799/17422555/texas-big-bend-national-park-border-wall-plans-explainer",
         "source": "The Texas Tribune",
         "source_type": "straight-news",
-        "source_scope": "statewide",
+        "region": "Statewide",
         "published_at": "Tue, 18 Aug 2026 22:04:29 +0000",
         "section": "State News"
       },
       {
-        "headline": "Texas Tribune Festival 2026: Our full lineup is here",
-        "title": "Texas Tribune Festival 2026: Our full lineup is here",
-        "url": "https://feeds.texastribune.org/link/16799/17422153/texas-tribune-festival-2026-lineup",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Tue, 18 Aug 2026 11:00:00 +0000",
-        "section": "State News"
-      },
-      {
-        "headline": "Colorado school district rejects controversial reading curriculum because of errors, Texas focus",
-        "title": "Colorado school district rejects controversial reading curriculum because of errors, Texas focus",
-        "url": "https://feeds.texastribune.org/link/16799/17422154/colorado-school-district-houston-texas-bluebonnet-errors",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Tue, 18 Aug 2026 10:00:00 +0000",
-        "section": "State News"
-      },
-      {
-        "headline": "Feds pausing Big Bend border construction while CBP commissioner visits the park",
-        "title": "Feds pausing Big Bend border construction while CBP commissioner visits the park",
-        "url": "https://feeds.texastribune.org/link/16799/17421728/texas-big-bend-national-park-border-wall-construction-pause",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Mon, 17 Aug 2026 18:13:16 +0000",
-        "section": "State News"
-      },
-      {
-        "headline": "Can Austin break the costly cycle of homelessness, jail and crisis? A new program aims to do that.",
-        "title": "Can Austin break the costly cycle of homelessness, jail and crisis? A new program aims to do that.",
-        "url": "https://feeds.texastribune.org/link/16799/17421463/austin-no-wrong-door-jail-homelessness-program",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Mon, 17 Aug 2026 10:00:00 +0000",
-        "section": "State News"
-      },
-      {
-        "headline": "Fifth Circuit reaffirms death row inmate Brittany Holberg’s conviction",
-        "title": "Fifth Circuit reaffirms death row inmate Brittany Holberg’s conviction",
-        "url": "https://feeds.texastribune.org/link/16799/17418677/texas-death-row-brittany-holberg-appeal-denied-fifth-circuit",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Sat, 15 Aug 2026 02:04:38 +0000",
-        "section": "State News"
-      },
-      {
-        "headline": "Buyouts offered to nearly a quarter of UT Tyler employees amid budget shortfall",
-        "title": "Buyouts offered to nearly a quarter of UT Tyler employees amid budget shortfall",
-        "url": "https://feeds.texastribune.org/link/16799/17371953/ut-tyler-texas-university-buyouts",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Thu, 02 Jul 2026 22:14:14 +0000",
-        "section": "State News"
-      },
-      {
-        "headline": "Families ask U.S. Supreme Court to rule on Texas’ Ten Commandments requirement for public schools",
-        "title": "Families ask U.S. Supreme Court to rule on Texas’ Ten Commandments requirement for public schools",
-        "url": "https://feeds.texastribune.org/link/16799/17258411/texas-ten-commandments-5th-circuit-court",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Tue, 20 Jan 2026 11:00:00 +0000",
+        "headline": "Inside ICE’s broken system for inspecting detention facilities",
+        "title": "Inside ICE’s broken system for inspecting detention facilities",
+        "url": "https://elpasomatters.org/2026/08/18/ice-detention-facilities-inspection-broken-system-pogo-project-on-government-oversight/",
+        "source": "El Paso Matters",
+        "source_type": "nonprofit-news",
+        "region": "El Paso / Border",
+        "published_at": "Tue, 18 Aug 2026 13:15:00 +0000",
         "section": "State News"
       }
     ],
@@ -305,8 +401,28 @@
         "url": "https://feeds.texastribune.org/link/16799/17423220/texas-dan-patrick-obscene-books-school-libraries-penalties",
         "source": "The Texas Tribune",
         "source_type": "straight-news",
-        "source_scope": "statewide",
+        "region": "Statewide",
         "published_at": "Wed, 19 Aug 2026 17:48:15 +0000",
+        "section": "State Politics"
+      },
+      {
+        "headline": "Rental units in Houston must provide air conditioning under new ordinance",
+        "title": "Rental units in Houston must provide air conditioning under new ordinance",
+        "url": "https://www.houstonpublicmedia.org/articles/news/city-of-houston/2026/08/19/559831/houston-air-conditioning-ordinance-apartments/?utm_source=rss-city-of-houston-article&utm_medium=link&utm_campaign=hpm-rss-link",
+        "source": "Houston Public Media",
+        "source_type": "public-media",
+        "region": "Houston / Gulf Coast",
+        "published_at": "Wed, 19 Aug 2026 15:28:01 +0000",
+        "section": "State Politics"
+      },
+      {
+        "headline": "Which San Antonio school districts have tax measures on the ballot this November?",
+        "title": "Which San Antonio school districts have tax measures on the ballot this November?",
+        "url": "https://sanantonioreport.org/school-tax-elections-november-2026-ballot/",
+        "source": "San Antonio Report",
+        "source_type": "nonprofit-news",
+        "region": "San Antonio",
+        "published_at": "Wed, 19 Aug 2026 13:00:00 +0000",
         "section": "State Politics"
       },
       {
@@ -315,82 +431,62 @@
         "url": "https://feeds.texastribune.org/link/16799/17422554/texas-public-schools-h1b-visa-ban-proposal",
         "source": "The Texas Tribune",
         "source_type": "straight-news",
-        "source_scope": "statewide",
+        "region": "Statewide",
         "published_at": "Tue, 18 Aug 2026 22:31:36 +0000",
         "section": "State Politics"
       },
       {
-        "headline": "Minnesota sues Abbott to force extradition of ICE agent accused of shooting Venezuelan man",
-        "title": "Minnesota sues Abbott to force extradition of ICE agent accused of shooting Venezuelan man",
-        "url": "https://feeds.texastribune.org/link/16799/17422433/minnesota-sues-abbott-texas-ice-agent-extradition-lawsuit",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Tue, 18 Aug 2026 18:58:02 +0000",
+        "headline": "Podcast: DHS scrapped its 8,500-person Socorro detention center plan. What happens to the warehouses now?",
+        "title": "Podcast: DHS scrapped its 8,500-person Socorro detention center plan. What happens to the warehouses now?",
+        "url": "https://elpasomatters.org/2026/08/18/el-paso-matters-podcast-ice-dhs-socorro-texas-detention-centers-trump/",
+        "source": "El Paso Matters",
+        "source_type": "nonprofit-news",
+        "region": "El Paso / Border",
+        "published_at": "Tue, 18 Aug 2026 18:37:52 +0000",
         "section": "State Politics"
       },
       {
-        "headline": "Texas counties sue feds for trying to tie election security policies to anti-terrorism funding",
-        "title": "Texas counties sue feds for trying to tie election security policies to anti-terrorism funding",
-        "url": "https://feeds.texastribune.org/link/16799/17421897/texas-election-security-grant-lawsuit-homeland-security-funding-harris-el-paso-county",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Mon, 17 Aug 2026 22:14:13 +0000",
-        "section": "State Politics"
-      },
-      {
-        "headline": "Greg Abbott threatens Dallas, Houston airports’ grant funds over Islamic washing facilities",
-        "title": "Greg Abbott threatens Dallas, Houston airports’ grant funds over Islamic washing facilities",
-        "url": "https://feeds.texastribune.org/link/16799/17418678/texas-greg-abbott-dfw-iah-airport-islam-ablution-facility-grant",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Sat, 15 Aug 2026 00:45:20 +0000",
-        "section": "State Politics"
-      },
-      {
-        "headline": "Rio Grande Valley residents are feeling more negative about their lives. That could spill into the voting booth.",
-        "title": "Rio Grande Valley residents are feeling more negative about their lives. That could spill into the voting booth.",
-        "url": "https://feeds.texastribune.org/link/16799/17417349/texas-rio-grande-valley-life-satisfaction-survey",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Thu, 13 Aug 2026 16:00:16 +0000",
-        "section": "State Politics"
-      },
-      {
-        "headline": "Special election set to replace Texas Sen. Brian Birdwell, who resigned for Pentagon post",
-        "title": "Special election set to replace Texas Sen. Brian Birdwell, who resigned for Pentagon post",
-        "url": "https://feeds.texastribune.org/link/16799/17343821/texas-brian-birdwell-assistant-secretary-defense-department",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Tue, 19 May 2026 00:11:38 +0000",
+        "headline": "Socorro ISD calls for tax ratification election to fund teachers, raises, student programs",
+        "title": "Socorro ISD calls for tax ratification election to fund teachers, raises, student programs",
+        "url": "https://elpasomatters.org/2026/08/17/sisd-socorro-isd-calls-for-vatre-voter-approval-tax-ratification-election/",
+        "source": "El Paso Matters",
+        "source_type": "nonprofit-news",
+        "region": "El Paso / Border",
+        "published_at": "Tue, 18 Aug 2026 01:16:57 +0000",
         "section": "State Politics"
       }
     ],
     "State Business": [
       {
-        "headline": "Texas cities eye property tax hikes, spending cuts amid yawning budget gaps",
-        "title": "Texas cities eye property tax hikes, spending cuts amid yawning budget gaps",
-        "url": "https://feeds.texastribune.org/link/16799/17421462/texas-city-budgets-cuts-tax-hikes",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Mon, 17 Aug 2026 10:00:00 +0000",
+        "headline": "Broadband grants paused as critics allege favoritism toward Elon Musk’s Starlink",
+        "title": "Broadband grants paused as critics allege favoritism toward Elon Musk’s Starlink",
+        "url": "https://www.tpr.org/economy-and-labor/2026-08-18/broadband-grants-paused-as-critics-allege-favoritism-toward-elon-musks-starlink",
+        "source": "Texas Public Radio",
+        "source_type": "public-media",
+        "region": "San Antonio / South Central Texas",
+        "published_at": "Wed, 19 Aug 2026 03:25:48 GMT",
+        "section": "State Business"
+      },
+      {
+        "headline": "Doing business in San Antonio connects businesses with contracting opportunities",
+        "title": "Doing business in San Antonio connects businesses with contracting opportunities",
+        "url": "https://sanantonioreport.org/doing-business-in-san-antonio-connects-businesses-with-contracting-opportunities-sponsored/",
+        "source": "San Antonio Report",
+        "source_type": "nonprofit-news",
+        "region": "San Antonio",
+        "published_at": "Tue, 18 Aug 2026 23:00:00 +0000",
         "section": "State Business"
       }
     ],
     "State Sports": [
       {
-        "headline": "Protecting Texas university research from foreign adversaries focus of House hearing",
-        "title": "Protecting Texas university research from foreign adversaries focus of House hearing",
-        "url": "https://feeds.texastribune.org/link/16799/17422155/texas-universities-education-foreign-influence",
-        "source": "The Texas Tribune",
-        "source_type": "straight-news",
-        "source_scope": "statewide",
-        "published_at": "Tue, 18 Aug 2026 10:00:00 +0000",
+        "headline": "Permian Basin community seeks fix for radium in its drinking water",
+        "title": "Permian Basin community seeks fix for radium in its drinking water",
+        "url": "https://www.tpr.org/environment/2026-08-18/permian-basin-community-seeks-fix-for-radium-in-its-drinking-water",
+        "source": "Texas Public Radio",
+        "source_type": "public-media",
+        "region": "San Antonio / South Central Texas",
+        "published_at": "Wed, 19 Aug 2026 03:15:28 GMT",
         "section": "State Sports"
       }
     ]

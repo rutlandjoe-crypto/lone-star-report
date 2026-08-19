@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-08-19T19:26:19.054Z",
+  "minimum_required": 4,
+  "working_sources": 5,
+  "sources": [
+    {
+      "source": "The Texas Tribune",
+      "region": "Statewide",
+      "url": "https://feeds.texastribune.org/feeds/main/",
+      "status": "working",
+      "accepted": 5
+    },
+    {
+      "source": "KUT",
+      "region": "Central Texas",
+      "url": "https://www.kut.org/index.rss",
+      "status": "failed",
+      "error": "feed returned no publishable stories"
+    },
+    {
+      "source": "KERA",
+      "region": "North Texas",
+      "url": "https://www.keranews.org/index.rss",
+      "status": "failed",
+      "error": "feed returned no publishable stories"
+    },
+    {
+      "source": "Houston Public Media",
+      "region": "Houston / Gulf Coast",
+      "url": "https://www.houstonpublicmedia.org/feed/",
+      "status": "working",
+      "accepted": 5
+    },
+    {
+      "source": "Texas Public Radio",
+      "region": "San Antonio / South Central Texas",
+      "url": "https://www.tpr.org/index.rss",
+      "status": "working",
+      "accepted": 5
+    },
+    {
+      "source": "San Antonio Report",
+      "region": "San Antonio",
+      "url": "https://sanantonioreport.org/feed/",
+      "status": "working",
+      "accepted": 5
+    },
+    {
+      "source": "El Paso Matters",
+      "region": "El Paso / Border",
+      "url": "https://elpasomatters.org/feed/",
+      "status": "working",
+      "accepted": 5
+    },
+    {
+      "source": "Marfa Public Radio",
+      "region": "Far West Texas",
+      "url": "https://www.marfapublicradio.org/index.rss",
+      "status": "failed",
+      "error": "feed returned no publishable stories"
+    },
+    {
+      "source": "High Plains Public Radio",
+      "region": "Panhandle / High Plains",
+      "url": "https://www.hppr.org/index.rss",
+      "status": "failed",
+      "error": "feed returned no publishable stories"
+    },
+    {
+      "source": "Laredo Morning Times",
+      "region": "Laredo / South Texas Border",
+      "url": "https://www.lmtonline.com/default/feed/news/",
+      "status": "failed",
+      "error": "HTTP 404"
+    }
+  ]
+}

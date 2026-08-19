@@ -1,31 +1,98 @@
 const fs = require("fs");
 const https = require("https");
+const http = require("http");
 
 const OUTPUT = "public/latest_report.json";
+const STATUS_OUTPUT = "public/source_status.json";
+
+const MAX_PER_SOURCE = 5;
+const MAX_TOTAL = 50;
+const MIN_WORKING_SOURCES = 4;
 
 const SOURCES = [
   {
     name: "The Texas Tribune",
     url: "https://feeds.texastribune.org/feeds/main/",
-    type: "straight-news",
-    scope: "statewide"
+    region: "Statewide",
+    type: "straight-news"
+  },
+  {
+    name: "KUT",
+    url: "https://www.kut.org/index.rss",
+    region: "Central Texas",
+    type: "public-media"
+  },
+  {
+    name: "KERA",
+    url: "https://www.keranews.org/index.rss",
+    region: "North Texas",
+    type: "public-media"
+  },
+  {
+    name: "Houston Public Media",
+    url: "https://www.houstonpublicmedia.org/feed/",
+    region: "Houston / Gulf Coast",
+    type: "public-media"
+  },
+  {
+    name: "Texas Public Radio",
+    url: "https://www.tpr.org/index.rss",
+    region: "San Antonio / South Central Texas",
+    type: "public-media"
+  },
+  {
+    name: "San Antonio Report",
+    url: "https://sanantonioreport.org/feed/",
+    region: "San Antonio",
+    type: "nonprofit-news"
+  },
+  {
+    name: "El Paso Matters",
+    url: "https://elpasomatters.org/feed/",
+    region: "El Paso / Border",
+    type: "nonprofit-news"
+  },
+  {
+    name: "Marfa Public Radio",
+    url: "https://www.marfapublicradio.org/index.rss",
+    region: "Far West Texas",
+    type: "public-media"
+  },
+  {
+    name: "High Plains Public Radio",
+    url: "https://www.hppr.org/index.rss",
+    region: "Panhandle / High Plains",
+    type: "public-media"
+  },
+  {
+    name: "Laredo Morning Times",
+    url: "https://www.lmtonline.com/default/feed/news/",
+    region: "Laredo / South Texas Border",
+    type: "straight-news"
   }
 ];
 
-const BLOCKED_TITLE_PHRASES = [
+const BLOCKED_PHRASES = [
   "opinion",
   "commentary",
-  "editorial",
+  "editorial:",
+  "editorial ",
   "letters to the editor",
-  "podcast",
-  "tribcast",
+  "letter to the editor",
+  "guest column",
+  "guest commentary",
   "sponsored",
-  "advertisement"
+  "advertisement",
+  "advertorial",
+  "paid content",
+  "brand studio",
+  "horoscope",
+  "crossword"
 ];
 
 const POLITICS_TERMS = [
   "abbott",
-  "patrick",
+  "dan patrick",
   "paxton",
   "legislature",
   "legislative",
@@ -40,7 +107,11 @@ const POLITICS_TERMS = [
   "redistrict",
   "primary",
   "ballot",
-  "voting"
+  "voting",
+  "republican",
+  "democrat",
+  "state representative",
+  "state senator"
 ];
 
 const BUSINESS_TERMS = [
@@ -61,7 +132,10 @@ const BUSINESS_TERMS = [
   "technology",
   "investment",
   "employer",
-  "workforce"
+  "workforce",
+  "property",
+  "construction",
+  "industry"
 ];
 
 const SPORTS_TERMS = [
@@ -72,14 +146,23 @@ const SPORTS_TERMS = [
   "mavericks",
   "rockets",
   "spurs",
-  "football",
-  "baseball",
-  "basketball",
   "nfl",
   "mlb",
   "nba",
   "college football",
-  "high school football"
+  "high school football",
+  "longhorns",
+  "aggies",
+  "red raiders",
+  "horned frogs",
+  "mustangs",
+  "cougars",
+  "utsa",
+  "utep",
+  "baylor",
+  "smu",
+  "tcu",
+  "texas tech"
 ];
 
 function decodeEntities(value) {
@@ -103,8 +186,9 @@ function decodeEntities(value) {
 }
 
 function extractTag(block, tag) {
+  const escaped = tag.replace(":", "\\:");
   const pattern = new RegExp(
-    `<${tag}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${tag}>`,
+    `<${escaped}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${escaped}>`,
     "i"
   );
 
@@ -113,11 +197,25 @@ function extractTag(block, tag) {
 }
 
 function extractLink(block) {
-  const direct = extractTag(block, "link");
-  if (direct.startsWith("http")) return direct;
+  const rssLink = extractTag(block, "link");
+
+  if (rssLink.startsWith("http")) {
+    return rssLink;
+  }
+
+  const atomMatch = block.match(
+    /<link[^>]+href=["']([^"']+)["'][^>]*\/?>/i
+  );
+
+  if (atomMatch && atomMatch[1].startsWith("http")) {
+    return decodeEntities(atomMatch[1]);
+  }
 
   const guid = extractTag(block, "guid");
-  if (guid.startsWith("http")) return guid;
+
+  if (guid.startsWith("http")) {
+    return guid;
+  }
 
   return "";
 }
@@ -140,24 +238,40 @@ function classify(title, description) {
   return "State News";
 }
 
-function isPublishable(title, url) {
-  if (!title || !url) return false;
+function isBlocked(title, description) {
+  const text = `${title} ${description}`.toLowerCase();
 
-  const lower = title.toLowerCase();
-
-  return !BLOCKED_TITLE_PHRASES.some(
-    phrase => lower.includes(phrase)
+  return BLOCKED_PHRASES.some(
+    phrase => text.includes(phrase)
   );
 }
 
-function fetchText(url) {
+function isPublishable(title, url, description) {
+  if (!title) return false;
+  if (!url) return false;
+  if (!url.startsWith("http")) return false;
+  if (isBlocked(title, description)) return false;
+
+  return true;
+}
+
+function fetchText(url, redirects = 0) {
   return new Promise((resolve, reject) => {
-    const request = https.get(
+    if (redirects > 5) {
+      reject(new Error("Too many redirects"));
+      return;
+    }
+
+    const transport = url.startsWith("https:")
+      ? https
+      : http;
+
+    const request = transport.get(
       url,
       {
         headers: {
           "User-Agent":
-            "GSR-Lone-Star-Report/1.0 (+news aggregation; source links preserved)"
+            "GSR-Lone-Star-Report/1.0 Texas journalism aggregator"
         }
       },
       response => {
@@ -166,17 +280,29 @@ function fetchText(url) {
           response.statusCode < 400 &&
           response.headers.location
         ) {
+          const redirectUrl = new URL(
+            response.headers.location,
+            url
+          ).toString();
+
           response.resume();
-          return resolve(fetchText(response.headers.location));
+
+          resolve(
+            fetchText(redirectUrl, redirects + 1)
+          );
+
+          return;
         }
 
         if (response.statusCode !== 200) {
+          response.resume();
+
           reject(
             new Error(
-              `HTTP ${response.statusCode} fetching ${url}`
+              `HTTP ${response.statusCode}`
             )
           );
-          response.resume();
+
           return;
         }
 
@@ -196,7 +322,7 @@ function fetchText(url) {
 
     request.setTimeout(20000, () => {
       request.destroy(
-        new Error(`Timeout fetching ${url}`)
+        new Error("Request timeout")
       );
     });
 
@@ -204,19 +330,31 @@ function fetchText(url) {
   });
 }
 
-function parseRss(xml, source) {
-  const itemRegex = /<item\b[\s\S]*?<\/item>/gi;
-  const items = xml.match(itemRegex) || [];
+function parseFeed(xml, source) {
+  let blocks =
+    xml.match(/<item\b[\s\S]*?<\/item>/gi) || [];
 
-  return items
+  if (!blocks.length) {
+    blocks =
+      xml.match(/<entry\b[\s\S]*?<\/entry>/gi) || [];
+  }
+
+  return blocks
     .map(block => {
       const title = extractTag(block, "title");
+
+      const description =
+        extractTag(block, "description") ||
+        extractTag(block, "summary") ||
+        extractTag(block, "content");
+
       const url = extractLink(block);
+
       const published =
         extractTag(block, "pubDate") ||
+        extractTag(block, "published") ||
+        extractTag(block, "updated") ||
         extractTag(block, "dc:date");
-      const description =
-        extractTag(block, "description");
 
       return {
         headline: title,
@@ -224,63 +362,144 @@ function parseRss(xml, source) {
         url,
         source: source.name,
         source_type: source.type,
-        source_scope: source.scope,
+        region: source.region,
         published_at: published,
         section: classify(title, description)
       };
     })
     .filter(story =>
-      isPublishable(story.title, story.url)
+      isPublishable(
+        story.title,
+        story.url,
+        ""
+      )
     );
 }
 
 function uniqueStories(stories) {
-  const seen = new Set();
+  const seenUrls = new Set();
+  const seenTitles = new Set();
 
   return stories.filter(story => {
-    const key = `${story.title}|${story.url}`.toLowerCase();
+    const urlKey = story.url.toLowerCase();
 
-    if (seen.has(key)) return false;
+    const titleKey = story.title
+      .toLowerCase()
+      .replace(/[^a-z0-9 ]/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
 
-    seen.add(key);
+    if (seenUrls.has(urlKey)) return false;
+    if (seenTitles.has(titleKey)) return false;
+
+    seenUrls.add(urlKey);
+    seenTitles.add(titleKey);
+
     return true;
   });
 }
 
+function validDate(value) {
+  const time = Date.parse(value || "");
+  return Number.isFinite(time) ? time : 0;
+}
+
 async function main() {
   const gathered = [];
+  const sourceStatus = [];
 
   for (const source of SOURCES) {
-    console.log(`Fetching: ${source.name}`);
+    process.stdout.write(
+      `Fetching ${source.name} (${source.region}) ... `
+    );
 
     try {
       const xml = await fetchText(source.url);
-      const stories = parseRss(xml, source);
 
-      console.log(
-        `Accepted ${stories.length} publishable items from ${source.name}`
-      );
+      const stories = parseFeed(xml, source)
+        .sort(
+          (a, b) =>
+            validDate(b.published_at) -
+            validDate(a.published_at)
+        )
+        .slice(0, MAX_PER_SOURCE);
+
+      if (!stories.length) {
+        throw new Error(
+          "feed returned no publishable stories"
+        );
+      }
+
+      console.log(`${stories.length} accepted`);
 
       gathered.push(...stories);
+
+      sourceStatus.push({
+        source: source.name,
+        region: source.region,
+        url: source.url,
+        status: "working",
+        accepted: stories.length
+      });
     } catch (error) {
-      console.error(
-        `Source failed: ${source.name}: ${error.message}`
-      );
+      console.log(`FAILED: ${error.message}`);
+
+      sourceStatus.push({
+        source: source.name,
+        region: source.region,
+        url: source.url,
+        status: "failed",
+        error: error.message
+      });
     }
   }
 
-  const stories = uniqueStories(gathered)
-    .sort((a, b) => {
-      const ad = Date.parse(a.published_at || "") || 0;
-      const bd = Date.parse(b.published_at || "") || 0;
+  const workingSources = sourceStatus.filter(
+    source => source.status === "working"
+  );
 
-      return bd - ad;
-    })
-    .slice(0, 30);
+  fs.writeFileSync(
+    STATUS_OUTPUT,
+    JSON.stringify(
+      {
+        checked_at: new Date().toISOString(),
+        minimum_required: MIN_WORKING_SOURCES,
+        working_sources: workingSources.length,
+        sources: sourceStatus
+      },
+      null,
+      2
+    ),
+    "utf8"
+  );
+
+  console.log("");
+  console.log(
+    `Working Texas sources: ${workingSources.length}/${SOURCES.length}`
+  );
+
+  if (
+    workingSources.length <
+    MIN_WORKING_SOURCES
+  ) {
+    throw new Error(
+      `Only ${workingSources.length} Texas sources worked. ` +
+      `Minimum is ${MIN_WORKING_SOURCES}. ` +
+      `No commit should be made.`
+    );
+  }
+
+  const stories = uniqueStories(gathered)
+    .sort(
+      (a, b) =>
+        validDate(b.published_at) -
+        validDate(a.published_at)
+    )
+    .slice(0, MAX_TOTAL);
 
   if (!stories.length) {
     throw new Error(
-      "No verified Texas stories were collected. No fallback content will be invented."
+      "No verified Texas stories collected."
     );
   }
 
@@ -299,33 +518,95 @@ async function main() {
     sections[story.section].push(story);
   }
 
+  const regionCounts = {};
+
+  for (const story of stories) {
+    regionCounts[story.region] =
+      (regionCounts[story.region] || 0) + 1;
+  }
+
+  const sourceCounts = {};
+
+  for (const story of stories) {
+    sourceCounts[story.source] =
+      (sourceCounts[story.source] || 0) + 1;
+  }
+
   const report = {
     platform: "GSR Lone Star Report",
-    generated_at: new Date().toISOString(),
+
+    generated_at:
+      new Date().toISOString(),
+
     editorial_standard:
-      "Journalistic integrity first. Straight-news and authoritative sources only.",
+      "Journalistic integrity first. Straight-news, nonprofit-news and public-media sources only.",
+
     sourcing_policy:
-      "Source headlines and URLs are preserved. No fabricated summaries, facts or links.",
-    homepage_cards: stories,
-    sections
+      "Original source headlines and URLs are preserved. Opinion, commentary, sponsored content and unsupported material are excluded.",
+
+    diversity_policy:
+      `Maximum ${MAX_PER_SOURCE} homepage stories per source in this source-network pass.`,
+
+    working_source_count:
+      workingSources.length,
+
+    source_counts:
+      sourceCounts,
+
+    region_counts:
+      regionCounts,
+
+    homepage_cards:
+      stories,
+
+    sections:
+      sections
   };
 
   fs.writeFileSync(
     OUTPUT,
-    JSON.stringify(report, null, 2),
+    JSON.stringify(
+      report,
+      null,
+      2
+    ),
     "utf8"
   );
 
   console.log("");
-  console.log(`Wrote ${stories.length} verified stories to ${OUTPUT}`);
+  console.log(
+    `Wrote ${stories.length} verified Texas stories.`
+  );
 
-  for (const [section, items] of Object.entries(sections)) {
-    console.log(`${section}: ${items.length}`);
+  console.log("");
+
+  for (
+    const [source, count]
+    of Object.entries(sourceCounts)
+  ) {
+    console.log(
+      `${source}: ${count}`
+    );
+  }
+
+  console.log("");
+  console.log("SECTION COUNTS");
+
+  for (
+    const [section, items]
+    of Object.entries(sections)
+  ) {
+    console.log(
+      `${section}: ${items.length}`
+    );
   }
 }
 
 main().catch(error => {
   console.error("");
-  console.error(error.message);
+  console.error(
+    `SOURCE NETWORK FAILED: ${error.message}`
+  );
+
   process.exit(1);
 });
