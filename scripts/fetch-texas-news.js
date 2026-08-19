@@ -277,6 +277,117 @@ const SOURCES = [
       "El Paso Inc.",
       "El Paso Inc"
     ]
+  }  ,
+  {
+    name: "Texas Comptroller",
+    url: "https://public.govdelivery.com/topics/TXCOMPT_1/feed.rss",
+    region: "Statewide",
+    type: "business-news",
+    mode: "direct",
+    forceSection: "State Business"
+  },
+  {
+    name: "Dallas Fed Economic Updates",
+    url: "https://www.dallasfed.org/rss/updates.xml",
+    region: "Statewide",
+    type: "business-news",
+    mode: "direct",
+    forceSection: "State Business"
+  },
+  {
+    name: "Dallas Fed News Releases",
+    url: "https://www.dallasfed.org/rss/releases.xml",
+    region: "Statewide",
+    type: "business-news",
+    mode: "direct",
+    forceSection: "State Business"
+  },
+  {
+    name: "Houston Chronicle Business",
+    url: googleNewsSiteFeed(
+      "houstonchronicle.com",
+      "business OR economy OR energy OR real estate OR jobs OR development"
+    ),
+    region: "Houston / Gulf Coast",
+    type: "business-news",
+    mode: "discovery",
+    forceSection: "State Business",
+    requiredSourceMatch: [
+      "Houston Chronicle"
+    ]
+  },
+  {
+    name: "Austin American-Statesman Business",
+    url: googleNewsSiteFeed(
+      "statesman.com",
+      "business OR economy OR technology OR real estate OR jobs OR development"
+    ),
+    region: "Austin / Central Texas",
+    type: "business-news",
+    mode: "discovery",
+    forceSection: "State Business",
+    requiredSourceMatch: [
+      "Austin American-Statesman",
+      "Austin American Statesman"
+    ]
+  },
+  {
+    name: "San Antonio Express-News Business",
+    url: googleNewsSiteFeed(
+      "expressnews.com",
+      "business OR economy OR real estate OR jobs OR development OR energy"
+    ),
+    region: "San Antonio / South Central Texas",
+    type: "business-news",
+    mode: "discovery",
+    forceSection: "State Business",
+    requiredSourceMatch: [
+      "San Antonio Express-News",
+      "Express-News"
+    ]
+  },
+  {
+    name: "Beaumont Enterprise Business",
+    url: googleNewsSiteFeed(
+      "beaumontenterprise.com",
+      "business OR economy OR energy OR refinery OR jobs OR development"
+    ),
+    region: "Southeast Texas / Beaumont",
+    type: "business-news",
+    mode: "discovery",
+    forceSection: "State Business",
+    requiredSourceMatch: [
+      "Beaumont Enterprise"
+    ]
+  },
+  {
+    name: "El Paso Times Business",
+    url: googleNewsSiteFeed(
+      "elpasotimes.com",
+      "business OR economy OR trade OR jobs OR real estate OR development"
+    ),
+    region: "El Paso / West Texas",
+    type: "business-news",
+    mode: "discovery",
+    forceSection: "State Business",
+    requiredSourceMatch: [
+      "El Paso Times"
+    ]
+  },
+  {
+    name: "Dallas Morning News Business",
+    url: googleNewsSiteFeed(
+      "dallasnews.com",
+      "business OR economy OR finance OR real estate OR jobs OR development"
+    ),
+    region: "North Texas / DFW",
+    type: "business-news",
+    mode: "discovery",
+    forceSection: "State Business",
+    requiredSourceMatch: [
+      "The Dallas Morning News",
+      "Dallas Morning News"
+    ]
   }
 ];
 

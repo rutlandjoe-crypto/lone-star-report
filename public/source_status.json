@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-08-19T19:53:05.091Z",
+  "checked_at": "2026-08-19T19:57:06.723Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 18,
+  "working_sources": 26,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -174,6 +174,77 @@
       "status": "working",
       "accepted": 1,
       "firewall_rejected": 12
+    },
+    {
+      "source": "Texas Comptroller",
+      "region": "Statewide",
+      "mode": "direct",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    },
+    {
+      "source": "Dallas Fed Economic Updates",
+      "region": "Statewide",
+      "mode": "direct",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    },
+    {
+      "source": "Dallas Fed News Releases",
+      "region": "Statewide",
+      "mode": "direct",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 1
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "region": "Houston / Gulf Coast",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 76
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "region": "Austin / Central Texas",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 2,
+      "firewall_rejected": 98
+    },
+    {
+      "source": "San Antonio Express-News Business",
+      "region": "San Antonio / South Central Texas",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 87
+    },
+    {
+      "source": "Beaumont Enterprise Business",
+      "region": "Southeast Texas / Beaumont",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 52
+    },
+    {
+      "source": "El Paso Times Business",
+      "region": "El Paso / West Texas",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 91
+    },
+    {
+      "source": "Dallas Morning News Business",
+      "region": "North Texas / DFW",
+      "mode": "discovery",
+      "status": "failed",
+      "error": "no straight-news items accepted"
     }
   ],
   "firewall_rejections": [
@@ -250,6 +321,431 @@
     {
       "source": "El Paso Inc.",
       "title": "Why sleeping like a medieval person may be good for you",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Dallas Fed News Releases",
+      "title": "In memoriam: Mike Ullman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What to know about Amazon's nearly 3,000-acre data center planned outside of Houston",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Minnesota sues to force Greg Abbott to extradite ICE agent in shooting case",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Greg Abbott pushes to ban public schools from using H-1B visas",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston’s new $5 trash fee is hitting water bills. Here’s what to know.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "We sued Texas over the Ten Commandments. Then my DMs got weird. | Opinion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston is about to lose something it won't get back until next year",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Hayden Panettiere, who starred in ‘Heroes’ and ‘Nashville,’ dies at 36",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "President Trump is returning to Texas for an RNC fundraiser in Houston",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas needs to end its Reefer Madness and legalize marijuana | Editorial",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "St. Luke’s adds CommonSpirit name, expands Baylor College of Medicine ties",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Harris County treasurer requests six-figure raise months after DWI charge",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Rockets add another guard by signing the reigning G League Rookie of the Year",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "7 takeaways from Texans' joint practice with Raiders, including much-needed success for running game",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Politics have changed Texas college curriculum. Here's what students can expect.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texans receiver Jayden Higgins injured in practice session with Raiders",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Fundraiser started to help sons of East Bernard coach, wife killed in car crash",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Astros to call up pitching prospect Ethan Pecko to start in series vs. Angels",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston police crash lawsuits surge as city leans on questionable legal strategy",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "East Bernard football coach Jeremy Jenkins, wife Brandy killed in car crash",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Who will make Texans' 53-man roster? Some positions are too close to call.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Who are the biggest donors backing Talarico and Paxton in the Texas Senate race? See the top 20.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "State Farm starts sending its $5B dividend payments to customers. What to know.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Dodgers broadcaster calls for $240 million man Kyle Tucker to be demoted",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "How NCAA's '5-for-5' rule change is impacting UH football's freshmen",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Longhorns suffer potential big blow to offensive line with Trevor Goosby injury",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Memorial service set for East Bernard coach Jeremy Jenkins and wife Brandy who died in car crash",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Hunter Brown's issues with walks, fastball command turning starts into a grind",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "How the Galleria’s chic style transformed shopping and urban life",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Jackson State University pursues top research status",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "AI-assisted tool helped secure satellite communication system after 2022 Russian hacking",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump is leaving an indelible blemish on Texas with his Big Bend border wall",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "US stocks hang near their record heights",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Flight attendants and pilots have highest risk of dying from radiation-linked cancers, study says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Drug prices have declined sharply, and Trump is taking credit. The reason behind the drop is complex",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump administration moves ahead to end roadless rule on national forests",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Shares in Chinese humanoid robot maker Unitree soar in Shanghai trading debut",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Minnesota governor signs order to stop any mining efforts in Boundary Waters wilderness",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Opening arguments set to begin in Meta's federal trial over child harms",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A warehouse burns near Moscow. In Ukraine, drone crews prepare to strike again",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'Many' Fed officials think higher rates will be needed if inflation stays high",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "New St. Jude CEO Dr. Charles Roberts says childhood cancer treatments are at 'the dawn of a new era'",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Target’s comeback quarter: New merchandise, more shoppers and a $994M tariff refund",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "ABC sues FCC over challenge to its broadcast licenses, saying actions present 'existential threat'",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "In Meta's trial, families of social media victims see a pivotal moment for online safety",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mobile gold miners in eastern Congo complicate health workers' efforts to contain Ebola",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Lowe’s is opening in west Katy at Texas Heritage Matketplace. What to know.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Amazon set to expand drone delivery of lightweight packages to 500 US cities",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Lawsuit Challenges NH Student ID Voter Restriction",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The 60-day deadline for an Iran peace deal is expiring. Here's where things stand",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ukrainian man arrested over undersea explosions that damaged gas pipelines in 2022",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Former Meta engineer says Instagram took a 'don't ask, don't tell' approach on kids under 13",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Want to win Hispanic voters? Speak Spanish. | Opinion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump picks Dr. Heidi Overton, a top White House aide, to lead the Food and Drug Administration",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Pentagon orders audit of 30 universities' partnerships with foreign institutions",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Bonnie Tyler is remembered as worldwide star at her Welsh funeral",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "CDC's new director is pressed to do something about its zombie programs",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Prosecutors say bullet engraving shows Charlie Kirk was targeted for his politics",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "An 81-year-old admits to 1994 killing of American tourist as trial opens in Germany",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What to know about Ken Paxton’s and James Talarico’s affordability plans",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Penn State frat pledges were made to cut and bag cocaine for college drug ring, authorities say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Congresswoman says target of ICE operation in fatal Maine shooting wasn't up for removal",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "US tourist dies after being struck by lightning while hiking Sicily's Mount Etna",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "AP Interview: Ralph Norman questions Trump's endorsement of Darline Graham in South Carolina runoff",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Whistleblower alleges political pressure, lack of evidence in antisemitism probes targeting schools",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Violent crime fell in Houston during the first half of 2026, survey shows",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Hayden Panettiere tributes include Viola Davis, Selma Blair and Melissa Barrera",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ted Cruz should help release $1.35 billion in global health funding",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ex-Fauci adviser pleads guilty to plotting to conceal COVID-19 research records during pandemic",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Fact check: Trump says kids are getting vaccines as big as soda bottles",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "This sheet pan okra is easy, bright and never slimy",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Want to save Social Security? Raise the minimum wage.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "In Florida, Wasserman Schultz sparks a debate over what representation means in diverse districts",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Dan Sullivan, another Dan Sullivan and an ex-congresswoman face off in Alaska's US Senate primary",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Governors' races are being increasingly buffeted by the toxic politics of data centers",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "From ‘Nashville’ to ‘Remember the Titans,’ Hayden Panettiere’s notable roles and where to watch",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Austin FC falls 2-1 to FC Dallas in return to MLS play - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Poetry in Dangerous Times: From Witness to Resistance with Demetria Martínez & Dr. Norma E. Cantú - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas football must be smart in handling of injured LT Trevor Goosby - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas is the third worst state for women’s equality, study says - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Austin man accused of hatchet attack at Hutto Home Depot - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "One last day of summer break, then a scorching back-to-school week - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Jana Pochop - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "What's hot besides Austin temperatures? Giving blood. More donors needed - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
