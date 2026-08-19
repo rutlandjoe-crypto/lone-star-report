@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-19T20:04:19.483Z",
+  "checked_at": "2026-08-19T20:17:17.314Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 26,
   "sources": [
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 6,
-      "firewall_rejected": 89
+      "firewall_rejected": 88
     },
     {
       "source": "San Antonio Express-News Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 6,
-      "firewall_rejected": 93
+      "firewall_rejected": 92
     },
     {
       "source": "Dallas Morning News Business",
@@ -390,7 +390,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "7 takeaways from Texans' joint practice with Raiders, including much-needed success for running game",
+      "title": "Fundraiser started to help sons of East Bernard coach, wife killed in car crash",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What we learned from Texans' joint practice with Raiders",
       "reason": "missing business relevance signal"
     },
     {
@@ -401,11 +406,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Texans receiver Jayden Higgins injured in practice session with Raiders",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Fundraiser started to help sons of East Bernard coach, wife killed in car crash",
       "reason": "missing business relevance signal"
     },
     {
