@@ -5,7 +5,7 @@ const http = require("http");
 const OUTPUT = "public/latest_report.json";
 const STATUS_OUTPUT = "public/source_status.json";
 
-const MAX_PER_SOURCE = 6;
+const MAX_PER_SOURCE = 4;
 const MAX_TOTAL = 80;
 const MIN_WORKING_SOURCES = 5;
 
@@ -387,6 +387,163 @@ const SOURCES = [
     requiredSourceMatch: [
       "The Dallas Morning News",
       "Dallas Morning News"
+    ]
+  }  ,
+  {
+    name: "Houston Chronicle Texans Desk",
+    url: googleNewsSiteFeed(
+      "houstonchronicle.com",
+      '"Houston Texans"'
+    ),
+    region: "Houston / Gulf Coast",
+    type: "sports-specialty",
+    mode: "discovery",
+    forceSection: "State Sports",
+    sportDesk: "NFL",
+    requiredSourceMatch: [
+      "Houston Chronicle"
+    ]
+  },
+  {
+    name: "Houston Chronicle Astros Desk",
+    url: googleNewsSiteFeed(
+      "houstonchronicle.com",
+      '"Houston Astros"'
+    ),
+    region: "Houston / Gulf Coast",
+    type: "sports-specialty",
+    mode: "discovery",
+    forceSection: "State Sports",
+    sportDesk: "MLB",
+    requiredSourceMatch: [
+      "Houston Chronicle"
+    ]
+  },
+  {
+    name: "Houston Chronicle Rockets Desk",
+    url: googleNewsSiteFeed(
+      "houstonchronicle.com",
+      '"Houston Rockets"'
+    ),
+    region: "Houston / Gulf Coast",
+    type: "sports-specialty",
+    mode: "discovery",
+    forceSection: "State Sports",
+    sportDesk: "NBA",
+    requiredSourceMatch: [
+      "Houston Chronicle"
+    ]
+  },
+  {
+    name: "Fort Worth Star-Telegram Cowboys Desk",
+    url: googleNewsSiteFeed(
+      "star-telegram.com",
+      '"Dallas Cowboys"'
+    ),
+    region: "North Texas / DFW",
+    type: "sports-specialty",
+    mode: "discovery",
+    forceSection: "State Sports",
+    sportDesk: "NFL",
+    requiredSourceMatch: [
+      "Fort Worth Star-Telegram",
+      "Star-Telegram"
+    ]
+  },
+  {
+    name: "Fort Worth Star-Telegram Rangers Desk",
+    url: googleNewsSiteFeed(
+      "star-telegram.com",
+      '"Texas Rangers" baseball'
+    ),
+    region: "North Texas / DFW",
+    type: "sports-specialty",
+    mode: "discovery",
+    forceSection: "State Sports",
+    sportDesk: "MLB",
+    requiredSourceMatch: [
+      "Fort Worth Star-Telegram",
+      "Star-Telegram"
+    ]
+  },
+  {
+    name: "Fort Worth Star-Telegram Mavericks Desk",
+    url: googleNewsSiteFeed(
+      "star-telegram.com",
+      '"Dallas Mavericks"'
+    ),
+    region: "North Texas / DFW",
+    type: "sports-specialty",
+    mode: "discovery",
+    forceSection: "State Sports",
+    sportDesk: "NBA",
+    requiredSourceMatch: [
+      "Fort Worth Star-Telegram",
+      "Star-Telegram"
+    ]
+  },
+  {
+    name: "San Antonio Express-News Spurs Desk",
+    url: googleNewsSiteFeed(
+      "expressnews.com",
+      '"San Antonio Spurs"'
+    ),
+    region: "San Antonio / South Central Texas",
+    type: "sports-specialty",
+    mode: "discovery",
+    forceSection: "State Sports",
+    sportDesk: "NBA",
+    requiredSourceMatch: [
+      "San Antonio Express-News",
+      "Express-News"
+    ]
+  },
+  {
+    name: "Dave Campbell's Texas Football - College",
+    url: googleNewsSiteFeed(
+      "texasfootball.com",
+      '"college football"'
+    ),
+    region: "Statewide",
+    type: "sports-specialty",
+    mode: "discovery",
+    forceSection: "State Sports",
+    sportDesk: "College Football",
+    requiredSourceMatch: [
+      "Dave Campbell's Texas Football",
+      "Texas Football"
+    ]
+  },
+  {
+    name: "Dave Campbell's Texas Football - High School",
+    url: googleNewsSiteFeed(
+      "texasfootball.com",
+      '"high school football"'
+    ),
+    region: "Statewide",
+    type: "sports-specialty",
+    mode: "discovery",
+    forceSection: "State Sports",
+    sportDesk: "High School Football",
+    requiredSourceMatch: [
+      "Dave Campbell's Texas Football",
+      "Texas Football"
+    ]
+  },
+  {
+    name: "San Antonio Express-News High School Football",
+    url: googleNewsSiteFeed(
+      "expressnews.com",
+      '"high school football" Texas'
+    ),
+    region: "San Antonio / South Central Texas",
+    type: "sports-specialty",
+    mode: "discovery",
+    forceSection: "State Sports",
+    sportDesk: "High School Football",
+    requiredSourceMatch: [
+      "San Antonio Express-News",
+      "Express-News"
     ]
   }
 ];
@@ -770,6 +927,99 @@ const SPORTS_TERMS = [
   "recruiting class"
 ];
 
+const SPORTS_BLOCKED_TERMS = [
+  "claim profile",
+  "daily take",
+  "practice 12",
+  "fall camp",
+  "linebacker rotation",
+  "arkansas fall camp",
+  "auburn's biggest question",
+  "auburn progress",
+  "pittsburgh",
+  "wpial",
+  "cardinal sports news",
+  "alex byington",
+  "joseph hastings",
+  "lady raiders",
+  "basketball recruiting",
+  "sg malik olajuwon",
+  "transfer duke brennan commits to oklahoma",
+  "colorado practice",
+  "deion sanders at colorado",
+  "notre dame home football games"
+];
+
+const TEXAS_SPORTS_RELEVANCE_TERMS = [
+  "texas",
+  "cowboys",
+  "texans",
+  "astros",
+  "rangers",
+  "mavericks",
+  "mavs",
+  "rockets",
+  "spurs",
+  "longhorns",
+  "aggies",
+  "texas tech",
+  "red raiders",
+  "tcu",
+  "horned frogs",
+  "baylor",
+  "smu",
+  "mustangs",
+  "houston cougars",
+  "rice",
+  "utsa",
+  "utep",
+  "north texas",
+  "mean green",
+  "sam houston",
+  "texas state",
+  "high school football",
+  "uil",
+  "dfw",
+  "houston",
+  "san antonio",
+  "austin",
+  "el paso",
+  "lubbock",
+  "waco"
+];
+
+function sportsRelevanceCheck(title, description, source) {
+  const text =
+    `${title} ${description} ${source.name} ${source.sportDesk || ""}`
+      .toLowerCase();
+
+  if (
+    SPORTS_BLOCKED_TERMS.some(
+      term => text.includes(term)
+    )
+  ) {
+    return {
+      allowed: false,
+      reason: "blocked sports noise"
+    };
+  }
+
+  if (
+    !TEXAS_SPORTS_RELEVANCE_TERMS.some(
+      term => text.includes(term)
+    )
+  ) {
+    return {
+      allowed: false,
+      reason: "missing Texas sports relevance"
+    };
+  }
+
+  return {
+    allowed: true,
+    reason: ""
+  };
+}
 const FALSE_SPORT_TERMS = [
   "permian basin",
   "water",
@@ -1219,6 +1469,28 @@ function parseFeed(
       });
 
       continue;
+    }
+
+    if (
+      source.forceSection === "State Sports" ||
+      source.type === "sports-specialty"
+    ) {
+      const sportsCheck =
+        sportsRelevanceCheck(
+          title,
+          description,
+          source
+        );
+
+      if (!sportsCheck.allowed) {
+        rejected.push({
+          title,
+          reason:
+            sportsCheck.reason
+        });
+
+        continue;
+      }
     }
 
     if (
