@@ -234,6 +234,49 @@ const SOURCES = [
     forceSection: "State Sports",
     sportDesk: "College Football",
     requiredSourceMatch: ["On3"]
+  }  ,
+  {
+    name: "Houston Business Journal",
+    url: googleNewsSiteFeed(
+      "bizjournals.com/houston",
+      "business OR real estate OR energy OR technology OR jobs"
+    ),
+    region: "Houston / Gulf Coast",
+    type: "business-news",
+    mode: "discovery",
+    forceSection: "State Business",
+    requiredSourceMatch: [
+      "Houston Business Journal"
+    ]
+  },
+  {
+    name: "Austin Business Journal",
+    url: googleNewsSiteFeed(
+      "bizjournals.com/austin",
+      "business OR real estate OR technology OR jobs OR development"
+    ),
+    region: "Austin / Central Texas",
+    type: "business-news",
+    mode: "discovery",
+    forceSection: "State Business",
+    requiredSourceMatch: [
+      "Austin Business Journal"
+    ]
+  },
+  {
+    name: "El Paso Inc.",
+    url: googleNewsSiteFeed(
+      "elpasoinc.com",
+      "business OR economy OR real estate OR jobs OR development"
+    ),
+    region: "El Paso / West Texas",
+    type: "business-news",
+    mode: "discovery",
+    forceSection: "State Business",
+    requiredSourceMatch: [
+      "El Paso Inc.",
+      "El Paso Inc"
+    ]
   }
 ];
 

@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-08-19T19:40:40.751Z",
+  "checked_at": "2026-08-19T19:43:30.747Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 16,
+  "working_sources": 18,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -109,8 +109,9 @@
       "source": "On3 - Texas A&M Aggies",
       "region": "Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -147,6 +148,28 @@
     {
       "source": "On3 - Houston Cougars",
       "region": "Houston / Gulf Coast",
+      "mode": "discovery",
+      "status": "working",
+      "accepted": 6,
+      "firewall_rejected": 0
+    },
+    {
+      "source": "Houston Business Journal",
+      "region": "Houston / Gulf Coast",
+      "mode": "discovery",
+      "status": "failed",
+      "error": "no straight-news items accepted"
+    },
+    {
+      "source": "Austin Business Journal",
+      "region": "Austin / Central Texas",
+      "mode": "discovery",
+      "status": "failed",
+      "error": "no straight-news items accepted"
+    },
+    {
+      "source": "El Paso Inc.",
+      "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "working",
       "accepted": 6,
