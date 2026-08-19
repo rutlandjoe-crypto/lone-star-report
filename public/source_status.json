@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-08-19T19:34:27.552Z",
+  "checked_at": "2026-08-19T19:40:40.751Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 17,
+  "working_sources": 16,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -109,9 +109,8 @@
       "source": "On3 - Texas A&M Aggies",
       "region": "Central Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 6,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
