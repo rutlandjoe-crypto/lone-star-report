@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-20T14:07:58.482Z",
+  "checked_at": "2026-08-20T14:17:38.361Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -103,7 +103,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 5
+      "firewall_rejected": 4
     },
     {
       "source": "On3 - Texas A&M Aggies",
@@ -135,7 +135,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 15
+      "firewall_rejected": 14
     },
     {
       "source": "On3 - SMU Mustangs",
@@ -348,11 +348,6 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Three key areas to watch entering Week 3 of fall camp for the Texas offense",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
       "title": "Texas Fall Camp: Jonah Williams making major strides in scrimmage following shoulder surgery",
       "reason": "blocked sports noise"
     },
@@ -479,11 +474,6 @@
     {
       "source": "On3 - Baylor Bears",
       "title": "Captain Beeson Claim Profile",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Baylor Bears",
-      "title": "Ty Kimrey Claim Profile",
       "reason": "blocked sports noise"
     },
     {
@@ -824,6 +814,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Amazon set to expand drone delivery of lightweight packages to 500 US cities",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Lawsuit Challenges NH Student ID Voter Restriction",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mobile gold miners in eastern Congo complicate health workers' efforts to contain Ebola",
       "reason": "missing business relevance signal"
     }
   ]

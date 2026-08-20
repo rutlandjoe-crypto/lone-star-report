@@ -1,26 +1,28 @@
 {
   "platform": "GSR Lone Star Report",
-  "generated_at": "2026-08-20T14:07:58.529Z",
+  "generated_at": "2026-08-20T14:17:38.386Z",
   "editorial_standard": "Journalistic integrity is the No. 1 standard.",
   "editorial_firewall": "Opinion, editorial, commentary, columns, endorsements, letters, sponsored content and advertorial material are excluded.",
   "sourcing_policy": "Straight-news reporting from credible Texas newsrooms and approved Texas sports sources only.",
   "source_headline_policy": "Original source headlines are preserved.",
   "source_counts": {
+    "San Antonio Express-News Spurs Desk": 3,
+    "San Antonio Express-News": 4,
+    "Beaumont Enterprise": 4,
     "On3 - Baylor Bears": 4,
     "On3 - TCU Horned Frogs": 4,
-    "San Antonio Express-News Spurs Desk": 4,
-    "Beaumont Enterprise": 4,
+    "El Paso Times": 4,
     "On3 - SMU Mustangs": 2,
     "Houston Public Media": 4,
     "On3 - Texas Longhorns": 4,
     "On3 - Texas Tech Red Raiders": 3,
     "Beaumont Enterprise Business": 4,
-    "On3 - Texas A&M Aggies": 2,
-    "El Paso Times": 4,
-    "San Antonio Express-News High School Football": 3,
+    "On3 - Texas A&M Aggies": 3,
+    "San Antonio Express-News High School Football": 2,
     "Texas Public Radio": 4,
     "El Paso Matters": 1,
     "Houston Chronicle Texans Desk": 4,
+    "Austin American-Statesman": 2,
     "Fort Worth Star-Telegram Mavericks Desk": 1,
     "Houston Chronicle Rockets Desk": 2,
     "Houston Chronicle Business": 3,
@@ -30,26 +32,52 @@
     "The Texas Tribune": 1,
     "San Antonio Report": 1,
     "Fort Worth Star-Telegram Cowboys Desk": 3,
-    "San Antonio Express-News": 4,
     "Houston Chronicle Astros Desk": 4,
-    "Fort Worth Star-Telegram Rangers Desk": 1,
-    "Austin American-Statesman": 1
+    "Fort Worth Star-Telegram Rangers Desk": 1
   },
   "region_counts": {
+    "San Antonio / South Central Texas": 15,
+    "Southeast Texas / Beaumont": 8,
     "Central Texas / Waco": 4,
     "North Texas / DFW": 11,
-    "San Antonio / South Central Texas": 17,
-    "Southeast Texas / Beaumont": 8,
-    "Houston / Gulf Coast": 21,
-    "Austin / Central Texas": 7,
-    "West Texas / Lubbock": 3,
-    "Central Texas": 2,
     "El Paso / West Texas": 4,
+    "Houston / Gulf Coast": 21,
+    "Austin / Central Texas": 8,
+    "West Texas / Lubbock": 3,
+    "Central Texas": 3,
     "El Paso / Border": 1,
     "Statewide": 1,
     "San Antonio": 1
   },
   "homepage_cards": [
+    {
+      "headline": "Traffic alert: Loop 1604 and I-10 closing on Northwest Side this weekend - San Antonio Express-News",
+      "title": "Traffic alert: Loop 1604 and I-10 closing on Northwest Side this weekend - San Antonio Express-News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZl9RbmlXeWNha0NKc0oxRVEyUDAxTml2NVpibld2VUhFRXZpeWRxYkJiRXFUaTVGenBOdUgtMEZVT0dsS1YxNmtrdkxxYXEzNXZOeFJib0F6SEk4Y01nWmNZb0RiX1BFVUpPUlRVQnB6NWtBRWFYYnF2TjFZNjg0QVpRVExoMzlmX2dlNFBYd1hSbGVk?oc=5",
+      "source": "San Antonio Express-News",
+      "source_attribution": "San Antonio Express-News",
+      "source_type": "straight-news",
+      "region": "San Antonio / South Central Texas",
+      "published_at": "Thu, 20 Aug 2026 14:10:28 GMT",
+      "section": "State News",
+      "sport_desk": null,
+      "ingestion_mode": "discovery",
+      "editorial_firewall": "passed"
+    },
+    {
+      "headline": "Talarico adds Cornyn aide, broadens Texas US Senate race appeal",
+      "title": "Talarico adds Cornyn aide, broadens Texas US Senate race appeal",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVWxYNks0dDFGU0JjeWI2d0hGVFdTV0IwZ01hRENUVWtnS2lSQ013ZWhwMmUtbWt3R29NMGc1aTVmQVJfNjdXMWZJN0Zabk1wak5kNDFkNjZYMk0yeF9nczR6UDZQSERFLWZmSnBzM0ZiME5NNWhhQ2VvdEhUWGZHRHpXZURpa28xcWdIM2UwbWl6V25wbjMtb09Vb25mS21WTFVoWkRKZk5CaHhvVzJ3TFlMbmRRT2MwV3RJZjlWMHgyWVh1OGpnU3o0aHd3NENWQlVmM1NBQ2JRN0lEVVVTbXlB?oc=5",
+      "source": "El Paso Times",
+      "source_attribution": "El Paso Times",
+      "source_type": "straight-news",
+      "region": "El Paso / West Texas",
+      "published_at": "Thu, 20 Aug 2026 14:00:00 GMT",
+      "section": "State Politics",
+      "sport_desk": null,
+      "ingestion_mode": "discovery",
+      "editorial_firewall": "passed"
+    },
     {
       "headline": "Opponents of Big Bend border construction take protest to the Texas Parks and Wildlife Commission",
       "title": "Opponents of Big Bend border construction take protest to the Texas Parks and Wildlife Commission",
@@ -118,6 +146,20 @@
       "section": "State News",
       "sport_desk": null,
       "ingestion_mode": "direct",
+      "editorial_firewall": "passed"
+    },
+    {
+      "headline": "Cryogeyser - Austin American-Statesman",
+      "title": "Cryogeyser - Austin American-Statesman",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU2t5b2hUYTVlelFyRFRfSzQzdFNkTVdxT0tLVTVqQUhyeTFiQURVMUVELTQ1SXlfMFlqOEEwVGZ2SGNtaEZUY3pMd1BBRDZrOC1OZWlsMDhtRnBEVXpoaEp1cXJ5MVJZNWVzZWU4TlJJZUViUlRxdWhzcW9rTWZ3TmI1cVYyVnJEdzFONHdtU29tM2d1T2ZXd3UwQVk5UQ?oc=5",
+      "source": "Austin American-Statesman",
+      "source_attribution": "Austin American-Statesman",
+      "source_type": "straight-news",
+      "region": "Austin / Central Texas",
+      "published_at": "Thu, 20 Aug 2026 12:07:04 GMT",
+      "section": "State News",
+      "sport_desk": null,
+      "ingestion_mode": "discovery",
       "editorial_firewall": "passed"
     },
     {
@@ -261,20 +303,6 @@
       "editorial_firewall": "passed"
     },
     {
-      "headline": "ICC slams US decision to sanction the court's president and a senior prosecution lawyer - San Antonio Express-News",
-      "title": "ICC slams US decision to sanction the court's president and a senior prosecution lawyer - San Antonio Express-News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMnA0S0VrY0xQY09mMWdHamJTWTZMZHY5dlNkWDlWeUh0WXJKRTc2eE4teWRjM3R0MUpnXy1yV09wOXNxcnYwM2JzZWtUSVVTMjZibHQyLUJiMnlpMzFtMWhMSU1tZVRFM2RXN1FLa0NRUTkwMkxkUndSaU5iRUljbXQ3cmd6akM5c2tlM2pmMDRNOGx3eURWWG8tb1FDdkpWUkp1WENvV1E?oc=5",
-      "source": "San Antonio Express-News",
-      "source_attribution": "San Antonio Express-News",
-      "source_type": "straight-news",
-      "region": "San Antonio / South Central Texas",
-      "published_at": "Thu, 20 Aug 2026 07:07:04 GMT",
-      "section": "State News",
-      "sport_desk": null,
-      "ingestion_mode": "discovery",
-      "editorial_firewall": "passed"
-    },
-    {
       "headline": "Astros match a 60-year-old record by using a 17th starter in a season. Ethan Pecko is the latest",
       "title": "Astros match a 60-year-old record by using a 17th starter in a season. Ethan Pecko is the latest",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYkVnVHV2Sm95eHViUUJWUXFMU1E0YU43ajRfMVVGbmJxeXB6REdaYjB1UDl0N1BfZWpocGJoOF9BUUxrbGo5Rzl6bzJoelVQTTkxNkUzVGQ2WWJEblIwbzJyX0RncjV1MXNFMUZwekYydzRyZEg1VWNZOEQ0N3BycUlHSHZHRHlkZGpTN00zRzl1Q19kVE5J?oc=5",
@@ -334,6 +362,20 @@
   "sections": {
     "State News": [
       {
+        "headline": "Traffic alert: Loop 1604 and I-10 closing on Northwest Side this weekend - San Antonio Express-News",
+        "title": "Traffic alert: Loop 1604 and I-10 closing on Northwest Side this weekend - San Antonio Express-News",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZl9RbmlXeWNha0NKc0oxRVEyUDAxTml2NVpibld2VUhFRXZpeWRxYkJiRXFUaTVGenBOdUgtMEZVT0dsS1YxNmtrdkxxYXEzNXZOeFJib0F6SEk4Y01nWmNZb0RiX1BFVUpPUlRVQnB6NWtBRWFYYnF2TjFZNjg0QVpRVExoMzlmX2dlNFBYd1hSbGVk?oc=5",
+        "source": "San Antonio Express-News",
+        "source_attribution": "San Antonio Express-News",
+        "source_type": "straight-news",
+        "region": "San Antonio / South Central Texas",
+        "published_at": "Thu, 20 Aug 2026 14:10:28 GMT",
+        "section": "State News",
+        "sport_desk": null,
+        "ingestion_mode": "discovery",
+        "editorial_firewall": "passed"
+      },
+      {
         "headline": "TCEQ probe starts as El Paso Marathon pollution estimate soars",
         "title": "TCEQ probe starts as El Paso Marathon pollution estimate soars",
         "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSEZVUWZSWVB3cEFycjF6RE9SRnluQWZQOWYyWlJsWEFQa3hGLUw0djM5Vk4yQlB4eTdHMU1FWWZxYlNFNTlmVUNxMXU4UzhUM2tXRkFrRnBFTk91WUpYS0RrN0tHMXdoRDNZc2ZCWHBrSlQ2YV9pWkkyMHpCVjFobkhzMFJ4U01ad2IxeVhUT01Fb2pCOEQ4RTVFS1UyaWJMdDNuTEw0OFRUX2ttQjBmWjd1OWlSRFhtTm9GNGlrYjAteWg2OHI3RElYT1k2b0hyTFM3REtfd0p6Ym9ieVc1eElmVHBBSlg2b3RqTTFkSjNtSWtxQ2NKNEJR?oc=5",
@@ -373,6 +415,20 @@
         "section": "State News",
         "sport_desk": null,
         "ingestion_mode": "direct",
+        "editorial_firewall": "passed"
+      },
+      {
+        "headline": "Cryogeyser - Austin American-Statesman",
+        "title": "Cryogeyser - Austin American-Statesman",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU2t5b2hUYTVlelFyRFRfSzQzdFNkTVdxT0tLVTVqQUhyeTFiQURVMUVELTQ1SXlfMFlqOEEwVGZ2SGNtaEZUY3pMd1BBRDZrOC1OZWlsMDhtRnBEVXpoaEp1cXJ5MVJZNWVzZWU4TlJJZUViUlRxdWhzcW9rTWZ3TmI1cVYyVnJEdzFONHdtU29tM2d1T2ZXd3UwQVk5UQ?oc=5",
+        "source": "Austin American-Statesman",
+        "source_attribution": "Austin American-Statesman",
+        "source_type": "straight-news",
+        "region": "Austin / Central Texas",
+        "published_at": "Thu, 20 Aug 2026 12:07:04 GMT",
+        "section": "State News",
+        "sport_desk": null,
+        "ingestion_mode": "discovery",
         "editorial_firewall": "passed"
       },
       {
@@ -446,20 +502,6 @@
         "editorial_firewall": "passed"
       },
       {
-        "headline": "ICC slams US decision to sanction the court's president and a senior prosecution lawyer - San Antonio Express-News",
-        "title": "ICC slams US decision to sanction the court's president and a senior prosecution lawyer - San Antonio Express-News",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMnA0S0VrY0xQY09mMWdHamJTWTZMZHY5dlNkWDlWeUh0WXJKRTc2eE4teWRjM3R0MUpnXy1yV09wOXNxcnYwM2JzZWtUSVVTMjZibHQyLUJiMnlpMzFtMWhMSU1tZVRFM2RXN1FLa0NRUTkwMkxkUndSaU5iRUljbXQ3cmd6akM5c2tlM2pmMDRNOGx3eURWWG8tb1FDdkpWUkp1WENvV1E?oc=5",
-        "source": "San Antonio Express-News",
-        "source_attribution": "San Antonio Express-News",
-        "source_type": "straight-news",
-        "region": "San Antonio / South Central Texas",
-        "published_at": "Thu, 20 Aug 2026 07:07:04 GMT",
-        "section": "State News",
-        "sport_desk": null,
-        "ingestion_mode": "discovery",
-        "editorial_firewall": "passed"
-      },
-      {
         "headline": "San Antonio’s first crisis nursery opens with a collaborative ‘Puro San Antonio’ model",
         "title": "San Antonio’s first crisis nursery opens with a collaborative ‘Puro San Antonio’ model",
         "url": "https://www.tpr.org/news/2026-08-19/san-antonios-first-crisis-nursery-opens-with-a-collaborative-puro-san-antonio-model",
@@ -475,6 +517,20 @@
       }
     ],
     "State Politics": [
+      {
+        "headline": "Talarico adds Cornyn aide, broadens Texas US Senate race appeal",
+        "title": "Talarico adds Cornyn aide, broadens Texas US Senate race appeal",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVWxYNks0dDFGU0JjeWI2d0hGVFdTV0IwZ01hRENUVWtnS2lSQ013ZWhwMmUtbWt3R29NMGc1aTVmQVJfNjdXMWZJN0Zabk1wak5kNDFkNjZYMk0yeF9nczR6UDZQSERFLWZmSnBzM0ZiME5NNWhhQ2VvdEhUWGZHRHpXZURpa28xcWdIM2UwbWl6V25wbjMtb09Vb25mS21WTFVoWkRKZk5CaHhvVzJ3TFlMbmRRT2MwV3RJZjlWMHgyWVh1OGpnU3o0aHd3NENWQlVmM1NBQ2JRN0lEVVVTbXlB?oc=5",
+        "source": "El Paso Times",
+        "source_attribution": "El Paso Times",
+        "source_type": "straight-news",
+        "region": "El Paso / West Texas",
+        "published_at": "Thu, 20 Aug 2026 14:00:00 GMT",
+        "section": "State Politics",
+        "sport_desk": null,
+        "ingestion_mode": "discovery",
+        "editorial_firewall": "passed"
+      },
       {
         "headline": "Lt. Gov. Dan Patrick proposes penalties for schools that keep “vulgar” books on library shelves",
         "title": "Lt. Gov. Dan Patrick proposes penalties for schools that keep “vulgar” books on library shelves",
