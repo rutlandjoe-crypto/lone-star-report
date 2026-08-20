@@ -113,14 +113,83 @@ const politicsSignals = [
   "election",
   "campaign",
   "ballot",
-  "wn",
+  "voters",
+  "republican",
+  "democrat",
+  "abbott",
+  "patrick",
+  "paxton",
+  "state government",
+  "bill",
+  "law",
+  "school district",
+  "state board"
+];
+
+const nflSignals = [
+  "dallas cowboys",
+  "cowboys",
+  "houston texans"
+];
+
+const mlbSignals = [
+  "houston astros",
+  "astros",
+  "texas rangers"
+];
+
+const nbaSignals = [
+  "san antonio spurs",
+  "spurs",
+  "wembanyama",
+  "wemby",
+  "dallas mavericks",
+  "mavericks",
+  "mavs",
+  "houston rockets"
+];
+
+const collegeTeams = [
+  "texas longhorns",
+  "longhorns",
+  "texas a&m",
+  "aggies",
+  "texas tech",
+  "red raiders",
+  "tcu",
+  "horned frogs",
+  "baylor",
+  "smu",
+  "mustangs",
+  "houston cougars",
+  "rice owls",
+  "utsa",
+  "utep",
+  "north texas",
+  "mean green",
+  "sam houston",
+  "texas state"
+];
+
+const footballSignals = [
+  "football",
+  "quarterback",
+  "qb",
+  "wide receiver",
+  "receiver",
+  "running back",
+  "linebacker",
+  "defensive back",
+  "defensive end",
+  "offensive line",
+  "edge rusher",
+  "touchdown",
   "recruit",
   "commit",
   "transfer portal",
   "kickoff",
   "playoff"
 ];
-
 function textOf(story) {
   return [
     story.headline,
