@@ -7,7 +7,7 @@
                     "build":  "next build",
                     "start":  "next start",
                     "lint":  "eslint",
-                    "fetch:texas":  "node scripts/fetch-texas-news.js",
+                    "fetch:texas":  "node scripts/fetch-texas-news.js \u0026\u0026 node scripts/filter-texas-editorial.js",
                     "fetch:weather":  "node scripts/fetch-texas-weather.js"
                 },
     "dependencies":  {
