@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T10:40:00.673Z",
+  "checked_at": "2026-08-23T11:34:56.473Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 16
+      "firewall_rejected": 15
     },
     {
       "source": "Texas Comptroller",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 90
+      "firewall_rejected": 91
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 77
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 65
+      "firewall_rejected": 68
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 70
     },
     {
       "source": "Dallas Morning News Business",
@@ -343,17 +343,17 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
+      "title": "Texas A&M football fall camp intel: Insider notes from 14th preseason practice for Aggies",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
       "title": "Texas A&M football mid-fall camp depth chart projection: Special teams",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
       "title": "Texas A&M fall camp intel: What we're hearing from the Aggies' preseason (Defense)",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M football fall camp intel: Insider notes from 14th preseason practice for Aggies",
       "reason": "blocked sports noise"
     },
     {
@@ -404,11 +404,6 @@
     {
       "source": "El Paso Inc.",
       "title": "Raiz opens applications for professional educator grants",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Longboat Key Roofing Completes Ownership Transition Under James Peel",
       "reason": "missing business relevance signal"
     },
     {
@@ -513,17 +508,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "America’s affordability crisis hits Texas cities, forcing budget cuts",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas court cuts $43M from Infowars' Alex Jones over Sandy Hook lies",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Greg Abbott's ads are everywhere. How Gina Hinojosa is planning to fight back",
       "reason": "missing business relevance signal"
     },
     {
@@ -553,17 +538,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Tank Dell's forgiveness helped Jared Wayne play his best for the Texans",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "UT's Steve Sarkisian on Ty'Anthony Smith and 'inefficient' Arch Manning",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Why a Houston megachurch in The Woodlands sells goods from over 30 countries",
       "reason": "missing business relevance signal"
     },
     {
@@ -578,12 +553,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump is coming to Houston to honor astronauts at Johnson Space Center",
+      "title": "Greg Abbott’s data center audit won’t be done before the election",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Greg Abbott’s data center audit won’t be done before the election",
+      "title": "Trump is coming to Houston to honor astronauts at Johnson Space Center",
       "reason": "missing business relevance signal"
     },
     {
@@ -609,6 +584,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "James Harden agrees to 3-year, $97-million contract to remain with Cavaliers, AP sources say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston attorney Tony Buzbee buys $15.5M River Oaks mansion just to tear it down",
       "reason": "missing business relevance signal"
     },
     {
@@ -708,6 +688,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Exclusive: FCC singled out ABC13 over James Talarico interview, lawsuit says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Florida shows how to adapt as coastal cities face growing threats from sea level rise and storms",
       "reason": "missing business relevance signal"
     },
@@ -778,6 +763,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Who needs day care at midnight? More Houston parents than you might think.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
       "reason": "missing business relevance signal"
     },
@@ -824,6 +814,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Antoine Griezmann scores 2 goals, Orlando City beats Real Salt Lake 2-1",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A's Las Vegas stadium takes shape as a second steel truss arch rises on the Strip",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Orlando City hosts Real Salt Lake in non-conference matchup",
       "reason": "missing business relevance signal"
     }
   ]
