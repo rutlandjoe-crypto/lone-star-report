@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T11:34:56.473Z",
+  "checked_at": "2026-08-23T13:02:21.619Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 15
+      "firewall_rejected": 16
     },
     {
       "source": "Texas Comptroller",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 77
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 68
+      "firewall_rejected": 72
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 70
+      "firewall_rejected": 72
     },
     {
       "source": "Dallas Morning News Business",
@@ -333,12 +333,12 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Simmons, Coleman and Littleton Reveal the Latest From Texas Fall Camp",
+      "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
+      "title": "Simmons, Coleman and Littleton Reveal the Latest From Texas Fall Camp",
       "reason": "blocked sports noise"
     },
     {
@@ -404,6 +404,11 @@
     {
       "source": "El Paso Inc.",
       "title": "Raiz opens applications for professional educator grants",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Longboat Key Roofing Completes Ownership Transition Under James Peel",
       "reason": "missing business relevance signal"
     },
     {
@@ -558,11 +563,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump is coming to Houston to honor astronauts at Johnson Space Center",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Man accused in Harris County deputy's death denied bail after surprise drug test",
       "reason": "missing business relevance signal"
     },
@@ -643,12 +643,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Meta defends its child safety efforts but critics say the social media giant falls short",
+      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
+      "title": "Meta defends its child safety efforts but critics say the social media giant falls short",
       "reason": "missing business relevance signal"
     },
     {
@@ -728,6 +728,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Brewers' Brandon Woodruff says he won't need to undergo shoulder surgery",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Philanthropist Nancy Kissinger, wife of former Secretary of State Henry Kissinger, dies at 92",
       "reason": "missing business relevance signal"
     },
@@ -739,11 +744,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Vikings receivers savor tips from Randy Moss, get stiff tests from Ravens defense at joint practices",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Brewers' Brandon Woodruff says he won't need to undergo shoulder surgery",
       "reason": "missing business relevance signal"
     },
     {
