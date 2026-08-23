@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T13:45:44.254Z",
+  "checked_at": "2026-08-23T14:38:52.047Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -143,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - Houston Cougars",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 77
+      "firewall_rejected": 78
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 77
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 74
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 72
+      "firewall_rejected": 71
     },
     {
       "source": "Dallas Morning News Business",
@@ -393,17 +393,7 @@
     },
     {
       "source": "On3 - SMU Mustangs",
-      "title": "EXTENDED: OSI Fall Camp deal - just $2.50 a month your first year!",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - SMU Mustangs",
       "title": "The ACC's Identity Crisis - Daily Take",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - SMU Mustangs",
-      "title": "All-Access AM: ACC Fall Camp Intel, QB Rankings",
       "reason": "blocked sports noise"
     },
     {
@@ -568,6 +558,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How long will Houston stay this hot? Here's what weather models say.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Greg Abbott’s data center audit won’t be done before the election",
       "reason": "missing business relevance signal"
     },
@@ -583,7 +578,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Why Jeremy Peña opted against going for go-ahead runner late in Astros' loss",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Vietnamese restaurant Huynh just opened a new location",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Bullpen letdown dooms Astros in loss to A's with chance to add to AL West lead",
       "reason": "missing business relevance signal"
     },
     {
@@ -648,11 +653,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Meta defends its child safety efforts but critics say the social media giant falls short",
       "reason": "missing business relevance signal"
     },
@@ -684,6 +684,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "As workplace surveillance grows, experts say it's good to know the ways your employer is watching",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
       "reason": "missing business relevance signal"
     },
     {
@@ -748,6 +753,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Who needs day care at midnight? More Houston parents than you might think.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Fernando Mendoza has plenty of experience to rely on in Raiders quarterbacks room",
       "reason": "missing business relevance signal"
     },
@@ -759,11 +769,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Harris County pays constables to enforce evictions. Why not pay to prevent them?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Who needs day care at midnight? More Houston parents than you might think.",
       "reason": "missing business relevance signal"
     },
     {
@@ -819,11 +824,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "A's Las Vegas stadium takes shape as a second steel truss arch rises on the Strip",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Orlando City hosts Real Salt Lake in non-conference matchup",
       "reason": "missing business relevance signal"
     }
   ]
