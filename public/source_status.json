@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T14:38:52.047Z",
+  "checked_at": "2026-08-23T15:36:02.348Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - Baylor Bears",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 80
     },
     {
       "source": "Austin American-Statesman Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 77
+      "firewall_rejected": 78
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 74
+      "firewall_rejected": 75
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 71
+      "firewall_rejected": 70
     },
     {
       "source": "Dallas Morning News Business",
@@ -367,6 +367,11 @@
       "reason": "blocked sports noise"
     },
     {
+      "source": "On3 - Texas Tech Red Raiders",
+      "title": "Texas Tech fall camp: Joey McGuire reacts to second scrimmage",
+      "reason": "blocked sports noise"
+    },
+    {
       "source": "On3 - TCU Horned Frogs",
       "title": "11 Personnel: Kentucky Moves to Week Zero, SEC Fall Camp Buzz",
       "reason": "blocked sports noise"
@@ -374,11 +379,6 @@
     {
       "source": "On3 - TCU Horned Frogs",
       "title": "The ACC's Identity Crisis - Daily Take",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "Four-star South Carolina basketball recruiting target trims list",
       "reason": "blocked sports noise"
     },
     {
@@ -503,11 +503,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas court cuts $43M from Infowars' Alex Jones over Sandy Hook lies",
       "reason": "missing business relevance signal"
     },
@@ -558,12 +553,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "How long will Houston stay this hot? Here's what weather models say.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Greg Abbott’s data center audit won’t be done before the election",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Pep talk to pitching change: Astros' Joe Espada accidentally makes his point, Hunter Brown departs",
       "reason": "missing business relevance signal"
     },
     {
@@ -579,11 +584,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Why Jeremy Peña opted against going for go-ahead runner late in Astros' loss",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Vietnamese restaurant Huynh just opened a new location",
       "reason": "missing business relevance signal"
     },
     {
@@ -649,11 +649,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Alfalfa sprout linked to food-poisoning outbreak in 15 states, health officials say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Meta defends its child safety efforts but critics say the social media giant falls short",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,6 +819,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "A's Las Vegas stadium takes shape as a second steel truss arch rises on the Strip",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Orlando City hosts Real Salt Lake in non-conference matchup",
       "reason": "missing business relevance signal"
     }
   ]
