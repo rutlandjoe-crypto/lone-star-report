@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T20:39:25.903Z",
+  "checked_at": "2026-08-23T21:35:56.169Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 8
+      "firewall_rejected": 10
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 5
+      "firewall_rejected": 6
     },
     {
       "source": "On3 - Baylor Bears",
@@ -135,7 +135,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - SMU Mustangs",
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 3,
-      "firewall_rejected": 9
+      "firewall_rejected": 7
     },
     {
       "source": "Texas Comptroller",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 83
     },
     {
       "source": "Austin American-Statesman Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 84
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 76
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 61
+      "firewall_rejected": 60
     },
     {
       "source": "Dallas Morning News Business",
@@ -333,12 +333,12 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Simmons, Coleman and Littleton Reveal the Latest From Texas Fall Camp",
+      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
+      "title": "Simmons, Coleman and Littleton Reveal the Latest From Texas Fall Camp",
       "reason": "blocked sports noise"
     },
     {
@@ -348,7 +348,7 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
+      "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
       "reason": "blocked sports noise"
     },
     {
@@ -363,7 +363,17 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
+      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
       "title": "Joseph Hastings",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Texas A&M football mid-fall camp depth chart projection: Offense",
       "reason": "blocked sports noise"
     },
     {
@@ -383,17 +393,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
+      "title": "Texas A&M fall camp intel: 5 freshmen who have impressed, could play immediately",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
       "title": "Cardinal Sports News | On3.com",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Tech Red Raiders",
-      "title": "LSU fall camp intel: Sam Leavitt reviews, a young 'force' on defense and more",
       "reason": "blocked sports noise"
     },
     {
@@ -408,7 +413,12 @@
     },
     {
       "source": "On3 - TCU Horned Frogs",
-      "title": "Mizzou football receiver Donovan Olugbode and corner Chris Graves meet with media to wrap up fall camp",
+      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - TCU Horned Frogs",
+      "title": "Report: Pittsburgh Steelers plan to carry both Will Howard and Drew Allar on 53-man roster",
       "reason": "blocked sports noise"
     },
     {
@@ -427,11 +437,6 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - Baylor Bears",
-      "title": "WATCH: Tight ends following Day 13 of Fall Camp",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - SMU Mustangs",
       "title": "SMU fall camp intel: Key Mustangs return to practice",
       "reason": "blocked sports noise"
@@ -440,11 +445,6 @@
       "source": "On3 - SMU Mustangs",
       "title": "The ACC's Identity Crisis - Daily Take",
       "reason": "blocked sports noise"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Longboat Key Roofing Completes Ownership Transition Under James Peel",
-      "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
@@ -479,11 +479,6 @@
     {
       "source": "El Paso Inc.",
       "title": "Wine (S)talks: A sparkling Moscato with a feline flair from Zin Valle",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Near-gridlocked El Paso City Council OKs tax increase",
       "reason": "missing business relevance signal"
     },
     {
@@ -568,12 +563,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Child dies when pickup collides with Harris County Sheriff's Office SUV",
+      "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
+      "title": "Child dies when pickup collides with Harris County Sheriff's Office SUV",
       "reason": "missing business relevance signal"
     },
     {
@@ -599,11 +594,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Rent from one of these Houston landlords? You may be owed money after $360M deal",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Investigators examining foes of Trump seek interviews related to Mar-a-Lago search, AP sources say",
       "reason": "missing business relevance signal"
     },
     {
@@ -658,17 +648,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Harvard agrees to $53 million settlement over body parts stolen and sold by former morgue manager",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "What to know about Alex Jones' Texas court win and more than $1 billion in damages he still faces",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,6 +814,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "A moderate earthquake shakes Japan, injuring more than 30 people in the Tokyo region",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Federal court is asked to block Kennedy Center from returning Trump's name to building",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston-area man sentenced to federal prison over fatal shooting of bald eagle",
       "reason": "missing business relevance signal"
     }
   ]
