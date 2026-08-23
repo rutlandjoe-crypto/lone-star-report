@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T03:15:10.631Z",
+  "checked_at": "2026-08-23T04:03:02.652Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 3
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 5
+      "firewall_rejected": 3
     },
     {
       "source": "On3 - Baylor Bears",
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 16
+      "firewall_rejected": 17
     },
     {
       "source": "Texas Comptroller",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 77
+      "firewall_rejected": 78
     },
     {
       "source": "Austin American-Statesman Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 61
+      "firewall_rejected": 62
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 77
     },
     {
       "source": "Dallas Morning News Business",
@@ -357,11 +357,6 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Cardinal Sports News | On3.com",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - Texas Tech Red Raiders",
       "title": "LSU fall camp intel: Sam Leavitt reviews, a young 'force' on defense and more",
       "reason": "blocked sports noise"
@@ -378,17 +373,7 @@
     },
     {
       "source": "On3 - TCU Horned Frogs",
-      "title": "GoldandBlack.com video: Purdue RB coach Cornell Ford, players at fall camp",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
       "title": "11 Personnel: Kentucky Moves to Week Zero, SEC Fall Camp Buzz",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "DEAL EXTENDED! Join The Wolverine for 75% off during fall camp",
       "reason": "blocked sports noise"
     },
     {
@@ -424,6 +409,11 @@
     {
       "source": "El Paso Inc.",
       "title": "Raiz opens applications for professional educator grants",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Longboat Key Roofing Completes Ownership Transition Under James Peel",
       "reason": "missing business relevance signal"
     },
     {
@@ -583,6 +573,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "UT's Steve Sarkisian on Ty'Anthony Smith and 'inefficient' Arch Manning",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Why a Houston megachurch in The Woodlands sells goods from over 30 countries",
       "reason": "missing business relevance signal"
     },
@@ -598,11 +593,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UT's Steve Sarkisian on Ty'Anthony Smith and 'inefficient' Arch Manning",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston's Nneka Ogwumike announces plans to retire after WNBA season with Los Angeles Sparks",
       "reason": "missing business relevance signal"
     },
@@ -613,12 +603,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Greg Abbott’s data center audit won’t be done before the election",
+      "title": "Man accused in Harris County deputy's death denied bail after surprise drug test",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Man accused in Harris County deputy's death denied bail after surprise drug test",
+      "title": "Greg Abbott’s data center audit won’t be done before the election",
       "reason": "missing business relevance signal"
     },
     {
@@ -668,6 +658,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "From rural routes to desegregation runs, the yellow school bus faces a new reality",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "US is set to impose 50% tariffs on $20 billion worth of Canadian products",
       "reason": "missing business relevance signal"
     },
@@ -678,22 +673,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "From rural routes to desegregation runs, the yellow school bus faces a new reality",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "TikTok reaches $400 million settlement with US Justice Department over children's privacy",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Meta defends its child safety efforts but critics say the social media giant falls short",
+      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
+      "title": "Meta defends its child safety efforts but critics say the social media giant falls short",
       "reason": "missing business relevance signal"
     },
     {
@@ -748,11 +738,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "La Marque Mayor Keith Bell accused of indecent exposure, police say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Takeaways from a story on the US, Australia and others turning to Brazil for rare earth minerals",
       "reason": "missing business relevance signal"
     },
@@ -768,7 +753,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Brewers' Brandon Woodruff says he won't need to undergo shoulder surgery",
+      "title": "La Marque Mayor Keith Bell accused of indecent exposure, police say",
       "reason": "missing business relevance signal"
     },
     {
@@ -779,6 +764,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Vikings receivers savor tips from Randy Moss, get stiff tests from Ravens defense at joint practices",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Brewers' Brandon Woodruff says he won't need to undergo shoulder surgery",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,6 +814,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "A question looms over Harry's return to the UK. Can he rebuild his relationship with Prince William?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Inside Trump's remake of the White House Rose Garden. First a stone patio, then statues",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'Colony' from 'Train to Busan' director isn't quite as wild a ride",
       "reason": "missing business relevance signal"
     }
   ]
