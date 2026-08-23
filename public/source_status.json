@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T22:37:35.954Z",
+  "checked_at": "2026-08-23T23:35:44.886Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 5
+      "firewall_rejected": 6
     },
     {
       "source": "On3 - Baylor Bears",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 82
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 93
+      "firewall_rejected": 92
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 86
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 77
     },
     {
       "source": "El Paso Times Business",
@@ -403,6 +403,11 @@
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
+      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Tech fall camp: Joey McGuire reacts to second scrimmage",
       "reason": "blocked sports noise"
     },
@@ -423,6 +428,11 @@
     },
     {
       "source": "On3 - TCU Horned Frogs",
+      "title": "UCLA Football Fall Camp Central",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - TCU Horned Frogs",
       "title": "Mizzou football coach Eliah Drinkwitz wraps up fall camp",
       "reason": "blocked sports noise"
     },
@@ -438,13 +448,13 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "TimeTailor Salon Software Joins Beauty Professionals in Norway",
-      "reason": "blocked non-business or soft-content term"
+      "title": "Meet EPISD’s new board trustees",
+      "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
-      "title": "Meet EPISD’s new board trustees",
-      "reason": "missing business relevance signal"
+      "title": "TimeTailor Salon Software Joins Beauty Professionals in Norway",
+      "reason": "blocked non-business or soft-content term"
     },
     {
       "source": "El Paso Inc.",
@@ -483,11 +493,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "35 troopers may be laid off in The Woodlands as 32-year mounted patrol deal ends",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas court cuts $43M from Infowars' Alex Jones over Sandy Hook lies",
       "reason": "missing business relevance signal"
     },
@@ -518,6 +523,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "UT's Steve Sarkisian on Ty'Anthony Smith and 'inefficient' Arch Manning",
       "reason": "missing business relevance signal"
     },
@@ -533,17 +543,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Child dies when pickup collides with Harris County Sheriff's Office SUV",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
       "reason": "missing business relevance signal"
     },
     {
@@ -613,11 +613,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harvard agrees to $53 million settlement over body parts stolen and sold by former morgue manager",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "What to know about Alex Jones' Texas court win and more than $1 billion in damages he still faces",
       "reason": "missing business relevance signal"
     },
@@ -649,11 +644,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Philanthropist Nancy Kissinger, wife of former Secretary of State Henry Kissinger, dies at 92",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Vikings receivers savor tips from Randy Moss, get stiff tests from Ravens defense at joint practices",
       "reason": "missing business relevance signal"
     },
     {
@@ -748,12 +738,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston woman says she was raped in Vietnam, as authorities near Hanoi charge 23-year-old man",
+      "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Arthouse Houston says it needs $1.3 million more to save Garden Oaks Theater",
+      "title": "Houston woman says she was raped in Vietnam, as authorities near Hanoi charge 23-year-old man",
       "reason": "missing business relevance signal"
     },
     {
@@ -763,17 +753,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Federal court is asked to block Kennedy Center from returning Trump's name to building",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston-area man sentenced to federal prison over fatal shooting of bald eagle",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houstonian Lyle Lovett stars in new Texas A&M campaign. Here is how to watch.",
       "reason": "missing business relevance signal"
     },
     {
@@ -783,17 +763,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houstonian Lyle Lovett stars in new Texas A&M campaign. Here is how to watch.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Cologne convinces teenage star Said El Mala to stay and gives him prestigious No. 10",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Mourinho has winning start at Madrid, Inter cruises and Man United loses",
+      "title": "Tropical Storm Moke carrying more rain toward hurricane-damaged Hawaii",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Tropical Storm Moke carrying more rain toward hurricane-damaged Hawaii",
+      "title": "Mourinho has winning start at Madrid, Inter cruises and Man United loses",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,6 +809,21 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Early Motown songwriter Janie Bradford Hobbs dies in Los Angeles after illness at age 87",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Powerful storm hits Baltic countries, killing 2 and leaving hundreds of thousands without power",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Federal court is asked to block Kennedy Center from returning Trump's name to building",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Whataburger expected to replace a Taco Cabana near the Heights",
       "reason": "missing business relevance signal"
     }
   ]
