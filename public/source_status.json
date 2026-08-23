@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-08-23T07:01:09.765Z",
+  "checked_at": "2026-08-23T07:47:31.894Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 33,
+  "working_sources": 34,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -143,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - Houston Cougars",
@@ -173,14 +173,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 15
+      "firewall_rejected": 16
     },
     {
       "source": "Texas Comptroller",
       "region": "Statewide",
       "mode": "direct",
-      "status": "failed",
-      "error": "HTTP 503"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Dallas Fed Economic Updates",
@@ -212,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 90
+      "firewall_rejected": 89
     },
     {
       "source": "San Antonio Express-News Business",
@@ -220,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 75
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -228,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 64
+      "firewall_rejected": 63
     },
     {
       "source": "El Paso Times Business",
@@ -366,11 +367,6 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - Texas Tech Red Raiders",
-      "title": "DeAndre Harper impressed in fall camp and will get playing time",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - TCU Horned Frogs",
       "title": "11 Personnel: Kentucky Moves to Week Zero, SEC Fall Camp Buzz",
       "reason": "blocked sports noise"
@@ -401,13 +397,13 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - SMU Mustangs",
-      "title": "The ACC's Identity Crisis - Daily Take",
-      "reason": "blocked sports noise"
+      "source": "El Paso Inc.",
+      "title": "Raiz opens applications for professional educator grants",
+      "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
-      "title": "Raiz opens applications for professional educator grants",
+      "title": "Longboat Key Roofing Completes Ownership Transition Under James Peel",
       "reason": "missing business relevance signal"
     },
     {
@@ -742,12 +738,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Kansas City city council approves $600 million commitment to build a new stadium for the Royals",
+      "title": "La Marque Mayor Keith Bell accused of indecent exposure, police say",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "La Marque Mayor Keith Bell accused of indecent exposure, police say",
+      "title": "Kansas City city council approves $600 million commitment to build a new stadium for the Royals",
       "reason": "missing business relevance signal"
     },
     {
@@ -763,6 +759,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Vikings receivers savor tips from Randy Moss, get stiff tests from Ravens defense at joint practices",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Brewers' Brandon Woodruff says he won't need to undergo shoulder surgery",
       "reason": "missing business relevance signal"
     },
     {
@@ -817,13 +818,13 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A timeline of Prince Harry and Meghan's relationship with the royal family as they return to the UK",
-      "reason": "missing business relevance signal"
+      "title": "The playbook for college sports revenue is expanding from logos and fees to entertainment districts",
+      "reason": "blocked non-business or soft-content term"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The playbook for college sports revenue is expanding from logos and fees to entertainment districts",
-      "reason": "blocked non-business or soft-content term"
+      "title": "Champions League team Real Betis signs Ireland folk hero forward Troy Parrott",
+      "reason": "missing business relevance signal"
     }
   ]
 }
