@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T07:47:31.894Z",
+  "checked_at": "2026-08-23T08:48:33.331Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -143,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 3
     },
     {
       "source": "On3 - Houston Cougars",
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 16
+      "firewall_rejected": 15
     },
     {
       "source": "Texas Comptroller",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -397,6 +397,11 @@
       "reason": "blocked sports noise"
     },
     {
+      "source": "On3 - SMU Mustangs",
+      "title": "The ACC's Identity Crisis - Daily Take",
+      "reason": "blocked sports noise"
+    },
+    {
       "source": "El Paso Inc.",
       "title": "Raiz opens applications for professional educator grants",
       "reason": "missing business relevance signal"
@@ -404,11 +409,6 @@
     {
       "source": "El Paso Inc.",
       "title": "Longboat Key Roofing Completes Ownership Transition Under James Peel",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Assembly Health Appoints Bracha Eidelman as General Manager, Quality",
       "reason": "missing business relevance signal"
     },
     {
