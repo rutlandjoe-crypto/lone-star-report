@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T05:44:58.390Z",
+  "checked_at": "2026-08-23T07:01:09.765Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 4
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -143,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 3
     },
     {
       "source": "On3 - Houston Cougars",
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 14
+      "firewall_rejected": 15
     },
     {
       "source": "Texas Comptroller",
@@ -212,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -228,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 63
+      "firewall_rejected": 64
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 77
     },
     {
       "source": "Dallas Morning News Business",
@@ -356,6 +356,11 @@
       "reason": "blocked sports noise"
     },
     {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Cardinal Sports News | On3.com",
+      "reason": "blocked sports noise"
+    },
+    {
       "source": "On3 - Texas Tech Red Raiders",
       "title": "LSU fall camp intel: Sam Leavitt reviews, a young 'force' on defense and more",
       "reason": "blocked sports noise"
@@ -396,8 +401,18 @@
       "reason": "blocked sports noise"
     },
     {
+      "source": "On3 - SMU Mustangs",
+      "title": "The ACC's Identity Crisis - Daily Take",
+      "reason": "blocked sports noise"
+    },
+    {
       "source": "El Paso Inc.",
       "title": "Raiz opens applications for professional educator grants",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Assembly Health Appoints Bracha Eidelman as General Manager, Quality",
       "reason": "missing business relevance signal"
     },
     {
@@ -477,6 +492,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "35 troopers may be laid off in The Woodlands as 32-year mounted patrol deal ends",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "UH cuts 40% of core curriculum, including climate change and LGBT studies",
       "reason": "missing business relevance signal"
     },
@@ -488,11 +508,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "America’s affordability crisis hits Texas cities, forcing budget cuts",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "35 troopers may be laid off in The Woodlands as 32-year mounted patrol deal ends",
       "reason": "missing business relevance signal"
     },
     {
@@ -528,6 +543,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Houston police investigate body found at HISD's Attucks Middle School",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston's Nneka Ogwumike announces plans to retire after WNBA season with Los Angeles Sparks",
       "reason": "missing business relevance signal"
     },
     {
@@ -737,22 +757,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Vikings receivers savor tips from Randy Moss, get stiff tests from Ravens defense at joint practices",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Could Texas see snow this winter? Almanac outlook is out",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Fernando Mendoza has plenty of experience to rely on in Raiders quarterbacks room",
+      "title": "Vikings receivers savor tips from Randy Moss, get stiff tests from Ravens defense at joint practices",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "AP investigation shows how banned goods are smuggled into Gaza and millions of dollars change hands",
+      "title": "Fernando Mendoza has plenty of experience to rely on in Raiders quarterbacks room",
       "reason": "missing business relevance signal"
     },
     {
@@ -809,21 +824,6 @@
       "source": "Houston Chronicle Business",
       "title": "The playbook for college sports revenue is expanding from logos and fees to entertainment districts",
       "reason": "blocked non-business or soft-content term"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Champions League team Real Betis signs Ireland folk hero forward Troy Parrott",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Antoine Griezmann scores 2 goals, Orlando City beats Real Salt Lake 2-1",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "A's Las Vegas stadium takes shape as a second steel truss arch rises on the Strip",
-      "reason": "missing business relevance signal"
     }
   ]
 }
