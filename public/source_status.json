@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T17:34:11.440Z",
+  "checked_at": "2026-08-23T18:48:14.334Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -103,7 +103,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 3
     },
     {
       "source": "On3 - Texas A&M Aggies",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 3
     },
     {
       "source": "On3 - Baylor Bears",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 84
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 82
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 67
+      "firewall_rejected": 64
     },
     {
       "source": "Dallas Morning News Business",
@@ -333,12 +333,17 @@
     },
     {
       "source": "On3 - Texas Longhorns",
+      "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
       "title": "Simmons, Coleman and Littleton Reveal the Latest From Texas Fall Camp",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
+      "title": "What's real and what isn't entering final week of Texas football fall camp",
       "reason": "blocked sports noise"
     },
     {
@@ -369,6 +374,11 @@
     {
       "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Tech fall camp: Joey McGuire reacts to second scrimmage",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - TCU Horned Frogs",
+      "title": "UCLA Football Fall Camp Central",
       "reason": "blocked sports noise"
     },
     {
@@ -483,11 +493,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Rent from one of these Houston landlords? You may be owed money after $360M deal",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Exclusive: FCC singled out ABC13 over James Talarico interview, lawsuit says",
       "reason": "missing business relevance signal"
     },
@@ -563,11 +568,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How long will Houston stay this hot? Here's what weather models say.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Pep talk to pitching change: Astros' Joe Espada accidentally makes his point, Hunter Brown departs",
       "reason": "missing business relevance signal"
     },
@@ -593,7 +593,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "James Harden agrees to 3-year, $97-million contract to remain with Cavaliers, AP sources say",
+      "title": "Rent from one of these Houston landlords? You may be owed money after $360M deal",
       "reason": "missing business relevance signal"
     },
     {
@@ -653,11 +653,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "US ramps up Cuba sanctions and detentions of Americans returning from the island",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
       "reason": "missing business relevance signal"
     },
@@ -684,11 +679,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Nearly half of Houston groups linking residents to City Hall are inactive. Why?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump keeps embracing data centers even as they become toxic in midterm races",
       "reason": "missing business relevance signal"
     },
     {
@@ -783,11 +773,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The playbook for college sports revenue is expanding from logos and fees to entertainment districts",
-      "reason": "blocked non-business or soft-content term"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "'Colony' from 'Train to Busan' director isn't quite as wild a ride",
       "reason": "missing business relevance signal"
     },
@@ -824,6 +809,21 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Child dies when pickup collides with Harris County Sheriff's Office SUV",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "US government declares drought disaster for US Virgin Islands",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "College football 2026: Sam Houston finally feels normal again",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Rafael Devers returns to Fenway, but not interested in revisiting icy end to Red Sox tenure",
       "reason": "missing business relevance signal"
     }
   ]
