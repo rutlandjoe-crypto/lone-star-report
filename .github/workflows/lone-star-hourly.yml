@@ -1,0 +1,56 @@
+name: GSR Lone Star Hourly Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gsr-lone-star-hourly
+  cancel-in-progress: false
+
+jobs:
+  refresh-lone-star:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out Lone Star Report
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+
+      - name: Refresh Texas news
+        run: node scripts/fetch-texas-news.js
+
+      - name: Validate generated report
+        run: |
+          node -e "const fs=require('fs'); const p='public/latest_report.json'; if(!fs.existsSync(p)) process.exit(1); const d=JSON.parse(fs.readFileSync(p,'utf8')); console.log('Lone Star report validated'); console.log('Bytes:', fs.statSync(p).size);"
+
+      - name: Commit fresh Lone Star data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add public/latest_report.json public/source_status.json || true
+
+          if git diff --cached --quiet; then
+            echo "No Lone Star data changes to commit."
+          else
+            git commit -m "Auto refresh Lone Star Report"
+            git push
+          fi
