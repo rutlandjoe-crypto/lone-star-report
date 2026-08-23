@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T21:35:56.169Z",
+  "checked_at": "2026-08-23T22:37:35.954Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 6
+      "firewall_rejected": 5
     },
     {
       "source": "On3 - Baylor Bears",
@@ -143,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Houston Cougars",
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 3,
-      "firewall_rejected": 7
+      "firewall_rejected": 5
     },
     {
       "source": "Texas Comptroller",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 93
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 85
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 60
+      "firewall_rejected": 57
     },
     {
       "source": "Dallas Morning News Business",
@@ -432,29 +432,19 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "The ACC's Identity Crisis - Daily Take",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - SMU Mustangs",
       "title": "SMU fall camp intel: Key Mustangs return to practice",
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - SMU Mustangs",
-      "title": "The ACC's Identity Crisis - Daily Take",
-      "reason": "blocked sports noise"
+      "source": "El Paso Inc.",
+      "title": "TimeTailor Salon Software Joins Beauty Professionals in Norway",
+      "reason": "blocked non-business or soft-content term"
     },
     {
       "source": "El Paso Inc.",
       "title": "Meet EPISD’s new board trustees",
       "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "TimeTailor Salon Software Joins Beauty Professionals in Norway",
-      "reason": "blocked non-business or soft-content term"
     },
     {
       "source": "El Paso Inc.",
@@ -468,17 +458,7 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "The third-largest coffee chain in the U.S. actually sells very little hot coffee",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "New restaurant Anomalia opening soon in Downtown El Paso",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Wine (S)talks: A sparkling Moscato with a feline flair from Zin Valle",
       "reason": "missing business relevance signal"
     },
     {
@@ -494,11 +474,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Exclusive: FCC singled out ABC13 over James Talarico interview, lawsuit says",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "UH cuts 40% of core curriculum, including climate change and LGBT studies",
       "reason": "missing business relevance signal"
     },
     {
@@ -538,11 +513,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas children’s hospitals warn of billions in cuts under proposed Medicaid rule",
       "reason": "missing business relevance signal"
     },
@@ -563,12 +533,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
+      "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Child dies when pickup collides with Harris County Sheriff's Office SUV",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
       "reason": "missing business relevance signal"
     },
     {
@@ -594,21 +569,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Rent from one of these Houston landlords? You may be owed money after $360M deal",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Meet the new Longhorn at the UT football complex. It's a bronze statue",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "A Miami restaurateur was among the 7 people killed in a Kenya helicopter crash",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Alfalfa sprouts linked to food poisoning illnesses in Minnesota and Wisconsin",
       "reason": "missing business relevance signal"
     },
     {
@@ -683,11 +643,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Kansas City city council approves $600 million commitment to build a new stadium for the Royals",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Brewers' Brandon Woodruff says he won't need to undergo shoulder surgery",
       "reason": "missing business relevance signal"
     },
@@ -704,11 +659,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Fernando Mendoza has plenty of experience to rely on in Raiders quarterbacks room",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Army will shut down a unit in Europe focused on learning drone warfare",
       "reason": "missing business relevance signal"
     },
     {
@@ -803,11 +753,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Conroe's animal shelter is getting a $428K overhaul. Here's what's changing.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Arthouse Houston says it needs $1.3 million more to save Garden Oaks Theater",
       "reason": "missing business relevance signal"
     },
@@ -824,6 +769,61 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Houston-area man sentenced to federal prison over fatal shooting of bald eagle",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houstonian Lyle Lovett stars in new Texas A&M campaign. Here is how to watch.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Union for Boston Symphony Orchestra musicians authorizes first strike in ensemble's 145-year history",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Cologne convinces teenage star Said El Mala to stay and gives him prestigious No. 10",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mourinho has winning start at Madrid, Inter cruises and Man United loses",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Tropical Storm Moke carrying more rain toward hurricane-damaged Hawaii",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Why Dan Patrick should focus on getting kids to read, not police their books",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Indonesian police arrest 72 people suspected of starting forest fires",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Conroe Noon Lions: Ray Steinmann honored with Lions International award for 30 years of service",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mexican governor indicted by the US seeks leave again after contentious return to office",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump threatens lawsuit against nonprofit that questioned whether National Guard plan lessened crime",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Early Motown songwriter Janie Bradford Hobbs dies in Los Angeles after illness at age 87",
       "reason": "missing business relevance signal"
     }
   ]
