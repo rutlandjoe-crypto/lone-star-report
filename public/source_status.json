@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T04:03:02.652Z",
+  "checked_at": "2026-08-23T04:52:24.266Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 4
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 17
+      "firewall_rejected": 15
     },
     {
       "source": "Texas Comptroller",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 77
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -357,6 +357,11 @@
       "reason": "blocked sports noise"
     },
     {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Cardinal Sports News | On3.com",
+      "reason": "blocked sports noise"
+    },
+    {
       "source": "On3 - Texas Tech Red Raiders",
       "title": "LSU fall camp intel: Sam Leavitt reviews, a young 'force' on defense and more",
       "reason": "blocked sports noise"
@@ -418,17 +423,12 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Meet EPISD’s new board trustees",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "TimeTailor Salon Software Joins Beauty Professionals in Norway",
       "reason": "blocked non-business or soft-content term"
     },
     {
       "source": "El Paso Inc.",
-      "title": "UTEP sets new record with more than $351,000 in royalties",
+      "title": "Meet EPISD’s new board trustees",
       "reason": "missing business relevance signal"
     },
     {
@@ -443,17 +443,12 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Texas Traffic Safety Award given to UMC Foundation leader",
+      "title": "UTEP sets new record with more than $351,000 in royalties",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
       "title": "Train for nonprofit leadership with United Way and PDN",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "WestStar names Christopher Mims vice president officer",
       "reason": "missing business relevance signal"
     },
     {
@@ -593,11 +588,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston's Nneka Ogwumike announces plans to retire after WNBA season with Los Angeles Sparks",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Trump is coming to Houston to honor astronauts at Johnson Space Center",
       "reason": "missing business relevance signal"
     },
@@ -658,6 +648,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "TikTok reaches $400 million settlement with US Justice Department over children's privacy",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "From rural routes to desegregation runs, the yellow school bus faces a new reality",
       "reason": "missing business relevance signal"
     },
@@ -669,11 +664,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Alfalfa sprout linked to food-poisoning outbreak in 15 states, health officials say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "TikTok reaches $400 million settlement with US Justice Department over children's privacy",
       "reason": "missing business relevance signal"
     },
     {
@@ -703,11 +693,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Nearly half of Houston groups linking residents to City Hall are inactive. Why?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Harvard agrees to $53 million settlement over body parts stolen and sold by former morgue manager",
       "reason": "missing business relevance signal"
     },
@@ -729,6 +714,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Florida shows how to adapt as coastal cities face growing threats from sea level rise and storms",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Nearly half of Houston groups linking residents to City Hall are inactive. Why?",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,6 +814,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "'Colony' from 'Train to Busan' director isn't quite as wild a ride",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Hungary drained its waters for generations. Now drought is exposing the cost",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A timeline of Prince Harry and Meghan's relationship with the royal family as they return to the UK",
       "reason": "missing business relevance signal"
     }
   ]
