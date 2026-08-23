@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T18:48:14.334Z",
+  "checked_at": "2026-08-23T19:34:35.931Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -103,7 +103,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 4
     },
     {
       "source": "On3 - Texas A&M Aggies",
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 5
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 4
     },
     {
       "source": "On3 - Baylor Bears",
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 16
+      "firewall_rejected": 15
     },
     {
       "source": "Texas Comptroller",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 83
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 90
+      "firewall_rejected": 91
     },
     {
       "source": "San Antonio Express-News Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 64
+      "firewall_rejected": 62
     },
     {
       "source": "Dallas Morning News Business",
@@ -333,17 +333,22 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
       "title": "Simmons, Coleman and Littleton Reveal the Latest From Texas Fall Camp",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas Longhorns",
+      "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
       "title": "What's real and what isn't entering final week of Texas football fall camp",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
       "reason": "blocked sports noise"
     },
     {
@@ -363,6 +368,11 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
+      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
       "title": "Cardinal Sports News | On3.com",
       "reason": "blocked sports noise"
     },
@@ -378,7 +388,12 @@
     },
     {
       "source": "On3 - TCU Horned Frogs",
-      "title": "UCLA Football Fall Camp Central",
+      "title": "Mizzou football receiver Donovan Olugbode and corner Chris Graves meet with media to wrap up fall camp",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - TCU Horned Frogs",
+      "title": "Mizzou football coach Eliah Drinkwitz wraps up fall camp",
       "reason": "blocked sports noise"
     },
     {
@@ -433,17 +448,17 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "WestStar names Christopher Mims information security officer",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "UTEP sets new record with more than $351,000 in royalties",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
       "title": "UMC Healthcare partners receive five accreditations from IAC",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Texas Traffic Safety Award given to UMC Foundation leader",
       "reason": "missing business relevance signal"
     },
     {
@@ -478,17 +493,17 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "iFly El Paso wind tunnel experience closes after seven years",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "Near-gridlocked El Paso City Council OKs tax increase",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Dallas Fed News Releases",
       "title": "In memoriam: Mike Ullman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston attorney Tony Buzbee buys $15.5M River Oaks mansion just to tear it down",
       "reason": "missing business relevance signal"
     },
     {
@@ -513,11 +528,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Greg Abbott’s data center audit won’t be done before the election",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas court cuts $43M from Infowars' Alex Jones over Sandy Hook lies",
       "reason": "missing business relevance signal"
     },
@@ -529,6 +539,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Why country legend Tanya Tucker is showing up at the Texas Capitol lately",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A Texas barbecue writer went to Kansas City. How did its smoked meats stack up?",
       "reason": "missing business relevance signal"
     },
     {
@@ -568,11 +583,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Pep talk to pitching change: Astros' Joe Espada accidentally makes his point, Hunter Brown departs",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "From Heisman winners to small-college stars, ranking the all-time RBs in Texas",
       "reason": "missing business relevance signal"
     },
@@ -594,11 +604,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Rent from one of these Houston landlords? You may be owed money after $360M deal",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston attorney Tony Buzbee buys $15.5M River Oaks mansion just to tear it down",
       "reason": "missing business relevance signal"
     },
     {
@@ -713,11 +718,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Could Texas see snow this winter? Almanac outlook is out",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Vikings receivers savor tips from Randy Moss, get stiff tests from Ravens defense at joint practices",
       "reason": "missing business relevance signal"
     },
@@ -749,11 +749,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas family sues CenterPoint after lineman is fatally shocked on power lines",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,6 +819,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Rafael Devers returns to Fenway, but not interested in revisiting icy end to Red Sox tenure",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston woman says she was raped in Vietnam, as authorities near Hanoi charge 23-year-old man",
       "reason": "missing business relevance signal"
     }
   ]
