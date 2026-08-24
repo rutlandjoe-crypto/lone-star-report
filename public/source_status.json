@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T10:53:36.318Z",
+  "checked_at": "2026-08-24T11:44:05.603Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 10
+      "firewall_rejected": 9
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 5
     },
     {
       "source": "On3 - Baylor Bears",
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 3,
-      "firewall_rejected": 5
+      "firewall_rejected": 4
     },
     {
       "source": "Texas Comptroller",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 84
     },
     {
       "source": "Austin American-Statesman Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 79
+      "firewall_rejected": 82
     },
     {
       "source": "El Paso Times Business",
@@ -283,7 +283,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 4,
       "firewall_rejected": 0
     },
     {
@@ -387,11 +387,6 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Cardinal Sports News | On3.com",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Tech fall camp: Joey McGuire reacts to second scrimmage",
       "reason": "blocked sports noise"
@@ -418,6 +413,11 @@
     },
     {
       "source": "On3 - TCU Horned Frogs",
+      "title": "UCLA Football Fall Camp Central",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - TCU Horned Frogs",
       "title": "Georgia Fall Camp Special: Get 75% off an annual UGASports membership",
       "reason": "blocked sports noise"
     },
@@ -430,11 +430,6 @@
       "source": "El Paso Inc.",
       "title": "Meet EPISD’s new board trustees",
       "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "TimeTailor Salon Software Joins Beauty Professionals in Norway",
-      "reason": "blocked non-business or soft-content term"
     },
     {
       "source": "El Paso Inc.",
@@ -468,17 +463,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "In 10 years, satellites will erase the stars. Save the night sky now. | Opinion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A Texas barbecue writer went to Kansas City. How did its smoked meats stack up?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Why country legend Tanya Tucker is showing up at the Texas Capitol lately",
       "reason": "missing business relevance signal"
     },
     {
@@ -523,12 +508,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Man accused in Harris County deputy's death denied bail after surprise drug test",
+      "title": "Texas dismisses linebacker Ty’Anthony Smith from football team, leaving Longhorns thin at position",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas dismisses linebacker Ty’Anthony Smith from football team, leaving Longhorns thin at position",
+      "title": "Man accused in Harris County deputy's death denied bail after surprise drug test",
       "reason": "missing business relevance signal"
     },
     {
@@ -549,6 +534,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Rent from one of these Houston landlords? You may be owed money after $360M deal",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
       "reason": "missing business relevance signal"
     },
     {
@@ -618,6 +608,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "La Marque Mayor Keith Bell accused of indecent exposure, police say",
       "reason": "missing business relevance signal"
     },
@@ -638,6 +633,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston offers up to $300,000 to repair homes damaged by Beryl, derecho in 2024",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Fernando Mendoza has plenty of experience to rely on in Raiders quarterbacks room",
       "reason": "missing business relevance signal"
     },
@@ -648,17 +648,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harris County pays constables to enforce evictions. Why not pay to prevent them?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Who needs day care at midnight? More Houston parents than you might think.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Preservationists are working to extend the life of a rare Revolutionary War 'witness tree'",
       "reason": "missing business relevance signal"
     },
     {
@@ -698,7 +698,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Review: The micro-budget 'It Ends' should be the next indie hit like 'Backrooms'",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "College football 2026: Sam Houston finally feels normal again",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Tropical Storm Moke carrying more rain toward hurricane-damaged Hawaii",
       "reason": "missing business relevance signal"
     },
     {
@@ -773,11 +783,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Tropical Storm Moke set to dump more heavy rain on hurricane-stricken Hawaii",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Early Motown songwriter Janie Bradford Hobbs dies in Los Angeles after illness at age 87",
       "reason": "missing business relevance signal"
     },
@@ -803,6 +808,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "See the raises Houston and Harris County elected officials got this year",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "He was waiting for his son to return from the USS Lincoln. Then Border Patrol arrested him.",
       "reason": "missing business relevance signal"
     },
@@ -814,16 +824,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Texas court cuts $43M from Infowars' Alex Jones over Sandy Hook lies",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "A landslide at a landfill in the capital of Guinea kills 30 people, officials say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump is coming to Houston to honor astronauts at Johnson Space Center",
       "reason": "missing business relevance signal"
     }
   ]
