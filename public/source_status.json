@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T15:00:08.312Z",
+  "checked_at": "2026-08-24T15:55:50.765Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 8
+      "firewall_rejected": 9
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 86
+      "firewall_rejected": 87
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 94
+      "firewall_rejected": 93
     },
     {
       "source": "San Antonio Express-News Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 80
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 48
+      "firewall_rejected": 46
     },
     {
       "source": "Dallas Morning News Business",
@@ -348,6 +348,11 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
+      "title": "Glen's Take: 5 thoughts on week three of LSU fall camp",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
       "title": "Texas A&M fall camp intel: What we're hearing from the Aggies' preseason (Offense)",
       "reason": "blocked sports noise"
     },
@@ -448,6 +453,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "See the raises Houston and Harris County elected officials got this year",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "A Texas barbecue writer went to Kansas City. How did its smoked meats stack up?",
       "reason": "missing business relevance signal"
     },
@@ -473,11 +483,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UT's Steve Sarkisian on Ty'Anthony Smith and 'inefficient' Arch Manning",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Astros get a much-needed win with a shutout of the Athletics",
       "reason": "missing business relevance signal"
     },
@@ -494,11 +499,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "See the raises Houston and Harris County elected officials got this year",
       "reason": "missing business relevance signal"
     },
     {
@@ -528,12 +528,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Bullpen letdown dooms Astros in loss to A's with chance to add to AL West lead",
+      "title": "UT's Steve Sarkisian on Ty'Anthony Smith and 'inefficient' Arch Manning",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Rent from one of these Houston landlords? You may be owed money after $360M deal",
+      "title": "Bullpen letdown dooms Astros in loss to A's with chance to add to AL West lead",
       "reason": "missing business relevance signal"
     },
     {
@@ -543,17 +543,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ex-Abercrombie & Fitch CEO is mentally fit for sex trafficking trial, judge says",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "TikTok reaches $400 million settlement with US Justice Department over children's privacy",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "From rural routes to desegregation runs, the yellow school bus faces a new reality",
       "reason": "missing business relevance signal"
     },
     {
@@ -568,7 +558,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "How bitcoin and gold went from a slump to an MVP week in just a few days",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Iran's rial currency hits new record low as US prepares to announce more sanctions",
       "reason": "missing business relevance signal"
     },
     {
@@ -593,11 +593,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "3-year college degrees grow more popular in the US, saving time and cash. But critics aren't sold",
       "reason": "missing business relevance signal"
     },
@@ -613,7 +608,37 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Prince Harry to leave board of African Parks conservation nonprofit",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The Latest: Canada’s prime minister promises retaliatory tariffs as negotiations with the US falter",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "High school football is kicking off in Houston. The heat may be a major factor.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Fact check: RFK Jr. says the U.S. had the highest COVID death rate worldwide",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "How long will Houston stay this hot? What weather models say.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Firefighters are trying to stop a fast-moving Nevada wildfire from spreading to homes in Reno",
       "reason": "missing business relevance signal"
     },
     {
@@ -629,6 +654,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Brewers' Brandon Woodruff says he won't need to undergo shoulder surgery",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "First, he lost his brother. Now ICE wants to take his dad. How much hardship is enough? | Editorial",
       "reason": "missing business relevance signal"
     },
     {
@@ -703,22 +733,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Iran's rial currency hits new record low as US prepares to announce more sanctions",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Arsenal, Marseille and Real Betis begin league campaigns with wins and clean sheets",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "US government declares drought disaster for US Virgin Islands",
       "reason": "missing business relevance signal"
     },
     {
@@ -733,7 +753,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Tropical Storm Moke carrying more rain toward hurricane-damaged Hawaii",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Rafael Devers returns to Fenway, but not interested in revisiting icy end to Red Sox tenure",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'Holly Street' at A.D. Players features fine acting stuck in a perfunctory story",
       "reason": "missing business relevance signal"
     },
     {
@@ -768,7 +798,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "High school football is kicking off in Houston. The heat may be a major factor.",
+      "title": "Early Motown songwriter Janie Bradford Hobbs dies in Los Angeles after illness at age 87",
       "reason": "missing business relevance signal"
     },
     {
@@ -794,36 +824,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Mexican governor indicted by the US seeks leave again after contentious return to office",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump threatens lawsuit against nonprofit that questioned whether National Guard plan lessened crime",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Tropical Storm Moke set to dump more heavy rain on hurricane-stricken Hawaii",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Congo receives more than 16,000 doses of Ebola vaccine as it grapples with unprecedented outbreak",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Boston Symphony Orchestra and musicians extend contract for 48 hours, delaying possible first strike",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston woman says she was raped in Vietnam, as authorities near Hanoi charge 23-year-old man",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Powerful storm hits Baltic countries, killing 2 and leaving hundreds of thousands without power",
       "reason": "missing business relevance signal"
     }
   ]
