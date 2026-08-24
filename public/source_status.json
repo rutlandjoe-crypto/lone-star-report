@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T13:12:56.458Z",
+  "checked_at": "2026-08-24T14:03:02.501Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 9
+      "firewall_rejected": 8
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 84
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 94
+      "firewall_rejected": 93
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 84
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 81
     },
     {
       "source": "El Paso Times Business",
@@ -343,11 +343,6 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M football fall camp intel: Insider notes from 14th preseason practice for Aggies",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
       "title": "Texas A&M fall camp intel: What we're hearing from the Aggies' preseason (Defense)",
       "reason": "blocked sports noise"
     },
@@ -363,7 +358,7 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M football mid-fall camp depth chart projection: Defense",
+      "title": "Texas A&M football fall camp intel: Insider notes from 14th preseason practice for Aggies",
       "reason": "blocked sports noise"
     },
     {
@@ -393,7 +388,7 @@
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
-      "title": "Texas A&M fall camp intel: 5 freshmen who have impressed, could play immediately",
+      "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
       "reason": "blocked sports noise"
     },
     {
@@ -463,6 +458,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Child dies when pickup collides with Harris County Sheriff's Office SUV",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston pastor released by ICE, will soon return to Seventh-day Adventist church after posting bond",
       "reason": "missing business relevance signal"
     },
@@ -493,11 +493,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Child dies when pickup collides with Harris County Sheriff's Office SUV",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Why Jeremy Peña opted against going for go-ahead runner late in Astros' loss",
       "reason": "missing business relevance signal"
     },
@@ -518,12 +513,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Bullpen letdown dooms Astros in loss to A's with chance to add to AL West lead",
+      "title": "Astros blow big lead in loss to last-place A's, sink into tie atop AL West",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros blow big lead in loss to last-place A's, sink into tie atop AL West",
+      "title": "Bullpen letdown dooms Astros in loss to A's with chance to add to AL West lead",
       "reason": "missing business relevance signal"
     },
     {
@@ -573,11 +568,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "What to know about Alex Jones' Texas court win and more than $1 billion in damages he still faces",
       "reason": "missing business relevance signal"
     },
@@ -613,7 +603,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Sean Grayson, former Illinois deputy convicted of killing Sonya Massey, dies in prison, lawyer says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Two tropical systems are being watched. Should Texas worry?",
       "reason": "missing business relevance signal"
     },
     {
@@ -728,11 +728,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston woman says she was raped in Vietnam, as authorities near Hanoi charge 23-year-old man",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A moderate earthquake shakes Japan, injuring more than 30 people in the Tokyo region",
       "reason": "missing business relevance signal"
     },
@@ -749,6 +744,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Union for Boston Symphony Orchestra musicians authorizes first strike in ensemble's 145-year history",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Whataburger expected to replace a Taco Cabana near the Heights",
       "reason": "missing business relevance signal"
     },
     {
@@ -798,17 +798,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Whataburger expected to replace a Taco Cabana near the Heights",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Congo receives more than 16,000 doses of Ebola vaccine as it grapples with unprecedented outbreak",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Boston Symphony Orchestra and musicians extend contract for 48 hours, delaying possible first strike",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston woman says she was raped in Vietnam, as authorities near Hanoi charge 23-year-old man",
       "reason": "missing business relevance signal"
     },
     {
