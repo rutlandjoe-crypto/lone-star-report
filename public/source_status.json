@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T07:20:22.899Z",
+  "checked_at": "2026-08-24T09:04:53.176Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 5
+      "firewall_rejected": 4
     },
     {
       "source": "On3 - Baylor Bears",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 83
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 93
+      "firewall_rejected": 92
     },
     {
       "source": "San Antonio Express-News Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 74
+      "firewall_rejected": 75
     },
     {
       "source": "El Paso Times Business",
@@ -409,11 +409,6 @@
     {
       "source": "On3 - TCU Horned Frogs",
       "title": "Report: Pittsburgh Steelers plan to carry both Will Howard and Drew Allar on 53-man roster",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "UCLA Football Fall Camp Central",
       "reason": "blocked sports noise"
     },
     {
@@ -709,6 +704,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Rafael Devers returns to Fenway, but not interested in revisiting icy end to Red Sox tenure",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Burnham and European leaders arrive in Kyiv as Ukraine marks Independence Day",
       "reason": "missing business relevance signal"
     },
     {
