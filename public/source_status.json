@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T15:55:50.765Z",
+  "checked_at": "2026-08-24T16:55:17.722Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -41,7 +41,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Houston Chronicle",
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 9
+      "firewall_rejected": 8
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -172,7 +172,7 @@
       "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 2,
       "firewall_rejected": 4
     },
     {
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 85
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 46
+      "firewall_rejected": 47
     },
     {
       "source": "Dallas Morning News Business",
@@ -327,6 +327,11 @@
   ],
   "firewall_rejections": [
     {
+      "source": "El Paso Matters",
+      "title": "Opinion: New Mexico lawmaker who backed Project Jupiter now says developers should leave",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "On3 - Texas Longhorns",
       "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
       "reason": "blocked sports noise"
@@ -348,11 +353,6 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Glen's Take: 5 thoughts on week three of LSU fall camp",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
       "title": "Texas A&M fall camp intel: What we're hearing from the Aggies' preseason (Offense)",
       "reason": "blocked sports noise"
     },
@@ -368,11 +368,6 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M football mid-fall camp depth chart projection: Special teams",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
       "title": "Inside Texas A&M fall camp: Why Aggie WR Terry Bussey looks poised for a breakout 2026 season",
       "reason": "blocked sports noise"
     },
@@ -384,6 +379,11 @@
     {
       "source": "On3 - Texas A&M Aggies",
       "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Glen's Take: 5 thoughts on week three of LSU fall camp",
       "reason": "blocked sports noise"
     },
     {
@@ -433,7 +433,7 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "New restaurant Anomalia opening soon in Downtown El Paso",
+      "title": "Could a flu vaccine derived from yeast replace annual jabs?",
       "reason": "missing business relevance signal"
     },
     {
@@ -453,11 +453,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "See the raises Houston and Harris County elected officials got this year",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A Texas barbecue writer went to Kansas City. How did its smoked meats stack up?",
       "reason": "missing business relevance signal"
     },
@@ -469,11 +464,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Houston pastor released by ICE, will soon return to Seventh-day Adventist church after posting bond",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas children’s hospitals warn of billions in cuts under proposed Medicaid rule",
       "reason": "missing business relevance signal"
     },
     {
@@ -513,12 +503,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Man accused in Harris County deputy's death denied bail after surprise drug test",
+      "title": "From Heisman winners to small-college stars, ranking the all-time RBs in Texas",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "From Heisman winners to small-college stars, ranking the all-time RBs in Texas",
+      "title": "Man accused in Harris County deputy's death denied bail after surprise drug test",
       "reason": "missing business relevance signal"
     },
     {
@@ -563,12 +553,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How bitcoin and gold went from a slump to an MVP week in just a few days",
+      "title": "Iran's rial currency hits new record low as US prepares to announce more sanctions",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Iran's rial currency hits new record low as US prepares to announce more sanctions",
+      "title": "How bitcoin and gold went from a slump to an MVP week in just a few days",
       "reason": "missing business relevance signal"
     },
     {
@@ -578,7 +568,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "What to know about Alex Jones' Texas court win and more than $1 billion in damages he still faces",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'Giving people a taste of what’s next': What to know about Turkey Leg Hut's popups at Harold's Chicken",
       "reason": "missing business relevance signal"
     },
     {
@@ -593,12 +593,32 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Trump threatens lawsuit against nonprofit that questioned whether National Guard plan lessened crime",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "3-year college degrees grow more popular in the US, saving time and cash. But critics aren't sold",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Something fishy is happening with HISD's 2025 A-F ratings.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Federal officials announce water cuts as Colorado River supplies continue to plunge",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "See the raises Houston and Harris County elected officials got this year",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "How a sanctuary outside LA has cared for rare, endangered gibbons for a half-century",
       "reason": "missing business relevance signal"
     },
     {
@@ -609,11 +629,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Prince Harry to leave board of African Parks conservation nonprofit",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
       "reason": "missing business relevance signal"
     },
     {
@@ -648,7 +663,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Two tropical systems are being watched. Should Texas worry?",
+      "title": "The world inches toward catastrophic climate events: 'Bigger shocks are on the way'",
       "reason": "missing business relevance signal"
     },
     {
@@ -659,6 +674,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "First, he lost his brother. Now ICE wants to take his dad. How much hardship is enough? | Editorial",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Two tropical systems are being watched. Should Texas worry?",
       "reason": "missing business relevance signal"
     },
     {
@@ -709,11 +729,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Preservationists are working to extend the life of a rare Revolutionary War 'witness tree'",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "How a sanctuary outside LA has cared for rare, endangered gibbons for a half-century",
       "reason": "missing business relevance signal"
     },
     {
@@ -798,11 +813,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Early Motown songwriter Janie Bradford Hobbs dies in Los Angeles after illness at age 87",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Mourinho has winning start at Madrid, Inter cruises and Man United loses",
       "reason": "missing business relevance signal"
     },
@@ -814,16 +824,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Indonesian police arrest 72 people suspected of starting forest fires",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Conroe Noon Lions: Ray Steinmann honored with Lions International award for 30 years of service",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Mexican governor indicted by the US seeks leave again after contentious return to office",
       "reason": "missing business relevance signal"
     }
   ]
