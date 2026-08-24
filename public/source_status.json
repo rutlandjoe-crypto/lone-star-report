@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T01:58:04.656Z",
+  "checked_at": "2026-08-24T03:16:46.225Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 5
     },
     {
       "source": "On3 - Baylor Bears",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 57
+      "firewall_rejected": 59
     },
     {
       "source": "Dallas Morning News Business",
@@ -358,6 +358,11 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
+      "title": "Texas A&M fall camp intel: What we're hearing from the Aggies' preseason (Offense)",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
       "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
       "reason": "blocked sports noise"
     },
@@ -379,11 +384,6 @@
     {
       "source": "On3 - Texas A&M Aggies",
       "title": "Inside Texas A&M fall camp: Why Aggie WR Terry Bussey looks poised for a breakout 2026 season",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M fall camp intel: What we're hearing from the Aggies' preseason (Offense)",
       "reason": "blocked sports noise"
     },
     {
@@ -419,6 +419,11 @@
     {
       "source": "On3 - TCU Horned Frogs",
       "title": "Report: Pittsburgh Steelers plan to carry both Will Howard and Drew Allar on 53-man roster",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - TCU Horned Frogs",
+      "title": "UCLA Football Fall Camp Central",
       "reason": "blocked sports noise"
     },
     {
@@ -478,11 +483,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas court cuts $43M from Infowars' Alex Jones over Sandy Hook lies",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston pastor released by ICE, will soon return to Seventh-day Adventist church after posting bond",
       "reason": "missing business relevance signal"
     },
@@ -538,12 +538,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Why Jeremy Peña opted against going for go-ahead runner late in Astros' loss",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Man accused in Harris County deputy's death denied bail after surprise drug test",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Why Jeremy Peña opted against going for go-ahead runner late in Astros' loss",
+      "title": "Texas dismisses linebacker Ty’Anthony Smith from football team, leaving Longhorns thin at position",
       "reason": "missing business relevance signal"
     },
     {
@@ -554,11 +559,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Rent from one of these Houston landlords? You may be owed money after $360M deal",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "What to know about Alex Jones' Texas court win and more than $1 billion in damages he still faces",
       "reason": "missing business relevance signal"
     },
     {
@@ -599,6 +599,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What to know about Alex Jones' Texas court win and more than $1 billion in damages he still faces",
       "reason": "missing business relevance signal"
     },
     {
@@ -798,17 +803,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Federal court is asked to block Kennedy Center from returning Trump's name to building",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Whataburger expected to replace a Taco Cabana near the Heights",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Charter plane crash kills 8 near remote radar site in western Alaska, military says",
       "reason": "missing business relevance signal"
     },
     {
@@ -823,7 +818,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston has 13 of Texas' best charter schools, per U.S. News. See the list.",
+      "title": "Boston Symphony Orchestra and musicians extend contract for 48 hours, delaying possible first strike",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "He was waiting for his son to return from the USS Lincoln. Then Border Patrol arrested him.",
       "reason": "missing business relevance signal"
     }
   ]
