@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T09:04:53.176Z",
+  "checked_at": "2026-08-24T10:03:55.835Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 9
+      "firewall_rejected": 10
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 82
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 93
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 86
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 75
+      "firewall_rejected": 77
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 57
+      "firewall_rejected": 56
     },
     {
       "source": "Dallas Morning News Business",
@@ -387,6 +387,11 @@
       "reason": "blocked sports noise"
     },
     {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Cardinal Sports News | On3.com",
+      "reason": "blocked sports noise"
+    },
+    {
       "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Tech fall camp: Joey McGuire reacts to second scrimmage",
       "reason": "blocked sports noise"
@@ -479,11 +484,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Why country legend Tanya Tucker is showing up at the Texas Capitol lately",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas children’s hospitals warn of billions in cuts under proposed Medicaid rule",
       "reason": "missing business relevance signal"
     },
     {
@@ -663,17 +663,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A question looms over Harry's return to the UK. Can he rebuild his relationship with Prince William?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "'Colony' from 'Train to Busan' director isn't quite as wild a ride",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Champions League team Real Betis signs Ireland folk hero forward Troy Parrott",
       "reason": "missing business relevance signal"
     },
     {
@@ -743,6 +733,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Whataburger expected to replace a Taco Cabana near the Heights",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Mourinho has winning start at Madrid, Inter cruises and Man United loses",
       "reason": "missing business relevance signal"
     },
@@ -788,11 +783,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Whataburger expected to replace a Taco Cabana near the Heights",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Congo receives more than 16,000 doses of Ebola vaccine as it grapples with unprecedented outbreak",
       "reason": "missing business relevance signal"
     },
@@ -824,6 +814,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "A landslide at a landfill in the capital of Guinea kills 30 people, officials say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump is coming to Houston to honor astronauts at Johnson Space Center",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Near-total lunar eclipse is coming up with the Americas in prime position",
       "reason": "missing business relevance signal"
     }
   ]
