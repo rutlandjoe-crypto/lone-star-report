@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T05:01:49.027Z",
+  "checked_at": "2026-08-24T05:53:22.473Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -80,7 +80,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "San Antonio Express-News",
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 10
+      "firewall_rejected": 9
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 6
+      "firewall_rejected": 5
     },
     {
       "source": "On3 - Baylor Bears",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 83
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 92
     },
     {
       "source": "San Antonio Express-News Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 74
+      "firewall_rejected": 73
     },
     {
       "source": "El Paso Times Business",
@@ -327,16 +327,6 @@
   ],
   "firewall_rejections": [
     {
-      "source": "El Paso Times",
-      "title": "OPINION: Marathon refinery leak exposed as massive violation",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - Texas Longhorns",
       "title": "What's real and what isn't entering final week of Texas football fall camp",
       "reason": "blocked sports noise"
@@ -344,6 +334,11 @@
     {
       "source": "On3 - Texas Longhorns",
       "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
       "reason": "blocked sports noise"
     },
     {
@@ -359,11 +354,6 @@
     {
       "source": "On3 - Texas A&M Aggies",
       "title": "Texas A&M fall camp intel: What we're hearing from the Aggies' preseason (Offense)",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
       "reason": "blocked sports noise"
     },
     {
@@ -393,7 +383,7 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Cardinal Sports News | On3.com",
+      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
       "reason": "blocked sports noise"
     },
     {
@@ -429,11 +419,6 @@
     {
       "source": "On3 - TCU Horned Frogs",
       "title": "Georgia Fall Camp Special: Get 75% off an annual UGASports membership",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "11 Personnel: Kentucky Moves to Week Zero, SEC Fall Camp Buzz",
       "reason": "blocked sports noise"
     },
     {
@@ -638,6 +623,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Sean Grayson, former Illinois deputy convicted of killing Sonya Massey, dies in prison, lawyer says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Brewers' Brandon Woodruff says he won't need to undergo shoulder surgery",
       "reason": "missing business relevance signal"
     },
@@ -773,11 +763,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Why Dan Patrick should focus on getting kids to read, not police their books",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Indonesian police arrest 72 people suspected of starting forest fires",
       "reason": "missing business relevance signal"
     },
@@ -824,6 +809,21 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Boston Symphony Orchestra and musicians extend contract for 48 hours, delaying possible first strike",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "He was waiting for his son to return from the USS Lincoln. Then Border Patrol arrested him.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Quinceañera expo returns to Houston with dresses, vendors and giveaways.",
       "reason": "missing business relevance signal"
     }
   ]
