@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T23:35:44.886Z",
+  "checked_at": "2026-08-24T01:58:04.656Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -103,7 +103,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 3
     },
     {
       "source": "On3 - Texas A&M Aggies",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 6
+      "firewall_rejected": 4
     },
     {
       "source": "On3 - Baylor Bears",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 91
     },
     {
       "source": "San Antonio Express-News Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 77
+      "firewall_rejected": 74
     },
     {
       "source": "El Paso Times Business",
@@ -338,11 +338,6 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Simmons, Coleman and Littleton Reveal the Latest From Texas Fall Camp",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
       "title": "What's real and what isn't entering final week of Texas football fall camp",
       "reason": "blocked sports noise"
     },
@@ -373,17 +368,17 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M football mid-fall camp depth chart projection: Offense",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
       "title": "Texas A&M football mid-fall camp depth chart projection: Defense",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
       "title": "Texas A&M football mid-fall camp depth chart projection: Special teams",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Inside Texas A&M fall camp: Why Aggie WR Terry Bussey looks poised for a breakout 2026 season",
       "reason": "blocked sports noise"
     },
     {
@@ -424,16 +419,6 @@
     {
       "source": "On3 - TCU Horned Frogs",
       "title": "Report: Pittsburgh Steelers plan to carry both Will Howard and Drew Allar on 53-man roster",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "UCLA Football Fall Camp Central",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "Mizzou football coach Eliah Drinkwitz wraps up fall camp",
       "reason": "blocked sports noise"
     },
     {
@@ -513,11 +498,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "HPD says Flock vandalism stalled investigation into attempted child kidnapping",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas children’s hospitals warn of billions in cuts under proposed Medicaid rule",
       "reason": "missing business relevance signal"
     },
@@ -529,6 +509,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "UT's Steve Sarkisian on Ty'Anthony Smith and 'inefficient' Arch Manning",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What we know and don't know about Texans three weeks into camp",
       "reason": "missing business relevance signal"
     },
     {
@@ -573,6 +558,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "What to know about Alex Jones' Texas court win and more than $1 billion in damages he still faces",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Ex-Abercrombie & Fitch CEO is mentally fit for sex trafficking trial, judge says",
       "reason": "missing business relevance signal"
     },
@@ -609,11 +599,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "What to know about Alex Jones' Texas court win and more than $1 billion in damages he still faces",
       "reason": "missing business relevance signal"
     },
     {
@@ -703,11 +688,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A's Las Vegas stadium takes shape as a second steel truss arch rises on the Strip",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Orlando City hosts Real Salt Lake in non-conference matchup",
       "reason": "missing business relevance signal"
     },
@@ -773,11 +753,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Tropical Storm Moke carrying more rain toward hurricane-damaged Hawaii",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Mourinho has winning start at Madrid, Inter cruises and Man United loses",
       "reason": "missing business relevance signal"
     },
@@ -808,6 +783,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Tropical Storm Moke set to dump more heavy rain on hurricane-stricken Hawaii",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Early Motown songwriter Janie Bradford Hobbs dies in Los Angeles after illness at age 87",
       "reason": "missing business relevance signal"
     },
@@ -824,6 +804,26 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Whataburger expected to replace a Taco Cabana near the Heights",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Charter plane crash kills 8 near remote radar site in western Alaska, military says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Woman in her 90s is Montgomery County's first West Nile death of 2026",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Congo receives more than 16,000 doses of Ebola vaccine as it grapples with unprecedented outbreak",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston has 13 of Texas' best charter schools, per U.S. News. See the list.",
       "reason": "missing business relevance signal"
     }
   ]
