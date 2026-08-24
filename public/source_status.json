@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T17:47:11.581Z",
+  "checked_at": "2026-08-24T18:59:14.651Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 90
+      "firewall_rejected": 88
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 93
+      "firewall_rejected": 92
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 86
+      "firewall_rejected": 85
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 82
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 48
+      "firewall_rejected": 50
     },
     {
       "source": "Dallas Morning News Business",
@@ -333,12 +333,12 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
+      "title": "What's real and what isn't entering final week of Texas football fall camp",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "What's real and what isn't entering final week of Texas football fall camp",
+      "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
       "reason": "blocked sports noise"
     },
     {
@@ -388,6 +388,11 @@
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
+      "title": "OL Cash Patrick excited to learn about Pittsburgh following offer",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Tech fall camp: Joey McGuire reacts to second scrimmage",
       "reason": "blocked sports noise"
     },
@@ -418,12 +423,12 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Meet EPISD’s new board trustees",
+      "title": "Top takeaways from the El Paso Chamber’s State of Education",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
-      "title": "Top takeaways from the El Paso Chamber’s State of Education",
+      "title": "El Paso Water planned decades ahead for future growth",
       "reason": "missing business relevance signal"
     },
     {
@@ -458,6 +463,16 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "What we know about 7 separate cases of bodies discovered across Houston",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Fact check: RFK Jr. says the U.S. had the highest COVID death rate worldwide",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "First, he lost his brother. Now ICE wants to take his dad. How much hardship is enough? | Editorial",
       "reason": "missing business relevance signal"
     },
@@ -483,11 +498,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros get a much-needed win with a shutout of the Athletics",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
       "reason": "missing business relevance signal"
     },
@@ -508,17 +518,12 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Two tropical systems are being watched. Should Texas worry?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Texas dismisses linebacker Ty’Anthony Smith from football team, leaving Longhorns thin at position",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "From Heisman winners to small-college stars, ranking the all-time RBs in Texas",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Man accused in Harris County deputy's death denied bail after surprise drug test",
       "reason": "missing business relevance signal"
     },
     {
@@ -528,12 +533,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UT's Steve Sarkisian on Ty'Anthony Smith and 'inefficient' Arch Manning",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Bullpen letdown dooms Astros in loss to A's with chance to add to AL West lead",
+      "title": "Newsom returns to a defining California fight: Who pays for wildfire damage?",
       "reason": "missing business relevance signal"
     },
     {
@@ -543,12 +543,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "TikTok reaches $400 million settlement with US Justice Department over children's privacy",
+      "title": "FCC Review Could End School Internet Program. Advocates Plan ‘Very Loud’ Protest",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "US is set to impose 50% tariffs on $20 billion worth of Canadian products",
+      "title": "TikTok reaches $400 million settlement with US Justice Department over children's privacy",
       "reason": "missing business relevance signal"
     },
     {
@@ -573,11 +573,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'They put kids first': East Bernard remembers late Jeremy and Brandy Jenkins",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
       "reason": "missing business relevance signal"
     },
@@ -594,11 +589,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Florida shows how to adapt as coastal cities face growing threats from sea level rise and storms",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "The UK will help Ukraine make long-range missiles by sharing classified tech information",
       "reason": "missing business relevance signal"
     },
     {
@@ -623,7 +613,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Something fishy is happening with HISD's 2025 A-F ratings.",
+      "title": "See the raises Houston and Harris County elected officials got this year",
       "reason": "missing business relevance signal"
     },
     {
@@ -633,12 +623,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "See the raises Houston and Harris County elected officials got this year",
+      "title": "How the No. 2 pencil became a uniquely American school supply staple",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How the No. 2 pencil became a uniquely American school supply staple",
+      "title": "Something fishy is happening with HISD's 2025 A-F ratings.",
       "reason": "missing business relevance signal"
     },
     {
@@ -668,6 +658,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "First-place Astros, GM Dana Brown part ways after disappointing homestand",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "The Latest: Canada’s prime minister promises retaliatory tariffs as negotiations with the US falter",
       "reason": "missing business relevance signal"
     },
@@ -678,7 +673,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Fact check: RFK Jr. says the U.S. had the highest COVID death rate worldwide",
+      "title": "The UK will help Ukraine make long-range missiles by sharing classified tech information",
       "reason": "missing business relevance signal"
     },
     {
@@ -713,27 +708,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Two tropical systems are being watched. Should Texas worry?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Philanthropist Nancy Kissinger, wife of former Secretary of State Henry Kissinger, dies at 92",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "First-place Astros, GM Dana Brown part ways after disappointing homestand",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Fernando Mendoza has plenty of experience to rely on in Raiders quarterbacks room",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas Southern aims higher after first winning football season in 25 years",
       "reason": "missing business relevance signal"
     },
     {
@@ -768,6 +743,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Texas Southern aims higher after first winning football season in 25 years",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "'Colony' from 'Train to Busan' director isn't quite as wild a ride",
       "reason": "missing business relevance signal"
     },
@@ -789,11 +769,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "College football 2026: Sam Houston finally feels normal again",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Tropical Storm Moke carrying more rain toward hurricane-damaged Hawaii",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,6 +799,31 @@
     {
       "source": "Houston Chronicle Business",
       "title": "A moderate earthquake shakes Japan, injuring more than 30 people in the Tokyo region",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston-area man sentenced to federal prison over fatal shooting of bald eagle",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Union for Boston Symphony Orchestra musicians authorizes first strike in ensemble's 145-year history",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "One is making his name in tackle football, the other in the soccer version: Meet the Flowers",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Thai prime minister meets security chiefs after coordinated attacks in 3 southern provinces",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Indonesian police arrest 72 people suspected of starting forest fires",
       "reason": "missing business relevance signal"
     }
   ]
