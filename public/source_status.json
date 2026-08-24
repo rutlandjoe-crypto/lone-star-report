@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T04:08:54.709Z",
+  "checked_at": "2026-08-24T05:01:49.027Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 91
     },
     {
       "source": "San Antonio Express-News Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 74
     },
     {
       "source": "El Paso Times Business",
@@ -399,6 +399,11 @@
     {
       "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Tech fall camp: Joey McGuire reacts to second scrimmage",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas Tech Red Raiders",
+      "title": "Texas A&M fall camp intel: 5 freshmen who have impressed, could play immediately",
       "reason": "blocked sports noise"
     },
     {
@@ -618,17 +623,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "3-year college degrees grow more popular in the US, saving time and cash. But critics aren't sold",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Federal officials announce water cuts as Colorado River supplies continue to plunge",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "La Marque Mayor Keith Bell accused of indecent exposure, police say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Sean Grayson, former Illinois deputy convicted of killing Sonya Massey, dies in prison, lawyer says",
       "reason": "missing business relevance signal"
     },
     {
@@ -758,6 +763,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Whataburger expected to replace a Taco Cabana near the Heights",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Mourinho has winning start at Madrid, Inter cruises and Man United loses",
       "reason": "missing business relevance signal"
     },
@@ -803,11 +813,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Whataburger expected to replace a Taco Cabana near the Heights",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Woman in her 90s is Montgomery County's first West Nile death of 2026",
       "reason": "missing business relevance signal"
     },
@@ -819,11 +824,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Boston Symphony Orchestra and musicians extend contract for 48 hours, delaying possible first strike",
       "reason": "missing business relevance signal"
     }
   ]
