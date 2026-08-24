@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T21:43:51.418Z",
+  "checked_at": "2026-08-24T22:44:28.316Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 5
+      "firewall_rejected": 4
     },
     {
       "source": "On3 - Baylor Bears",
@@ -204,7 +204,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 87
+      "firewall_rejected": 83
     },
     {
       "source": "Austin American-Statesman Business",
@@ -220,7 +220,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 86
+      "firewall_rejected": 84
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 52
+      "firewall_rejected": 44
     },
     {
       "source": "Dallas Morning News Business",
@@ -320,7 +320,7 @@
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 4,
+      "accepted": 3,
       "firewall_rejected": 0
     }
   ],
@@ -412,11 +412,6 @@
     },
     {
       "source": "On3 - TCU Horned Frogs",
-      "title": "Get Gators Online for ONLY $2.49 a month!!! Fall Camp Sale ends soon",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
       "title": "Mizzou football receiver Donovan Olugbode and corner Chris Graves meet with media to wrap up fall camp",
       "reason": "blocked sports noise"
     },
@@ -434,6 +429,11 @@
       "source": "On3 - TCU Horned Frogs",
       "title": "Georgia Fall Camp Special: Get 75% off an annual UGASports membership",
       "reason": "blocked sports noise"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Too young to be sick like this",
+      "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
@@ -502,17 +502,27 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston woman says she was raped in Vietnam, as authorities near Hanoi charge 23-year-old man",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "What we know and don't know about Texans three weeks into camp",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "FAB 50: The top Houston high school football players for the 2026 season",
+      "title": "Astros' Joe Espada misses game vs. A's due to family emergency",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Houston Astros get a much-needed win with a shutout of the Athletics",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "FAB 50: The top Houston high school football players for the 2026 season",
       "reason": "missing business relevance signal"
     },
     {
@@ -538,11 +548,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Texas dismisses linebacker Ty’Anthony Smith from football team, leaving Longhorns thin at position",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Man accused in Harris County deputy's death denied bail after surprise drug test",
       "reason": "missing business relevance signal"
     },
     {
@@ -592,11 +597,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Iran's rial currency hits new record low as US prepares to announce more sanctions",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
       "reason": "missing business relevance signal"
     },
@@ -622,6 +622,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Turkey Leg Hut returns in football season collab with Harold's Chicken",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Police find body of Massachusetts woman named a suspect in death of her police officer husband",
       "reason": "missing business relevance signal"
     },
@@ -637,12 +642,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How to make crispy Buffalo chicken tacos with collard slaw and a protein-packed ranch dressing",
+      "title": "3-year college degrees grow more popular in the US, saving time and cash. But critics aren't sold",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Turkey Leg Hut returns in football season collab with Harold's Chicken",
+      "title": "How to make crispy Buffalo chicken tacos with collard slaw and a protein-packed ranch dressing",
       "reason": "missing business relevance signal"
     },
     {
@@ -682,7 +687,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "3-year college degrees grow more popular in the US, saving time and cash. But critics aren't sold",
+      "title": "How a sanctuary outside LA has cared for rare, endangered gibbons for a half-century",
       "reason": "missing business relevance signal"
     },
     {
@@ -712,7 +717,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Firefighters are trying to stop a fast-moving Nevada wildfire from spreading to homes in Reno",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Darline Graham, Ralph Norman wrap up a whirlwind South Carolina Senate primary campaign",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The Latest: Supreme Court clears the way for Trump to restrict mail-in voting",
       "reason": "missing business relevance signal"
     },
     {
@@ -722,27 +737,27 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The UK will help Ukraine make long-range missiles by sharing classified tech information",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "How a sanctuary outside LA has cared for rare, endangered gibbons for a half-century",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston VA uses new laser procedure to treat veteran with epilepsy",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How long will Houston stay this hot? What weather models say.",
+      "title": "The UK will help Ukraine make long-range missiles by sharing classified tech information",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Talarico is trying to win moderate voters. Why isn’t Paxton? | Opinion",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "California Supreme Court hears arguments over sheriff's seizure of ballots",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Astros Dog Day brings four-legged fans to Daikin Park",
       "reason": "missing business relevance signal"
     },
     {
@@ -757,12 +772,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Firefighters are trying to stop a fast-moving Nevada wildfire from spreading to homes in Reno",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Astros Dog Day brings four-legged fans to Daikin Park",
+      "title": "TEA printing delays leave Texas schools scrambling for Bluebonnet materials",
       "reason": "missing business relevance signal"
     },
     {
@@ -787,12 +797,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Charter boat hauls in 1,260-pound blue marlin believed to be East Coast's largest catch",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "The Latest: Supreme Court clears the way for Trump to restrict mail-in voting",
+      "title": "How long will Houston stay this hot? What weather models say.",
       "reason": "missing business relevance signal"
     },
     {
@@ -802,7 +807,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Talarico is trying to win moderate voters. Why isn’t Paxton? | Opinion",
+      "title": "Inside Trump's remake of the White House Rose Garden. First a stone patio, then statues",
       "reason": "missing business relevance signal"
     },
     {
@@ -817,12 +822,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Preservationists are working to extend the life of a rare Revolutionary War 'witness tree'",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Inside Trump's remake of the White House Rose Garden. First a stone patio, then statues",
+      "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
       "reason": "missing business relevance signal"
     }
   ]
