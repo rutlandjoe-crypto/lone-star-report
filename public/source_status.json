@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T03:16:46.225Z",
+  "checked_at": "2026-08-24T04:01:51.463Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 5
+      "firewall_rejected": 6
     },
     {
       "source": "On3 - Baylor Bears",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 92
     },
     {
       "source": "San Antonio Express-News Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 74
+      "firewall_rejected": 73
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 59
+      "firewall_rejected": 57
     },
     {
       "source": "Dallas Morning News Business",
@@ -398,11 +398,6 @@
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
-      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Tech fall camp: Joey McGuire reacts to second scrimmage",
       "reason": "blocked sports noise"
     },
@@ -424,6 +419,11 @@
     {
       "source": "On3 - TCU Horned Frogs",
       "title": "UCLA Football Fall Camp Central",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - TCU Horned Frogs",
+      "title": "Georgia Fall Camp Special: Get 75% off an annual UGASports membership",
       "reason": "blocked sports noise"
     },
     {
@@ -483,17 +483,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "A Texas barbecue writer went to Kansas City. How did its smoked meats stack up?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston pastor released by ICE, will soon return to Seventh-day Adventist church after posting bond",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Why country legend Tanya Tucker is showing up at the Texas Capitol lately",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "A Texas barbecue writer went to Kansas City. How did its smoked meats stack up?",
       "reason": "missing business relevance signal"
     },
     {
@@ -533,11 +533,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "From Heisman winners to small-college stars, ranking the all-time RBs in Texas",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Why Jeremy Peña opted against going for go-ahead runner late in Astros' loss",
       "reason": "missing business relevance signal"
     },
@@ -549,6 +544,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Texas dismisses linebacker Ty’Anthony Smith from football team, leaving Longhorns thin at position",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "From Heisman winners to small-college stars, ranking the all-time RBs in Texas",
       "reason": "missing business relevance signal"
     },
     {
@@ -723,11 +723,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston woman says she was raped in Vietnam, as authorities near Hanoi charge 23-year-old man",
       "reason": "missing business relevance signal"
     },
@@ -814,6 +809,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Congo receives more than 16,000 doses of Ebola vaccine as it grapples with unprecedented outbreak",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
       "reason": "missing business relevance signal"
     },
     {
