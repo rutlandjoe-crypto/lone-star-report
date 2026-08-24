@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T10:03:55.835Z",
+  "checked_at": "2026-08-24T10:53:36.318Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 93
+      "firewall_rejected": 94
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 86
+      "firewall_rejected": 85
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 77
+      "firewall_rejected": 79
     },
     {
       "source": "El Paso Times Business",
@@ -291,7 +291,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 4,
+      "accepted": 3,
       "firewall_rejected": 0
     },
     {
@@ -478,17 +478,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston pastor released by ICE, will soon return to Seventh-day Adventist church after posting bond",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Why country legend Tanya Tucker is showing up at the Texas Capitol lately",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
+      "title": "Houston pastor released by ICE, will soon return to Seventh-day Adventist church after posting bond",
       "reason": "missing business relevance signal"
     },
     {
@@ -503,12 +498,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Astros get a much-needed win with a shutout of the Athletics",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "FAB 50: The top Houston high school football players for the 2026 season",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros get a much-needed win with a shutout of the Athletics",
+      "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
       "reason": "missing business relevance signal"
     },
     {
@@ -539,6 +539,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Bullpen letdown dooms Astros in loss to A's with chance to add to AL West lead",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Astros blow big lead in loss to last-place A's, sink into tie atop AL West",
       "reason": "missing business relevance signal"
     },
     {
@@ -673,6 +678,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Iran's rial currency hits new record low as US prepares to announce more sanctions",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games",
       "reason": "missing business relevance signal"
     },
@@ -724,11 +734,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Houstonian Lyle Lovett stars in new Texas A&M campaign. Here is how to watch.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Cologne convinces teenage star Said El Mala to stay and gives him prestigious No. 10",
       "reason": "missing business relevance signal"
     },
     {
@@ -819,11 +824,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Trump is coming to Houston to honor astronauts at Johnson Space Center",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Near-total lunar eclipse is coming up with the Americas in prime position",
       "reason": "missing business relevance signal"
     }
   ]
