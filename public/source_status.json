@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T14:03:02.501Z",
+  "checked_at": "2026-08-24T15:00:08.312Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 5
     },
     {
       "source": "On3 - Baylor Bears",
@@ -143,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Houston Cougars",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 86
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 93
+      "firewall_rejected": 94
     },
     {
       "source": "San Antonio Express-News Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 82
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 50
+      "firewall_rejected": 48
     },
     {
       "source": "Dallas Morning News Business",
@@ -387,13 +387,13 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - Texas Tech Red Raiders",
-      "title": "Everything Texas coach Steve Sarkisian said after fall camp scrimmage No. 2",
+      "source": "On3 - TCU Horned Frogs",
+      "title": "Get Gators Online for ONLY $2.49 a month!!! Fall Camp Sale ends soon",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - TCU Horned Frogs",
-      "title": "Get Gators Online for ONLY $2.49 a month!!! Fall Camp Sale ends soon",
+      "title": "Mizzou football receiver Donovan Olugbode and corner Chris Graves meet with media to wrap up fall camp",
       "reason": "blocked sports noise"
     },
     {
@@ -409,11 +409,6 @@
     {
       "source": "On3 - TCU Horned Frogs",
       "title": "Georgia Fall Camp Special: Get 75% off an annual UGASports membership",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - SMU Mustangs",
-      "title": "SMU fall camp intel: Key Mustangs return to practice",
       "reason": "blocked sports noise"
     },
     {
@@ -468,12 +463,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UT's Steve Sarkisian on Ty'Anthony Smith and 'inefficient' Arch Manning",
+      "title": "Texas children’s hospitals warn of billions in cuts under proposed Medicaid rule",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "What we know and don't know about Texans three weeks into camp",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "UT's Steve Sarkisian on Ty'Anthony Smith and 'inefficient' Arch Manning",
       "reason": "missing business relevance signal"
     },
     {
@@ -488,7 +488,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "See the raises Houston and Harris County elected officials got this year",
       "reason": "missing business relevance signal"
     },
     {
@@ -628,6 +638,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "First-place Astros, GM Dana Brown part ways after disappointing homestand",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston offers up to $300,000 to repair homes damaged by Beryl, derecho in 2024",
       "reason": "missing business relevance signal"
     },
@@ -644,6 +659,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Inside Trump's remake of the White House Rose Garden. First a stone patio, then statues",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Astros and GM Dana Brown mutually agree to part ways",
       "reason": "missing business relevance signal"
     },
     {
@@ -733,11 +753,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston-area man sentenced to federal prison over fatal shooting of bald eagle",
       "reason": "missing business relevance signal"
     },
@@ -749,6 +764,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Whataburger expected to replace a Taco Cabana near the Heights",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "High school football is kicking off in Houston. The heat may be a major factor.",
       "reason": "missing business relevance signal"
     },
     {
@@ -788,16 +808,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Early Motown songwriter Janie Bradford Hobbs dies in Los Angeles after illness at age 87",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Powerful storm hits Baltic countries, killing 2 and leaving hundreds of thousands without power",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Congo receives more than 16,000 doses of Ebola vaccine as it grapples with unprecedented outbreak",
       "reason": "missing business relevance signal"
     },
@@ -813,17 +823,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "See the raises Houston and Harris County elected officials got this year",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "He was waiting for his son to return from the USS Lincoln. Then Border Patrol arrested him.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Quinceañera expo returns to Houston with dresses, vendors and giveaways.",
+      "title": "Powerful storm hits Baltic countries, killing 2 and leaving hundreds of thousands without power",
       "reason": "missing business relevance signal"
     }
   ]
