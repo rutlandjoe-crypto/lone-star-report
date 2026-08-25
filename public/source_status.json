@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T03:12:50.285Z",
+  "checked_at": "2026-08-25T03:59:30.415Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -212,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 90
+      "firewall_rejected": 89
     },
     {
       "source": "San Antonio Express-News Business",
@@ -228,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 79
+      "firewall_rejected": 80
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 48
+      "firewall_rejected": 49
     },
     {
       "source": "Dallas Morning News Business",
@@ -290,7 +290,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 2,
+      "accepted": 3,
       "firewall_rejected": 0
     },
     {
@@ -462,6 +462,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Turkey Leg Hut returns in football season collab with Harold's Chicken",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston offers up to $300,000 to repair homes damaged by Beryl, derecho in 2024",
       "reason": "missing business relevance signal"
     },
@@ -483,6 +488,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "First, he lost his brother. Now ICE wants to take his dad. How much hardship is enough? | Editorial",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'Couldn't find a school': Why only 76% of Texas' school voucher recipients have used them",
       "reason": "missing business relevance signal"
     },
     {
@@ -577,12 +587,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Two tropical systems are being watched. Should Texas worry?",
+      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
+      "title": "Two tropical systems are being watched. Should Texas worry?",
       "reason": "missing business relevance signal"
     },
     {
@@ -613,11 +623,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Florida shows how to adapt as coastal cities face growing threats from sea level rise and storms",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Turkey Leg Hut returns in football season collab with Harold's Chicken",
       "reason": "missing business relevance signal"
     },
     {
@@ -657,11 +662,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "DC's delegate candidate plans to target federal lawmakers challenging the city’s autonomy",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "How the No. 2 pencil became a uniquely American school supply staple",
       "reason": "missing business relevance signal"
     },
@@ -677,17 +677,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Greg Abbott pushes for insurers to cut rates for fortified roofs",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Trump is coming to Houston to honor astronauts at Johnson Space Center",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "La Marque Mayor Keith Bell accused of indecent exposure, police say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Greg Abbott pushes for insurers to cut rates for fortified roofs",
       "reason": "missing business relevance signal"
     },
     {
@@ -732,11 +732,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'Couldn't find a school': Why only 76% of Texas' school voucher recipients have used them",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Astros Dog Day brings four-legged fans to Daikin Park",
       "reason": "missing business relevance signal"
     },
@@ -773,6 +768,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "The UK will help Ukraine make long-range missiles by sharing classified tech information",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "DC's delegate candidate plans to target federal lawmakers challenging the city’s autonomy",
       "reason": "missing business relevance signal"
     },
     {
