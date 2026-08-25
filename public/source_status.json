@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T05:47:46.093Z",
+  "checked_at": "2026-08-25T07:08:32.035Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -212,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 91
     },
     {
       "source": "San Antonio Express-News Business",
@@ -228,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 77
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 47
+      "firewall_rejected": 46
     },
     {
       "source": "Dallas Morning News Business",
@@ -290,7 +290,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 2,
+      "accepted": 3,
       "firewall_rejected": 0
     },
     {
@@ -462,6 +462,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Turkey Leg Hut returns in football season collab with Harold's Chicken",
       "reason": "missing business relevance signal"
     },
@@ -537,11 +542,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston Astros get a much-needed win with a shutout of the Athletics",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "FAB 50: The top Houston high school football players for the 2026 season",
       "reason": "missing business relevance signal"
     },
@@ -597,11 +597,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Two tropical systems are being watched. Should Texas worry?",
       "reason": "missing business relevance signal"
     },
@@ -617,11 +612,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "California lawmakers vote to increase transparency over influencers’ paid political posts",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Florida shows how to adapt as coastal cities face growing threats from sea level rise and storms",
       "reason": "missing business relevance signal"
     },
@@ -633,6 +623,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Nearly half of Houston groups linking residents to City Hall are inactive. Why?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A women's shelter for refugees in Poland fights for survival as anti-Ukrainian sentiment rises",
       "reason": "missing business relevance signal"
     },
     {
@@ -687,11 +682,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Greg Abbott pushes for insurers to cut rates for fortified roofs",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "High school football is kicking off in Houston. The heat may be a major factor.",
       "reason": "missing business relevance signal"
     },
@@ -703,6 +693,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Third time the charm? Democrat Christina Bohannan tries again in pivotal US House race in Iowa",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Greg Abbott pushes for insurers to cut rates for fortified roofs",
       "reason": "missing business relevance signal"
     },
     {
@@ -738,6 +733,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Supreme Court sides with Trump administration on mail voting restrictions ahead of midterms",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "California lawmakers vote to increase transparency over influencers’ paid political posts",
       "reason": "missing business relevance signal"
     },
     {
@@ -782,6 +782,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "The last few witnesses in the Lindsay Clancy murder trial are set to testify",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "California Supreme Court hears arguments over sheriff's seizure of ballots",
       "reason": "missing business relevance signal"
     },
@@ -792,17 +797,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "FBI sets $25,000 minimum reward for dozens of unsolved Indian Country cases",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A psychologist at Lindsay Clancy's murder trial says she has bipolar disorder",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "8-year-old Louisiana girl dies from a rare brain-eating amoeba found in warm freshwater",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "FBI sets $25,000 minimum reward for dozens of unsolved Indian Country cases",
       "reason": "missing business relevance signal"
     },
     {
@@ -818,11 +823,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Nothing changes yet with the Supreme Court's order on elections. But it could open door to 'chaos'",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Uganda and Burundi military officials visit Israel to discuss Gaza troop deployment",
       "reason": "missing business relevance signal"
     }
   ]
