@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-08-25T20:45:57.343Z",
+  "checked_at": "2026-08-25T21:44:09.628Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 33,
+  "working_sources": 34,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -78,8 +78,9 @@
       "source": "El Paso Times",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "San Antonio Express-News",
@@ -126,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 5
+      "firewall_rejected": 4
     },
     {
       "source": "On3 - Baylor Bears",
@@ -204,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 80
     },
     {
       "source": "Austin American-Statesman Business",
@@ -220,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 86
+      "firewall_rejected": 85
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -228,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 63
+      "firewall_rejected": 62
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 58
+      "firewall_rejected": 59
     },
     {
       "source": "Dallas Morning News Business",
@@ -417,11 +418,6 @@
     },
     {
       "source": "On3 - TCU Horned Frogs",
-      "title": "Report: Pittsburgh Steelers plan to carry both Will Howard and Drew Allar on 53-man roster",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
       "title": "Alex Byington",
       "reason": "blocked sports noise"
     },
@@ -527,12 +523,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
+      "title": "TEA printing delays leave Texas schools scrambling for Bluebonnet materials",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "TEA printing delays leave Texas schools scrambling for Bluebonnet materials",
+      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
       "reason": "missing business relevance signal"
     },
     {
@@ -557,17 +553,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas Roadhouse investigates Facebook hoax describing racist food tampering",
+      "title": "Fact check: RFK Jr. says the U.S. had the highest COVID death rate worldwide",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "73-year-old man dies after SUV collides with train in north Harris County",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Fact check: RFK Jr. says the U.S. had the highest COVID death rate worldwide",
       "reason": "missing business relevance signal"
     },
     {
@@ -588,6 +579,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Astros' Joe Espada misses game vs. A's due to family emergency",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas Roadhouse investigates Facebook hoax describing racist food tampering",
       "reason": "missing business relevance signal"
     },
     {
@@ -652,6 +648,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "What to know about Trump's tariffs on Canadian goods and rising tensions between once-close allies",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Paxton’s crusade against data centers ignores what makes Texas great | Opinion",
       "reason": "missing business relevance signal"
     },
@@ -678,11 +679,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Two tropical systems are being watched. Should Texas worry?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
       "reason": "missing business relevance signal"
     },
     {
@@ -737,11 +733,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Louisiana National Guard ends deployment in New Orleans after eight months patrolling French Quarter",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Thai prime minister meets security chiefs after coordinated attacks in 3 southern provinces",
       "reason": "missing business relevance signal"
     },
@@ -763,11 +754,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Houston VA uses new laser procedure to treat veteran with epilepsy",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Elon Musk won't face election bribery charges in Wisconsin, state prosecutor says",
       "reason": "missing business relevance signal"
     },
     {
@@ -812,17 +798,32 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Cool down with these easy chilled sesame noodles",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Firefighters are trying to stop a fast-moving Nevada wildfire from spreading to homes in Reno",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Florida, hard-hit by Obamacare drop-off, feels the squeeze of rising healthcare costs",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Darline Graham, Ralph Norman wrap up a whirlwind South Carolina Senate primary campaign",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "After a diabetes diagnosis, Koffeteria chef is baking for people like him",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The UK will help Ukraine make long-range missiles by sharing classified tech information",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Darline Graham, Ralph Norman go head-to-head in South Carolina's GOP Senate runoff",
       "reason": "missing business relevance signal"
     }
   ]
