@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T14:03:56.059Z",
+  "checked_at": "2026-08-25T15:05:21.324Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -41,7 +41,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "Houston Chronicle",
@@ -204,7 +204,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 79
+      "firewall_rejected": 80
     },
     {
       "source": "Austin American-Statesman Business",
@@ -212,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 91
     },
     {
       "source": "San Antonio Express-News Business",
@@ -220,7 +220,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 85
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -228,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 68
+      "firewall_rejected": 70
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 51
+      "firewall_rejected": 53
     },
     {
       "source": "Dallas Morning News Business",
@@ -325,6 +325,11 @@
     }
   ],
   "firewall_rejections": [
+    {
+      "source": "El Paso Matters",
+      "title": "Opinion: Affordable childcare is a missing piece in El Paso's population changes",
+      "reason": "blocked editorial/opinion phrase"
+    },
     {
       "source": "El Paso Matters",
       "title": "Opinion: New Mexico lawmaker who backed Project Jupiter now says developers should leave",
@@ -438,6 +443,11 @@
     {
       "source": "El Paso Inc.",
       "title": "Pullman Wash Co Launches Commercial Pressure Washing Operation Built Exclusively for the Palouse",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Is AI Car Diagnostics Accurate? THINKCAR Built Tyler to Show Its Work And Not Guess",
       "reason": "missing business relevance signal"
     },
     {
@@ -607,6 +617,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "US consumer confidence falls to lowest level in 7 months with gas stuck above $4",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Paxton’s crusade against data centers ignores what makes Texas great | Opinion",
       "reason": "missing business relevance signal"
     },
@@ -737,16 +752,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Sentencing set for polygamous leader convicted of abuse in Arizona after girls discovered in trailer",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Preservationists are working to extend the life of a rare Revolutionary War 'witness tree'",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "How the No. 2 pencil became a uniquely American school supply staple",
       "reason": "missing business relevance signal"
     },
@@ -793,11 +798,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Third time the charm? Democrat Christina Bohannan tries again in pivotal US House race in Iowa",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Florida, hard-hit by Obamacare drop-off, feels the squeeze of rising healthcare costs",
       "reason": "missing business relevance signal"
     },
     {
