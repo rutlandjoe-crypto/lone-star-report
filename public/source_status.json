@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T09:00:13.795Z",
+  "checked_at": "2026-08-25T09:51:35.793Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -143,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Houston Cougars",
@@ -212,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 90
+      "firewall_rejected": 91
     },
     {
       "source": "San Antonio Express-News Business",
@@ -220,7 +220,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 84
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 47
+      "firewall_rejected": 46
     },
     {
       "source": "Dallas Morning News Business",
@@ -290,7 +290,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 2,
+      "accepted": 3,
       "firewall_rejected": 0
     },
     {
@@ -423,6 +423,11 @@
     {
       "source": "On3 - TCU Horned Frogs",
       "title": "Georgia Fall Camp Special: Get 75% off an annual UGASports membership",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - SMU Mustangs",
+      "title": "Mizzou football coach Eliah Drinkwitz wraps up fall camp",
       "reason": "blocked sports noise"
     },
     {
@@ -667,6 +672,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "A tornado tears through a village in southern France, injuring 39 and wrecking 300 homes",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "How the No. 2 pencil became a uniquely American school supply staple",
       "reason": "missing business relevance signal"
     },
@@ -688,6 +698,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "La Marque Mayor Keith Bell accused of indecent exposure, police say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "When will Houston’s heat streak break? Here’s what changes next",
       "reason": "missing business relevance signal"
     },
     {
@@ -787,11 +802,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "California Supreme Court hears arguments over sheriff's seizure of ballots",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Sean Grayson, former Illinois deputy convicted of killing Sonya Massey, dies in prison, lawyer says",
       "reason": "missing business relevance signal"
     },
@@ -802,27 +812,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "California Supreme Court hears arguments over sheriff's seizure of ballots",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "8-year-old Louisiana girl dies from a rare brain-eating amoeba found in warm freshwater",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Nothing changes yet with the Supreme Court's order on elections. But it could open door to 'chaos'",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "FBI sets $25,000 minimum reward for dozens of unsolved Indian Country cases",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Strikes in Gaza kill 4, including 2 children, a week after US asked Israel to curb attacks",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "How long will Houston stay this hot? Here's what weather models say.",
       "reason": "missing business relevance signal"
     }
   ]
