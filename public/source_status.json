@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T22:44:52.059Z",
+  "checked_at": "2026-08-25T23:37:52.710Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 7
+      "firewall_rejected": 6
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 62
+      "firewall_rejected": 63
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 60
+      "firewall_rejected": 61
     },
     {
       "source": "Dallas Morning News Business",
@@ -321,7 +321,7 @@
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 4,
+      "accepted": 3,
       "firewall_rejected": 0
     }
   ],
@@ -343,12 +343,12 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
+      "title": "Manning, Mascoe & Cryer Give an Inside Look at Texas Fall Camp",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Manning, Mascoe & Cryer Give an Inside Look at Texas Fall Camp",
+      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
       "reason": "blocked sports noise"
     },
     {
@@ -379,11 +379,6 @@
     {
       "source": "On3 - Texas A&M Aggies",
       "title": "Glen's Take: 5 thoughts on week three of LSU fall camp",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Cardinal Sports News | On3.com",
       "reason": "blocked sports noise"
     },
     {
@@ -518,6 +513,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "'Couldn't find a school': Why only 76% of Texas' school voucher recipients have used them",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "First, he lost his brother. Now ICE wants to take his dad. How much hardship is enough? | Editorial",
       "reason": "missing business relevance signal"
     },
@@ -548,7 +548,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Turkey Leg Hut returns in football season collab with Harold's Chicken",
+      "title": "'Giving people a taste of what’s next': What to know about Turkey Leg Hut's popups at Harold's Chicken",
       "reason": "missing business relevance signal"
     },
     {
@@ -583,11 +583,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas Roadhouse investigates Facebook hoax describing racist food tampering",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texans reach agreement to acquire WR Kayshon Boutte from Patriots",
       "reason": "missing business relevance signal"
     },
@@ -613,12 +608,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "‘A sense of belonging’: Muslim travelers defend IAH washrooms amid Greg Abbott’s attacks",
+      "title": "Dolly Parton’s Houston ties ran from the Astrodome to Kenny Rogers and beyond",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Dolly Parton’s Houston ties ran from the Astrodome to Kenny Rogers and beyond",
+      "title": "‘A sense of belonging’: Muslim travelers defend IAH washrooms amid Greg Abbott’s attacks",
       "reason": "missing business relevance signal"
     },
     {
@@ -658,17 +653,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Paxton’s crusade against data centers ignores what makes Texas great | Opinion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Newsom returns to a defining California fight: Who pays for wildfire damage?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Instagram chief takes the stand in a trial pitting Meta against states over social media harms",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Paxton’s crusade against data centers ignores what makes Texas great | Opinion",
       "reason": "missing business relevance signal"
     },
     {
@@ -788,11 +788,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Another Flock camera found cut down in Houston as fight over surveillance escalates",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Third time the charm? Democrat Christina Bohannan tries again in pivotal US House race in Iowa",
       "reason": "missing business relevance signal"
     },
@@ -824,6 +819,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "The UK will help Ukraine make long-range missiles by sharing classified tech information",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Darline Graham, Ralph Norman go head-to-head in South Carolina's GOP Senate runoff",
       "reason": "missing business relevance signal"
     }
   ]
