@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T23:35:13.334Z",
+  "checked_at": "2026-08-25T01:52:27.687Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 8
+      "firewall_rejected": 7
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 7
+      "firewall_rejected": 5
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -204,7 +204,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 82
     },
     {
       "source": "Austin American-Statesman Business",
@@ -228,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 78
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 46
+      "firewall_rejected": 48
     },
     {
       "source": "Dallas Morning News Business",
@@ -347,11 +347,6 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M fall camp intel: What we're hearing from the Aggies' preseason (Defense)",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
       "title": "Texas A&M fall camp intel: What we're hearing from the Aggies' preseason (Offense)",
       "reason": "blocked sports noise"
     },
@@ -392,11 +387,6 @@
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
-      "title": "OL Cash Patrick excited to learn about Pittsburgh following offer",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Tech fall camp: Joey McGuire reacts to second scrimmage",
       "reason": "blocked sports noise"
     },
@@ -408,11 +398,6 @@
     {
       "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Tech Red Raiders",
-      "title": "Curt Cignetti provides update on key position battle entering final week of fall camp for Indiana",
       "reason": "blocked sports noise"
     },
     {
@@ -482,17 +467,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "What we know about 7 separate cases of bodies discovered across Houston",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Fact check: RFK Jr. says the U.S. had the highest COVID death rate worldwide",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "A Texas barbecue writer went to Kansas City. How did its smoked meats stack up?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "What we know about 7 separate cases of bodies discovered across Houston",
       "reason": "missing business relevance signal"
     },
     {
@@ -552,12 +537,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Two tropical systems are being watched. Should Texas worry?",
+      "title": "What's next for Astros? Jim Crane, Jeff Bagwell to take bigger role",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Why Jeremy Peña opted against going for go-ahead runner late in Astros' loss",
+      "title": "Why Astros' Jeremy Peña opted against trying to throw out go-ahead runner late in loss to A's",
       "reason": "missing business relevance signal"
     },
     {
@@ -582,7 +567,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Bullpen letdown dooms Astros in loss to A's with chance to add to AL West lead",
+      "title": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
       "reason": "missing business relevance signal"
     },
     {
@@ -592,17 +577,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "FCC Review Could End School Internet Program. Advocates Plan ‘Very Loud’ Protest",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "TikTok reaches $400 million settlement with US Justice Department over children's privacy",
       "reason": "missing business relevance signal"
     },
     {
@@ -628,6 +603,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "What to know about Alex Jones' Texas court win and more than $1 billion in damages he still faces",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "California lawmakers vote to increase transparency over influencers’ paid political posts",
       "reason": "missing business relevance signal"
     },
     {
@@ -667,17 +647,27 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Two tropical systems are being watched. Should Texas worry?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "El-Sayed distances himself from popular streamer's comments on Israel and Jewish Americans",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Congo's Ebola outbreak records one of its highest weekly death tolls yet",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "See the raises Houston and Harris County elected officials got this year",
+      "title": "Photos of daily life in Tehran as Iran braces for new US sanctions",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Federal officials announce water cuts as Colorado River supplies continue to plunge",
+      "title": "DC's delegate candidate plans to target federal lawmakers challenging the city’s autonomy",
       "reason": "missing business relevance signal"
     },
     {
@@ -717,17 +707,27 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "See the raises Houston and Harris County elected officials got this year",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Third time the charm? Democrat Christina Bohannan tries again in pivotal US House race in Iowa",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Photos of daily life in Tehran as Iran braces for new US sanctions",
+      "title": "Prince Harry to leave board of African Parks conservation nonprofit",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Prince Harry to leave board of African Parks conservation nonprofit",
+      "title": "Federal judge vacates Trump policy that suspended processing of immigration visas from 75 countries",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Supreme Court sides with Trump administration on mail voting restrictions ahead of midterms",
       "reason": "missing business relevance signal"
     },
     {
@@ -738,6 +738,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Firefighters are trying to stop a fast-moving Nevada wildfire from spreading to homes in Reno",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Astros Dog Day brings four-legged fans to Daikin Park",
       "reason": "missing business relevance signal"
     },
     {
@@ -762,11 +767,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Talarico is trying to win moderate voters. Why isn’t Paxton? | Opinion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston VA uses new laser procedure to treat veteran with epilepsy",
       "reason": "missing business relevance signal"
     },
@@ -777,22 +777,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Talarico is trying to win moderate voters. Why isn’t Paxton? | Opinion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "California Supreme Court hears arguments over sheriff's seizure of ballots",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros Dog Day brings four-legged fans to Daikin Park",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Sean Grayson, former Illinois deputy convicted of killing Sonya Massey, dies in prison, lawyer says",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Supreme Court clears the way for Trump mail voting order in advance of midterms",
       "reason": "missing business relevance signal"
     },
     {
@@ -812,6 +807,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How long will Houston stay this hot? Here's what weather models say.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "The world inches toward catastrophic climate events: 'Bigger shocks are on the way'",
       "reason": "missing business relevance signal"
     },
@@ -822,7 +822,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How long will Houston stay this hot? What weather models say.",
+      "title": "Brewers' Brandon Woodruff says he won't need to undergo shoulder surgery",
       "reason": "missing business relevance signal"
     }
   ]
