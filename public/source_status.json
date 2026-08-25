@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-08-25T15:05:21.324Z",
+  "checked_at": "2026-08-25T15:59:53.076Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 33,
+  "working_sources": 34,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 7
+      "firewall_rejected": 8
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -171,8 +171,9 @@
       "source": "El Paso Inc.",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 2,
+      "firewall_rejected": 10
     },
     {
       "source": "Texas Comptroller",
@@ -236,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 53
+      "firewall_rejected": 55
     },
     {
       "source": "Dallas Morning News Business",
@@ -290,7 +291,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 2,
       "firewall_rejected": 0
     },
     {
@@ -320,7 +321,7 @@
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 4,
+      "accepted": 3,
       "firewall_rejected": 0
     }
   ],
@@ -367,12 +368,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Inside Texas A&M fall camp: Why Aggie WR Terry Bussey looks poised for a breakout 2026 season",
+      "title": "Texas A&M fall camp intel: 5 freshmen who have impressed, could play immediately",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M fall camp intel: 5 freshmen who have impressed, could play immediately",
+      "title": "Inside Texas A&M fall camp: Why Aggie WR Terry Bussey looks poised for a breakout 2026 season",
       "reason": "blocked sports noise"
     },
     {
@@ -383,6 +384,11 @@
     {
       "source": "On3 - Texas A&M Aggies",
       "title": "Glen's Take: 5 thoughts on week three of LSU fall camp",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Cardinal Sports News | On3.com",
       "reason": "blocked sports noise"
     },
     {
@@ -582,17 +588,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Texans reach agreement to acquire WR Kayshon Boutte from Patriots",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Jacob Elordi, Elon Musk, Godzilla: The top 25 films you'll be talking about this fall",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Fifth Ward apartment residents go days without power in Houston heat",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Why Astros' Jeremy Peña opted against trying to throw out go-ahead runner late in loss to A's",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "From Heisman winners to small-college stars, ranking the all-time RBs in Texas",
       "reason": "missing business relevance signal"
     },
     {
@@ -672,12 +683,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Putin decree lets Russia take control of infrastructure damaged in Ukrainian drone attacks",
+      "title": "Greg Abbott pushes for insurers to cut rates for fortified roofs",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Greg Abbott pushes for insurers to cut rates for fortified roofs",
+      "title": "Cool down with these easy chilled sesame noodles",
       "reason": "missing business relevance signal"
     },
     {
@@ -688,6 +699,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Police find body of Massachusetts woman named a suspect in death of her police officer husband",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Putin decree lets Russia take control of infrastructure damaged in Ukrainian drone attacks",
       "reason": "missing business relevance signal"
     },
     {
@@ -807,22 +823,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "MAGA Inc. spends $827,000 to back Darline Graham on final day of South Carolina GOP Senate runoff",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Federal judge vacates Trump policy that suspended processing of immigration visas from 75 countries",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Arrest warrant issued for Massachusetts woman sought in officer's death",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Firefighters are trying to stop a fast-moving Nevada wildfire from spreading to homes in Reno",
       "reason": "missing business relevance signal"
     }
   ]
