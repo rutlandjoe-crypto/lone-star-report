@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T07:58:31.368Z",
+  "checked_at": "2026-08-25T09:00:13.795Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 5
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -220,7 +220,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 85
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -228,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 77
+      "firewall_rejected": 79
     },
     {
       "source": "El Paso Times Business",
@@ -401,6 +401,11 @@
       "reason": "blocked sports noise"
     },
     {
+      "source": "On3 - Texas Tech Red Raiders",
+      "title": "Fall Camp Update: Discussing the key storylines as Indiana transitions to final week of camp",
+      "reason": "blocked sports noise"
+    },
+    {
       "source": "On3 - TCU Horned Frogs",
       "title": "Mizzou football receiver Donovan Olugbode and corner Chris Graves meet with media to wrap up fall camp",
       "reason": "blocked sports noise"
@@ -512,17 +517,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "73-year-old man dies after SUV collides with train in north Harris County",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Child dies when pickup collides with Harris County Sheriff's Office SUV",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "What we know and don't know about Texans three weeks into camp",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "73-year-old man dies after SUV collides with train in north Harris County",
       "reason": "missing business relevance signal"
     },
     {
@@ -802,27 +807,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "FBI sets $25,000 minimum reward for dozens of unsolved Indian Country cases",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "How long will Houston stay this hot? Here's what weather models say.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "The world inches toward catastrophic climate events: 'Bigger shocks are on the way'",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Nothing changes yet with the Supreme Court's order on elections. But it could open door to 'chaos'",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Uganda and Burundi military officials visit Israel to discuss Gaza troop deployment",
+      "title": "FBI sets $25,000 minimum reward for dozens of unsolved Indian Country cases",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Strikes in Gaza kill 4, including 2 children, a week after US asked Israel to curb attacks",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "How long will Houston stay this hot? Here's what weather models say.",
       "reason": "missing business relevance signal"
     }
   ]
