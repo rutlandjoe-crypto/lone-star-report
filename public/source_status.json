@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T03:59:30.415Z",
+  "checked_at": "2026-08-25T04:53:35.388Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -204,7 +204,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 80
     },
     {
       "source": "Austin American-Statesman Business",
@@ -212,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -220,7 +220,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 84
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -228,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 78
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 49
+      "firewall_rejected": 47
     },
     {
       "source": "Dallas Morning News Business",
@@ -290,7 +290,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 2,
       "firewall_rejected": 0
     },
     {
@@ -497,6 +497,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "TEA printing delays leave Texas schools scrambling for Bluebonnet materials",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
       "reason": "missing business relevance signal"
     },
@@ -517,6 +522,16 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Astros blow big lead in loss to last-place A's, sink into tie atop AL West",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "73-year-old man dies after SUV collides with train in north Harris County",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Astros' Joe Espada misses game vs. A's due to family emergency",
       "reason": "missing business relevance signal"
     },
@@ -533,11 +548,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Astros blow big lead in loss to last-place A's, sink into tie atop AL West",
       "reason": "missing business relevance signal"
     },
     {
@@ -603,11 +613,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "US set for largest mass visa revocation in history targeting up to 200,000 foreigners, officials say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "What to know about Alex Jones' Texas court win and more than $1 billion in damages he still faces",
       "reason": "missing business relevance signal"
     },
     {
@@ -712,11 +717,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "MAGA Inc. spends $827,000 to back Darline Graham on final day of South Carolina GOP Senate runoff",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Federal judge vacates Trump policy that suspended processing of immigration visas from 75 countries",
       "reason": "missing business relevance signal"
     },
@@ -733,6 +733,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Astros Dog Day brings four-legged fans to Daikin Park",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Darline Graham, Ralph Norman wrap up a whirlwind South Carolina Senate primary campaign",
       "reason": "missing business relevance signal"
     },
     {
@@ -792,12 +797,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A psychologist at Lindsay Clancy's murder trial says she has bipolar disorder",
+      "title": "FBI sets $25,000 minimum reward for dozens of unsolved Indian Country cases",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "TEA printing delays leave Texas schools scrambling for Bluebonnet materials",
+      "title": "A psychologist at Lindsay Clancy's murder trial says she has bipolar disorder",
       "reason": "missing business relevance signal"
     },
     {
@@ -818,11 +823,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Uganda and Burundi military officials visit Israel to discuss Gaza troop deployment",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Brewers' Brandon Woodruff says he won't need to undergo shoulder surgery",
       "reason": "missing business relevance signal"
     }
   ]
