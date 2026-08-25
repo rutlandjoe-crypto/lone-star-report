@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-08-25T15:59:53.076Z",
+  "checked_at": "2026-08-25T16:55:11.459Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 34,
+  "working_sources": 33,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -171,9 +171,8 @@
       "source": "El Paso Inc.",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 2,
-      "firewall_rejected": 10
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "Texas Comptroller",
@@ -213,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +220,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 84
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 70
+      "firewall_rejected": 69
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 55
+      "firewall_rejected": 59
     },
     {
       "source": "Dallas Morning News Business",
@@ -442,56 +441,6 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "El Paso Inc.",
-      "title": "Preserving Jewish Knowledge Across Languages: Specialist Translators for Jewish and Judaic",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Pullman Wash Co Launches Commercial Pressure Washing Operation Built Exclusively for the Palouse",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Is AI Car Diagnostics Accurate? THINKCAR Built Tyler to Show Its Work And Not Guess",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Woman-Owned NuYOU360 Ventures LLC Publishes Full Red Light Therapy Device Specifications to Combat Skincare Industry Misinformation",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Divorce Lawyers In Arlington VA Share Common DIY Divorce Filing Errors",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Canadian Medical Thriller Author Jenny White Brings Nursing Expertise and Survivor Perspective to New McCord List Network Television Series",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Too young to be sick like this",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "El Paso Water planned decades ahead for future growth",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Could a flu vaccine derived from yeast replace annual jabs?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "From the publisher: Congratulations to the 2026 Women of Impact",
-      "reason": "missing business relevance signal"
-    },
-    {
       "source": "Dallas Fed News Releases",
       "title": "In memoriam: Mike Ullman",
       "reason": "missing business relevance signal"
@@ -523,12 +472,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "See the raises Houston and Harris County elected officials got this year",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston offers up to $300,000 to repair homes damaged by Beryl, derecho in 2024",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "What we know about 7 separate cases of bodies discovered across Houston",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump is coming to Houston to honor astronauts at Johnson Space Center",
       "reason": "missing business relevance signal"
     },
     {
@@ -593,7 +552,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Wide receiver Jaylin Noel is back. Can he claim a bigger Texans role?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Jacob Elordi, Elon Musk, Godzilla: The top 25 films you'll be talking about this fall",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "How close is the race between James Talarico and Ken Paxton? See the major polls.",
       "reason": "missing business relevance signal"
     },
     {
@@ -608,22 +577,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Is Astros' excellent bullpen worn down? Two straight blown leads say maybe so.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Wide receiver Jaylin Noel is back. Can he claim a bigger Texans role?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Is Astros' excellent bullpen worn down? Two straight blown leads say maybe so.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "UT's Steve Sarkisian on Ty'Anthony Smith and 'inefficient' Arch Manning",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "First look at Houston Texans' rivalry uniforms that finally feature white helmet",
       "reason": "missing business relevance signal"
     },
     {
@@ -658,11 +627,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Is Tropical Storm Dolly developing? El Niño might get in the way",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Two tropical systems are being watched. Should Texas worry?",
       "reason": "missing business relevance signal"
     },
@@ -684,11 +648,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Greg Abbott pushes for insurers to cut rates for fortified roofs",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Cool down with these easy chilled sesame noodles",
       "reason": "missing business relevance signal"
     },
     {
@@ -738,6 +697,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Louisiana National Guard ends deployment in New Orleans after eight months patrolling French Quarter",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "High school football is kicking off in Houston. The heat may be a major factor.",
       "reason": "missing business relevance signal"
     },
@@ -754,6 +718,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "California lawmakers vote to increase transparency over influencers’ paid political posts",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Is Tropical Storm Dolly developing? El Niño might get in the way",
       "reason": "missing business relevance signal"
     },
     {
@@ -788,22 +757,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump is coming to Houston to honor astronauts at Johnson Space Center",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "La Marque Mayor Keith Bell accused of indecent exposure, police say",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "When will Houston’s heat streak break? Here’s what changes next",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "See the raises Houston and Harris County elected officials got this year",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,6 +783,46 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Arrest warrant issued for Massachusetts woman sought in officer's death",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Cool down with these easy chilled sesame noodles",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Firefighters are trying to stop a fast-moving Nevada wildfire from spreading to homes in Reno",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Florida, hard-hit by Obamacare drop-off, feels the squeeze of rising healthcare costs",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Darline Graham, Ralph Norman wrap up a whirlwind South Carolina Senate primary campaign",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "After a diabetes diagnosis, Koffeteria chef is baking for people like him",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Gov. Greg Abbott doesn't rule out running for governor again in 2030",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The UK will help Ukraine make long-range missiles by sharing classified tech information",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Darline Graham, Ralph Norman go head-to-head in South Carolina's GOP Senate runoff",
       "reason": "missing business relevance signal"
     }
   ]
