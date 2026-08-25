@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-08-25T19:46:12.915Z",
+  "checked_at": "2026-08-25T20:45:57.343Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 34,
+  "working_sources": 33,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -78,9 +78,8 @@
       "source": "El Paso Times",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "San Antonio Express-News",
@@ -127,7 +126,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 5
     },
     {
       "source": "On3 - Baylor Bears",
@@ -205,7 +204,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 81
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 88
+      "firewall_rejected": 89
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +220,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 86
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 67
+      "firewall_rejected": 63
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 60
+      "firewall_rejected": 58
     },
     {
       "source": "Dallas Morning News Business",
@@ -291,7 +290,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 2,
+      "accepted": 3,
       "firewall_rejected": 0
     },
     {
@@ -423,6 +422,11 @@
     },
     {
       "source": "On3 - TCU Horned Frogs",
+      "title": "Alex Byington",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - TCU Horned Frogs",
       "title": "Georgia Fall Camp Special: Get 75% off an annual UGASports membership",
       "reason": "blocked sports noise"
     },
@@ -498,11 +502,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "See the raises Houston and Harris County elected officials got this year",
       "reason": "missing business relevance signal"
     },
@@ -518,17 +517,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump is coming to Houston to honor astronauts at Johnson Space Center",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Talarico is trying to win moderate voters. Why isn’t Paxton? | Opinion",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "First, he lost his brother. Now ICE wants to take his dad. How much hardship is enough? | Editorial",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
       "reason": "missing business relevance signal"
     },
     {
@@ -558,7 +557,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Fact check: RFK Jr. says the U.S. had the highest COVID death rate worldwide",
+      "title": "Texas Roadhouse investigates Facebook hoax describing racist food tampering",
       "reason": "missing business relevance signal"
     },
     {
@@ -568,7 +567,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Fact check: RFK Jr. says the U.S. had the highest COVID death rate worldwide",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "What we know and don't know about Texans three weeks into camp",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "With Kayshon Boutte in, which receivers are out? Texans roster projection",
       "reason": "missing business relevance signal"
     },
     {
@@ -589,11 +598,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Jeff Fisher tells hilarious Bud Adams story in Netflix's Vince Young documentary",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "With Kayshon Boutte in, which receivers are out? Texans' roster projection",
       "reason": "missing business relevance signal"
     },
     {
@@ -619,6 +623,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Fifth Ward apartment residents go days without power in Houston heat",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Lawsuit claims disgraced Houston cop's lies landed man in prison for 7 years",
       "reason": "missing business relevance signal"
     },
     {
@@ -669,11 +678,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Two tropical systems are being watched. Should Texas worry?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "The last few witnesses in the Lindsay Clancy murder trial are set to testify",
       "reason": "missing business relevance signal"
     },
     {
@@ -793,11 +797,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "When will Houston’s heat streak break? Here’s what changes next",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Another Flock camera found cut down in Houston as fight over surveillance escalates",
       "reason": "missing business relevance signal"
     },
@@ -813,17 +812,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "MAGA Inc. spends $827,000 to back Darline Graham on final day of South Carolina GOP Senate runoff",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Cool down with these easy chilled sesame noodles",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Firefighters are trying to stop a fast-moving Nevada wildfire from spreading to homes in Reno",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Florida, hard-hit by Obamacare drop-off, feels the squeeze of rising healthcare costs",
       "reason": "missing business relevance signal"
     }
   ]
