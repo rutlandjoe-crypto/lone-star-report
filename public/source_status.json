@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T07:08:32.035Z",
+  "checked_at": "2026-08-25T07:58:31.368Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 5
+      "firewall_rejected": 4
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -212,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -220,7 +220,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 84
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 46
+      "firewall_rejected": 47
     },
     {
       "source": "Dallas Morning News Business",
@@ -290,7 +290,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 2,
       "firewall_rejected": 0
     },
     {
@@ -398,11 +398,6 @@
     {
       "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Tech Red Raiders",
-      "title": "Fall Camp Update: Discussing the key storylines as Indiana transitions to final week of camp",
       "reason": "blocked sports noise"
     },
     {
@@ -517,6 +512,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "73-year-old man dies after SUV collides with train in north Harris County",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Child dies when pickup collides with Harris County Sheriff's Office SUV",
       "reason": "missing business relevance signal"
     },
@@ -528,11 +528,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Astros blow big lead in loss to last-place A's, sink into tie atop AL West",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "73-year-old man dies after SUV collides with train in north Harris County",
       "reason": "missing business relevance signal"
     },
     {
@@ -612,6 +607,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Greg Abbott pushes for insurers to cut rates for fortified roofs",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Florida shows how to adapt as coastal cities face growing threats from sea level rise and storms",
       "reason": "missing business relevance signal"
     },
@@ -657,6 +657,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston VA uses new laser procedure to treat veteran with epilepsy",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "How the No. 2 pencil became a uniquely American school supply staple",
       "reason": "missing business relevance signal"
     },
@@ -697,11 +702,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Greg Abbott pushes for insurers to cut rates for fortified roofs",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Prince Harry to leave board of African Parks conservation nonprofit",
       "reason": "missing business relevance signal"
     },
@@ -727,17 +727,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros Dog Day brings four-legged fans to Daikin Park",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Supreme Court sides with Trump administration on mail voting restrictions ahead of midterms",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "California lawmakers vote to increase transparency over influencers’ paid political posts",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The UK will help Ukraine make long-range missiles by sharing classified tech information",
       "reason": "missing business relevance signal"
     },
     {
@@ -762,12 +762,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston VA uses new laser procedure to treat veteran with epilepsy",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "The UK will help Ukraine make long-range missiles by sharing classified tech information",
+      "title": "Astros Dog Day brings four-legged fans to Daikin Park",
       "reason": "missing business relevance signal"
     },
     {
@@ -823,6 +818,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Nothing changes yet with the Supreme Court's order on elections. But it could open door to 'chaos'",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Uganda and Burundi military officials visit Israel to discuss Gaza troop deployment",
       "reason": "missing business relevance signal"
     }
   ]
