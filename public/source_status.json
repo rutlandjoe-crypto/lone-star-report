@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-26T03:18:26.183Z",
+  "checked_at": "2026-08-26T04:55:41.124Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 92
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 86
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 62
+      "firewall_rejected": 60
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 60
+      "firewall_rejected": 63
     },
     {
       "source": "Dallas Morning News Business",
@@ -528,6 +528,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Review: 'The Dog Stars' with Jacob Elordi, Margaret Qualley feels dog-tired",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Turkey Leg Hut returns in football season collab with Harold's Chicken",
       "reason": "missing business relevance signal"
     },
@@ -543,12 +548,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "73-year-old man dies after SUV collides with train in north Harris County",
+      "title": "What we know and don't know about Texans three weeks into camp",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "What we know and don't know about Texans three weeks into camp",
+      "title": "73-year-old man dies after SUV collides with train in north Harris County",
       "reason": "missing business relevance signal"
     },
     {
@@ -563,12 +568,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Is Astros' excellent bullpen worn down? Two straight blown leads say maybe so.",
+      "title": "Astros' Joe Espada misses game vs. A's due to family emergency",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros' Joe Espada misses game vs. A's due to family emergency",
+      "title": "Is Astros' excellent bullpen worn down? Two straight blown leads say maybe so.",
       "reason": "missing business relevance signal"
     },
     {
@@ -619,11 +624,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Lawsuit claims disgraced Houston cop's lies landed man in prison for 7 years",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Why Astros' Jeremy Peña opted against trying to throw out go-ahead runner late in loss to A's",
       "reason": "missing business relevance signal"
     },
     {
@@ -704,6 +704,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Tropical Storm Julio forms in the Pacific and isn't threatening land",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "In a divided America, the left and right unite to oppose artificial intelligence data centers",
       "reason": "missing business relevance signal"
     },
     {
@@ -819,11 +824,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "US Postal Service issues new rule for mail ballots, but its impact on the midterms is uncertain",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "US urges new UN sanctions to spur rivals in Sudan to negotiate an end to war",
       "reason": "missing business relevance signal"
     }
   ]
