@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-08-26T10:51:52.728Z",
+  "checked_at": "2026-08-26T11:45:16.619Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 34,
+  "working_sources": 33,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 58
+      "firewall_rejected": 51
     },
     {
       "source": "El Paso Times Business",
@@ -266,9 +266,8 @@
       "source": "Houston Chronicle Rockets Desk",
       "region": "Houston / Gulf Coast",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "Fort Worth Star-Telegram Cowboys Desk",
@@ -291,7 +290,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 2,
       "firewall_rejected": 0
     },
     {
@@ -458,11 +457,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston attorney Tony Buzbee buys $15.5M River Oaks mansion just to tear it down",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Can counties stop data centers? Ken Paxton won’t say.",
       "reason": "missing business relevance signal"
     },
@@ -528,11 +522,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "What we know and don't know about Texans three weeks into camp",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "73-year-old man dies after SUV collides with train in north Harris County",
       "reason": "missing business relevance signal"
     },
@@ -558,6 +547,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Harris County Clerk Teneshia Hudspeth rejects 70% salary increase to $305,000",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "What we know about 7 separate cases of bodies discovered across Houston",
       "reason": "missing business relevance signal"
     },
@@ -574,11 +568,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Wide receiver Jaylin Noel is back. Can he claim a bigger Texans role?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Jacob Elordi, Elon Musk, Godzilla: The top 25 films you'll be talking about this fall",
       "reason": "missing business relevance signal"
     },
     {
@@ -603,12 +592,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Fifth Ward apartment residents go days without power in Houston heat",
+      "title": "Lawsuit claims disgraced Houston cop's lies landed man in prison for 7 years",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Lawsuit claims disgraced Houston cop's lies landed man in prison for 7 years",
+      "title": "Fifth Ward apartment residents go days without power in Houston heat",
       "reason": "missing business relevance signal"
     },
     {
@@ -638,12 +627,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Exclusive: FCC singled out ABC13 over James Talarico interview, lawsuit says",
+      "title": "Instagram chief takes the stand in a trial pitting Meta against states over social media harms",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Instagram chief takes the stand in a trial pitting Meta against states over social media harms",
+      "title": "How to avoid a Social Security cut? Lawmakers are floating ideas for what to do",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,6 +813,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "What to know about Iceland's vote on whether to restart talks to join the EU",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Pennsylvania reports first 2 measles deaths in the US this year, both people unvaccinated",
+      "reason": "blocked non-Texas or non-business content"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Victims of quintuple homicide in Oregon include suspect's girlfriend and her relatives",
       "reason": "missing business relevance signal"
     }
   ]
