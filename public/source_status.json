@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-26T01:58:34.320Z",
+  "checked_at": "2026-08-26T03:18:26.183Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -143,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Houston Cougars",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 63
+      "firewall_rejected": 60
     },
     {
       "source": "Dallas Morning News Business",
@@ -300,7 +300,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Dave Campbell's Texas Football - College",
@@ -403,11 +403,6 @@
     },
     {
       "source": "On3 - TCU Horned Frogs",
-      "title": "Mizzou football receiver Donovan Olugbode and corner Chris Graves meet with media to wrap up fall camp",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
       "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
       "reason": "blocked sports noise"
     },
@@ -417,8 +412,8 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - SMU Mustangs",
-      "title": "Mizzou football coach Eliah Drinkwitz wraps up fall camp",
+      "source": "On3 - TCU Horned Frogs",
+      "title": "Billy Edwards is the Right QB1 for Right Now - Daily Take",
       "reason": "blocked sports noise"
     },
     {
@@ -508,12 +503,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "First, he lost his brother. Now ICE wants to take his dad. How much hardship is enough? | Editorial",
+      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Copycat GLP-1 drugs are cheaper. But here's what you need to know.",
+      "title": "First, he lost his brother. Now ICE wants to take his dad. How much hardship is enough? | Editorial",
       "reason": "missing business relevance signal"
     },
     {
@@ -658,12 +653,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Paxton’s crusade against data centers ignores what makes Texas great | Opinion",
+      "title": "FCC Review Could End School Internet Program. Advocates Plan ‘Very Loud’ Protest",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "FCC Review Could End School Internet Program. Advocates Plan ‘Very Loud’ Protest",
+      "title": "Paxton’s crusade against data centers ignores what makes Texas great | Opinion",
       "reason": "missing business relevance signal"
     },
     {
@@ -773,11 +768,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "La Marque Mayor Keith Bell accused of indecent exposure, police say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Third time the charm? Democrat Christina Bohannan tries again in pivotal US House race in Iowa",
       "reason": "missing business relevance signal"
     },
@@ -824,6 +814,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "The Latest: Supreme Court clears the way for Trump to restrict mail-in voting",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "US Postal Service issues new rule for mail ballots, but its impact on the midterms is uncertain",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "US urges new UN sanctions to spur rivals in Sudan to negotiate an end to war",
       "reason": "missing business relevance signal"
     }
   ]
