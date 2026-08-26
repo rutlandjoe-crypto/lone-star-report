@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T23:37:52.710Z",
+  "checked_at": "2026-08-26T01:58:34.320Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 3
     },
     {
       "source": "On3 - Baylor Bears",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 80
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 90
+      "firewall_rejected": 91
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 86
+      "firewall_rejected": 85
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 63
+      "firewall_rejected": 62
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 61
+      "firewall_rejected": 63
     },
     {
       "source": "Dallas Morning News Business",
@@ -413,11 +413,6 @@
     },
     {
       "source": "On3 - TCU Horned Frogs",
-      "title": "Alex Byington",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
       "title": "Georgia Fall Camp Special: Get 75% off an annual UGASports membership",
       "reason": "blocked sports noise"
     },
@@ -508,22 +503,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Talarico is trying to win moderate voters. Why isn’t Paxton? | Opinion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "'Couldn't find a school': Why only 76% of Texas' school voucher recipients have used them",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "First, he lost his brother. Now ICE wants to take his dad. How much hardship is enough? | Editorial",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "TEA printing delays leave Texas schools scrambling for Bluebonnet materials",
       "reason": "missing business relevance signal"
     },
     {
@@ -548,7 +533,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'Giving people a taste of what’s next': What to know about Turkey Leg Hut's popups at Harold's Chicken",
+      "title": "Turkey Leg Hut returns in football season collab with Harold's Chicken",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Gov. Greg Abbott doesn't rule out running for governor again in 2030",
       "reason": "missing business relevance signal"
     },
     {
@@ -578,6 +568,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Is Astros' excellent bullpen worn down? Two straight blown leads say maybe so.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Astros' Joe Espada misses game vs. A's due to family emergency",
       "reason": "missing business relevance signal"
     },
@@ -599,6 +594,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Jacob Elordi, Elon Musk, Godzilla: The top 25 films you'll be talking about this fall",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
       "reason": "missing business relevance signal"
     },
     {
@@ -629,16 +629,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Why Astros' Jeremy Peña opted against trying to throw out go-ahead runner late in loss to A's",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Former UH football star Ed Oliver mourning drowning death of 2-year-old son",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Is Astros' excellent bullpen worn down? Two straight blown leads say maybe so.",
       "reason": "missing business relevance signal"
     },
     {
@@ -793,6 +783,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "TEA printing delays leave Texas schools scrambling for Bluebonnet materials",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Prince Harry to leave board of African Parks conservation nonprofit",
       "reason": "missing business relevance signal"
     },
@@ -824,6 +819,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Darline Graham, Ralph Norman go head-to-head in South Carolina's GOP Senate runoff",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The Latest: Supreme Court clears the way for Trump to restrict mail-in voting",
       "reason": "missing business relevance signal"
     }
   ]
