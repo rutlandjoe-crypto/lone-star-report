@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-26T15:53:36.490Z",
+  "checked_at": "2026-08-26T16:59:23.269Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 79
+      "firewall_rejected": 80
     },
     {
       "source": "Austin American-Statesman Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 71
+      "firewall_rejected": 72
     },
     {
       "source": "Dallas Morning News Business",
@@ -358,12 +358,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M fall camp intel: What we're hearing from the Aggies' preseason (Offense)",
+      "title": "Texas A&M fall camp intel: Aggies' secondary starting to take shape",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M fall camp intel: Aggies' secondary starting to take shape",
+      "title": "Texas A&M fall camp intel: What we're hearing from the Aggies' preseason (Offense)",
       "reason": "blocked sports noise"
     },
     {
@@ -488,11 +488,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Turkey Leg Hut returns in football season collab with Harold's Chicken",
       "reason": "missing business relevance signal"
     },
@@ -503,12 +498,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Abbott leaves nearly a million Texans without a vote in Congress",
+      "title": "Greg Abbott has ‘serious doubts’ ICE agent arrested in Texas is a fugitive",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Gov. Greg Abbott doesn't rule out running for governor again in 2030",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Harris County Clerk Teneshia Hudspeth rejects 70% salary increase to $305,000",
       "reason": "missing business relevance signal"
     },
     {
@@ -558,12 +558,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harris County Clerk Teneshia Hudspeth rejects 70% salary increase to $305,000",
+      "title": "What we know about 7 separate cases of bodies discovered across Houston",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "What we know about 7 separate cases of bodies discovered across Houston",
+      "title": "Abbott leaves nearly a million Texans without a vote in Congress",
       "reason": "missing business relevance signal"
     },
     {
@@ -593,12 +593,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "‘A sense of belonging’: Muslim travelers defend IAH washrooms amid Greg Abbott’s attacks",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "'Time to move on.' Jim Crane explains decision to part with GM Dana Brown",
+      "title": "Jim Crane explains decision to part with GM Dana Brown: 'Time to move on'",
       "reason": "missing business relevance signal"
     },
     {
@@ -613,12 +608,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "‘A sense of belonging’: Muslim travelers defend IAH washrooms amid Greg Abbott’s attacks",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Sean Grayson, former deputy convicted of killing Sonya Massey, dies in prison",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "US consumer confidence falls to lowest level in 7 months with gas stuck above $4",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "FDA approves landmark pancreatic cancer drug that's shown to improve survival",
       "reason": "missing business relevance signal"
     },
     {
@@ -699,6 +704,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Tropical Storm Julio forms in the Pacific and isn't threatening land",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "In a divided America, the left and right unite to oppose artificial intelligence data centers",
       "reason": "missing business relevance signal"
     },
     {
@@ -788,11 +798,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "In a divided America, the left and right unite to oppose artificial intelligence data centers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "The UK will help Ukraine make long-range missiles by sharing classified tech information",
       "reason": "missing business relevance signal"
     },
@@ -820,11 +825,6 @@
       "source": "Houston Chronicle Business",
       "title": "What to know about Iceland's vote on whether to restart talks to join the EU",
       "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Pennsylvania reports first 2 measles deaths in the US this year, both people unvaccinated",
-      "reason": "blocked non-Texas or non-business content"
     }
   ]
 }
