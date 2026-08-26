@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-08-26T11:45:16.619Z",
+  "checked_at": "2026-08-26T13:17:07.490Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 33,
+  "working_sources": 34,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -80,7 +80,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "San Antonio Express-News",
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 6
+      "firewall_rejected": 5
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - Baylor Bears",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 79
     },
     {
       "source": "Austin American-Statesman Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 87
+      "firewall_rejected": 86
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 51
+      "firewall_rejected": 47
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 61
+      "firewall_rejected": 66
     },
     {
       "source": "Dallas Morning News Business",
@@ -266,8 +266,9 @@
       "source": "Houston Chronicle Rockets Desk",
       "region": "Houston / Gulf Coast",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Fort Worth Star-Telegram Cowboys Desk",
@@ -336,6 +337,11 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
+      "source": "El Paso Times",
+      "title": "OPINION: Colorectal cancer doesn't wait, neither should you, get screened",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "On3 - Texas Longhorns",
       "title": "What's real and what isn't entering final week of Texas football fall camp",
       "reason": "blocked sports noise"
@@ -376,11 +382,6 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Glen's Take: 5 thoughts on week three of LSU fall camp",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Tech fall camp: Joey McGuire reacts to second scrimmage",
       "reason": "blocked sports noise"
@@ -388,11 +389,6 @@
     {
       "source": "On3 - Texas Tech Red Raiders",
       "title": "Fall Camp Update: Discussing the key storylines as Indiana transitions to final week of camp",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
       "reason": "blocked sports noise"
     },
     {
@@ -492,6 +488,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "TEA printing delays leave Texas schools scrambling for Bluebonnet materials",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
       "reason": "missing business relevance signal"
     },
@@ -512,12 +513,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "After a diabetes diagnosis, Koffeteria chef is baking for people like him",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Gov. Greg Abbott doesn't rule out running for governor again in 2030",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Fact check: RFK Jr. says the U.S. had the highest COVID death rate worldwide",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas Roadhouse investigates Facebook hoax describing racist food tampering",
       "reason": "missing business relevance signal"
     },
     {
@@ -558,6 +569,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Texans reach agreement to acquire WR Kayshon Boutte from Patriots",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Holocaust book among titles flagged for removal from Texas schools",
       "reason": "missing business relevance signal"
     },
     {
@@ -727,11 +743,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Strikes in Gaza kill 4, including 2 children, a week after US asked Israel to curb attacks",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Something fishy is happening with HISD's 2025 A-F ratings.",
       "reason": "missing business relevance signal"
     },
@@ -748,11 +759,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Third time the charm? Democrat Christina Bohannan tries again in pivotal US House race in Iowa",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "TEA printing delays leave Texas schools scrambling for Bluebonnet materials",
       "reason": "missing business relevance signal"
     },
     {
@@ -778,11 +784,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "In a divided America, the left and right unite to oppose artificial intelligence data centers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "After a diabetes diagnosis, Koffeteria chef is baking for people like him",
       "reason": "missing business relevance signal"
     },
     {
