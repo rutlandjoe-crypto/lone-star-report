@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-26T14:07:25.982Z",
+  "checked_at": "2026-08-26T15:53:36.490Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 79
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 89
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 86
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 70
+      "firewall_rejected": 71
     },
     {
       "source": "Dallas Morning News Business",
@@ -363,6 +363,11 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
+      "title": "Texas A&M fall camp intel: Aggies' secondary starting to take shape",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
       "title": "Joseph Hastings",
       "reason": "blocked sports noise"
     },
@@ -374,16 +379,6 @@
     {
       "source": "On3 - Texas A&M Aggies",
       "title": "Inside Texas A&M fall camp: Why Aggie WR Terry Bussey looks poised for a breakout 2026 season",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Tech Red Raiders",
-      "title": "Texas Tech fall camp: Joey McGuire reacts to second scrimmage",
       "reason": "blocked sports noise"
     },
     {
@@ -488,22 +483,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "TEA printing delays leave Texas schools scrambling for Bluebonnet materials",
+      "title": "Texas Roadhouse investigates Facebook hoax describing racist food tampering",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Houston postal carriers allegedly helped steal checks worth $23 million",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Child dies when pickup collides with Harris County Sheriff's Office SUV",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Review: 'The Dog Stars' with Jacob Elordi, Margaret Qualley feels dog-tired",
       "reason": "missing business relevance signal"
     },
     {
@@ -518,22 +503,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "J.J. Watt has one thought on Deshaun Watson's Browns return",
+      "title": "Abbott leaves nearly a million Texans without a vote in Congress",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Gov. Greg Abbott doesn't rule out running for governor again in 2030",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Fact check: RFK Jr. says the U.S. had the highest COVID death rate worldwide",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas Roadhouse investigates Facebook hoax describing racist food tampering",
       "reason": "missing business relevance signal"
     },
     {
@@ -553,12 +528,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Review: 'The Dog Stars' with Jacob Elordi, Margaret Qualley feels dog-tired",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Where 8 Houston families landed after the Texas school voucher lottery",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Astros blow big lead in loss to last-place A's, sink into tie atop AL West",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Fact check: RFK Jr. says the U.S. had the highest COVID death rate worldwide",
       "reason": "missing business relevance signal"
     },
     {
@@ -588,11 +573,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Holocaust book among titles flagged for removal from Texas schools",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Jeff Fisher tells hilarious Bud Adams story in Netflix's Vince Young documentary",
       "reason": "missing business relevance signal"
     },
@@ -608,17 +588,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "First look at Houston Texans' rivalry uniforms that finally feature white helmet",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Dolly Parton’s Houston ties ran from the Astrodome to Kenny Rogers and beyond",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "‘A sense of belonging’: Muslim travelers defend IAH washrooms amid Greg Abbott’s attacks",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'Time to move on.' Jim Crane explains decision to part with GM Dana Brown",
       "reason": "missing business relevance signal"
     },
     {
@@ -783,6 +763,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "TEA printing delays leave Texas schools scrambling for Bluebonnet materials",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Prince Harry to leave board of African Parks conservation nonprofit",
       "reason": "missing business relevance signal"
     },
@@ -825,6 +810,21 @@
       "source": "Houston Chronicle Business",
       "title": "US Postal Service issues new rule for mail ballots, but its impact on the midterms is uncertain",
       "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "US urges new UN sanctions to spur rivals in Sudan to negotiate an end to war",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What to know about Iceland's vote on whether to restart talks to join the EU",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Pennsylvania reports first 2 measles deaths in the US this year, both people unvaccinated",
+      "reason": "blocked non-Texas or non-business content"
     }
   ]
 }
