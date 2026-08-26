@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-26T09:02:48.450Z",
+  "checked_at": "2026-08-26T09:57:44.783Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 7
+      "firewall_rejected": 6
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 91
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 87
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -382,11 +382,6 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Tech fall camp: Joey McGuire reacts to second scrimmage",
       "reason": "blocked sports noise"
@@ -473,11 +468,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Exclusive: FCC singled out ABC13 over James Talarico interview, lawsuit says",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Can counties stop data centers? Ken Paxton won’t say.",
       "reason": "missing business relevance signal"
     },
@@ -523,17 +513,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Review: 'The Dog Stars' with Jacob Elordi, Margaret Qualley feels dog-tired",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Turkey Leg Hut returns in football season collab with Harold's Chicken",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Gov. Greg Abbott doesn't rule out running for governor again in 2030",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Review: 'The Dog Stars' with Jacob Elordi, Margaret Qualley feels dog-tired",
       "reason": "missing business relevance signal"
     },
     {
@@ -598,6 +588,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "First look at Houston Texans' rivalry uniforms that finally feature white helmet",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Dolly Parton’s Houston ties ran from the Astrodome to Kenny Rogers and beyond",
       "reason": "missing business relevance signal"
     },
@@ -618,7 +613,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "First look at Houston Texans' rivalry uniforms that finally feature white helmet",
+      "title": "Sean Grayson, former deputy convicted of killing Sonya Massey, dies in prison",
       "reason": "missing business relevance signal"
     },
     {
@@ -643,7 +638,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Exclusive: FCC singled out ABC13 over James Talarico interview, lawsuit says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Instagram chief takes the stand in a trial pitting Meta against states over social media harms",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "FCC Review Could End School Internet Program. Advocates Plan ‘Very Loud’ Protest",
       "reason": "missing business relevance signal"
     },
     {
@@ -658,12 +663,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "US set for largest mass visa revocation in history targeting up to 200,000 foreigners, officials say",
+      "title": "Two tropical systems are being watched. Should Texas worry?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "FCC Review Could End School Internet Program. Advocates Plan ‘Very Loud’ Protest",
+      "title": "US set for largest mass visa revocation in history targeting up to 200,000 foreigners, officials say",
       "reason": "missing business relevance signal"
     },
     {
@@ -703,6 +708,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Thai prime minister meets security chiefs after coordinated attacks in 3 southern provinces",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "High school football is kicking off in Houston. The heat may be a major factor.",
       "reason": "missing business relevance signal"
     },
@@ -714,11 +724,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Photos of daily life in Tehran as Iran braces for new US sanctions",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Thai prime minister meets security chiefs after coordinated attacks in 3 southern provinces",
       "reason": "missing business relevance signal"
     },
     {
@@ -739,6 +744,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Strikes in Gaza kill 4, including 2 children, a week after US asked Israel to curb attacks",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Something fishy is happening with HISD's 2025 A-F ratings.",
       "reason": "missing business relevance signal"
     },
     {
@@ -814,16 +824,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "What to know about Iceland's vote on whether to restart talks to join the EU",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Pennsylvania reports first 2 measles deaths in the US this year, both people unvaccinated",
-      "reason": "blocked non-Texas or non-business content"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Victims of quintuple homicide in Oregon include suspect's girlfriend and her relatives",
       "reason": "missing business relevance signal"
     }
   ]
