@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-26T04:55:41.124Z",
+  "checked_at": "2026-08-26T05:50:36.385Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 3
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 81
     },
     {
       "source": "Austin American-Statesman Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 86
+      "firewall_rejected": 85
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 63
+      "firewall_rejected": 64
     },
     {
       "source": "Dallas Morning News Business",
@@ -388,11 +388,6 @@
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
-      "title": "Texas A&M fall camp intel: 5 freshmen who have impressed, could play immediately",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Football Opponent Fall Camp Questions & 2026 Thinking Texas Football Preview Excerpt: Missouri Tigers",
       "reason": "blocked sports noise"
     },
@@ -493,11 +488,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "What we know about 7 separate cases of bodies discovered across Houston",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "'Couldn't find a school': Why only 76% of Texas' school voucher recipients have used them",
       "reason": "missing business relevance signal"
     },
@@ -568,12 +558,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Is Astros' excellent bullpen worn down? Two straight blown leads say maybe so.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Astros' Joe Espada misses game vs. A's due to family emergency",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Is Astros' excellent bullpen worn down? Two straight blown leads say maybe so.",
+      "title": "What we know about 7 separate cases of bodies discovered across Houston",
       "reason": "missing business relevance signal"
     },
     {
@@ -679,11 +674,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Greg Abbott pushes for insurers to cut rates for fortified roofs",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Buc-ee’s chain draws outcry in Ohio for launching fight over a mini mart's beaver logo",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,6 +814,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "US Postal Service issues new rule for mail ballots, but its impact on the midterms is uncertain",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "US urges new UN sanctions to spur rivals in Sudan to negotiate an end to war",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What to know about Iceland's vote on whether to restart talks to join the EU",
       "reason": "missing business relevance signal"
     }
   ]
