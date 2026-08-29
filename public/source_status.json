@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-29T14:28:23.414Z",
+  "checked_at": "2026-08-29T18:28:46.152Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 75
+      "firewall_rejected": 76
     },
     {
       "source": "Austin American-Statesman Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 94
+      "firewall_rejected": 92
     },
     {
       "source": "Dallas Morning News Business",
@@ -291,7 +291,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 2,
       "firewall_rejected": 0
     },
     {
@@ -373,11 +373,6 @@
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
-      "title": "Duke basketball recruiting: Latest intel on 2027 targets as Blue Devils' class takes shape",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Tech Red Raiders",
       "title": "Texas Tech fall camp: Predicting the Red Raiders Week 1 depth chart",
       "reason": "blocked sports noise"
     },
@@ -423,6 +418,11 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "Eastwood sweethearts give El Paso Window World a new start",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "Hollywood South: Mexico's movie magic booms",
       "reason": "missing business relevance signal"
     },
@@ -462,11 +462,6 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "El Paso Inc.",
-      "title": "El Pasoans ask “When?” about Sunset Amphitheater",
-      "reason": "missing business relevance signal"
-    },
-    {
       "source": "Houston Chronicle Business",
       "title": "Rockets star Kevin Durant explains why he's constantly firing back at hecklers",
       "reason": "missing business relevance signal"
@@ -483,22 +478,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How Texans' bubble players fared in preseason finale loss to Panthers",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston ICE shooting could go before grand jury 'very soon,' DA Sean Teare says",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Dozens of HISD schools are under 50% full. Could more closures be on the way?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Trump announces NASA-led U.S. Space Academy during trip to Houston",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Exclusive: U.S. attorney objects to disclosure of record detailing fatal ICE shooting",
       "reason": "missing business relevance signal"
     },
     {
@@ -518,7 +508,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Abbott leaves nearly a million Texans without a vote in Congress",
+      "title": "Exclusive: U.S. attorney objects to disclosure of record detailing fatal ICE shooting",
       "reason": "missing business relevance signal"
     },
     {
@@ -528,22 +518,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Outgoing U.S. House members are spending big on steakhouses and hotels",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Trump honors Artemis II astronauts in Houston, announces new Space Academy",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Rice University is transforming its campus as enrollment surges toward 9,500",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston threatens to turn off water to 15,000 residents with large unpaid bills",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Friday’s weather splits Houston between storms and heat. Who will get rain?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Mike Vrabel: New Texans WR Kayshon Boutte would not have played had he stayed",
       "reason": "missing business relevance signal"
     },
     {
@@ -558,12 +548,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The hot new event at Houston restaurants? Mahjong night.",
+      "title": "Hayden Wesneski's strong start, timely HRs lift Astros past Yankees",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Hayden Wesneski's strong start, timely HRs lift Astros past Yankees",
+      "title": "Historic Houston-area church spends big to save its 103-year old stained glass",
       "reason": "missing business relevance signal"
     },
     {
@@ -573,17 +563,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UH curriculum cuts are more than courses. They are a threat to academic freedom.",
+      "title": "How 3 Astros players' contributions helped deliver series win over Yankees",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Friday’s weather splits Houston between storms and heat. Who will get rain?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Astros are in three-way fight for AL West. Comparing teams' remaining schedules.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Historic Houston-area church spends big to save its 103-year old stained glass",
       "reason": "missing business relevance signal"
     },
     {
@@ -603,22 +593,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Meta joins a list of corporations that have settled cases for billions of dollars",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "FDA approves landmark pancreatic cancer drug that's shown to improve survival",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "A Wildberries depot in Russia is destroyed as Ukraine extends its drone campaign",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "How to help after Nepal and Tibet's catastrophic floods",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Warsh raises stakes for Fed's next meeting and other takeaways from Jackson Hole conference",
       "reason": "missing business relevance signal"
     },
     {
@@ -653,11 +633,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Want cheaper electricity and lower taxes? Data centers can help. | Opinion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "William & Mary scores 13 points in final minute to beat Villanova 35-32 in season opener",
       "reason": "missing business relevance signal"
     },
@@ -678,7 +653,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Thyroid medication recalled nationwide over potency risk",
+      "title": "Texas watches remnants of Tropical Storm Dolly, Gulf disturbance crawl westward",
       "reason": "missing business relevance signal"
     },
     {
@@ -743,17 +718,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Dolly is next Atlantic storm name, but not as tribute to the late singer or happening this week",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Colorado Rapids bring home winning streak into matchup with Real Salt Lake",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Frankfurt signs goalkeeper Noah Atubolu from Freiburg as the Bundesliga season starts",
       "reason": "missing business relevance signal"
     },
     {
@@ -778,17 +743,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A robot sprinter shatters a 100-meter record again as sparks fly at China’s robot competition",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Friday's Scores",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Rae Burrell scores 12 of her 15 points in 4th as the Sparks beat the Mystics 88-82",
+      "title": "Max Fried to come off injured list and pitch for Yankees in Saturday's doubleheader against Red Sox",
       "reason": "missing business relevance signal"
     },
     {
@@ -808,22 +763,67 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UH won't pursue reunion with kicker Ethan Sanchez for 2026 season",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "More than 550 missing in Tibet after floods that left hundreds also missing in Nepal",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Jets' Aaron Glenn says rookie running back Chip Trayanum should be 'just fine' after neck injury",
+      "title": "Storms leave thousands without power across the Houston area",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "NRL grants Jai Arrow special dispensation for Rabbitohs milestone",
+      "title": "Nepal floods highlight growing glacier risks in warming Himalayas",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Jermall Charlo's return to the ring, which was scrapped in July, is back on",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Tampa Bay Rays set for new $2.3B stadium project after county and city approve financing plan",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "August 28 2026",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Tony Romo facing three more citations in connection with his arrest last month",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Matt Shaw returns to the Cubs after a two-month stint on the injured list",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Man City overrun Palace to stay perfect in the Premier League",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Twins top prospect Walker Jenkins called up, bats 9th and plays center field in MLB debut",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Wine Walk: Sweet smells of the grape harvest make this a prime time for a winery visit",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Alex Eala returns to the US Open with a roaring fan base and on a path to stardom",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Dylan Cease strikes out 8 in six innings, Blue Jays hit 3 homers to beat Mariners 8-1",
       "reason": "missing business relevance signal"
     }
   ]
