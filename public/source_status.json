@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-29T09:02:39.852Z",
+  "checked_at": "2026-08-29T14:28:23.414Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -80,7 +80,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "San Antonio Express-News",
@@ -205,15 +205,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 75
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 96
+      "accepted": 3,
+      "firewall_rejected": 97
     },
     {
       "source": "San Antonio Express-News Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 32
+      "firewall_rejected": 41
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 95
+      "firewall_rejected": 94
     },
     {
       "source": "Dallas Morning News Business",
@@ -291,7 +291,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 4,
+      "accepted": 3,
       "firewall_rejected": 0
     },
     {
@@ -342,11 +342,6 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "El Paso Times",
-      "title": "OPINION: Colorectal cancer doesn't wait, neither should you, get screened",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
       "source": "On3 - Texas Longhorns",
       "title": "Five things we know about Texas football in 2026 at the end of fall camp",
       "reason": "blocked sports noise"
@@ -368,12 +363,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Inside Texas A&M fall camp: Aggies RB room is a well-rounded group full of 'explosive' players",
+      "title": "Inside Texas A&M's fall camp: Marcel Reed 'more accurate,' Aggies confident in defense & more",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Inside Texas A&M's fall camp: Marcel Reed 'more accurate,' Aggies confident in defense & more",
+      "title": "Inside Texas A&M fall camp: Aggies RB room is a well-rounded group full of 'explosive' players",
       "reason": "blocked sports noise"
     },
     {
@@ -478,7 +473,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump announces NASA-led U.S. Space Academy during trip to Houston",
+      "title": "5 flights intercepted in Houston over FAA flight restrictions during Trump visit",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Former Klein Forest, Texas basketball player Jason Klotz dead at 44",
       "reason": "missing business relevance signal"
     },
     {
@@ -493,7 +493,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former Klein Forest, Texas basketball player Jason Klotz dead at 44",
+      "title": "Trump announces NASA-led U.S. Space Academy during trip to Houston",
       "reason": "missing business relevance signal"
     },
     {
@@ -523,22 +523,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "5 flights intercepted in Houston over FAA flight restrictions during Trump visit",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Brent Strom returning to Astros as pitching consultant amid team's struggles",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Trump honors Artemis II astronauts in Houston, announces new Space Academy",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Mike Vrabel: New Texans WR Kayshon Boutte would not have played had he stayed",
       "reason": "missing business relevance signal"
     },
     {
@@ -553,7 +543,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Hayden Wesneski's strong start, timely HRs lift Astros past Yankees",
+      "title": "Mike Vrabel: New Texans WR Kayshon Boutte would not have played had he stayed",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Planning a Houston Zoo visit? These 4 days have free admission",
       "reason": "missing business relevance signal"
     },
     {
@@ -564,6 +559,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "The hot new event at Houston restaurants? Mahjong night.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Hayden Wesneski's strong start, timely HRs lift Astros past Yankees",
       "reason": "missing business relevance signal"
     },
     {
@@ -633,17 +633,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How to avoid a Social Security cut? Lawmakers are floating ideas for what to do",
+      "title": "Some US cities have begun rewarding careful drivers with fewer red lights",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Meta reaches $18 billion settlement with states in landmark trial over teen social media addiction",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Don't buy Abbott's latest blame game: Texas's data center problem is on him",
+      "title": "Don't buy Gov. Greg Abbott's latest blame game: Texas's data center problem is on him",
       "reason": "missing business relevance signal"
     },
     {
@@ -654,11 +649,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Tropical Storm Dolly forms in the Atlantic. Is Texas at risk?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Iran warns of military ship ban in Hormuz under potential deal with Oman, and other Middle East news",
       "reason": "missing business relevance signal"
     },
     {
@@ -698,8 +688,8 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "JD Vance’s railroad regulations won’t make Houston safer",
-      "reason": "missing business relevance signal"
+      "title": "Gulf States Sportswatch Daily Listings",
+      "reason": "blocked non-Texas or non-business content"
     },
     {
       "source": "Houston Chronicle Business",
@@ -708,7 +698,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Here's all the ways that data center controversies have transformed the midterm elections",
+      "title": "I own a cattle ranch. Lower beef prices will hurt Texas ranchers. Here's what might actually help. | Opinion",
       "reason": "missing business relevance signal"
     },
     {
@@ -738,6 +728,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Real Madrid hosts Inter to open Champions League main phase. PSG plays City, Barcelona in October",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Mbappé scores hat trick in Real Madrid victory. Sávio scores on debut with Tottenham",
       "reason": "missing business relevance signal"
     },
@@ -748,7 +743,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Brazoria County judge apologizes for insulting residents with 'short bus' remark",
+      "title": "Dolly is next Atlantic storm name, but not as tribute to the late singer or happening this week",
       "reason": "missing business relevance signal"
     },
     {
@@ -773,22 +768,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Dolly will be the next Atlantic storm name, but not because of the late singer",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Yamashita grabs share of the lead at TPC Boston days after runaway victory in Canada",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Shohei Ohtani throws bullpen session as he moves closer to return to mound",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Columbus Crew aim to break losing streak in matchup with the New England Revolution",
       "reason": "missing business relevance signal"
     },
     {
@@ -803,11 +783,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Tampa Bay Rays set for new $2.3B stadium project after county and city approve financing plan",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Friday's Scores",
       "reason": "missing business relevance signal"
     },
@@ -818,12 +793,37 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Henderson allows 1 hit in 7 innings as the MLB-leading Brewers beat the Rangers 6-1",
+      "title": "Norway's crown prince becomes King Haakon VIII after his father's death",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Shohei Ohtani throws bullpen session as he moves closer to return to mound",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A breakout camp for Broncos WR Pat Bryant as teammates rave and 'Patty Ice' emerges",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "UH won't pursue reunion with kicker Ethan Sanchez for 2026 season",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "More than 550 missing in Tibet after floods that left hundreds also missing in Nepal",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Jets' Aaron Glenn says rookie running back Chip Trayanum should be 'just fine' after neck injury",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "NRL grants Jai Arrow special dispensation for Rabbitohs milestone",
       "reason": "missing business relevance signal"
     }
   ]
