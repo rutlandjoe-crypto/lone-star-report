@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-29T18:28:46.152Z",
+  "checked_at": "2026-08-29T21:44:28.257Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -103,7 +103,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - Texas A&M Aggies",
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 5
+      "firewall_rejected": 4
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 78
     },
     {
       "source": "Austin American-Statesman Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 89
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 41
+      "firewall_rejected": 53
     },
     {
       "source": "El Paso Times Business",
@@ -347,13 +347,13 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Inside Texas A&M's fall camp: Marcel Reed 'more accurate,' Aggies confident in defense & more",
+      "source": "On3 - Texas Longhorns",
+      "title": "Texas Is Better, But How Much? The Biggest Themes From Fall Camp",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Introducing the Texas A&M football mailbag: Assessing the Aggies near end of fall camp",
+      "title": "Inside Texas A&M's fall camp: Marcel Reed 'more accurate,' Aggies confident in defense & more",
       "reason": "blocked sports noise"
     },
     {
@@ -363,12 +363,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Inside Texas A&M's fall camp: Marcel Reed 'more accurate,' Aggies confident in defense & more",
+      "title": "Inside Texas A&M fall camp: Aggies RB room is a well-rounded group full of 'explosive' players",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Inside Texas A&M fall camp: Aggies RB room is a well-rounded group full of 'explosive' players",
+      "title": "Inside Texas A&M's fall camp: Marcel Reed 'more accurate,' Aggies confident in defense & more",
       "reason": "blocked sports noise"
     },
     {
@@ -478,11 +478,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Texans' bubble players fared in preseason finale loss to Panthers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston ICE shooting could go before grand jury 'very soon,' DA Sean Teare says",
       "reason": "missing business relevance signal"
     },
@@ -493,7 +488,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "ICE agent can be released from Texas jail amid extradition fight, judge says",
+      "title": "Houston postpones action on Woodlands $50M anti-annexation proposal",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "How Texans' bubble players fared in preseason finale loss to Panthers",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texans 53-man roster projection: With preseason done, who makes the team?",
       "reason": "missing business relevance signal"
     },
     {
@@ -513,22 +518,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Brent Strom returning to Astros as pitching consultant amid team's struggles",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Outgoing U.S. House members are spending big on steakhouses and hotels",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump honors Artemis II astronauts in Houston, announces new Space Academy",
+      "title": "Brent Strom returning to Astros as pitching consultant amid team's struggles",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Rice University is transforming its campus as enrollment surges toward 9,500",
+      "title": "Texas watches remnants of Tropical Storm Dolly, Gulf disturbance crawl westward",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump honors Artemis II astronauts in Houston, announces new Space Academy",
       "reason": "missing business relevance signal"
     },
     {
@@ -553,22 +558,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Historic Houston-area church spends big to save its 103-year old stained glass",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston postpones action on Woodlands $50M anti-annexation proposal",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "How 3 Astros players' contributions helped deliver series win over Yankees",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Friday’s weather splits Houston between storms and heat. Who will get rain?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Historic Houston-area church spends big to save its 103-year old stained glass",
       "reason": "missing business relevance signal"
     },
     {
@@ -584,11 +584,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Army to spend $2B to build nuclear microreactors at 5 bases as US seeks to ramp up nuclear power",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Lucky Charms and Trix go au naturel as General Mills ditches artificial colors",
       "reason": "missing business relevance signal"
     },
     {
@@ -653,22 +648,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas watches remnants of Tropical Storm Dolly, Gulf disturbance crawl westward",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Beloved New Orleans hospital, wracked by floods and grief in Hurricane Katrina, to get a makeover",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Gulf States Sportswatch Daily Listings",
-      "reason": "blocked non-Texas or non-business content"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "LIV Golf begins laying off employees while downsizing to restructure without Saudi funding",
       "reason": "missing business relevance signal"
     },
     {
@@ -758,22 +738,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A breakout camp for Broncos WR Pat Bryant as teammates rave and 'Patty Ice' emerges",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "More than 550 missing in Tibet after floods that left hundreds also missing in Nepal",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Storms leave thousands without power across the Houston area",
+      "title": "Nepal floods highlight growing glacier risks in warming Himalayas",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Nepal floods highlight growing glacier risks in warming Himalayas",
+      "title": "Storms leave thousands without power across the Houston area",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,6 +799,31 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Dylan Cease strikes out 8 in six innings, Blue Jays hit 3 homers to beat Mariners 8-1",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "This Houston-area restaurant is No. 1 in the world for Uber Eats orders",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "September usually wakes up hurricane season. What does that mean for Texas?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Can a Texas KKK building be redeemed? Yes. Here's proof.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "New Fed chair Kevin Warsh under pressure to clarify views on inflation, interest rates",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Rotary: Police Chief Jon Buckholtz offers look into Conroe law enforcement",
       "reason": "missing business relevance signal"
     }
   ]
