@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-08-29T21:44:28.257Z",
+  "checked_at": "2026-08-30T00:19:48.311Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 34,
+  "working_sources": 33,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 3
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -172,16 +172,15 @@
       "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
-      "firewall_rejected": 16
+      "accepted": 1,
+      "firewall_rejected": 11
     },
     {
       "source": "Texas Comptroller",
       "region": "Statewide",
       "mode": "direct",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": ""
     },
     {
       "source": "Dallas Fed Economic Updates",
@@ -205,15 +204,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 80
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
-      "firewall_rejected": 97
+      "accepted": 4,
+      "firewall_rejected": 96
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +220,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 91
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 53
+      "firewall_rejected": 54
     },
     {
       "source": "El Paso Times Business",
@@ -363,11 +362,6 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Inside Texas A&M fall camp: Aggies RB room is a well-rounded group full of 'explosive' players",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
       "title": "Inside Texas A&M's fall camp: Marcel Reed 'more accurate,' Aggies confident in defense & more",
       "reason": "blocked sports noise"
     },
@@ -384,36 +378,6 @@
     {
       "source": "El Paso Inc.",
       "title": "Houston firm invests $2 million into El Paso centers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Veronica Castro named executive director of Visit El Paso",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Kathleen Campbell Walker recognized by Best Lawyers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "ProAction secures $100,000 grant to expand EMT training",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Hunt School of Dental Medicine awarded $30,000 grant funding",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Pearl Burkett earns Certified Escrow Settlement Professional designation",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Monsignor Arturo Bañuelas named finalist for national Catholic award",
       "reason": "missing business relevance signal"
     },
     {
@@ -443,6 +407,11 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "Trump vs. the world",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "Kappy’s Corner: Cowboys camp showcases team, Navajo rookie's story",
       "reason": "missing business relevance signal"
     },
@@ -459,6 +428,11 @@
     {
       "source": "El Paso Inc.",
       "title": "Rewind El Paso will sell Blu-ray, DVD, 4K and classic VHS",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texans 53-man roster projection: With preseason done, who makes the team?",
       "reason": "missing business relevance signal"
     },
     {
@@ -488,17 +462,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston postpones action on Woodlands $50M anti-annexation proposal",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "How Texans' bubble players fared in preseason finale loss to Panthers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texans 53-man roster projection: With preseason done, who makes the team?",
       "reason": "missing business relevance signal"
     },
     {
@@ -518,22 +482,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Outgoing U.S. House members are spending big on steakhouses and hotels",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Brent Strom returning to Astros as pitching consultant amid team's struggles",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas watches remnants of Tropical Storm Dolly, Gulf disturbance crawl westward",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump honors Artemis II astronauts in Houston, announces new Space Academy",
+      "title": "Texas watches remnants of Tropical Storm Dolly, Gulf tropical disturbance crawl westward",
       "reason": "missing business relevance signal"
     },
     {
@@ -548,7 +502,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "So long, Pro Bowl: NFL eliminates all-star game, but will still honor players",
+      "title": "Astros' Hunter Brown restores order, helps provide rest for a weary bullpen",
       "reason": "missing business relevance signal"
     },
     {
@@ -574,11 +528,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Astros are in three-way fight for AL West. Comparing teams' remaining schedules.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Fed governor Lisa Cook slams Trump's renewed threat to fire her",
       "reason": "missing business relevance signal"
     },
     {
@@ -723,7 +672,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Max Fried to come off injured list and pitch for Yankees in Saturday's doubleheader against Red Sox",
+      "title": "Storms leave thousands without power across the Houston area",
       "reason": "missing business relevance signal"
     },
     {
@@ -748,11 +697,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Storms leave thousands without power across the Houston area",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Jermall Charlo's return to the ring, which was scrapped in July, is back on",
       "reason": "missing business relevance signal"
     },
@@ -763,7 +707,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Max Fried to come off injured list and pitch for Yankees in Saturday's doubleheader against Red Sox",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "August 28 2026",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump honors Artemis II astronauts in Houston, announces new Space Academy",
       "reason": "missing business relevance signal"
     },
     {
@@ -788,11 +742,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Wine Walk: Sweet smells of the grape harvest make this a prime time for a winery visit",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Alex Eala returns to the US Open with a roaring fan base and on a path to stardom",
       "reason": "missing business relevance signal"
     },
@@ -803,7 +752,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "This Houston-area restaurant is No. 1 in the world for Uber Eats orders",
+      "title": "The week that Texas asked itself: What's erotic? | Thumbs",
       "reason": "missing business relevance signal"
     },
     {
@@ -813,17 +762,67 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Can a Texas KKK building be redeemed? Yes. Here's proof.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "New Fed chair Kevin Warsh under pressure to clarify views on inflation, interest rates",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "This Houston-area restaurant is No. 1 in the world for Uber Eats orders",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Rotary: Police Chief Jon Buckholtz offers look into Conroe law enforcement",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The elected officials who believe Texans don't deserve three minutes",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas high school football: Thursday's scores from Week 1",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Bayern ease to another opening day win and Man City cruise against Crystal Palace",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Fever's dynamic backcourt, Caitlin Clark and Kelsey Mitchell, keeps Indiana on record-chasing pace",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Kirk Cousins looks set to lead the Raiders even as Klint Kubiak keeps QB decision quiet",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "College football 2026: These 5 things must happen for A&M to return to CFP",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Can a Texas KKK building be redeemed? Yes. Here's proof.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "UEFA prepares criminal complaint in Swiss courts against FIFA's Infantino over World Cup sell-off",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "New England Sportswatch Daily Listings",
+      "reason": "blocked non-Texas or non-business content"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "In Texas, latter-day crusaders are on the march | Opinion",
       "reason": "missing business relevance signal"
     }
   ]
