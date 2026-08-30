@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-30T21:05:18.359Z",
+  "checked_at": "2026-08-30T23:30:03.347Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 1,
-      "firewall_rejected": 4
+      "firewall_rejected": 3
     },
     {
       "source": "Texas Comptroller",
@@ -205,15 +205,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 82
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
-      "firewall_rejected": 97
+      "accepted": 2,
+      "firewall_rejected": 98
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 87
+      "firewall_rejected": 86
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 83
     },
     {
       "source": "El Paso Times Business",
@@ -383,11 +383,6 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "What are muscle knots? An exercise physiologist explains what those tight little lumps are and how to get rid of them",
-      "reason": "blocked non-business or soft-content term"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "Trump vs. the world",
       "reason": "missing business relevance signal"
     },
@@ -398,17 +393,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas watches remnants of Tropical Storm Dolly, Gulf disturbance crawl westward",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texans 53-man roster projection: With preseason done, who makes the team?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "5 flights intercepted in Houston over FAA flight restrictions during Trump visit",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas watches remnants of Tropical Storm Dolly, Gulf disturbance crawl westward",
       "reason": "missing business relevance signal"
     },
     {
@@ -453,17 +448,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How 3 Astros players' contributions helped deliver series win over Yankees",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Friday’s weather splits Houston between storms and heat. Who will get rain?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros' Hunter Brown restores order, helps provide rest for a weary bullpen",
+      "title": "How 3 Astros players' contributions helped deliver series win over Yankees",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "US Treasury blocks certain journalists from G20 meeting in North Carolina",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Lake Ontario now called Lake America on Google Maps for US users after Trump ordered name change",
       "reason": "missing business relevance signal"
     },
     {
@@ -498,11 +498,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "William & Mary scores 13 points in final minute to beat Villanova 35-32 in season opener",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Academy to host youth basketball tournament with Nike, Jordan. How to sign up",
       "reason": "missing business relevance signal"
     },
@@ -519,11 +514,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "A fantasy football millionaire built this 14-acre Katy estate. Guess the price",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Jury in Lindsay Clancy trial ends second day of deliberations without a verdict",
       "reason": "missing business relevance signal"
     },
     {
@@ -548,7 +538,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The Woodlands is giving Houston $50 million. Here’s what it gets back.",
+      "title": "No fireworks yet but José Mourinho calls for patience with Real Madrid's Yan Diomande",
       "reason": "missing business relevance signal"
     },
     {
@@ -579,6 +569,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Colorado Rapids bring home winning streak into matchup with Real Salt Lake",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "September usually wakes up hurricane season. What does that mean for Texas?",
       "reason": "missing business relevance signal"
     },
     {
@@ -614,6 +609,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Houston could see a soaking this week. Will Gulf system earn a name?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Packers' Josh Jacobs placed on commissioner exempt list while he faces misdemeanor charges",
       "reason": "missing business relevance signal"
     },
     {
@@ -678,6 +678,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Brazoria County judge apologizes for insulting residents with 'short bus' remark",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "The week that Texas asked itself: What's erotic? | Thumbs",
       "reason": "missing business relevance signal"
     },
@@ -689,11 +694,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "UH students pay the bills. Lawmakers shouldn’t pick what classes they can take.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "September usually wakes up hurricane season. What does that mean for Texas?",
       "reason": "missing business relevance signal"
     },
     {
@@ -743,17 +743,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Red Sox activate Roman Anthony and Trevor Story for series finale vs. Yankees",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Drew Gilbert homers and Landen Roupp pitches 5 solid innings as Giants beat Diamondbacks 6-1",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Title holder Paris Saint-Germain to play Man City and Barcelona in Champions League main phase",
+      "title": "Why is The Woodlands giving Houston $50 million? Leaders explain the anti-annexation deal",
       "reason": "missing business relevance signal"
     },
     {
@@ -769,11 +759,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Flores Jr., Lowe hit homers to spark Pirates to 6-2 win over Cardinals",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Brazoria County judge apologizes for insulting residents with 'short bus' remark",
       "reason": "missing business relevance signal"
     },
     {
@@ -803,7 +788,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Another clean sheet for Dynamo goalie Jonathan Bond in draw vs. San Jose",
+      "title": "Red Sox activate Roman Anthony and Trevor Story for series finale vs. Yankees",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Rafael Leão heads to Turkey ahead of expected transfer from Milan to Galatasaray",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,6 +814,16 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "His records request led Pflugerville to shut down license plate cameras - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "How Matt's El Rancho built a nearly 75-year Austin restaurant legacy - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas Republicans redrew five seats. A year later, here’s what’s happening - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
