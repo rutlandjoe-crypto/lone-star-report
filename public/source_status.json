@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-31T05:33:46.868Z",
+  "checked_at": "2026-08-31T13:48:43.234Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -143,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Houston Cougars",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 82
     },
     {
       "source": "Austin American-Statesman Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 86
+      "firewall_rejected": 82
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 77
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 92
     },
     {
       "source": "Dallas Morning News Business",
@@ -367,11 +367,6 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - SMU Mustangs",
-      "title": "Pittsburgh At Boston College High School Football",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "El Paso Inc.",
       "title": "Houston firm invests $2 million into El Paso centers",
       "reason": "missing business relevance signal"
@@ -389,6 +384,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Bad at retirement, Brent Strom is back to help right Astros' pitching woes",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "This Houston-area restaurant is No. 1 in the world for Uber Eats orders",
       "reason": "missing business relevance signal"
     },
     {
@@ -418,17 +418,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Hayden Wesneski's strong start, timely HRs lift Astros past Yankees",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Rice University is transforming its campus as enrollment surges toward 9,500",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "300K Houston-area voters are on Texas’ suspense list. What to know.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Exclusive: U.S. attorney objects to disclosure of record detailing fatal ICE shooting",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Fight Ethan Pecko shows in first MLB win mirrors Astros' rebound on road trip",
       "reason": "missing business relevance signal"
     },
     {
@@ -448,11 +453,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Friday’s weather splits Houston between storms and heat. Who will get rain?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Astros' Hunter Brown restores order, helps provide rest for a weary bullpen",
       "reason": "missing business relevance signal"
     },
@@ -463,17 +463,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Bessent heads to the G20 to rally allies on Iran as tariffs strain ties",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Lake Ontario now called Lake America on Google Maps for US users after Trump ordered name change",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How to help after Nepal and Tibet's catastrophic floods",
+      "title": "Bessent heads to the G20 to rally allies on Iran as tariffs strain ties",
       "reason": "missing business relevance signal"
     },
     {
@@ -483,22 +478,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UK warns against Israel removing it from Gaza ceasefire center, and other news in the Middle East",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Washington chemical tank was called unfit for service before deadly failure, investigators find",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Some US cities have begun rewarding careful drivers with fewer red lights",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "UK warns against Israel removing it from Gaza ceasefire center, and other news in the Middle East",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "2 LaGuardia air traffic controllers left work an hour early before deadly crash, AP source says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ex-UT tennis coach Michael Center went to prison. Now he's trying to help others",
       "reason": "missing business relevance signal"
     },
     {
@@ -513,17 +508,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Beloved New Orleans hospital, wracked by floods and grief in Hurricane Katrina, to get a makeover",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump still teases a third presidential run, but he's talking more and more about life after 2028",
+      "title": "Houston could see a soaking this week. Will Gulf system earn a name?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "A fantasy football millionaire built this 14-acre Katy estate. Guess the price",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump still teases a third presidential run, but he's talking more and more about life after 2028",
       "reason": "missing business relevance signal"
     },
     {
@@ -563,11 +558,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston could see a soaking this week. Will Gulf system earn a name?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Real Madrid hosts Inter to open Champions League main phase. PSG plays City, Barcelona in October",
       "reason": "missing business relevance signal"
     },
@@ -579,11 +569,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "After fast start, Astros' bats go quiet for long stretch in loss to Mets",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Colorado Rapids bring home winning streak into matchup with Real Salt Lake",
       "reason": "missing business relevance signal"
     },
     {
@@ -603,22 +588,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "AC Milan and coach Amorim get English opponents Sunderland and Bournemouth in Europa League draw",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Storms leave thousands without power across the Houston area",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Norway's crown prince becomes King Haakon VIII after his father's death",
+      "title": "Shohei Ohtani throws bullpen session as he moves closer to return to mound",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Shohei Ohtani throws bullpen session as he moves closer to return to mound",
+      "title": "Bellingham leads Madrid to another win, Chelsea scores 4 against Brighton",
       "reason": "missing business relevance signal"
     },
     {
@@ -629,11 +609,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Tampa Bay Rays set for new $2.3B stadium project after county and city approve financing plan",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Bellingham leads Madrid to another win, Chelsea scores 4 against Brighton",
       "reason": "missing business relevance signal"
     },
     {
@@ -673,6 +648,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Packers' Josh Jacobs placed on commissioner's exempt list while he faces misdemeanor charges",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Twins top prospect Walker Jenkins called up, bats 9th and plays center field in MLB debut",
       "reason": "missing business relevance signal"
     },
@@ -684,11 +664,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Dylan Cease strikes out 8 in six innings, Blue Jays hit 3 homers to beat Mariners 8-1",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Packers' Josh Jacobs placed on commissioner's exempt list while he faces misdemeanor charges",
       "reason": "missing business relevance signal"
     },
     {
@@ -708,22 +683,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "This Houston-area restaurant is No. 1 in the world for Uber Eats orders",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Rotary: Police Chief Jon Buckholtz offers look into Conroe law enforcement",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "The elected officials who believe Texans don't deserve three minutes",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas high school football: Thursday's scores from Week 1",
       "reason": "missing business relevance signal"
     },
     {
@@ -733,17 +693,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "College football 2026: 5 things that must happen for Texas to return to CFP",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Kirk Cousins looks set to lead the Raiders even as Klint Kubiak keeps QB decision quiet",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "College football 2026: These 5 things must happen for A&M to return to CFP",
       "reason": "missing business relevance signal"
     },
     {
@@ -753,17 +703,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Chelsea preparing for 'all scenarios' over Enzo Fernandez's future, says Alonso",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Giants acquire defensive lineman CJ Okoye from the Ravens for a 2028 seventh-round pick",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Red Sox activate Roman Anthony and Trevor Story for series finale vs. Yankees",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "NWSL: Houston Dash's offense shut down in road loss to Seattle Reign",
+      "title": "6 thoughts on Texans' initial 53-man roster: Surprise cuts and Tank Dell to IR",
       "reason": "missing business relevance signal"
     },
     {
@@ -788,17 +738,57 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "House lawmakers return to Washington with a stopgap funding bill atop the list of priorities",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Hugo Lloris has MLS-leading 11th shutout this season for LAFC in 1-1 tie with DC United",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Chelsea preparing for 'all scenarios' over Enzo Fernandez's future, says Alonso",
+      "title": "Columbus Crew aim to break losing streak in matchup with the New England Revolution",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Columbus Crew aim to break losing streak in matchup with the New England Revolution",
+      "title": "Tropical Storm Karina strengthens into a hurricane in the Pacific, could be a major storm this week",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Rain delays England victory bid in second test against Pakistan",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Astros may turn to openers as rotation questions mount down the stretch",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Red Sox activate Roman Anthony and Trevor Story for series finale vs. Yankees",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Rafael Leão heads to Turkey ahead of expected transfer from Milan to Galatasaray",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "UH won't pursue reunion with kicker Ethan Sanchez for 2026 season",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump used to say he saw a quick end to his Iran war, but 6 months later he claims he's in no hurry",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Death toll rises to 38 from Russia's deadliest attack on Ukraine this year",
       "reason": "missing business relevance signal"
     },
     {
@@ -808,7 +798,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas Republicans redrew five seats. A year later, here’s what’s happening - Austin American-Statesman",
+      "title": "His records request led Pflugerville to shut down license plate cameras - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -818,12 +808,22 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin Restaurant Weeks are here. These are the Statesman's must-try picks - Austin American-Statesman",
+      "title": "Texas Republicans redrew five seats. A year later, here’s what’s happening - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "His records request led Pflugerville to shut down license plate cameras - Austin American-Statesman",
+      "title": "How Matt's El Rancho built a nearly 75-year Austin restaurant legacy - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Will August end with more triple-digit heat? Here’s the latest Central Texas forecast - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Will Matthew McConaughey return to rom-coms in 'How to Lose a Guy in 10 Days' sequel? - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
