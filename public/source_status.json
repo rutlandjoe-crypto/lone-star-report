@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-01T05:07:14.908Z",
+  "checked_at": "2026-09-01T10:06:16.296Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 33,
+  "working_sources": 30,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -31,9 +31,8 @@
       "source": "San Antonio Report",
       "region": "San Antonio",
       "mode": "direct",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "read ECONNRESET"
     },
     {
       "source": "El Paso Matters",
@@ -70,9 +69,8 @@
       "source": "Austin American-Statesman",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "El Paso Times",
@@ -119,7 +117,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -173,7 +171,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 1,
-      "firewall_rejected": 2
+      "firewall_rejected": 3
     },
     {
       "source": "Texas Comptroller",
@@ -205,15 +203,14 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 80
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 1,
-      "firewall_rejected": 99
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +218,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 82
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +226,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 78
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +234,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 94
     },
     {
       "source": "Dallas Morning News Business",
@@ -342,12 +339,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Joseph Hastings",
+      "title": "Texas A&M football fall camp superlatives: MVPs, best freshman and more for Aggies this preseason",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M football fall camp superlatives: MVPs, best freshman and more for Aggies this preseason",
+      "title": "Joseph Hastings",
       "reason": "blocked sports noise"
     },
     {
@@ -356,14 +353,14 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - Texas Tech Red Raiders",
-      "title": "Chrys Black Jr. Powers Pittsburgh Central Catholic to Marquee Win in Season Opener",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - TCU Horned Frogs",
       "title": "The Invested Head Coach - Daily Take",
       "reason": "blocked sports noise"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Aldershot WordPress Agency Marks 20+ Years Serving UK SMBs",
+      "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
@@ -392,6 +389,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Texas prepares for tropical storm threat as Houston faces heavy rain, flooding",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Fire draws multiple agencies to Texas Renaissance Festival grounds",
       "reason": "missing business relevance signal"
     },
@@ -402,12 +404,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas prepares for tropical storm threat as Houston faces heavy rain, flooding",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Flood watch issued as tropical system approaches Houston Tuesday",
+      "title": "Houston-area districts cancel Tuesday classes ahead of tropical weather",
       "reason": "missing business relevance signal"
     },
     {
@@ -417,7 +414,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston-area districts cancel Tuesday classes ahead of tropical weather",
+      "title": "Rice University is transforming its campus as enrollment surges toward 9,500",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Flood watch issued as tropical system approaches Houston Tuesday",
       "reason": "missing business relevance signal"
     },
     {
@@ -432,27 +434,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Greg Abbott is campaigning to make Texas more affordable. Will his plan work?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston's original Pappasitos Cantina is closing after 43 years",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Texans' bubble players fared in preseason finale loss to Panthers",
+      "title": "Greg Abbott is campaigning to make Texas more affordable. Will his plan work?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "300K Houston-area voters are on Texas’ suspense list. What to know.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Rice University is transforming its campus as enrollment surges toward 9,500",
       "reason": "missing business relevance signal"
     },
     {
@@ -467,11 +459,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Commissioner Rodney Ellis proposes $4.5M for new Harris County department focused on community safety",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Conroe man pleads guilty to making money off illegal duck hunting",
       "reason": "missing business relevance signal"
     },
@@ -482,12 +469,27 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Commissioner Rodney Ellis proposes $4.5M for new Harris County department focused on community safety",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Texas high school football: Saturday's scores from Week 1",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston’s SLB, formerly Schlumberger, makes $3.4B data center bet with Kelvion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Oklahoma man charged with murder after 2 killed in explosion at marijuana extraction facility",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Dolly Parton estate announces 2-day festival 'Dollyfest' to celebrate her legacy",
       "reason": "missing business relevance signal"
     },
     {
@@ -513,11 +515,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Bessent heads to the G20 to rally allies on Iran as tariffs strain ties",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston’s SLB, formerly Schlumberger, makes $3.4B data center bet with Kelvion",
       "reason": "missing business relevance signal"
     },
     {
@@ -557,7 +554,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Academy to host youth basketball tournament with Nike, Jordan. How to sign up",
+      "title": "Russia cements its role as Africa junta protector after helping quell Niger's mutiny",
       "reason": "missing business relevance signal"
     },
     {
@@ -567,12 +564,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Dolly Parton estate announces 2-day festival 'Dollyfest' following a private ceremony",
+      "title": "NASA’s Roman telescope is on its way. What scientists hope to discover",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Russia cements its role as Africa junta protector after helping quell Niger's mutiny",
+      "title": "Academy to host youth basketball tournament with Nike, Jordan. How to sign up",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Democrats aim to unite behind one candidate in Alaska governor's race as they hope to flip the seat",
       "reason": "missing business relevance signal"
     },
     {
@@ -587,11 +589,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Democrats aim to unite behind one candidate in Alaska governor's race as they hope to flip the seat",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Trump still teases a third presidential run, but he's talking more and more about life after 2028",
       "reason": "missing business relevance signal"
     },
@@ -602,7 +599,27 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Lindsay Clancy jury set to deliberate for another day",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Can one person really change history? I asked Jared Diamond. | Opinion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Tropical Storm Edouard forms in Gulf, heads toward Southeast Texas",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Tropical Storm Edouard forms near Texas and Louisiana, while another storm moves toward Hawaii",
       "reason": "missing business relevance signal"
     },
     {
@@ -612,7 +629,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Lindsay Clancy jury set to deliberate for another day",
+      "title": "Russian barrage of drones and missiles on Ukraine's capital region kills at least 11",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Israel to help Greece build an air defense shield in a landmark weapons deal",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "More than 1,000 dead from catastrophic Nepal-China floods",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Keeping cool saves thousands of lives yearly, but at a cost of worsening global warming, experts say",
       "reason": "missing business relevance signal"
     },
     {
@@ -637,6 +669,21 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Nepal flood survivors fear loss of culture and community",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Judge to decide if Tyler Robinson will stand trial in Charlie Kirk's killing",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "1 dead and 5 wounded in a shooting at a rave in Switzerland",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Real Madrid hosts Inter to open Champions League main phase. PSG plays City, Barcelona in October",
       "reason": "missing business relevance signal"
     },
@@ -647,12 +694,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "NASA’s Roman telescope is on its way. What scientists hope to discover",
+      "title": "UN spotlights nuclear weapon states' refusal to ratify test ban treaty at divisive time",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UN spotlights nuclear weapon states' refusal to ratify test ban treaty at divisive time",
+      "title": "Houston’s rain chances are changing. Could a tropical disturbance bring relief?",
       "reason": "missing business relevance signal"
     },
     {
@@ -662,7 +709,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Researchers catch sharks off NY's Hamptons, attach trackers to toothy predators",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Bellingham leads Madrid to another win, Chelsea scores 4 against Brighton",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Robert Moreno hired as interim head coach as South Korea aims for calm after a turbulent summer",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Russian strike on a Ukrainian warehouse kills 37 in the war's deadliest attack this year",
       "reason": "missing business relevance signal"
     },
     {
@@ -677,12 +739,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Alex Eala returns to the US Open with a roaring fan base and on a path to stardom",
+      "title": "The week that Texas asked itself: What's erotic? | Thumbs",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The week that Texas asked itself: What's erotic? | Thumbs",
+      "title": "Macho, macho men? Democrats talk masculinity on campaign trail after years of Trump's bravado",
       "reason": "missing business relevance signal"
     },
     {
@@ -707,122 +769,57 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Wendell Berry, Kentucky-born author who advocated a simpler life, has died at 92",
+      "title": "DEA tactic that let fentanyl flood the streets is being investigated by House Republicans",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Coastal Texas and Louisiana warned of tropical storm, while another storm moves toward Hawaii",
+      "source": "San Antonio Express-News Business",
+      "title": "Tim Duncan's son, Selena Gomez's legal battle topped week's headlines - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "US military has no plans to send troops to the polls in November, top general says",
+      "source": "San Antonio Express-News Business",
+      "title": "Thousands of San Antonians still in the dark as outages from Friday storm persist - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Tropical Storm Edouard forms in Gulf, heads toward Southeast Texas",
+      "source": "San Antonio Express-News Business",
+      "title": "Thousands without power, 2 apparent storm-related deaths after heavy rains - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Nearly 2,200 pack Houston’s Mariachi Festival for a night of tradition",
+      "source": "San Antonio Express-News Business",
+      "title": "Behind the schism rocking the Catholic Church — and this San Antonio parish - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "No verdict after 3 days of deliberations in the Lindsay Clancy trial over the killing of her kids",
+      "source": "San Antonio Express-News Business",
+      "title": "Week 1 San Antonio high school football scores for Saturday - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Army Secretary Dan Driscoll is stepping down after 18 months on the job, White House says",
+      "source": "San Antonio Express-News Business",
+      "title": "Without power, San Antonians grapple with how to get through storm's aftermath - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Massachusetts Democratic primary is a generational clash as Rep. Seth Moulton targets Sen. Ed Markey",
+      "source": "San Antonio Express-News Business",
+      "title": "'No escape': Man told AI chatbot he planned shooting at Northeast Side elementary school - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Can a Texas KKK building be redeemed? Yes. Here's proof.",
+      "source": "San Antonio Express-News Business",
+      "title": "Thousands still without power after heavy rainstorm batters San Antonio - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Lateralus Holdings' David Shuman joins the Islanders' ownership group as a limited partner",
+      "source": "San Antonio Express-News Business",
+      "title": "How acting Police Chief Jesse Salame rose through the ranks at SAPD - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Singer D4vd loses prominent lawyers defending him in killing of 14-year-old Celeste Rivas Hernandez",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Chelsea preparing for 'all scenarios' over Enzo Fernandez's future, says Alonso",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Spinning and dipping, Minnesota fairgoers delight in the classic Tilt-A-Whirl ride as it turns 100",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Giants acquire defensive lineman CJ Okoye from the Ravens for a 2028 seventh-round pick",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Fight over Islam is key focus ahead of pivotal high school curriculum vote",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "NASA's newest space telescope launches on a quest to explore the hidden universe",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Roger Beasley, longtime Austin auto dealer and philanthropist, dies at 87 - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Texas Republicans redrew five seats. A year later, here’s what’s happening - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "His records request led Pflugerville to shut down license plate cameras - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Texas football: 5 things to know about the Texas State Bobcats in Week 1 matchup - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Texas hemp sellers ask: What counts as a “trace amount”? - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "When do Austin heat illnesses spike? New dashboard offers clues - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Will August end with more triple-digit heat? Here’s the latest Central Texas forecast - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Tropical Depression 5 aims for Texas. Here’s what we know. - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "Power should be back on for all San Antonio residents by Tuesday night, CPS says - San Antonio Express-News",
       "reason": "missing business relevance signal"
     }
   ]
