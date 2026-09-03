@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-03T18:38:35.130Z",
+  "checked_at": "2026-09-03T21:43:03.149Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 30,
+  "working_sources": 32,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -61,8 +61,9 @@
       "source": "Beaumont Enterprise",
       "region": "Southeast Texas / Beaumont",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Austin American-Statesman",
@@ -171,8 +172,8 @@
       "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 1,
-      "firewall_rejected": 5
+      "accepted": 3,
+      "firewall_rejected": 10
     },
     {
       "source": "Texas Comptroller",
@@ -211,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 87
+      "firewall_rejected": 88
     },
     {
       "source": "San Antonio Express-News Business",
@@ -219,14 +220,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 65
+      "firewall_rejected": 62
     },
     {
       "source": "Beaumont Enterprise Business",
       "region": "Southeast Texas / Beaumont",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 43
     },
     {
       "source": "El Paso Times Business",
@@ -234,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 79
     },
     {
       "source": "Dallas Morning News Business",
@@ -285,7 +287,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 4,
       "firewall_rejected": 0
     },
     {
@@ -349,7 +351,32 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "Raiz FCU announces three VP appointments",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "City opens applications for youth climate grants",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Registration open for 11th El Paso Giving Day",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "United Way kicks off giving campaign",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "John Van Nortwick III",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Farah’s returning to West El Paso",
       "reason": "missing business relevance signal"
     },
     {
@@ -379,7 +406,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Talarico accepts CNN debate invitation; Paxton criticizes event but doesn't commit - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Buzzy openings, notable closings: Austin restaurants that changed in August - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Austin police arrest 21-year-old on murder charge after fatal shooting - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -394,22 +431,22 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Roger Beasley, longtime Austin auto dealer and philanthropist, dies at 87 - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Talarico accepts CNN debate invitation. Will Ken Paxton join him? - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Austin police arrest 21-year-old on murder charge after fatal shooting - Austin American-Statesman",
+      "title": "UT proposes cutting more than 100 'narrow' courses from core this spring - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "'I didn't see it coming': Man recalls moments before Hutto Home Depot hatchet attack - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Tesla advances Austin chip facility as Musk's Texas Terafab takes shape - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Tesla Cybercab joins Texas fleet ahead of Austin robotaxi launch - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -424,11 +461,6 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Tesla Cybercab joins Texas fleet ahead of Austin robotaxi launch - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Austin man gets 15 years after DNA evidence revives decades-old cases - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
@@ -439,12 +471,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Tesla advances Austin chip facility as Musk's Texas Terafab takes shape - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "UT proposes cutting more than 100 'narrow' courses from core this spring - Austin American-Statesman",
+      "title": "How Austin became a recurring stop in Gloria Steinem's activism - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -479,6 +506,11 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Elgin police will pause use of Flock license plate cameras, chief says - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Texas Stars vs Henderson Silver Knights - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
@@ -490,6 +522,11 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "This digital picture frame turns your voice into wall art - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Austin police: Man threatened victim with knife, stole mountain bike - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -509,18 +546,13 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "San Antonio Stock Show & Rodeo followed by TBA - Austin American-Statesman",
+      "title": "Austin spent $719K managing homeless encampments in 26 days - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "How do we solve the data center problem? Build them in space | Opinion - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Pay $42.97 once for Microsoft Office on your Mac - Austin American-Statesman",
-      "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
@@ -564,6 +596,11 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Noah Peterson: Solo Sax Sessions - Dinner Jazz - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Mike Bass - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
@@ -579,17 +616,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Jackery's new expandable power station is $619 for a limited time - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Austin incomes changed sharply since 2010. See where - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "President Donald Trump’s changing Lake Ontario’s name is going too far | Letters - Austin American-Statesman",
+      "title": "Jackery's new expandable power station is $619 for a limited time - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -604,16 +636,6 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin police: Man threatened victim with knife, stole mountain bike - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Who leads the Central Texas high school football rankings? - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Texas A&M’s Marcel Reed isn’t hiding how he feels about Texas - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
@@ -624,7 +646,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "How Austin became a recurring stop in Gloria Steinem's activism - Austin American-Statesman",
+      "title": "President Donald Trump’s changing Lake Ontario’s name is going too far | Letters - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -639,7 +661,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Track Tropical Storm Edouard as it approaches the Texas coast - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Tom Brady watched Texas-Nebraska volleyball in Las Vegas. Here’s why - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Westlake vs Euless Trinity: Will the Chaps improve to 2-0? - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -654,18 +686,13 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "As Austin ISD funding falls short, Ed Fund pays for yearbooks and garden growth - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Track Tropical Storm Edouard as it approaches the Texas coast - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "At Austin Pride, a paintball attack carried an ugly message | Opinion - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Arts events - Austin American-Statesman",
+      "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
@@ -679,12 +706,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Westlake volleyball back atop Austin-area volleyball power poll after one week at No. 2 - Austin American-Statesman",
+      "title": "Laura Lootens: SAN ANTONIO - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Laura Lootens: SAN ANTONIO - Austin American-Statesman",
+      "title": "bradeazy - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -739,11 +766,6 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Is Texas volleyball still a top-five team after losing two early matches? - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Keath Ósk - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
@@ -789,7 +811,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "King 810 - Austin American-Statesman",
+      "title": "Amazon quietly raised prices on Echo, Kindle, and Fire TV devices - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -800,26 +822,6 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "Things to do in Austin, TX - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "The Flowertones - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "San Antonio Express-News Business",
-      "title": "Santikos buys 21 acres for far West Side entertainment complex. Here’s what we know. - San Antonio Express-News",
-      "reason": "blocked non-business or soft-content term"
-    },
-    {
-      "source": "San Antonio Express-News Business",
-      "title": "NBA hits Clippers with heavy sanctions in Kawhi Leonard case - San Antonio Express-News",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "San Antonio Express-News Business",
-      "title": "Authorities identify woman swept by storm runoff in downtown San Antonio - San Antonio Express-News",
       "reason": "missing business relevance signal"
     }
   ]
