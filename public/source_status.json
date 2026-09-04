@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-04T04:35:23.176Z",
+  "checked_at": "2026-09-04T09:42:45.640Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 33,
+  "working_sources": 37,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -86,8 +86,9 @@
       "source": "San Antonio Express-News",
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Dave Campbell's Texas Football",
@@ -111,7 +112,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -173,7 +174,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 11
+      "firewall_rejected": 12
     },
     {
       "source": "Texas Comptroller",
@@ -205,7 +206,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 75
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,14 +214,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 88
     },
     {
       "source": "San Antonio Express-News Business",
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 63
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -228,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 33
+      "firewall_rejected": 34
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 83
     },
     {
       "source": "Dallas Morning News Business",
@@ -297,8 +299,9 @@
       "source": "San Antonio Express-News Spurs Desk",
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Dave Campbell's Texas Football - College",
@@ -320,8 +323,9 @@
       "source": "San Antonio Express-News High School Football",
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     }
   ],
   "firewall_rejections": [
@@ -341,6 +345,11 @@
       "reason": "blocked sports noise"
     },
     {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Defending WPIAL state championship football team forfeits upcoming game",
+      "reason": "blocked sports noise"
+    },
+    {
       "source": "On3 - TCU Horned Frogs",
       "title": "Opener Sets UNC Up for Success - Daily Take",
       "reason": "blocked sports noise"
@@ -357,17 +366,17 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "Registration open for 11th El Paso Giving Day",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "City opens applications for youth climate grants",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
       "title": "Raiz FCU announces three VP appointments",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Registration open for 11th El Paso Giving Day",
       "reason": "missing business relevance signal"
     },
     {
@@ -407,6 +416,11 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "Mom planned daughter’s funeral amid severe ketamine addiction",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "Decades after 9/11, toxic dust and PTSD may be accelerating brain aging among first responders",
       "reason": "missing business relevance signal"
     },
@@ -422,32 +436,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ken Paxton allies are betting millions that China attack ads will resonate",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Medical board suspends Sugar Land doctor accused of using fake patient to obtain opioid prescription",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Cash App users receiving payouts from multi-million dollar lawsuit",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Arthouse Houston says it will purchase Garden Oaks Theater",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "ICE officer at center of Texas extradition fight now faces federal charges",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harris County commissioners may approve highest tax rate in 20 years Tuesday",
+      "title": "Ken Paxton allies are betting millions that China attack ads will resonate",
       "reason": "missing business relevance signal"
     },
     {
@@ -462,12 +456,27 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Why a judge disqualified Ken Paxton’s office from a Houston doctor's lawsuit",
+      "title": "Galveston County jury finds James Elmore guilty in Texas Killing Fields trial",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "4 in 10 Texas homeowners pay no school taxes. State leaders want to go further.",
+      "title": "Arthouse Houston says it will purchase Garden Oaks Theater",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Medical board suspends Sugar Land doctor accused of using fake patient to obtain opioid prescription",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Harris County commissioners may approve highest tax rate in 20 years Tuesday",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Why a judge disqualified Ken Paxton’s office from a Houston doctor's lawsuit",
       "reason": "missing business relevance signal"
     },
     {
@@ -477,17 +486,12 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "4 in 10 Texas homeowners pay no school taxes. State leaders want to go further.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston missed most of Edouard’s rain. Will the holiday weekend be stormy?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "James Elmore sentenced to 20 years for 1984 Texas Killing Fields death of Laura Miller",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Edouard could approach hurricane strength. What Houston needs to know",
       "reason": "missing business relevance signal"
     },
     {
@@ -502,12 +506,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "James Elmore sentenced to 20 years for 1984 Texas Killing Fields death of Laura Miller",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Texas A&M System cuts over 250 core curriculum courses under new state law",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Galveston County jury finds James Elmore guilty in Texas Killing Fields trial",
+      "title": "Edouard could approach hurricane strength. What Houston needs to know",
       "reason": "missing business relevance signal"
     },
     {
@@ -552,12 +561,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texans' first WRs coach Kippy Brown, who once interviewed for head coach, dead",
+      "title": "Astros' Tatsuya Imai says calling pitches felt 'like playing a video game'",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros' Tatsuya Imai says calling pitches felt 'like playing a video game'",
+      "title": "Texans' first WRs coach Kippy Brown, who once interviewed for head coach, dead",
       "reason": "missing business relevance signal"
     },
     {
@@ -627,17 +636,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Musk launches steering-wheel-free taxi service in bet riders lose 'no control' fears and hop inside",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Tech stocks lead a rally on Wall Street as bond yields ease some more",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "What to know about the AP/FRONTLINE investigation into scam victims",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Musk launches steering-wheel-free taxi service in bet riders lose 'no control' fears and hop inside",
       "reason": "missing business relevance signal"
     },
     {
@@ -652,6 +661,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "US diesel prices hit a record high of $5.85 on average as the Iran war disrupts the flow of fuel",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "EPA proposal could leave the public in the dark on data center plans",
       "reason": "missing business relevance signal"
     },
@@ -659,11 +673,6 @@
       "source": "Houston Chronicle Business",
       "title": "US and Iran trade strikes, and other Mideast news",
       "reason": "blocked non-Texas or non-business content"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Chevron confirma que ampliará sus operaciones en Venezuela.",
-      "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
@@ -692,7 +701,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Chef Graham Laborde opening new Gulf Coast restaurant in the Heights",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Be more like Dolly: Put books in kids’ hands, not on banned lists",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Finding a job after prison comes with extra challenges. Here are ways to overcome them",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Asian benchmarks mostly rise after tech stocks lead rally on Wall Street",
       "reason": "missing business relevance signal"
     },
     {
@@ -712,22 +736,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "World shares extend losses, while the global bond sell-off intensifies",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Trump administration stalled a survey of PFAS in wastewater, former EPA officials say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Turn fresh oyster mushrooms into these easy, flavorful tacos",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Graham Platner no longer scheduled to speak at Labor Day rally",
       "reason": "missing business relevance signal"
     },
     {
@@ -743,11 +752,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "US extends ban on flights to Haiti's capital as gang violence surges",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Chef Graham Laborde opening new Gulf Coast restaurant in the Heights",
       "reason": "missing business relevance signal"
     },
     {
@@ -772,11 +776,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ford recalls nearly 150,000 Mustangs over wiring issue in engine",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "With his eye on reelection, Israel's Netanyahu turns his focus to his divided base",
       "reason": "missing business relevance signal"
     },
@@ -791,8 +790,13 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Tesla advances Austin chip facility as Musk's Texas Terafab takes shape - Austin American-Statesman",
+      "source": "Houston Chronicle Business",
+      "title": "A US journalist sentenced to 2 years in federal prison for acting as an illegal agent for China",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Graham Platner no longer scheduled to speak at Labor Day rally",
       "reason": "missing business relevance signal"
     },
     {
