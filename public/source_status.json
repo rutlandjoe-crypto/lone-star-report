@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-05T12:43:09.852Z",
+  "checked_at": "2026-09-05T16:04:38.219Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 37,
   "sources": [
@@ -174,7 +174,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 13
+      "firewall_rejected": 18
     },
     {
       "source": "Texas Comptroller",
@@ -206,7 +206,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 75
+      "firewall_rejected": 73
     },
     {
       "source": "Austin American-Statesman Business",
@@ -214,7 +214,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 93
+      "firewall_rejected": 94
     },
     {
       "source": "San Antonio Express-News Business",
@@ -222,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 66
+      "firewall_rejected": 65
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 60
+      "firewall_rejected": 63
     },
     {
       "source": "El Paso Times Business",
@@ -238,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 87
+      "firewall_rejected": 91
     },
     {
       "source": "Dallas Morning News Business",
@@ -284,7 +284,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 2,
       "firewall_rejected": 0
     },
     {
@@ -301,7 +301,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "Dave Campbell's Texas Football - College",
@@ -381,12 +381,22 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "Kelly Tomblin",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "New performing arts Studio coming to Downtown El Paso",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
       "title": "Kappy's Corner: Five questions as UTEP begins its Mountain West era",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Michelle Miller, 2025 Woman of Impact",
       "reason": "missing business relevance signal"
     },
     {
@@ -411,17 +421,32 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "B. Abigail Tarango, 2025 Woman of Impact",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Betsy C. Keller",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "UTEP’s Nepalese community, scientists react to deadly floods: ‘My heart is with my family’",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
-      "title": "The rise and fall of El Paso’s Flock camera fleet",
+      "title": "Ivonne Santiago, 2023 Woman of Impact",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
-      "title": "Decades after 9/11, toxic dust and PTSD may be accelerating brain aging among first responders",
+      "title": "Dr. Heather Wilson",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "The rise and fall of El Paso’s Flock camera fleet",
       "reason": "missing business relevance signal"
     },
     {
@@ -476,16 +501,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston missed most of Edouard’s rain. Will the holiday weekend be stormy?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "As Houston’s homelessness count falls, more deaths emerge in its bayous",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Why a judge disqualified Ken Paxton’s office from a Houston doctor's lawsuit",
       "reason": "missing business relevance signal"
     },
@@ -496,12 +511,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Galveston County jury finds James Elmore guilty in Texas Killing Fields trial",
+      "title": "As Houston’s homelessness count falls, more deaths emerge in its bayous",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UH vs. Oregon State: How to watch, date, time, TV channel and what to know",
+      "title": "Texas A&M System cuts over 250 core curriculum courses under new state law",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "HISD reopens McReynolds Middle as alternative school despite safety concerns",
       "reason": "missing business relevance signal"
     },
     {
@@ -517,6 +537,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "AJ Blubaugh becoming an Astros weapon in biggest spots. 'Whatever you need'",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Astros stay hot, shut down Diamondbacks to take series opener",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "UH vs. Oregon State: How to watch, date, time, TV channel and what to know",
       "reason": "missing business relevance signal"
     },
     {
@@ -546,17 +576,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Pabst Blue Ribbon offers $20,000 reward to help find its missing beer",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Nvidia to spend $13 billion on Hugging Face, which will remain an open source platform",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Apple changes Lake Ontario name to 'Lake America' for US users of its Maps, following Trump's order",
+      "title": "Pabst Blue Ribbon offers $20,000 reward to help find its missing beer",
       "reason": "missing business relevance signal"
     },
     {
@@ -641,12 +666,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston is growing. Can we keep up with the new Houstonians?",
+      "title": "Supernova Furniture’s dinosaur destroyed by fire, but its owners have more plans",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Supernova Furniture’s dinosaur destroyed by fire, but its owners have more plans",
+      "title": "Houston is growing. Can we keep up with the new Houstonians?",
       "reason": "missing business relevance signal"
     },
     {
@@ -686,11 +711,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Cash App users receiving payouts from multi-million dollar lawsuit",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Mudslide kills 1 and leaves 11 missing in China after heavy rain brought by tropical storm Saudel",
       "reason": "missing business relevance signal"
     },
@@ -702,6 +722,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "British police try to track down theft of 70,000 pints worth of Guinness stout",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Suspect in 3 Houston-area shootings found dead, authorities say",
       "reason": "missing business relevance signal"
     },
     {
@@ -751,6 +776,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Did Abbott release a criminal? Ask the Trump administration. | Thumbs",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "White Oak Music Hall will host a Talarico fundraiser after Paxton rally backlash",
       "reason": "missing business relevance signal"
     },
@@ -771,11 +801,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Over 56,800 Texans without power Wednesday as Edouard's landfall causes damage, class cancellations",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Chicago River bridge gets stuck after lifting for boat to pass",
       "reason": "missing business relevance signal"
     },
@@ -790,43 +815,18 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "$2.5 million Enchanted Woods play area is coming to Russ Pitman Park in Bellaire",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Cambodia’s army to resume joint military exercises with the US next year",
-      "reason": "blocked non-business or soft-content term"
-    },
-    {
       "source": "Austin American-Statesman Business",
       "title": "Talarico accepts CNN debate invitation; Paxton criticizes event but doesn't commit - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Tesla Cybercab launch excites fans, but regulators raise questions - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Is it legal to sleep at a Texas rest area? Here's what the law says - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Austin police arrest 21-year-old on murder charge after fatal shooting - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Will Muschamp, Texas football unveil new look vs Texas State Bobcats in Week 1 - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Tesla registers 45 Cybercabs in Texas ahead of Austin robotaxi launch - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Why Texas football coach Steve Sarkisian says Texas State could contend for the CFP - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
