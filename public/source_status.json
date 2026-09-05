@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-05T16:04:38.219Z",
+  "checked_at": "2026-09-05T18:18:09.748Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 37,
   "sources": [
@@ -174,7 +174,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 18
+      "firewall_rejected": 20
     },
     {
       "source": "Texas Comptroller",
@@ -206,7 +206,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 71
     },
     {
       "source": "Austin American-Statesman Business",
@@ -214,7 +214,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 94
+      "firewall_rejected": 95
     },
     {
       "source": "San Antonio Express-News Business",
@@ -222,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 65
+      "firewall_rejected": 66
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 63
+      "firewall_rejected": 66
     },
     {
       "source": "El Paso Times Business",
@@ -238,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 80
     },
     {
       "source": "Dallas Morning News Business",
@@ -301,7 +301,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Dave Campbell's Texas Football - College",
@@ -386,6 +386,11 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "The cool comeback: Breeze blocks bring beauty, passive cooling to desert design",
+      "reason": "blocked non-business or soft-content term"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "New performing arts Studio coming to Downtown El Paso",
       "reason": "missing business relevance signal"
     },
@@ -450,6 +455,11 @@
       "reason": "missing business relevance signal"
     },
     {
+      "source": "El Paso Inc.",
+      "title": "Stumped by tree troubles?: How to know when it’s time for an arborist",
+      "reason": "missing business relevance signal"
+    },
+    {
       "source": "Houston Chronicle Business",
       "title": "Houston has never had more homes for sale. Buyers still can’t find big bargains.",
       "reason": "missing business relevance signal"
@@ -466,12 +476,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harris County leaders want a tax hike. Voters should demand answers",
+      "title": "Ken Paxton allies are betting millions that China attack ads will resonate",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ken Paxton allies are betting millions that China attack ads will resonate",
+      "title": "Harris County leaders want a tax hike. Voters should demand answers",
       "reason": "missing business relevance signal"
     },
     {
@@ -481,17 +491,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston council approves $50M deal ending possibility of Woodlands annexation",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston United travelers will soon get to order food for gate pickup",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Exclusive: Here's when the James Turrell Skyspace at Rice University reopens",
       "reason": "missing business relevance signal"
     },
     {
@@ -526,11 +526,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Tank Dell still working to regain top-end speed after injury, according to GM",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Nelson Velázquez delivers another key hit to help Astros beat White Sox",
       "reason": "missing business relevance signal"
     },
@@ -546,17 +541,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UH vs. Oregon State: How to watch, date, time, TV channel and what to know",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Not officially retired, DeAndre Hopkins makes coaching debut at Georgia Tech",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A look inside UT's new $80 million indoor football facility. ‘Very plush’",
+      "title": "UH vs. Oregon State: How to watch, date, time, TV channel and what to know",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Amid historic season, Josh Hader reaches career milestone in Astros' win",
       "reason": "missing business relevance signal"
     },
     {
@@ -581,11 +576,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Pabst Blue Ribbon offers $20,000 reward to help find its missing beer",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Will Federal Reserve hike rates later this month? Waller muddies the outlook",
       "reason": "missing business relevance signal"
     },
@@ -597,11 +587,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Musk launches steering-wheel-free taxi service in bet riders lose 'no control' fears and hop inside",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "NYC, the nation's largest school system, bans AI for students through 8th grade",
       "reason": "missing business relevance signal"
     },
     {
@@ -666,12 +651,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Supernova Furniture’s dinosaur destroyed by fire, but its owners have more plans",
+      "title": "Houston is growing. Can we keep up with the new Houstonians?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston is growing. Can we keep up with the new Houstonians?",
+      "title": "Supernova Furniture’s dinosaur destroyed by fire, but its owners have more plans",
       "reason": "missing business relevance signal"
     },
     {
@@ -686,12 +671,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Dollywood theme park will add new features, including a waterfall, to honor Dolly Parton",
+      "title": "Trump’s first major midterm money move: A $10M Texas Senate ad blitz",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A 120-foot burst of genius: Jack Kerouac’s 'On the Road' scroll and its wild afterlife",
+      "title": "Dollywood theme park will add new features, including a waterfall, to honor Dolly Parton",
       "reason": "missing business relevance signal"
     },
     {
@@ -707,6 +692,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Chef Graham Laborde opening new Gulf Coast restaurant in the Heights",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Did Abbott release a criminal? Ask the Trump administration. | Thumbs",
       "reason": "missing business relevance signal"
     },
     {
@@ -741,22 +731,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How high is too high for a pound of Texas brisket?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "EPA seeks more public comments as it struggles to devise water rule that limits scope on wetlands",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "El Tiempo Cantina shutters Webster restaurant after nearly a decade",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Colorado man who was free on bond in wife's alleged killing is jailed after hit-and-run",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Kennedy Center disassembles 'Blue' sculpture from its grounds",
       "reason": "missing business relevance signal"
     },
     {
@@ -771,16 +756,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Iranian strikes on Jordan test the bonds between the US and one of its staunchest Mideast allies",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Did Abbott release a criminal? Ask the Trump administration. | Thumbs",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "White Oak Music Hall will host a Talarico fundraiser after Paxton rally backlash",
       "reason": "missing business relevance signal"
     },
@@ -791,12 +766,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "The day Gloria Steinem walked into my Chronicle cubicle: A remembrance",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Ex-Venezuelan President Nicolás Maduro and wife seek to end drug charges case on immunity grounds",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "2 trapped workers rescued from a hydropower tunnel 9 days after Nepal floods",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Jordan's alliance with the US makes the kingdom a target for Iranian strikes",
       "reason": "missing business relevance signal"
     },
     {
@@ -812,6 +797,21 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Farmers turn to perennial grains as one solution to extreme weather",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "$2.5 million Enchanted Woods play area is coming to Russ Pitman Park in Bellaire",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Cambodia’s army to resume joint military exercises with the US next year",
+      "reason": "blocked non-business or soft-content term"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas SBOE OKs new high school curriculum over objections from Muslims",
       "reason": "missing business relevance signal"
     },
     {
