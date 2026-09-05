@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-05T09:04:45.463Z",
+  "checked_at": "2026-09-05T12:43:09.852Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 32,
+  "working_sources": 37,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -70,8 +70,9 @@
       "source": "Austin American-Statesman",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "El Paso Times",
@@ -93,8 +94,9 @@
       "source": "Dave Campbell's Texas Football",
       "region": "Statewide",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Texas Longhorns",
@@ -172,7 +174,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 14
+      "firewall_rejected": 13
     },
     {
       "source": "Texas Comptroller",
@@ -210,8 +212,9 @@
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 93
     },
     {
       "source": "San Antonio Express-News Business",
@@ -304,15 +307,17 @@
       "source": "Dave Campbell's Texas Football - College",
       "region": "Statewide",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Dave Campbell's Texas Football - High School",
       "region": "Statewide",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "San Antonio Express-News High School Football",
@@ -376,17 +381,7 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Farah’s returning to West El Paso",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "New performing arts Studio coming to Downtown El Paso",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Cosmetic surgeon says popularity of penis fillers rising",
       "reason": "missing business relevance signal"
     },
     {
@@ -397,6 +392,11 @@
     {
       "source": "El Paso Inc.",
       "title": "Borderland Bourbon: Stagg Batch 25D delivers a bold bourbon journey",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Farah’s returning to West El Paso",
       "reason": "missing business relevance signal"
     },
     {
@@ -431,6 +431,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Texas approves $14B Permian power ‘superhighway’ after years-long Houston push",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "A $1B project could reshape Magnolia — if the new mayor’s concerns are resolved",
       "reason": "missing business relevance signal"
     },
@@ -441,17 +446,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "ICE officer at center of Texas extradition fight now faces federal charges",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Ken Paxton allies are betting millions that China attack ads will resonate",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston United travelers will soon get to order food for gate pickup",
       "reason": "missing business relevance signal"
     },
     {
@@ -466,7 +461,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston United travelers will soon get to order food for gate pickup",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Exclusive: Here's when the James Turrell Skyspace at Rice University reopens",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "ICE officer at center of Texas extradition fight now faces federal charges",
       "reason": "missing business relevance signal"
     },
     {
@@ -477,11 +482,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "As Houston’s homelessness count falls, more deaths emerge in its bayous",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Dan Patrick's book ban isn't dumb. It's worse than that. | Opinion",
       "reason": "missing business relevance signal"
     },
     {
@@ -511,11 +511,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "FDA warns of hidden pesticide in recalled weight loss supplement",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Nelson Velázquez delivers another key hit to help Astros beat White Sox",
       "reason": "missing business relevance signal"
     },
@@ -527,6 +522,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Not officially retired, DeAndre Hopkins makes coaching debut at Georgia Tech",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A look inside UT's new $80 million indoor football facility. ‘Very plush’",
       "reason": "missing business relevance signal"
     },
     {
@@ -546,11 +546,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas approves $14B Permian power ‘superhighway’ after years-long Houston push",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Pabst Blue Ribbon offers $20,000 reward to help find its missing beer",
       "reason": "missing business relevance signal"
     },
@@ -562,11 +557,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Apple changes Lake Ontario name to 'Lake America' for US users of its Maps, following Trump's order",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Lawmakers ask Army to explain why it told a military unit to stop specializing in drone warfare",
       "reason": "missing business relevance signal"
     },
     {
@@ -651,12 +641,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Why is ICE targeting hardworking men and not criminals?",
+      "title": "Houston is growing. Can we keep up with the new Houstonians?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston is growing. Can we keep up with the new Houstonians?",
+      "title": "Supernova Furniture’s dinosaur destroyed by fire, but its owners have more plans",
       "reason": "missing business relevance signal"
     },
     {
@@ -701,6 +691,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Mudslide kills 1 and leaves 11 missing in China after heavy rain brought by tropical storm Saudel",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "How the Trump administration could wipe out Texas ocelots",
       "reason": "missing business relevance signal"
     },
@@ -716,12 +711,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Congo's Ebola outbreak shows no signs of slowing as deaths top 3,000",
+      "title": "In Houston, Gloria Steinem helped set the course for women's rights fight",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "EPA seeks more public comments as it struggles to devise water rule that limits scope on wetlands",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "El Tiempo Cantina shutters Webster restaurant after nearly a decade",
       "reason": "missing business relevance signal"
     },
     {
@@ -756,6 +756,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Judge clears a lawsuit against Kyrsten Sinema under North Carolina's 'homewrecker' law",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Ex-Venezuelan President Nicolás Maduro and wife seek to end drug charges case on immunity grounds",
       "reason": "missing business relevance signal"
     },
@@ -776,6 +781,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Missouri asks US Supreme Court to allow use of new Trump-backed congressional districts in midterms",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Farmers turn to perennial grains as one solution to extreme weather",
       "reason": "missing business relevance signal"
     },
@@ -790,38 +800,33 @@
       "reason": "blocked non-business or soft-content term"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "‘Dancing with the Stars’ has four Texas connections this season. Who's competing?",
+      "source": "Austin American-Statesman Business",
+      "title": "Talarico accepts CNN debate invitation; Paxton criticizes event but doesn't commit - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Texas SBOE OKs new high school curriculum over objections from Muslims",
+      "source": "Austin American-Statesman Business",
+      "title": "Is it legal to sleep at a Texas rest area? Here's what the law says - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "San Antonio Express-News Business",
-      "title": "Retired SAPD chief Bill McManus’ new job at Pearl lasted one week - San Antonio Express-News",
+      "source": "Austin American-Statesman Business",
+      "title": "Austin police arrest 21-year-old on murder charge after fatal shooting - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "San Antonio Express-News Business",
-      "title": "Panel approves designs for 17-story building near Hemisfair downtown - San Antonio Express-News",
+      "source": "Austin American-Statesman Business",
+      "title": "Will Muschamp, Texas football unveil new look vs Texas State Bobcats in Week 1 - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "San Antonio Express-News Business",
-      "title": "NBA hits Clippers with heavy sanctions in Kawhi Leonard case - San Antonio Express-News",
+      "source": "Austin American-Statesman Business",
+      "title": "Tesla registers 45 Cybercabs in Texas ahead of Austin robotaxi launch - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "San Antonio Express-News Business",
-      "title": "Driver and passenger killed in rollover crash on Loop 1604 on West Side - San Antonio Express-News",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "San Antonio Express-News Business",
-      "title": "Loop 1604 rollover crash identifies 19-year-old victim - San Antonio Express-News",
+      "source": "Austin American-Statesman Business",
+      "title": "Why Texas football coach Steve Sarkisian says Texas State could contend for the CFP - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
