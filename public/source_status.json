@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-04T21:28:31.547Z",
+  "checked_at": "2026-09-05T00:05:40.337Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 27,
+  "working_sources": 32,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -62,8 +62,9 @@
       "source": "Beaumont Enterprise",
       "region": "Southeast Texas / Beaumont",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Austin American-Statesman",
@@ -77,9 +78,8 @@
       "source": "El Paso Times",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 1
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "San Antonio Express-News",
@@ -93,9 +93,8 @@
       "source": "Dave Campbell's Texas Football",
       "region": "Statewide",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "On3 - Texas Longhorns",
@@ -109,15 +108,17 @@
       "source": "On3 - Texas A&M Aggies",
       "region": "Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
       "region": "West Texas / Lubbock",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -139,8 +140,9 @@
       "source": "On3 - SMU Mustangs",
       "region": "North Texas / DFW",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Houston Cougars",
@@ -170,7 +172,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 15
+      "firewall_rejected": 14
     },
     {
       "source": "Texas Comptroller",
@@ -202,28 +204,31 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 75
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 91
     },
     {
       "source": "San Antonio Express-News Business",
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 61
     },
     {
       "source": "Beaumont Enterprise Business",
       "region": "Southeast Texas / Beaumont",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 43
     },
     {
       "source": "El Paso Times Business",
@@ -283,8 +288,9 @@
       "source": "Fort Worth Star-Telegram Mavericks Desk",
       "region": "North Texas / DFW",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 3,
+      "firewall_rejected": 0
     },
     {
       "source": "San Antonio Express-News Spurs Desk",
@@ -305,9 +311,8 @@
       "source": "Dave Campbell's Texas Football - High School",
       "region": "Statewide",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "San Antonio Express-News High School Football",
@@ -320,13 +325,23 @@
   ],
   "firewall_rejections": [
     {
-      "source": "El Paso Times",
-      "title": "OPINION: The $7.25 minimum wage is failing working Americans",
-      "reason": "blocked editorial/opinion phrase"
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Joseph Hastings",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Defending WPIAL state championship football team forfeits upcoming game",
+      "reason": "blocked sports noise"
     },
     {
       "source": "On3 - TCU Horned Frogs",
       "title": "What to Watch This Weekend for UNC Perspective - Daily Take",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - SMU Mustangs",
+      "title": "SMU Football Insider: What we learned from fall camp, position battles",
       "reason": "blocked sports noise"
     },
     {
@@ -376,11 +391,6 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Cannabis consumers wake up with more ‘stress hormone’",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "Judy Robison honored as El Paso’s Patron of the Arts",
       "reason": "missing business relevance signal"
     },
@@ -411,17 +421,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "James Elmore sentenced to 20 years for 1984 Texas Killing Fields death of Laura Miller",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Harris County leaders want a tax hike. Voters should demand answers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Ken Paxton allies are betting millions that China attack ads will resonate",
       "reason": "missing business relevance signal"
     },
     {
@@ -431,17 +431,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Ken Paxton allies are betting millions that China attack ads will resonate",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston council approves $50M deal ending possibility of Woodlands annexation",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Medical board suspends Sugar Land doctor accused of using fake patient to obtain opioid prescription",
+      "title": "Houston missed most of Edouard’s rain. Will the holiday weekend be stormy?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston missed most of Edouard’s rain. Will the holiday weekend be stormy?",
+      "title": "As Houston’s homelessness count falls, more deaths emerge in its bayous",
       "reason": "missing business relevance signal"
     },
     {
@@ -461,6 +466,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "James Elmore sentenced to 20 years for 1984 Texas Killing Fields death of Laura Miller",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Texas A&M System cuts over 250 core curriculum courses under new state law",
       "reason": "missing business relevance signal"
     },
@@ -471,7 +481,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "As Houston’s homelessness count falls, more deaths emerge in its bayous",
+      "title": "Houston Metro revises budget to preserve bus, rail service after backlash from transit advocates",
       "reason": "missing business relevance signal"
     },
     {
@@ -481,22 +491,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston Metro revises budget to preserve bus, rail service after backlash from transit advocates",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Exclusive: Here's when the James Turrell Skyspace at Rice University reopens",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Rockets, Amen Thompson agree to five-year, $208 million contract extension",
+      "title": "FDA warns of hidden pesticide in recalled weight loss supplement",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "FDA warns of hidden pesticide in recalled weight loss supplement",
+      "title": "Rockets, Amen Thompson agree to five-year, $208 million contract extension",
       "reason": "missing business relevance signal"
     },
     {
@@ -511,12 +516,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros' Tatsuya Imai says calling pitches felt 'like playing a video game'",
+      "title": "UH vs. Oregon State: How to watch, date, time, TV channel and what to know",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Not officially retired, DeAndre Hopkins makes coaching debut at Georgia Tech",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Astros' Tatsuya Imai says calling pitches felt 'like playing a video game'",
       "reason": "missing business relevance signal"
     },
     {
@@ -551,11 +561,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Feds open probe into Musk's steering-wheel-free taxis a day after he began offering rides in them",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Apple changes Lake Ontario name to 'Lake America' for US users of its Maps, following Trump's order",
       "reason": "missing business relevance signal"
     },
@@ -567,6 +572,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Will Federal Reserve hike rates later this month? Waller muddies the outlook",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Feds open probe into Musk's steering-wheel-free taxis a day after he began offering rides in them",
       "reason": "missing business relevance signal"
     },
     {
@@ -603,11 +613,6 @@
       "source": "Houston Chronicle Business",
       "title": "EPA proposal could leave the public in the dark on data center plans",
       "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "US and Iran trade strikes, and other Mideast news",
-      "reason": "blocked non-Texas or non-business content"
     },
     {
       "source": "Houston Chronicle Business",
@@ -651,6 +656,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston is growing. Can we keep up with the new Houstonians?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Trump administration backs OpenAI in New York Times' copyright case over training of chatbots",
       "reason": "missing business relevance signal"
     },
@@ -666,22 +676,32 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Chef Graham Laborde opening new Gulf Coast restaurant in the Heights",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston is growing. Can we keep up with the new Houstonians?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Dollywood theme park will add new features, including a waterfall, to honor Dolly Parton",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "A 120-foot burst of genius: Jack Kerouac’s 'On the Road' scroll and its wild afterlife",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Judge refuses to block Pentagon from firing Stars and Stripes staffers over CBS interview",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Supreme Court grants Republican emergency appeal on TV ad rates before midterms",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Chef Graham Laborde opening new Gulf Coast restaurant in the Heights",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "How the Trump administration could wipe out Texas ocelots",
       "reason": "missing business relevance signal"
     },
     {
@@ -697,6 +717,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Congo's Ebola outbreak shows no signs of slowing as deaths top 3,000",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Colorado man who was free on bond in wife's alleged killing is jailed after hit-and-run",
       "reason": "missing business relevance signal"
     },
     {
@@ -721,12 +746,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas SBOE OKs new high school curriculum over objections from Muslims",
+      "title": "Iranian strikes on Jordan test the bonds between the US and one of its staunchest Mideast allies",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Iranian strikes on Jordan test the bonds between the US and one of its staunchest Mideast allies",
+      "title": "White Oak Music Hall will host a Talarico fundraiser after Paxton rally backlash",
       "reason": "missing business relevance signal"
     },
     {
@@ -765,8 +790,38 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "French bulldogs, alligator among 19 animals rescued from hot Cypress garage",
+      "source": "Austin American-Statesman Business",
+      "title": "What will replace Valhalla on Red River? Think fried chicken - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Talarico accepts CNN debate invitation; Paxton criticizes event but doesn't commit - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Austin police arrest 21-year-old on murder charge after fatal shooting - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Is it legal to sleep at a Texas rest area? Here's what the law says - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Tesla registers 45 Cybercabs in Texas ahead of Austin robotaxi launch - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Tesla unveils Cybercab robotaxi at Austin event: Live updates - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Austin spent $719K managing homeless encampments in 26 days - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
