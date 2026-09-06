@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-06T10:55:56.056Z",
+  "checked_at": "2026-09-06T14:10:42.189Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 37,
   "sources": [
@@ -128,7 +128,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Baylor Bears",
@@ -206,15 +206,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 75
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
-      "firewall_rejected": 97
+      "accepted": 4,
+      "firewall_rejected": 96
     },
     {
       "source": "San Antonio Express-News Business",
@@ -222,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 71
+      "firewall_rejected": 72
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 75
+      "firewall_rejected": 76
     },
     {
       "source": "El Paso Times Business",
@@ -238,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 68
+      "firewall_rejected": 66
     },
     {
       "source": "Dallas Morning News Business",
@@ -337,11 +337,6 @@
     {
       "source": "On3 - Texas A&M Aggies",
       "title": "Joseph Hastings",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "What to Watch This Weekend for UNC Perspective - Daily Take",
       "reason": "blocked sports noise"
     },
     {
@@ -481,16 +476,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A $1B project could reshape Magnolia — if the new mayor’s concerns are resolved",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Harris County leaders want a tax hike. Voters should demand answers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "How high is too high for a pound of Texas brisket?",
       "reason": "missing business relevance signal"
     },
@@ -506,17 +491,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas SBOE OKs new high school curriculum over objections from Muslims",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "ICE officer at center of Texas extradition fight now faces federal charges",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas food recalls in August 2026: Check your pantries for these products",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas SBOE OKs new high school curriculum over objections from Muslims",
       "reason": "missing business relevance signal"
     },
     {
@@ -547,6 +527,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Houston has never had more homes for sale. Buyers still can’t find big bargains.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "25 years later, Lindsay Clancy mistrial is drawing comparisons to Andrea Yates",
       "reason": "missing business relevance signal"
     },
     {
@@ -586,11 +571,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros take control early, cruise to easy victory and series win over White Sox",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Hear Me Out: Which Texas college has the best tailgate atmosphere?",
       "reason": "missing business relevance signal"
     },
@@ -616,12 +596,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Musk launches steering-wheel-free taxi service in bet riders lose 'no control' fears and hop inside",
+      "title": "Don't ban books. Make them age-appropriate.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Tech stocks lead a rally on Wall Street as bond yields ease some more",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Musk launches steering-wheel-free taxi service in bet riders lose 'no control' fears and hop inside",
       "reason": "missing business relevance signal"
     },
     {
@@ -637,11 +622,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Gloria Steinem lived to see a powerful backlash against her vision of feminism",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "EPA proposal could leave the public in the dark on data center plans",
       "reason": "missing business relevance signal"
     },
     {
@@ -676,7 +656,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston man charged in shooting deaths of workers at apartment complex",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Trump administration stalled a survey of PFAS in wastewater, former EPA officials say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "At least 25 people dead in a bus crash in Cape Verde's Fogo Island, officials and media say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A Kentucky man with a meat allergy was craving a burger. So he got into ostrich farming",
       "reason": "missing business relevance signal"
     },
     {
@@ -706,12 +701,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Judge refuses to block Pentagon from firing Stars and Stripes staffers over CBS interview",
+      "title": "How the Trump administration could wipe out Texas ocelots",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How the Trump administration could wipe out Texas ocelots",
+      "title": "Judge refuses to block Pentagon from firing Stars and Stripes staffers over CBS interview",
       "reason": "missing business relevance signal"
     },
     {
@@ -756,6 +751,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Judge gave Texas City homeowner $1 for demolished home. Now it goes to a jury.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "White Oak Music Hall will host a Talarico fundraiser after Paxton rally backlash",
       "reason": "missing business relevance signal"
     },
@@ -786,6 +786,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston storm chances are set to rise Sunday. Here’s a timeline.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Cambodia’s army to resume joint military exercises with the US next year",
       "reason": "blocked non-business or soft-content term"
     },
@@ -802,11 +807,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "What do saw blades, combs and a lake have to do with jewelry at MFAH?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston man charged in shooting deaths of workers at apartment complex",
       "reason": "missing business relevance signal"
     },
     {
