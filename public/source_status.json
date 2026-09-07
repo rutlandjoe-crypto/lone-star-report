@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-07T04:40:18.754Z",
+  "checked_at": "2026-09-07T10:17:13.417Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 34,
+  "working_sources": 36,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -70,8 +70,9 @@
       "source": "Austin American-Statesman",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "El Paso Times",
@@ -87,7 +88,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "Dave Campbell's Texas Football",
@@ -111,7 +112,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 3
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -173,7 +174,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 1,
-      "firewall_rejected": 20
+      "firewall_rejected": 19
     },
     {
       "source": "Texas Comptroller",
@@ -205,14 +206,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 77
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 95
     },
     {
       "source": "San Antonio Express-News Business",
@@ -220,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 76
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -228,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 84
     },
     {
       "source": "El Paso Times Business",
@@ -332,13 +334,18 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "San Antonio Express-News",
-      "title": "Opinion: Leave religion out of Texas' public education curriculum - San Antonio Express-News",
-      "reason": "blocked editorial/opinion phrase"
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Joseph Hastings",
+      "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Joseph Hastings",
+      "title": "Pittsburgh 3-star RB commit Tyler Reid through two games has been unstoppable",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Pittsburgh 3-star RB commit Tyler Reid past two games has been unstoppable",
       "reason": "blocked sports noise"
     },
     {
@@ -399,11 +406,6 @@
     {
       "source": "El Paso Inc.",
       "title": "Betsy C. Keller",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "UTEP’s Nepalese community, scientists react to deadly floods: ‘My heart is with my family’",
       "reason": "missing business relevance signal"
     },
     {
@@ -473,12 +475,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Supernova Furniture’s dinosaur destroyed by fire, but its owners have more plans",
+      "title": "Suspect in 3 Houston-area shootings found dead, authorities say",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Suspect in 3 Houston-area shootings found dead, authorities say",
+      "title": "Supernova Furniture’s dinosaur destroyed by fire, but its owners have more plans",
       "reason": "missing business relevance signal"
     },
     {
@@ -518,6 +520,16 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Darrell Davis, ranked nation's No. 6 point guard, commits to UH basketball",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "No. 23 UH 33, Oregon State 20: Five takeaways from Cougars' Week 1 win",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Defense never rests as Texas A&M dominates hapless Missouri State in romp",
       "reason": "missing business relevance signal"
     },
@@ -538,6 +550,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Investigators hunt for what went wrong after cargo plane crash in Miami kills at least 5",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Records reveal safety complaints, poor maintenance at site of deadly Washington pulp mill disaster",
       "reason": "missing business relevance signal"
     },
@@ -553,7 +570,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Fact check: Has the US already tried making daylight saving year-round?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "German region votes in election that could bring first far-right state governor to power",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ted Cruz racks up private jet flights ahead of midterms",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The Latest: Federal judge extends block on Trump’s order seeking to limit midterm mail-in voting",
       "reason": "missing business relevance signal"
     },
     {
@@ -578,11 +610,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Did Abbott release a criminal? Ask the Trump administration. | Thumbs",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Judge refuses to block Pentagon from firing Stars and Stripes staffers over CBS interview",
       "reason": "missing business relevance signal"
     },
@@ -603,12 +630,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How the Trump administration could wipe out Texas ocelots",
+      "title": "Congo’s Ebola burial teams battle community anger, fatigue and fear of infection",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "This Alvin ISD teacher created a ‘fart corner’ for her fourth-graders",
+      "title": "How the Trump administration could wipe out Texas ocelots",
       "reason": "missing business relevance signal"
     },
     {
@@ -633,12 +660,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston man gets 6 months for selling endangered lemurs",
+      "title": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
+      "title": "Did Abbott release a criminal? Ask the Trump administration. | Thumbs",
       "reason": "missing business relevance signal"
     },
     {
@@ -688,11 +715,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "2 trapped workers rescued from a hydropower tunnel 9 days after Nepal floods",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Preserve the White House. And the Astrodome. They're our heritage.",
       "reason": "missing business relevance signal"
     },
@@ -708,11 +730,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Jordan's alliance with the US makes the kingdom a target for Iranian strikes",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Building collapse in New Delhi kills 1 and traps dozens of others",
       "reason": "missing business relevance signal"
     },
@@ -723,17 +740,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Early Emmys ceremony could bring many trophies for 'The Pitt,' 'Hacks' and 'Pluribus'",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A golf course for ‘the people’ faces a presidential makeover",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston just had one of its hottest summers. How hot was it?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Putin orders a 72-hour pause in strikes on Kyiv as US envoys visit Russia and Ukraine",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Nepal holds a day of mourning after floods kill 1,300",
       "reason": "missing business relevance signal"
     },
     {
@@ -744,11 +766,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Months after ceasefire, Israel and Hezbollah battle over a strategic hill in Lebanon",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Even snakes have to audition for the opera at the Met. Princess the boa constrictor got the part",
       "reason": "missing business relevance signal"
     },
     {
@@ -783,7 +800,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "This Alvin ISD teacher created a ‘fart corner’ for her fourth-graders",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "California made Gavin Newsom famous. Will it drag down his 2028 presidential ambitions?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'Widow's Bay' dominates with 8 Emmys at early ceremony and 'The Pitt' takes 4",
       "reason": "missing business relevance signal"
     },
     {
@@ -799,31 +826,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Arizona group home provider at center of pay-to-play scandal escapes penalties for boy's death",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "The closely-watched Lindsay Clancy trial ends with one last dramatic moment",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "San Antonio Express-News Business",
-      "title": "Neighbors hunting birds trigger lockdown of Boerne ISD campus, officials say - San Antonio Express-News",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "San Antonio Express-News Business",
-      "title": "Why Karol G concert sparked dispute between UTSA, San Antonio over Alamodome access - San Antonio Express-News",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "San Antonio Express-News Business",
-      "title": "'Very suspicious': Body found partly decomposed on East Side Sunday - San Antonio Express-News",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "San Antonio Express-News Business",
-      "title": "Camp Mystic rescue dog and victim win national hero awards - San Antonio Express-News",
       "reason": "missing business relevance signal"
     }
   ]
