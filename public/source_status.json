@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-07T22:50:32.490Z",
+  "checked_at": "2026-09-08T01:12:30.110Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 36,
   "sources": [
@@ -112,7 +112,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 86
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,15 +229,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 85
     },
     {
       "source": "El Paso Times Business",
       "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 2,
-      "firewall_rejected": 58
+      "accepted": 1,
+      "firewall_rejected": 59
     },
     {
       "source": "Dallas Morning News Business",
@@ -337,11 +337,6 @@
       "source": "San Antonio Express-News",
       "title": "Opinion: Focus on the future by addressing societal pain points - San Antonio Express-News",
       "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Joseph Hastings",
-      "reason": "blocked sports noise"
     },
     {
       "source": "El Paso Inc.",
@@ -445,6 +440,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston's Regan Hutsell is first Miss Texas in over 50 years to win Miss America",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Hidalgo wants Harris County to re-evaluate Flock cameras, strengthen oversight",
       "reason": "missing business relevance signal"
     },
@@ -510,12 +510,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Don't ban books. Make them age-appropriate.",
+      "title": "Tracking Houston-area churches as they build, remodel and expand: Search our map",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Feds open probe into Musk's steering-wheel-free taxis a day after he began offering rides in them",
+      "title": "Don't ban books. Make them age-appropriate.",
       "reason": "missing business relevance signal"
     },
     {
@@ -535,12 +535,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Investigators hunt for what went wrong after cargo plane crash in Miami kills at least 5",
+      "title": "The poorest in the US can't find housing even as low-income units sit empty",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The poorest in the US can't find housing even as low-income units sit empty",
+      "title": "Investigators hunt for what went wrong after cargo plane crash in Miami kills at least 5",
       "reason": "missing business relevance signal"
     },
     {
@@ -650,16 +650,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston's Regan Hutsell is first Miss Texas in over 50 years to win Miss America",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Court shields 2 Harris County constables over 43-second dog bite",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Hawaii residents told to expect tropical storm conditions as Hurricane Lowell passes to the west",
       "reason": "missing business relevance signal"
     },
@@ -676,6 +666,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Where to see Texas A&M at Galveston’s new training ship as it arrives Tuesday",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Court shields 2 Harris County constables over 43-second dog bite",
       "reason": "missing business relevance signal"
     },
     {
@@ -715,12 +710,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Nepal holds a day of mourning after floods kill 1,300",
+      "title": "Ready-to-eat pork guanciale recalled in eight states, including Texas",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "One attack, many Americas: Why 9/11 and its many griefs land differently 25 years later",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Nepal holds a day of mourning after floods kill 1,300",
       "reason": "missing business relevance signal"
     },
     {
@@ -751,11 +751,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Venus and Serena Williams put on a show in thrilling US Open return, in photos",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "UN General Assembly endorses a new world map that shows more accurately Africa's size",
       "reason": "missing business relevance signal"
     },
     {
@@ -800,7 +795,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Mistrial is declared in Lindsay Clancy child killings case after jury deadlocks",
+      "title": "Endometriosis can elude diagnosis for years. What to know about the disease and new ways to find it",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas hemp sellers lose Travis County court bid to pause delta-8 enforcement - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -825,7 +825,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Golden: Texas Longhorns draw raves in Texas State blowout - Austin American-Statesman",
+      "title": "Newcomers Hollywood Smothers, Cam Coleman star as Texas begins year with Texas State rout - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
