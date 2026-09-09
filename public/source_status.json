@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-09T19:45:59.341Z",
+  "checked_at": "2026-09-09T22:33:36.104Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 35,
   "sources": [
@@ -41,7 +41,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 3
     },
     {
       "source": "Houston Chronicle",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 81
     },
     {
       "source": "Austin American-Statesman Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 82
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -334,6 +334,11 @@
     },
     {
       "source": "El Paso Matters",
+      "title": "Opinion: Sept. 11 taught me that fear can divide us — or bring us together",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "El Paso Matters",
       "title": "Opinion: Head Start changes could threaten quality, access and support for vulnerable children",
       "reason": "blocked editorial/opinion phrase"
     },
@@ -374,12 +379,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Rouxpour founder's new River Oaks-area restaurant Mack Allen's opens next week",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Elizabeth Holmes documentary makes surprise debut. When will it hit theaters?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "This West Texas town could lose a vital groundwater source to far-off cities",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Sugar Land is running out of room. Now, it's rethinking how it grows.",
       "reason": "missing business relevance signal"
     },
     {
@@ -394,7 +409,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "What happened to the Houston Labor Day Festival advertised by the city?",
+      "title": "Letitia Plummer leads by 16 points in Harris County Judge race, paid poll shows",
       "reason": "missing business relevance signal"
     },
     {
@@ -419,17 +434,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston's Regan Hutsell is first Miss Texas in over 50 years to win Miss America",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Just how many times has Cruz turned down Trump for a Supreme Court spot?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Voucher program could swell to $4.4B next biennium, Texas comptroller says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Harris County leaders approve highest tax rate in modern history. Here’s why.",
       "reason": "missing business relevance signal"
     },
     {
@@ -444,7 +459,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "ESPN explains decision to switch from close UH game to Texas’ kickoff",
+      "title": "Houston's Regan Hutsell is first Miss Texas in over 50 years to win Miss America",
       "reason": "missing business relevance signal"
     },
     {
@@ -454,27 +469,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harris County leaders approve highest tax rate in modern history. Here’s why.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "UH basketball adds another top recruit in forward Beau Daniels from Iowa",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Defense helps save the day as Astros hang on to edge Phillies",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Letitia Plummer leads by 16 points in Harris County Judge race, paid poll shows",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "HPD quietly changed policy before the fatal ICE shooting in Houston",
       "reason": "missing business relevance signal"
     },
     {
@@ -484,12 +479,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump threatens Canadian jetmaker Bombardier, which has an extensive US footprint",
+      "title": "Defense helps save the day as Astros hang on to edge Phillies",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Sugar Land is running out of room. Now it's rethinking how it grows.",
+      "title": "HPD quietly changed policy before the fatal ICE shooting in Houston",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump threatens Canadian jetmaker Bombardier, which has an extensive US footprint",
       "reason": "missing business relevance signal"
     },
     {
@@ -499,7 +499,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "New Apple CEO to unveil latest iPhone lineup",
+      "title": "New Apple CEO unveils latest iPhone lineup, including a foldable model called Duo",
       "reason": "missing business relevance signal"
     },
     {
@@ -530,6 +530,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "The poorest in the US can't find housing even as low-income units sit empty",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Racketeering conspiracy trial against Chinese tech giant Huawei begins in New York",
       "reason": "missing business relevance signal"
     },
     {
@@ -614,12 +619,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "China's Huawei Technologies faces racketeering trial in New York",
+      "title": "In Dallas, Gov. Abbott should tell Republicans to build, baby, build | Editorial",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "In Dallas, Gov. Abbott should tell Republicans to build, baby, build | Editorial",
+      "title": "China's Huawei Technologies faces racketeering trial in New York",
       "reason": "missing business relevance signal"
     },
     {
@@ -654,22 +659,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Congo’s Ebola burial teams battle community anger, fatigue and fear of infection",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Florida death row inmate seeks stay of execution seeking DNA evidence in 1996 crime",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Assailant lunged at Democratic candidate for Ohio governor at fair, campaign says",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Germany's Merz shocked by far-right state election triumph but doubles down on unpopular reforms",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Hawaii residents told to expect tropical storm conditions as Hurricane Lowell passes to the west",
       "reason": "missing business relevance signal"
     },
     {
@@ -680,11 +680,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Israeli airstrikes on a village in southern Lebanon kill 9 people, wound 13",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Congo’s Ebola burial teams battle community anger, fatigue and fear of infection",
       "reason": "missing business relevance signal"
     },
     {
@@ -700,11 +695,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "One attack, many Americas: Why 9/11 and its many griefs land differently 25 years later",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Rouxpour founder's new River Oaks-area restaurant Mack Allen's opens next week",
       "reason": "missing business relevance signal"
     },
     {
@@ -739,12 +729,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "EU warns of a chilling new terror menace 25 years after 9/11 as online youths seek violent thrills",
+      "title": "Houston woman says strangers live in family home as county sues over deed theft",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Storm creates huge waves and dangerous currents at southern California beaches",
+      "title": "EU warns of a chilling new terror menace 25 years after 9/11 as online youths seek violent thrills",
       "reason": "missing business relevance signal"
     },
     {
@@ -773,6 +763,16 @@
       "reason": "missing business relevance signal"
     },
     {
+      "source": "Houston Chronicle Business",
+      "title": "At least 40 Houston families lose power for days at Sharpstown apartment complex",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump wants voters to pretend he’s on the ballot. The Republican Party is going along for the ride",
+      "reason": "missing business relevance signal"
+    },
+    {
       "source": "Austin American-Statesman Business",
       "title": "One budget, different Austin: See how $500K homes look across neighborhoods - Austin American-Statesman",
       "reason": "missing business relevance signal"
@@ -794,7 +794,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "'I ain't trying to be a Buckeye': New Texas LB Rasheem Biles set to play his hometown team - Austin American-Statesman",
+      "title": "2 Cisco’s workers arrested by ICE at Austin Tex-Mex restaurant - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -814,7 +814,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "2 Cisco’s workers arrested by ICE at Austin Tex-Mex restaurant - Austin American-Statesman",
+      "title": "Austin shelter asks Major’s owner to say goodbye before the dog’s euthanasia - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
