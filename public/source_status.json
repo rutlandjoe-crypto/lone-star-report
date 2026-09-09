@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-08T22:40:09.257Z",
+  "checked_at": "2026-09-09T01:15:06.296Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 35,
   "sources": [
@@ -33,7 +33,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "El Paso Matters",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 93
+      "firewall_rejected": 94
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 83
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 82
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 93
+      "firewall_rejected": 95
     },
     {
       "source": "Dallas Morning News Business",
@@ -275,7 +275,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 4,
       "firewall_rejected": 0
     },
     {
@@ -329,6 +329,11 @@
   "firewall_rejections": [
     {
       "source": "San Antonio Report",
+      "title": "Trinity University presents the 2026-27 Policy Maker Breakfast series",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "San Antonio Report",
       "title": "Our leaders should take a broader look at Texas' slowing economic growth",
       "reason": "blocked editorial/opinion phrase"
     },
@@ -359,11 +364,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Google sites appear to be down on Sunday. Here's what we know.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "DeMeco Ryans has never settled. Inside the Texans' championship chase",
       "reason": "missing business relevance signal"
     },
@@ -384,12 +384,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Google sites appear to be down on Sunday. Here's what we know.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Their condos burned down 5 years ago. The HOA bills never stopped.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Houston just had one of its hottest summers. How hot was it?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston's Regan Hutsell is first Miss Texas in over 50 years to win Miss America",
       "reason": "missing business relevance signal"
     },
     {
@@ -414,11 +424,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston's Regan Hutsell is first Miss Texas in over 50 years to win Miss America",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "UH basketball adds another top recruit in forward Beau Daniels from Iowa",
       "reason": "missing business relevance signal"
     },
@@ -434,22 +439,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Will the Texans make the Super Bowl? 10 bold predictions for the 2026 season",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Trump threatens Canadian jetmaker Bombardier, which has an extensive US footprint",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Don't ban books. Make them age-appropriate.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "TSA brings back gate access for some people without plane tickets 25 years after 9/11",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston's next robotaxi won't even have a steering wheel",
       "reason": "missing business relevance signal"
     },
     {
@@ -465,6 +465,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Singapore man pleads guilty to orchestrating $240 million bitcoin theft from DC resident",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "TSA brings back gate access for some people without plane tickets 25 years after 9/11",
       "reason": "missing business relevance signal"
     },
     {
@@ -549,12 +554,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "US hits remaining parts of Iran's aviation sector with sanctions in latest move to isolate Tehran",
+      "title": "Exclusive: New grand jury subpoenas in investigation targeting Trump-Russia probe, AP sources say",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump’s first major midterm money move: A $10M Texas Senate ad blitz",
+      "title": "US hits remaining parts of Iran's aviation sector with sanctions in latest move to isolate Tehran",
       "reason": "missing business relevance signal"
     },
     {
@@ -566,11 +571,6 @@
       "source": "Houston Chronicle Business",
       "title": "Texas A&M at Galveston’s new training ship arrives Tuesday. Here's where to see it.",
       "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Parents of San Diego mosque gunman say a mental health facility failed to heed FBI warning",
-      "reason": "blocked non-business or soft-content term"
     },
     {
       "source": "Houston Chronicle Business",
@@ -609,6 +609,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "FDA fills four senior roles, including top officials for drugs, vaccines and tobacco",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "The Latest: Canada strikes back with tariffs on about $20 billion worth of US goods",
       "reason": "missing business relevance signal"
     },
@@ -630,11 +635,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Ready-to-eat pork guanciale recalled in eight states, including Texas",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "The secret to softer, tastier roti? Roasted butternut squash",
       "reason": "missing business relevance signal"
     },
     {
@@ -699,11 +699,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston man gets 6 months for selling endangered lemurs",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "How every US state approaches 9/11 history in schools",
       "reason": "missing business relevance signal"
     },
@@ -758,13 +753,23 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "One budget, different Austin: See how $500K homes look across neighborhoods - Austin American-Statesman",
+      "source": "Houston Chronicle Business",
+      "title": "At least 40 Houston families lose power for days at Sharpstown apartment complex",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What to watch as Republicans gather in Dallas for Trump's unusual midterm convention",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "DEA targets yacht, Lake Travis mansion in Austin drug case - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "One budget, different Austin: See how $500K homes look across neighborhoods - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -784,17 +789,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Watch: Arch Manning's viral tunnel tumble before Texas State game - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Texas vs Ohio State: Longhorns take center stage in one of the season's top games - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "Who made the Central Texas high school football honor roll for Week 2? - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Watch: Arch Manning's viral tunnel tumble before Texas State game - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -815,11 +820,6 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "The rise and fall of Jovita's and more Austin Tex-Mex history - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "2 Cisco’s workers arrested by ICE at Austin Tex-Mex restaurant - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
