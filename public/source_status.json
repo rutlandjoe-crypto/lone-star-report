@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-10T16:24:22.964Z",
+  "checked_at": "2026-09-10T19:41:36.721Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 35,
   "sources": [
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 84
     },
     {
       "source": "Austin American-Statesman Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 83
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 59
+      "firewall_rejected": 57
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 94
     },
     {
       "source": "Dallas Morning News Business",
@@ -379,6 +379,16 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "WestStar and FHLB Dallas award $63,000 to nonprofits",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Susan Eisen earns top gemologist certification",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "Meta taps Lauren Zimmerman as El Paso community engagement manager",
       "reason": "missing business relevance signal"
     },
@@ -394,7 +404,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump was right: Ken Paxton fumbled his 7 minutes in the spotlight | Editorial",
+      "title": "White colonists 'invented' Texas. Now their grip on power is fading.",
       "reason": "missing business relevance signal"
     },
     {
@@ -404,7 +414,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "2 new Girl Scout cookies join the 2027 lineup, including one for dogs",
+      "title": "Trump was right: Ken Paxton fumbled his 7 minutes in the spotlight | Editorial",
       "reason": "missing business relevance signal"
     },
     {
@@ -419,7 +429,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "She went to a doctor for blurred vision. She found out she had weeks to live.",
+      "title": "Houston’s heat isn’t going anywhere yet. Here’s when that could change",
       "reason": "missing business relevance signal"
     },
     {
@@ -439,27 +449,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "First reviews call Elon Musk documentary ‘damning’ and ‘distressing’",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "C.J. Stroud is ready to rewrite his story. Inside his offseason transformation",
+      "title": "Harris County leaders approve highest tax rate in modern history. Here’s why.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Talarico's upcoming Kimmel interview will not air due to FCC pressure, host says",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Chris Shepherd-founded restaurant group reaches end as Underbelly Burger closes",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "'An AFC championship matchup.' How Texans view opening game against Bills",
       "reason": "missing business relevance signal"
     },
     {
@@ -479,16 +474,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston's Regan Hutsell is first Miss Texas in over 50 years to win Miss America",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Harris County leaders approve highest tax rate in modern history. Here’s why.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Just how many times has Cruz turned down Trump for a Supreme Court spot?",
       "reason": "missing business relevance signal"
     },
@@ -499,12 +484,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "8 Harris County constables to get $45,000 each in back pay",
+      "title": "Texans in the Super Bowl? 10 bold predictions for how Houston will fare in the 2026 season",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ken Paxton uses convention spotlight to tout affordability, transgender stances",
+      "title": "Defense helps save the day as Astros hang on to edge Phillies",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "2 new Girl Scout cookies join the 2027 lineup, including one for dogs",
       "reason": "missing business relevance signal"
     },
     {
@@ -519,7 +509,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros' pitching falters as Phillies ride big sixth inning to win",
+      "title": "Trump offers $5,000 to every American adult. What's the catch?",
       "reason": "missing business relevance signal"
     },
     {
@@ -530,6 +520,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Trump threatens Canadian jetmaker Bombardier, which has an extensive US footprint",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Whitmer rethinks Line 5 tunnel permits, ramps up shutdown pleas after court ruling",
       "reason": "missing business relevance signal"
     },
     {
@@ -689,6 +684,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "US sinks an Ecuadorian boat in the Pacific it alleges is tied to drug trafficking",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Florida death row inmate seeks stay of execution seeking DNA evidence in 1996 crime",
       "reason": "missing business relevance signal"
     },
@@ -704,22 +704,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "King Charles III clarifies status of Prince Harry and his wife, Meghan, after their return to the UK",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "US Coast Guard joins Bahamas search for missing plane carrying 4 family members heading to Florida",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Nepal endured months of political upheaval. Devastating floods are now testing its new government",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "US sinks an Ecuadorian boat in the Pacific it alleges is tied to drug trafficking",
       "reason": "missing business relevance signal"
     },
     {
@@ -744,7 +734,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Most states prompt schools to teach about 9/11, but the details differ, AP finds",
+      "title": "Midterm elections head into the home stretch as candidates hit Labor Day events",
       "reason": "missing business relevance signal"
     },
     {
@@ -754,17 +744,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Court shields 2 Harris County constables over 43-second dog bite",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Trump wants voters to pretend he’s on the ballot. The Republican Party is going along for the ride",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "White colonists 'invented' Texas. Now their grip on power is fading.",
       "reason": "missing business relevance signal"
     },
     {
@@ -779,17 +759,57 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "From the Lockerbie bombing to 9/11: How attacks on flights defined US air travel",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "F1 returns to Madrid facing backlash from some residents over noise and disruption",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "German vote shows rise of far-right in Europe, but it hasn’t been a steady march",
+      "title": "Temporary protections for about 200,000 Salvadoran immigrants are in limbo as deadline nears",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Caleb Williams elected as one of Bears captains for the 3rd straight season",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "From the Lockerbie bombing to 9/11: How attacks on flights defined US air travel",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Joe Burrow and the Bengals are establishing a better under center offense",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Southeastern Conference leaders to discuss expelling LSU, which backs off rostering pro players",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mistrust of US government information is rising across major issues, new poll shows",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Exclusive: New grand jury subpoenas in investigation targeting Trump-Russia probe, AP sources say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "New Seahawks owners plan few immediate changes after taking over the Super Bowl champs",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "New Caney convention center gets a name as $159 million project nears completion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "FDA fills four senior roles, including top officials for drugs, vaccines and tobacco",
       "reason": "missing business relevance signal"
     },
     {
@@ -804,27 +824,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas hemp sellers lose Travis County court bid to pause delta-8 enforcement - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "The best matchas in Austin, from grassy to sweet and creamy - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "I-35 shut down near Ben White Boulevard, Woodward Street after crash - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Austin burger joint worker accused of exposing himself, contaminating food - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Ken Paxton whistleblower endorses James Talarico for U.S. Senate - Austin American-Statesman",
+      "title": "Would-be Cybercab fleet owners jumping at chance to partner with Tesla - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
