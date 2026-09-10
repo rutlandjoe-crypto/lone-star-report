@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-10T19:41:36.721Z",
+  "checked_at": "2026-09-10T22:36:13.380Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 35,
   "sources": [
@@ -205,15 +205,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 81
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
-      "firewall_rejected": 97
+      "accepted": 4,
+      "firewall_rejected": 96
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 81
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 57
+      "firewall_rejected": 53
     },
     {
       "source": "El Paso Times Business",
@@ -268,7 +268,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "Fort Worth Star-Telegram Cowboys Desk",
@@ -394,22 +394,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Forget Mamdani. Mayor Whitmire is the real left-wing Labor Day hero. | Opinion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Rouxpour founder's new River Oaks-area restaurant Mack Allen's opens next week",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "White colonists 'invented' Texas. Now their grip on power is fading.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Elizabeth Holmes documentary makes surprise debut. When will it hit theaters?",
+      "title": "Rouxpour founder's new River Oaks-area restaurant Mack Allen's opens next week",
       "reason": "missing business relevance signal"
     },
     {
@@ -459,12 +449,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "HPD quietly changed policy before the fatal ICE shooting in Houston",
+      "title": "The best Indian and Pakistani restaurants in Houston",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Milestone moment: Houston Astros star Jose Altuve reaches 2,500 career hits",
+      "title": "HPD quietly changed policy before the fatal ICE shooting in Houston",
       "reason": "missing business relevance signal"
     },
     {
@@ -479,7 +469,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UH basketball adds another top recruit in forward Beau Daniels from Iowa",
+      "title": "Milestone moment: Houston Astros star Jose Altuve reaches 2,500 career hits",
       "reason": "missing business relevance signal"
     },
     {
@@ -494,7 +484,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "2 new Girl Scout cookies join the 2027 lineup, including one for dogs",
+      "title": "What to know about Trump’s midterm pledge to give $5,000 to every American",
       "reason": "missing business relevance signal"
     },
     {
@@ -509,7 +499,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump offers $5,000 to every American adult. What's the catch?",
+      "title": "2 new Girl Scout cookies join the 2027 lineup, including one for dogs",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Grading the Rockets' offseason moves: Nothing fancy but some smart moves",
       "reason": "missing business relevance signal"
     },
     {
@@ -554,17 +549,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "From substitute teacher to the NFL, persistence pays off for Seahawks WR Foster",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "TSA brings back gate access for some people without plane tickets 25 years after 9/11",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Iran says improved ballistic missile shows it will take preemptive action against threats",
+      "title": "California governor signs laws aimed at protecting kids from risks of social media, AI chatbots",
       "reason": "missing business relevance signal"
     },
     {
@@ -684,17 +674,12 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Prosecutor brought in to lead investigation of Trump foes tells AP that he has resigned his position",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "US sinks an Ecuadorian boat in the Pacific it alleges is tied to drug trafficking",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Florida death row inmate seeks stay of execution seeking DNA evidence in 1996 crime",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "New Hampshire voters pick nominees as Sen. Shaheen’s exit sparks a scramble for key seats",
       "reason": "missing business relevance signal"
     },
     {
@@ -714,6 +699,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Trump wants voters to pretend he’s on the ballot. The Republican Party is going along for the ride",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Rouxpour founder's new River Oaks restaurant Mack Allen's opens next week",
       "reason": "missing business relevance signal"
     },
@@ -729,11 +719,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Illinois mom charged with killing toddler was closely following Lindsay Clancy trial, officials say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Midterm elections head into the home stretch as candidates hit Labor Day events",
       "reason": "missing business relevance signal"
     },
@@ -744,17 +729,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump wants voters to pretend he’s on the ballot. The Republican Party is going along for the ride",
+      "title": "SpaceX moves to block release of Texas Terafab records",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Families' interest in their kids' education is falling around the globe as scores drop, test shows",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Putin assures Trump that Moscow doesn’t have aggressive plans toward Europe, Kremlin says",
       "reason": "missing business relevance signal"
     },
     {
@@ -804,12 +784,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "New Caney convention center gets a name as $159 million project nears completion",
+      "title": "Houston rain chances continue Thursday as tropical moisture fuels storms",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "FDA fills four senior roles, including top officials for drugs, vaccines and tobacco",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mbappé and Real Madrid take advantage of Inter's mistakes, including goalkeeper's blunder",
       "reason": "missing business relevance signal"
     },
     {
@@ -825,6 +810,21 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "Would-be Cybercab fleet owners jumping at chance to partner with Tesla - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Austin burger joint worker accused of exposing himself, contaminating food - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "I-35 shut down near Ben White Boulevard, Woodward Street after crash - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Becky G stopped by Terry Black's during her Texas tour - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
