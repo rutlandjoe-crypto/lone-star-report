@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-10T22:36:13.380Z",
+  "checked_at": "2026-09-11T01:05:15.383Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 35,
+  "working_sources": 36,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -172,8 +172,9 @@
       "source": "El Paso Inc.",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 1,
+      "firewall_rejected": 3
     },
     {
       "source": "Texas Comptroller",
@@ -205,7 +206,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 82
     },
     {
       "source": "Austin American-Statesman Business",
@@ -229,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 53
+      "firewall_rejected": 68
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 94
+      "firewall_rejected": 93
     },
     {
       "source": "Dallas Morning News Business",
@@ -369,12 +370,12 @@
     },
     {
       "source": "On3 - TCU Horned Frogs",
-      "title": "The Excitement for Michael Malone's Imprint - Daily Take",
+      "title": "Keeping N.C. Talent Home Matters - Daily Take",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - TCU Horned Frogs",
-      "title": "Keeping N.C. Talent Home Matters - Daily Take",
+      "title": "The Excitement for Michael Malone's Imprint - Daily Take",
       "reason": "blocked sports noise"
     },
     {
@@ -394,12 +395,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Rouxpour founder's new River Oaks-area restaurant Mack Allen's opens next week",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "White colonists 'invented' Texas. Now their grip on power is fading.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Rouxpour founder's new River Oaks-area restaurant Mack Allen's opens next week",
+      "title": "2 new Girl Scout cookies join the 2027 lineup, including one for dogs",
       "reason": "missing business relevance signal"
     },
     {
@@ -424,12 +430,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Voucher program could swell to $4.4B next biennium, Texas comptroller says",
+      "title": "Houston police are wasting time on pot possession. Again. | Editorial",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston police are wasting time on pot possession. Again. | Editorial",
+      "title": "Voucher program could swell to $4.4B next biennium, Texas comptroller says",
       "reason": "missing business relevance signal"
     },
     {
@@ -439,12 +445,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harris County leaders approve highest tax rate in modern history. Here’s why.",
+      "title": "First reviews call Elon Musk documentary ‘damning’ and ‘distressing’",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Talarico's upcoming Kimmel interview will not air due to FCC pressure, host says",
+      "title": "Chris Shepherd-founded restaurant group reaches end as Underbelly Burger closes",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'An AFC championship matchup.' How Texans view opening game against Bills",
       "reason": "missing business relevance signal"
     },
     {
@@ -464,6 +475,21 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Harris County leaders approve highest tax rate in modern history. Here’s why.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "C.J. Stroud is ready to rewrite his story. Inside his offseason transformation",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Talarico's upcoming Kimmel interview will not air due to FCC pressure, host says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Just how many times has Cruz turned down Trump for a Supreme Court spot?",
       "reason": "missing business relevance signal"
     },
@@ -474,22 +500,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texans in the Super Bowl? 10 bold predictions for how Houston will fare in the 2026 season",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Defense helps save the day as Astros hang on to edge Phillies",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "What to know about Trump’s midterm pledge to give $5,000 to every American",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "AT&T says attempted cable theft contributed to Dallas' Labor Day internet issues",
+      "title": "Blue Bell's new ice cream flavor is inspired by this popular coffee shop order",
       "reason": "missing business relevance signal"
     },
     {
@@ -499,12 +510,37 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "2 new Girl Scout cookies join the 2027 lineup, including one for dogs",
+      "title": "Astros' pitching falters as Phillies ride big sixth inning to win",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump offers $5,000: What to know about his midterm pledge",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "AT&T says attempted cable theft contributed to Dallas' Labor Day internet issues",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ken Paxton uses convention spotlight to tout affordability, transgender stances",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Japan Festival Houston drew huge crowds last year. It's back this weekend.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Grading the Rockets' offseason moves: Nothing fancy but some smart moves",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "One year after his death, Houston pastors debate Charlie Kirk's impact",
       "reason": "missing business relevance signal"
     },
     {
@@ -719,17 +755,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Midterm elections head into the home stretch as candidates hit Labor Day events",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "At least 40 Houston families lose power for days at Sharpstown apartment complex",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "SpaceX moves to block release of Texas Terafab records",
       "reason": "missing business relevance signal"
     },
     {
@@ -744,7 +770,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Temporary protections for about 200,000 Salvadoran immigrants are in limbo as deadline nears",
+      "title": "Hurricane season 2026 peaks today. Here's why Texas storm risk is falling.",
       "reason": "missing business relevance signal"
     },
     {
@@ -759,42 +785,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Top HISD magnet school says its been 'iced out' of its funding by the district",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "SpaceX moves to block release of Texas Terafab records",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Temporary protections for about 200,000 Salvadoran immigrants are in limbo as deadline nears",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Joe Burrow and the Bengals are establishing a better under center offense",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Southeastern Conference leaders to discuss expelling LSU, which backs off rostering pro players",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Mistrust of US government information is rising across major issues, new poll shows",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Exclusive: New grand jury subpoenas in investigation targeting Trump-Russia probe, AP sources say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "New Seahawks owners plan few immediate changes after taking over the Super Bowl champs",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston rain chances continue Thursday as tropical moisture fuels storms",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "FDA fills four senior roles, including top officials for drugs, vaccines and tobacco",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Mbappé and Real Madrid take advantage of Inter's mistakes, including goalkeeper's blunder",
       "reason": "missing business relevance signal"
     },
     {
@@ -820,11 +826,6 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "I-35 shut down near Ben White Boulevard, Woodward Street after crash - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Becky G stopped by Terry Black's during her Texas tour - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
