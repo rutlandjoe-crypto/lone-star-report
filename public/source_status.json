@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-11T22:35:27.844Z",
+  "checked_at": "2026-09-12T01:06:50.447Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 33,
+  "working_sources": 36,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -94,8 +94,9 @@
       "source": "Dave Campbell's Texas Football",
       "region": "Statewide",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Texas Longhorns",
@@ -221,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 84
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 60
+      "firewall_rejected": 63
     },
     {
       "source": "El Paso Times Business",
@@ -283,7 +284,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 4,
+      "accepted": 3,
       "firewall_rejected": 0
     },
     {
@@ -305,15 +306,17 @@
       "source": "Dave Campbell's Texas Football - College",
       "region": "Statewide",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Dave Campbell's Texas Football - High School",
       "region": "Statewide",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "San Antonio Express-News High School Football",
@@ -432,6 +435,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "One Senate candidate has huge lead in Three Brothers Bakery cookie poll",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Galveston County can't use redrawn voting map, Texas Supreme Court rules",
       "reason": "missing business relevance signal"
     },
@@ -442,7 +450,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump offers $5,000: What to know about his midterm pledge",
+      "title": "Chris Hollins signals he could challenge John Whitmire for Houston mayor in 2027",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Why does Donald Trump keep poking fun at Ken Paxton's looks?",
       "reason": "missing business relevance signal"
     },
     {
@@ -497,11 +510,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Just how many times has Cruz turned down Trump for a Supreme Court spot?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Defense helps save the day as Astros hang on to edge Phillies",
       "reason": "missing business relevance signal"
     },
@@ -533,6 +541,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "First reviews call Elon Musk documentary ‘damning’ and ‘distressing’",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "HISD partners with 10 pre-K centers to boost enrollment, early learning",
       "reason": "missing business relevance signal"
     },
     {
@@ -573,11 +586,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Diesel prices are hitting record highs at a bad time for many US farmers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "TSA brings back gate access for some people without plane tickets 25 years after 9/11",
       "reason": "missing business relevance signal"
     },
     {
@@ -647,6 +655,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Grading the Rockets' offseason moves: Nothing fancy but some smart moves",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Venezuelans in the US still navigate the aftermath of deadly earthquakes, grieving and helping",
       "reason": "missing business relevance signal"
     },
@@ -663,11 +676,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "For these Venezuelans living in the US, June's earthquakes still reverberate across daily life",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Grading the Rockets' offseason moves: Nothing fancy but some smart moves",
       "reason": "missing business relevance signal"
     },
     {
@@ -742,17 +750,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Families' interest in their kids' education is falling around the globe as scores drop, test shows",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Top HISD magnet school says it's been 'iced out' of its funding by the district",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "11-year-old Katy student dies after e-scooter crash, sheriff's office says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Judge rejects bid to release Arizona sheriff’s office from supervision in racial profiling case",
       "reason": "missing business relevance signal"
     },
     {
@@ -762,12 +765,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "4 former Texas prison employees arrested in alleged scrap metal theft",
+      "title": "As midterms approach, new poll finds that few Americans trust campaigns or Trump",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Caleb Williams elected as one of Bears captains for the 3rd straight season",
+      "title": "Top HISD magnet school says it's been 'iced out' of its funding by the district",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mississippi police arrest a man in the death of Tasia Fortune",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What real 9/11 survivors never forget | Opinion",
       "reason": "missing business relevance signal"
     },
     {
@@ -787,32 +800,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Well-preserved tooth from Pacific mastodon found in a creek in San Francisco Bay Area",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Flock cameras divide Conroe officials as police back license plate readers",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Blue Bell's new ice cream flavor is inspired by this popular coffee shop order",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "She went to a doctor for blurred vision. She found out she had weeks to live.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Joe Burrow and the Bengals are establishing a better under center offense",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "House tees up vote on Russia sanctions bill, but prospects for passage are uncertain",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Users in Houthi-held Yemen tried to develop advanced weapons with AI, Anthropic says",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump promises $500 Obamacare rebate checks for 1M enrollees in 30 states",
       "reason": "missing business relevance signal"
     },
     {
