@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-12T19:25:46.414Z",
+  "checked_at": "2026-09-12T22:16:59.291Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 36,
+  "working_sources": 32,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -86,9 +86,8 @@
       "source": "San Antonio Express-News",
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 1
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "Dave Campbell's Texas Football",
@@ -206,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 79
+      "firewall_rejected": 81
     },
     {
       "source": "Austin American-Statesman Business",
@@ -220,9 +219,8 @@
       "source": "San Antonio Express-News Business",
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 79
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,15 +228,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 75
+      "firewall_rejected": 80
     },
     {
       "source": "El Paso Times Business",
       "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
-      "firewall_rejected": 97
+      "accepted": 2,
+      "firewall_rejected": 98
     },
     {
       "source": "Dallas Morning News Business",
@@ -298,9 +296,8 @@
       "source": "San Antonio Express-News Spurs Desk",
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "Dave Campbell's Texas Football - College",
@@ -322,9 +319,8 @@
       "source": "San Antonio Express-News High School Football",
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     }
   ],
   "firewall_rejections": [
@@ -346,11 +342,6 @@
     {
       "source": "El Paso Matters",
       "title": "Opinion: Texas shouldn’t follow other states with laws that risk pharmacy access for families like mine",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "San Antonio Express-News",
-      "title": "Opinion: Musk perpetuates lies about impending racial revenge - San Antonio Express-News",
       "reason": "blocked editorial/opinion phrase"
     },
     {
@@ -455,6 +446,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Top HISD magnet school says it's been 'iced out' of its funding by the district",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Texas is paying Ohio State $500,000 for trip to Austin. Here's why.",
       "reason": "missing business relevance signal"
     },
@@ -505,17 +501,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "She died on 9/11's Flight 93. Women are still building the lives she imagined.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "One year after his death, Houston pastors debate Charlie Kirk's impact",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ken Paxton uses convention spotlight to tout affordability, transgender stances",
+      "title": "My daughter feared her curls made her less beautiful. Miss America changed that.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "First reviews call Elon Musk documentary ‘damning’ and ‘distressing’",
+      "title": "Ken Paxton uses convention spotlight to tout affordability, transgender stances",
       "reason": "missing business relevance signal"
     },
     {
@@ -566,11 +567,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "California governor signs laws aimed at protecting kids from risks of social media, AI chatbots",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Racketeering conspiracy trial against Chinese tech giant Huawei begins in New York",
       "reason": "missing business relevance signal"
     },
     {
@@ -635,6 +631,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Police say more arrests coming in death of Mississippi woman found hanging from tree",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston woman says strangers live in family home as county sues over deed theft",
       "reason": "missing business relevance signal"
     },
@@ -645,12 +646,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Hurricane season 2026 peaks today. Here's why Texas storm risk is falling.",
+      "title": "New Caney convention center gets a name as $159 million project nears completion",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Top HISD magnet school says it's been 'iced out' of its funding by the district",
+      "title": "Hurricane season 2026 peaks today. Here's why Texas storm risk is falling.",
       "reason": "missing business relevance signal"
     },
     {
@@ -685,6 +686,16 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "15-year-old rescued after clinging to capsized boat for days in Alaska's Bering Sea",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Those giant wooden blocks at Texas barbecue joints have a fascinating history",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Walmart, H-E-B recall affects 2.3M bottles of sour candy over choking hazard",
       "reason": "missing business relevance signal"
     },
@@ -700,12 +711,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Fi recalls two dog supplements sold on Amazon and Chewy over salmonella risk",
+      "title": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
+      "title": "El Tiempo Cantina in Webster will reopen under Laurenzo family ownership",
       "reason": "missing business relevance signal"
     },
     {
@@ -725,17 +736,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston immigration attorney accused of defrauding clients with fake documents",
+      "title": "Blue Bell's new ice cream flavor is inspired by this popular coffee shop order",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Fire in eastern Congo kills at least 26 students at 2 schools",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "El Tiempo Cantina in Webster will reopen under Laurenzo family ownership",
       "reason": "missing business relevance signal"
     },
     {
@@ -755,7 +761,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Health warning issued for Galveston beaches during red tide",
+      "title": "Houston immigration attorney accused of defrauding clients with fake documents",
       "reason": "missing business relevance signal"
     },
     {
@@ -790,17 +796,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston’s heat sticks around Saturday. When will it feel like fall?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "4 former Texas prison employees arrested in alleged scrap metal theft",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Austin’s Red River district is asking the city to save its music scene - Austin American-Statesman",
+      "title": "Social Security benefits aren’t expected to change in 2027. Here’s what to know.",
       "reason": "missing business relevance signal"
     },
     {
@@ -820,7 +816,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin burger joint worker accused of exposing himself, contaminating food - Austin American-Statesman",
+      "title": "Affidavit: Round Rock man approached park visitor from behind before fatal stabbing - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
