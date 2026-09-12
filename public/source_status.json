@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-12T01:06:50.447Z",
+  "checked_at": "2026-09-12T05:47:02.998Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 36,
+  "working_sources": 34,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -62,9 +62,8 @@
       "source": "Beaumont Enterprise",
       "region": "Southeast Texas / Beaumont",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "Austin American-Statesman",
@@ -174,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 9
+      "firewall_rejected": 10
     },
     {
       "source": "Texas Comptroller",
@@ -206,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 81
     },
     {
       "source": "Austin American-Statesman Business",
@@ -214,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -228,9 +227,8 @@
       "source": "Beaumont Enterprise Business",
       "region": "Southeast Texas / Beaumont",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 63
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "El Paso Times Business",
@@ -409,6 +407,11 @@
       "reason": "missing business relevance signal"
     },
     {
+      "source": "El Paso Inc.",
+      "title": "Reyes Mata",
+      "reason": "missing business relevance signal"
+    },
+    {
       "source": "Houston Chronicle Business",
       "title": "Trump was right: Ken Paxton fumbled his 7 minutes in the spotlight | Editorial",
       "reason": "missing business relevance signal"
@@ -425,7 +428,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "University of Houston suspends adjunct professor over abuse material allegations",
+      "title": "A utility bought the rights to send a West Texas town's water to far-off cities",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "11-year-old Katy student dies after e-scooter crash, sheriff's office says",
       "reason": "missing business relevance signal"
     },
     {
@@ -435,7 +443,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "One Senate candidate has huge lead in Three Brothers Bakery cookie poll",
+      "title": "University of Houston suspends adjunct professor over abuse material allegations",
       "reason": "missing business relevance signal"
     },
     {
@@ -445,7 +453,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "This West Texas town could lose a vital groundwater source to far-off cities",
+      "title": "One Senate candidate has huge lead in Three Brothers Bakery cookie poll",
       "reason": "missing business relevance signal"
     },
     {
@@ -455,7 +463,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Why does Donald Trump keep poking fun at Ken Paxton's looks?",
+      "title": "Even staunch Democrats should choose this Republican for this district court",
       "reason": "missing business relevance signal"
     },
     {
@@ -480,22 +488,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Milestone moment: Houston Astros star Jose Altuve reaches 2,500 career hits",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "UH found a very Houston way to bring its football team onto the field",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Arch Manning's chance, Ohio State's toughness and the SEC's move on LSU | Bohls",
+      "title": "Milestone moment: Houston Astros star Jose Altuve reaches 2,500 career hits",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "HPD quietly changed policy before the fatal ICE shooting in Houston",
+      "title": "Arch Manning's chance, Ohio State's toughness and the SEC's move on LSU | Bohls",
       "reason": "missing business relevance signal"
     },
     {
@@ -510,7 +513,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Defense helps save the day as Astros hang on to edge Phillies",
+      "title": "Why does Donald Trump keep poking fun at Ken Paxton's looks?",
       "reason": "missing business relevance signal"
     },
     {
@@ -530,11 +533,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Bob McKay, one of greatest offensive lineman in UT history, dies at age 78",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Ken Paxton uses convention spotlight to tout affordability, transgender stances",
       "reason": "missing business relevance signal"
     },
@@ -546,6 +544,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "HISD partners with 10 pre-K centers to boost enrollment, early learning",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Bob McKay, one of greatest offensive lineman in UT history, dies at age 78",
       "reason": "missing business relevance signal"
     },
     {
@@ -650,6 +653,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Renoir paintings are worth a fortune, but not when they're stolen",
       "reason": "missing business relevance signal"
     },
@@ -705,7 +713,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ted Cruz calls AI warning 'scary as hell' but won't detail specific safeguards",
+      "title": "For the US news industry, a tough summer draws to a close with McClatchy chain's cuts",
       "reason": "missing business relevance signal"
     },
     {
@@ -735,7 +743,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "With AI memes, Trump promotes mythical version of himself as challenges stack up ahead of midterms",
+      "title": "Ted Cruz calls AI warning 'scary as hell' but won't detail specific safeguards",
       "reason": "missing business relevance signal"
     },
     {
@@ -750,7 +758,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "11-year-old Katy student dies after e-scooter crash, sheriff's office says",
+      "title": "Top HISD magnet school says it's been 'iced out' of its funding by the district",
       "reason": "missing business relevance signal"
     },
     {
@@ -770,17 +778,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Top HISD magnet school says it's been 'iced out' of its funding by the district",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Mississippi police arrest a man in the death of Tasia Fortune",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "What real 9/11 survivors never forget | Opinion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Walmart, H-E-B recall affects 2.3M bottles of sour candy over choking hazard",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "She went to a doctor for blurred vision. She found out she had weeks to live.",
       "reason": "missing business relevance signal"
     },
     {
@@ -795,27 +808,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Walmart, H-E-B recall affects 2.3M bottles of sour candy over choking hazard",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Well-preserved tooth from Pacific mastodon found in a creek in San Francisco Bay Area",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Flock cameras divide Conroe officials as police back license plate readers",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Blue Bell's new ice cream flavor is inspired by this popular coffee shop order",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "She went to a doctor for blurred vision. She found out she had weeks to live.",
       "reason": "missing business relevance signal"
     },
     {
