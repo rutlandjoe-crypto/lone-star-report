@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-16T06:01:22.439Z",
+  "checked_at": "2026-09-16T11:32:36.013Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 36,
   "sources": [
@@ -206,7 +206,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 74
     },
     {
       "source": "Austin American-Statesman Business",
@@ -214,7 +214,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 95
+      "firewall_rejected": 96
     },
     {
       "source": "San Antonio Express-News Business",
@@ -222,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 76
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 68
+      "firewall_rejected": 63
     },
     {
       "source": "El Paso Times Business",
@@ -300,7 +300,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 1
     },
     {
       "source": "Dave Campbell's Texas Football - College",
@@ -385,11 +385,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas is undergoing a demographic transformation. See it in 9 charts.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Alleged CenterPoint data breach leads to proposed class action lawsuits",
       "reason": "missing business relevance signal"
     },
@@ -405,12 +400,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ex-HPD officer sentenced to probation over Harding Strees raid cover-up",
+      "title": "Red tide advisory warns Galveston beachgoers about breathing problems",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Texas GOP must do right, risk consequences and oppose Bo French | Editorial",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ex-HPD officer sentenced to probation over Harding Strees raid cover-up",
       "reason": "missing business relevance signal"
     },
     {
@@ -470,11 +470,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "East Texas drinking water sources were polluted without warning, records show",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Astros' AL West lead is shrinking. Can they recover after sweep by Rays?",
       "reason": "missing business relevance signal"
     },
@@ -495,17 +490,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Will Houston see storms Sunday? Here’s when chances are highest.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas Longhorns move to No. 1 in AP Top 25 after dramatic win over Ohio State",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas college football rankings: Longhorns No. 1 in the state, and maybe more",
+      "title": "Astros still control their playoff path, but can they right things to get there?",
       "reason": "missing business relevance signal"
     },
     {
@@ -536,6 +526,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Amazon suspends use of 21 Air, the cargo carrier whose plane careened off Miami runway and killed 5",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'You better show up': Texas regulator blasts Exxon for going silent on residents near carbon project",
       "reason": "missing business relevance signal"
     },
     {
@@ -585,11 +580,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Can Conroe compete for Trump's new Space Academy? Leaders want to find out.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "AI rivals found rare agreement on safety. Putting it into practice is harder",
       "reason": "missing business relevance signal"
     },
@@ -600,17 +590,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas plans to execute a man convicted in the killings of 3 people; Georgia execution put on hold",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A disturbance near Bermuda could organize. Could it become the next named storm?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "At BRICS, India's Modi warns geopolitical tensions and supply chain shocks threaten global stability",
       "reason": "missing business relevance signal"
     },
     {
@@ -645,7 +625,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Whitmire stood with unions. That doesn’t make him a left-leaning mayor.",
+      "title": "Federal charges announced in Texas are part of broader Trump focus on noncitizen voting",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "CenterPoint confirms personal info of customers exposed in recent breach",
       "reason": "missing business relevance signal"
     },
     {
@@ -670,7 +655,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Federal charges announced in Texas are part of broader Trump focus on noncitizen voting",
+      "title": "H-E-B adds pumpkin spice, Halloween and fall products to Texas stores",
       "reason": "missing business relevance signal"
     },
     {
@@ -680,12 +665,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston company recalls injectable wellness products over endotoxin risk",
-      "reason": "blocked non-business or soft-content term"
+      "title": "Lightning strike sparks massive marsh fire in Jefferson County",
+      "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Lightning strike sparks massive marsh fire in Jefferson County",
+      "title": "Americans are increasingly concerned about the environmental impact of AI, new poll finds",
       "reason": "missing business relevance signal"
     },
     {
@@ -695,22 +680,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Police: Hayden Panettiere's boyfriend detained after South Carolina restaurant incident",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "CenterPoint confirms personal info of customers exposed in recent breach",
+      "title": "Texas plans to execute a man convicted in the killings of 3 people; Georgia execution put on hold",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Man pleads not guilty in the hanging death of a Mississippi woman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Helicopter crashes and kills at least 3 people near a bus crash in Los Angeles",
       "reason": "missing business relevance signal"
     },
     {
@@ -725,11 +700,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "H-E-B adds pumpkin spice, Halloween and fall products to Texas stores",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Interim South Korea coach Moreno denies using AI to prepare for games while naming first roster",
       "reason": "missing business relevance signal"
     },
@@ -740,17 +710,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Federal charges filed against man accused in Medical Center garage attack",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "New 20,000-square-foot indoor inflatable park planned in this Houston suburb",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston Police Department responds to a shooting in Woodland Heights Tuesday",
+      "title": "Federal charges filed against man accused in Medical Center garage attack",
       "reason": "missing business relevance signal"
     },
     {
@@ -764,6 +729,31 @@
       "reason": "missing business relevance signal"
     },
     {
+      "source": "Houston Chronicle Business",
+      "title": "Jason Schiavone, Bryce Mayer earn Astros' 2026 minor league player accolades",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Police say more arrests coming in death of Mississippi woman found hanging from tree",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump administration has cut or frozen $177 billion in grants across every state, analysis shows",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump agreed to new ethics rules to get a crypto bill across the line. But that might not be enough",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston company recalls injectable wellness products over endotoxin risk",
+      "reason": "blocked non-business or soft-content term"
+    },
+    {
       "source": "Austin American-Statesman Business",
       "title": "Exclusive: Comedor, Via 313 veterans open new downtown Austin spot - Austin American-Statesman",
       "reason": "missing business relevance signal"
@@ -775,28 +765,28 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "One of Austin's best lunch spots just got easier to reach - Austin American-Statesman",
+      "title": "Behind Austin ISD's Paredes Middle closure: Emails show rushed planning - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "James Talarico's 'censored' Jimmy Kimmel interview breaks Trump address numbers - Austin American-Statesman",
+      "title": "1925-1975: Remembering Austin's early Tex-Mex restaurants - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Southern Living just recognized these 3 Austin barbecue restaurants - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "One of Austin's best lunch spots just got easier to reach - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "No, Bo French. These UT students are not ‘the problem’ | Editorial - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "All the celebrities we spotted at Texas vs. Ohio State in Austin - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Why is it so hard to find a doctor in Austin? The answer might surprise you. - Austin American-Statesman",
-      "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
@@ -820,13 +810,23 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas football vs Ohio State: Staff observations from Longhorns' comeback - Austin American-Statesman",
+      "title": "Austin homebuyers catch a break, renters could soon lose theirs in 2027 - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "A possible cold front could bring some relief to Texas next weekend. - Austin American-Statesman",
+      "title": "Mayor Kirk Watson honors ABoR with key to the city - Austin American-Statesman",
       "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Airbnb invests $6.4M to help restart delayed North Austin housing project - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Oracle had a second chance to do layoffs right. It sent the same email | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
     }
   ]
 }
