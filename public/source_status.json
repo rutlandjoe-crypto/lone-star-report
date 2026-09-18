@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-18T05:55:13.387Z",
+  "checked_at": "2026-09-18T11:13:40.561Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 37,
+  "working_sources": 35,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -78,9 +78,8 @@
       "source": "El Paso Times",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "San Antonio Express-News",
@@ -174,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 1,
-      "firewall_rejected": 12
+      "firewall_rejected": 13
     },
     {
       "source": "Texas Comptroller",
@@ -214,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 92
     },
     {
       "source": "San Antonio Express-News Business",
@@ -222,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 79
+      "firewall_rejected": 78
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,15 +229,14 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 69
+      "firewall_rejected": 65
     },
     {
       "source": "El Paso Times Business",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 76
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "Dallas Morning News Business",
@@ -406,6 +404,11 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "What are the best sleep medications for insomnia?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "Art, Legacy & Boots: Boots become canvases for Borderland artists",
       "reason": "missing business relevance signal"
     },
@@ -421,7 +424,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Italy wants formal pledge against death penalty for Lee Gilley in wife's death",
+      "title": "Ex-HPD officer sentenced to probation over Harding Strees raid cover-up",
       "reason": "missing business relevance signal"
     },
     {
@@ -436,6 +439,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Italy wants formal pledge against death penalty for Lee Gilley in wife's death",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Family sues Ken Paxton, alleging Texas woman died due to denied abortion care",
       "reason": "missing business relevance signal"
     },
@@ -446,17 +454,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Hannah McNair went from Greenspoint to the Texans' inner circle",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Popular Galveston restaurant closes indefinitely after 12 years on The Strand",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A 99-year-old school building is heavily demolished near Washington Avenue",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "How Hannah McNair went from Greenspoint to the Texans' inner circle",
       "reason": "missing business relevance signal"
     },
     {
@@ -476,17 +479,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texans wide receiver Nico Collins slowed by hamstring injury",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "UH at Texas Tech: How to watch, date, time, TV channel, what to know",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Why does the water look green in greater Houston's Clear Lake area?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Astros get back in the swing with 5 homers to beat KC and take first in AL West",
       "reason": "missing business relevance signal"
     },
     {
@@ -566,11 +569,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Judge halts Georgia execution to allow hearing for condemned man under new survivor justice law",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas puts to death a man in killing of 3 during home robbery, the state’s fifth execution this year",
       "reason": "missing business relevance signal"
     },
@@ -582,6 +580,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Tropical disturbance near Bermuda fades as historic September milestone nears",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Judge halts Georgia execution to allow hearing for condemned man under new survivor justice law",
       "reason": "missing business relevance signal"
     },
     {
@@ -651,12 +654,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Federal charges announced in Texas are part of broader Trump focus on noncitizen voting",
+      "title": "A global AI safety strategy depends on US-China cooperation. They each see the other as the problem",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A global AI safety strategy depends on US-China cooperation. They each see the other as the problem",
+      "title": "87-year-old man killed in Woodland Heights shooting, police say",
       "reason": "missing business relevance signal"
     },
     {
@@ -676,7 +679,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas hospitals regain $12 billion in Medicaid funding after federal dispute",
+      "title": "Federal corruption trial opens for DC Council member Trayon White",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Student injured with kitchen knife during fight at Jersey Village High School",
       "reason": "missing business relevance signal"
     },
     {
@@ -686,12 +694,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Federal charges filed against man accused in Medical Center garage attack",
+      "title": "Russian barrage of missiles and drones on Ukraine injures at least 19, including children",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Russian barrage of missiles and drones on Ukraine injures at least 19, including children",
+      "title": "Popular Galveston restaurant closes indefinitely after 12 years on The Strand",
       "reason": "missing business relevance signal"
     },
     {
@@ -701,7 +709,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Elon Musk is spending big to keep James Talarico out of Senate",
+      "title": "Federal charges filed against man accused in Medical Center garage attack",
       "reason": "missing business relevance signal"
     },
     {
@@ -712,6 +720,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Texas glutathione injections tied to illnesses in four-state CDC investigation",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas hospitals regain $12 billion in Medicaid funding after federal dispute",
       "reason": "missing business relevance signal"
     },
     {
@@ -786,7 +799,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Massachusetts governor proposes improved postpartum healthcare after Lindsay Clancy trial",
+      "title": "US acknowledges for the first time that it has deployed weapons in space",
       "reason": "missing business relevance signal"
     },
     {
@@ -802,21 +815,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Trump withdraws Lance Schroyer, a former Oklahoma state trooper, as his nominee to lead ICE",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Michigan authorities advise shelter in place after small plane crash in Grand Traverse County",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Federal corruption trial opens for DC Council member Trayon White",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Exclusive: Comedor, Via 313 veterans open new downtown Austin spot - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
