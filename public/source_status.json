@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-18T14:59:52.748Z",
+  "checked_at": "2026-09-18T18:28:34.986Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 32,
   "sources": [
@@ -41,7 +41,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Houston Chronicle",
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 1,
-      "firewall_rejected": 12
+      "firewall_rejected": 10
     },
     {
       "source": "Texas Comptroller",
@@ -212,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 93
     },
     {
       "source": "San Antonio Express-News Business",
@@ -228,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 64
+      "firewall_rejected": 66
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 74
     },
     {
       "source": "Dallas Morning News Business",
@@ -325,6 +325,11 @@
   ],
   "firewall_rejections": [
     {
+      "source": "El Paso Matters",
+      "title": "Opinion: Why El Paso’s Pure Water Center can protect against cyclospora and other pathogens",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "Austin American-Statesman",
       "title": "UT’s core overhaul could leave students paying the price | Opinion - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
@@ -351,7 +356,7 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Bubba Goodcrumb Bundles Living Sourdough Culture with Boule Plush",
+      "title": "Old El Paso replaces Tony the Tiger as Sun Bowl sponsor",
       "reason": "missing business relevance signal"
     },
     {
@@ -371,17 +376,7 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Old El Paso replaces Tony the Tiger as Sun Bowl sponsor",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "Whiskey Dicks El Paso club closes after more than 20 years",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Muttz Canine Cantina in West El Paso has closed down",
       "reason": "missing business relevance signal"
     },
     {
@@ -411,22 +406,22 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "1925-1975: Remembering Austin's early Tex-Mex restaurants - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "U.S. Defense Secretary Pete Hegseth heads to Austin tech firms, Texas A&M game - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "One Austin taqueria just earned one of the biggest honors in dining - Austin American-Statesman",
+      "title": "Records reveal alleged Austin drug ring leader's prison background. - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Records reveal alleged Austin drug ring leader's prison background. - Austin American-Statesman",
+      "title": "'Bad batch' of drugs may be behind 5 East Sixth Street overdoses, police say - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "New UT students can't apply to ethnic, gender studies majors - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -441,11 +436,6 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "New UT students can't apply to ethnic, gender studies majors - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Texas football coach Johnny Nansen arrested on suspicion of DWI, Steve Sarkisian says - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
@@ -456,7 +446,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Lake Travis condo looks like paradise. Inside, owners worry about safety and rising costs. - Austin American-Statesman",
+      "title": "The 10 best classic burgers in Austin - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "'Ton of respect for' Holly: Steve Sarkisian on curt interview, Arch Manning's Rowe comment - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -466,7 +461,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Texas leaders use Williamson County killing to push Abbott's prosecutor plan - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Can you get charged in Texas for someone else's THC in your car? - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "SpaceX employee accused of stabbing man in neck at Del Valle bar - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -516,11 +521,6 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "'A badass cat’: Austin family mourns Tommy after he was struck by a Waymo robotaxi - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "AI-generated deepfakes have no place in the democratic process | Editorial - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
     },
@@ -531,7 +531,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Things to do in Austin, TX - Austin American-Statesman",
+      "title": "Harry Potter-themed drone shows to light up Austin skies at COTA this fall - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "'A badass cat’: Austin family mourns Tommy after he was struck by a Waymo robotaxi - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -541,17 +546,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Harry Potter-themed drone shows to light up Austin skies at COTA this fall - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Lake Travis vs San Antonio Cornerstone Christian football: See the best photos - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Zac Efron made a stop at Austin's iconic Chili's - Austin American-Statesman",
+      "title": "One Austin taqueria just earned one of the biggest honors in dining - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -571,17 +571,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "6-year-old girl dies after Austin crash that killed sister - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Will Austin’s heat dome linger? Texas drought conditions worsen - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Several wildfires are burning across Texas. How close to Austin are they? - Austin American-Statesman",
+      "title": "6-year-old girl dies after Austin crash that killed sister - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -611,17 +606,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "How to watch Texas Tech vs Houston: Betting lines, TV info, predictions for Week 3 game - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Texas State men's basketball's all-time leading scorer Nijal Pearson joins staff - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Want to hear from Austin City Council candidates? Here’s how - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "2 charged with murder in 19-year-old's drug death at St. Edward's University - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -631,22 +621,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin man dies after being found unresponsive in Travis County Jail cell - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "'Bad batch' of drugs may be behind 5 East Sixth Street overdoses, police say - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Why Hasan Piker’s UT event may move off campus as 2,400-plus RSVP - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "SpaceX employee accused of stabbing man in neck at Del Valle bar - Austin American-Statesman",
+      "title": "Is Texas State football favored vs North Texas? Analyzing Bobcats' key matchups - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Lake Travis condo looks like paradise. Inside, owners worry about safety and rising costs. - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -666,7 +651,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Is Texas State football favored vs North Texas? Analyzing Bobcats' key matchups - Austin American-Statesman",
+      "title": "Want to hear from Austin City Council candidates? Here’s how - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -686,22 +671,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "'Ton of respect for' Holly: Steve Sarkisian on curt interview, Arch Manning's Rowe comment - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Small choices add up to being seen by fellow humans - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "UT’s core overhaul could leave students paying the price | Opinion - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Austin man charged with murder months after deadly CaJJun Eats shooting - Austin American-Statesman",
+      "title": "‘Diminishing the Republican Party’: Karl Rove won’t vote for Bo French after UT posts - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -721,12 +696,37 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas leaders use Williamson County killing to push Abbott's prosecutor plan - Austin American-Statesman",
+      "title": "Austin man dies after being found unresponsive in Travis County Jail cell - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "San Marcos council member charged after police say he bit security guard in Austin - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "2 charged with murder in 19-year-old's drug death at St. Edward's University - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Several wildfires are burning across Texas. How close to Austin are they? - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "The Ruby Bar Celebrates Dolly Parton Day With Live Music and a Signature Cocktail - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Phantom w/ Myth Carver, Marble Orchard, Blind Effect, Morta, Iron Banner - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "2 Manor ISD employees arrested after alleged force against students - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -746,16 +746,6 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Inside Texas football's new $80 million training complex - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "When was the last time Lake Travis gave up 48 points? Cavs tumble in nondistrict - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Emo Philips - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
@@ -771,13 +761,8 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "From Arch to Vernon: Meet the 15 quarterbacks who have led a No. 1 Texas football team - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Self Guided Tour - 04/25/2027 - Austin American-Statesman",
-      "reason": "missing business relevance signal"
+      "title": "UT’s core overhaul could leave students paying the price | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
     },
     {
       "source": "Austin American-Statesman Business",
@@ -791,7 +776,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Catch Your Breath - Austin American-Statesman",
+      "title": "From Arch to Vernon: Meet the 15 quarterbacks who have led a No. 1 Texas football team - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -801,27 +786,42 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Wolf & Bear - Austin American-Statesman",
+      "title": "The North Face has some of its best fall gear on sale right now - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas Stars vs San Jose Barracuda - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Tear Dungeon - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Valley Suns at Austin Spurs - Austin American-Statesman",
+      "title": "Austin man charged with murder months after deadly CaJJun Eats shooting - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "Shen Yun - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Drill-Based CLINIC ------------------ (Saturday /Sep 26th/ 11:30am - 1:00pm) - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Beabadoobee - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Things to do in Austin, TX - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Drill-Based CLINIC ------------------ (Sunday /Oct 4th/ 1:00pm - 2:30pm) - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Jolie and the Jackalopes at the Little Longhorn Saloon - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
