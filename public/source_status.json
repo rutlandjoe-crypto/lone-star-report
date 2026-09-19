@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-19T00:20:48.429Z",
+  "checked_at": "2026-09-19T05:52:46.123Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 34,
+  "working_sources": 37,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -94,8 +94,9 @@
       "source": "Dave Campbell's Texas Football",
       "region": "Statewide",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Texas Longhorns",
@@ -143,7 +144,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Houston Cougars",
@@ -173,7 +174,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 2,
-      "firewall_rejected": 14
+      "firewall_rejected": 15
     },
     {
       "source": "Texas Comptroller",
@@ -205,7 +206,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 87
+      "firewall_rejected": 85
     },
     {
       "source": "Austin American-Statesman Business",
@@ -229,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 70
+      "firewall_rejected": 71
     },
     {
       "source": "El Paso Times Business",
@@ -260,7 +261,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Houston Chronicle Rockets Desk",
@@ -268,7 +269,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Fort Worth Star-Telegram Cowboys Desk",
@@ -306,15 +307,17 @@
       "source": "Dave Campbell's Texas Football - College",
       "region": "Statewide",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Dave Campbell's Texas Football - High School",
       "region": "Statewide",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "San Antonio Express-News High School Football",
@@ -362,6 +365,11 @@
       "reason": "blocked sports noise"
     },
     {
+      "source": "On3 - SMU Mustangs",
+      "title": "Cardinal Sports News, Analysis & Insider Reports",
+      "reason": "blocked sports noise"
+    },
+    {
       "source": "El Paso Inc.",
       "title": "Old El Paso replaces Tony the Tiger as Sun Bowl sponsor",
       "reason": "missing business relevance signal"
@@ -384,6 +392,11 @@
     {
       "source": "El Paso Inc.",
       "title": "Whiskey Dicks El Paso club closes after more than 20 years",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "New blood test spots one of deadliest cancers at its earliest stages",
       "reason": "missing business relevance signal"
     },
     {
@@ -448,6 +461,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Aldine ISD pulls Nimitz band t-shirts over complaints about offensive imagery",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston restaurants offering National Cheeseburger Day burger deals Friday",
       "reason": "missing business relevance signal"
     },
@@ -459,11 +477,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Houston leaders got over 600 free Texans tickets in last 3 seasons. See the data",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Why Karl Rove would rather vote for a Democrat than Bo French",
       "reason": "missing business relevance signal"
     },
     {
@@ -483,11 +496,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Hannah McNair went from Greenspoint to the Texans' inner circle",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Kyrie Irving will pay Azeez Al-Shaair's fine for writing Palestinian girl's name",
       "reason": "missing business relevance signal"
     },
@@ -498,17 +506,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A 99-year-old school building is heavily demolished near Washington Avenue",
+      "title": "How Hannah McNair went from Greenspoint to the Texans' inner circle",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'A miracle.' Former UT receiver Jordan Shipley on near-fatal fire and faith",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Astros' offense stymied again, team falls to AL West tie after loss to Royals",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Where Yordan Alvarez's pursuit of Triple Crown, AL MVP stands with 2 weeks left",
       "reason": "missing business relevance signal"
     },
     {
@@ -523,7 +531,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "A 99-year-old school building is heavily demolished near Washington Avenue",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "'Numbers don't lie.' Yordan Alvarez launches HR No. 40 in MVP-caliber season",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Where Yordan Alvarez's pursuit of Triple Crown, AL MVP stands with 2 weeks left",
       "reason": "missing business relevance signal"
     },
     {
@@ -598,11 +616,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Judge halts Georgia execution to allow hearing for condemned man under new survivor justice law",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas puts to death a man in killing of 3 during home robbery, the state’s fifth execution this year",
       "reason": "missing business relevance signal"
     },
@@ -653,11 +666,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "AI rivals found rare agreement on safety. Putting it into practice is harder",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A disturbance east of Bermuda has a brief window. Is Fay still possible?",
       "reason": "missing business relevance signal"
     },
@@ -669,11 +677,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Attorney General Blanche's appearances at political events blur Justice Department boundaries",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "How Jeremy Peña and Yordan Alvarez set the tone for a much-needed Astros win",
       "reason": "missing business relevance signal"
     },
     {
@@ -703,17 +706,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The Woodlands votes to replace private mounted patrol with sheriff's deputies",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "UN chief urges global AI cooperation saying world can't afford 'a race to the bottom on AI safety'",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "So Delicious recalls frozen dessert over possible stones in product",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Judge strikes down Trump policy that cut millions in teacher-training money",
       "reason": "missing business relevance signal"
     },
     {
@@ -743,17 +746,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former hospital worker gets 4 years for secretly recording people in restroom",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "House panel recommends contempt charge for billionaire Leon Black in Epstein probe",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Judge strikes down Trump policy that cut millions in teacher-training money",
+      "title": "The Woodlands votes to replace private mounted patrol with sheriff's deputies",
       "reason": "missing business relevance signal"
     },
     {
@@ -763,17 +756,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "The Obamas' family dog Sunny dies, the former president says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Merit Coffee's everyday blend and holiday coffee just won gold",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Several swastikas found drawn on Houston's Kinkaid School baseball fence",
+      "title": "Michelle Obama to visit Texas to honor ‘Grandmother of Juneteenth’ Opal Lee",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "What caused the black smoke seen over Galveston Friday?",
+      "title": "Warren Buffett is stepping down. What does Berkshire Hathaway own in Texas?",
       "reason": "missing business relevance signal"
     },
     {
@@ -788,11 +786,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston is becoming a destination for a new wave of Cuban migrants. Here's why.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Russian barrage of missiles and drones on Ukraine injures at least 19, including children",
       "reason": "missing business relevance signal"
     },
@@ -803,12 +796,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Burn ban takes effect in unincorporated Harris County as dry conditions persist",
+      "title": "Trump says he has a deal with Denmark to bolster US military presence in Greenland",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump says he has a deal with Denmark to bolster US military presence in Greenland",
+      "title": "Trump defends bid to put his name on the Kennedy Center",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston is growing Dolly Parton's literacy program. Here's what changes.",
       "reason": "missing business relevance signal"
     },
     {
@@ -818,12 +816,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Aldine ISD pulls Nimitz band t-shirts over complaints about offensive imagery",
+      "title": "Former Harris County sergeant pleads guilty in online sex case",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former Harris County sergeant pleads guilty in online sex case",
+      "title": "Elon Musk is spending big to keep James Talarico out of Senate",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ex-Harris County deputy pleads guilty to manslaughter in fatal East End crash",
       "reason": "missing business relevance signal"
     }
   ]
