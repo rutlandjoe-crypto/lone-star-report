@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-19T05:52:46.123Z",
+  "checked_at": "2026-09-19T10:58:06.115Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 37,
   "sources": [
@@ -72,7 +72,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 4
     },
     {
       "source": "El Paso Times",
@@ -88,7 +88,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Dave Campbell's Texas Football",
@@ -174,7 +174,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 2,
-      "firewall_rejected": 15
+      "firewall_rejected": 17
     },
     {
       "source": "Texas Comptroller",
@@ -214,7 +214,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 91
     },
     {
       "source": "San Antonio Express-News Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 71
+      "firewall_rejected": 72
     },
     {
       "source": "El Paso Times Business",
@@ -238,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 69
+      "firewall_rejected": 71
     },
     {
       "source": "Dallas Morning News Business",
@@ -253,7 +253,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "Houston Chronicle Astros Desk",
@@ -350,8 +350,18 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
+      "source": "Austin American-Statesman",
+      "title": "The Holly Rowe video was fake. The disrespect was real | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "El Paso Times",
       "title": "OPINION: New Mexico’s wild forests are Texas’ wild forests too",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "San Antonio Express-News",
+      "title": "Opinion: The Holly Rowe video was fake. The disrespect was real. - San Antonio Express-News",
       "reason": "blocked editorial/opinion phrase"
     },
     {
@@ -376,6 +386,11 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "Glaseco BV Adds PVC Entrance Door Installation Services",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "Meta gives $2.5 million to El Paso Giving Day",
       "reason": "missing business relevance signal"
     },
@@ -387,6 +402,11 @@
     {
       "source": "El Paso Inc.",
       "title": "UTEP receives $375,000 TRIO Talent Search grant",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Reyes Mata",
       "reason": "missing business relevance signal"
     },
     {
@@ -456,12 +476,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Body of decomposed man found under northeast Houston bridge",
+      "title": "Aldine ISD pulls Nimitz band t-shirts over complaints about offensive imagery",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Aldine ISD pulls Nimitz band t-shirts over complaints about offensive imagery",
+      "title": "Body of decomposed man found under northeast Houston bridge",
       "reason": "missing business relevance signal"
     },
     {
@@ -472,6 +492,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Mad that Harris County taxes will rise? Blame Texas and Trump. | Opinion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Why Karl Rove would rather vote for a Democrat than Bo French",
       "reason": "missing business relevance signal"
     },
     {
@@ -536,12 +561,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'Numbers don't lie.' Yordan Alvarez launches HR No. 40 in MVP-caliber season",
+      "title": "Nico Collins isn't only key player for Texans ruled out against Bengals",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Where Yordan Alvarez's pursuit of Triple Crown, AL MVP stands with 2 weeks left",
+      "title": "Texas-UTSA game won't be on regular TV platform. Here's how to watch it",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'Numbers don't lie.' Yordan Alvarez launches HR No. 40 in MVP-caliber season",
       "reason": "missing business relevance signal"
     },
     {
@@ -566,6 +596,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Will AI models achieve the ability to improve autonomously? Leading labs say the scenario is near",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Trump suggests EU allowing Canada as associate member could be a 'hostile act'",
       "reason": "missing business relevance signal"
     },
@@ -586,11 +621,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump to announce all 50 states joining Medicaid drug pricing model",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Warren Buffett gives up chairman title at Berkshire Hathaway in the next step of his succession plan",
       "reason": "missing business relevance signal"
     },
@@ -607,6 +637,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Trump administration allows inadvertent killing of endangered species",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump announces all 50 states joining Medicaid drug pricing model",
       "reason": "missing business relevance signal"
     },
     {
@@ -641,11 +676,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Far from Texas, tropical depression could form near the Azores in days",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Many Venezuelan immigrants shun Florida and turn to smaller cities in Utah, elsewhere",
       "reason": "missing business relevance signal"
     },
@@ -676,7 +706,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Far from Texas, tropical depression could form near the Azores in days",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Attorney General Blanche's appearances at political events blur Justice Department boundaries",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The Woodlands votes to replace private mounted patrol with sheriff's deputies",
       "reason": "missing business relevance signal"
     },
     {
@@ -686,7 +726,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Flock cameras aren't the failure. Public safety leadership is.",
+      "title": "Hand soap recall over bacteria now a Class II risk in Texas, 14 other states",
       "reason": "missing business relevance signal"
     },
     {
@@ -697,6 +737,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Popular Galveston restaurant closes indefinitely after 12 years on The Strand",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Flock cameras aren't the failure. Public safety leadership is.",
       "reason": "missing business relevance signal"
     },
     {
@@ -716,17 +761,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Judge strikes down Trump policy that cut millions in teacher-training money",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Chris Brown responds to backlash over Texas lawmakers’ concert recognition",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Hand soap recall over bacteria now a Class II risk in Texas, 14 other states",
       "reason": "missing business relevance signal"
     },
     {
@@ -736,17 +771,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "87-year-old man killed in Woodland Heights shooting, police say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A global AI safety strategy depends on US-China cooperation. They each see the other as the problem",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The Woodlands votes to replace private mounted patrol with sheriff's deputies",
+      "title": "87-year-old man killed in Woodland Heights shooting, police say",
       "reason": "missing business relevance signal"
     },
     {
@@ -776,6 +806,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "What caused the black smoke seen over Galveston Friday?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Train track damage blocks several Brookshire crossings, repairs could take hours",
       "reason": "missing business relevance signal"
     },
@@ -786,47 +821,12 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston is becoming a destination for a new wave of Cuban migrants. Here's why.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Russian barrage of missiles and drones on Ukraine injures at least 19, including children",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "FCC grants Paramount's indirect ownership request for Gulf funds in Warner Bros. Discovery buyout",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump says he has a deal with Denmark to bolster US military presence in Greenland",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump defends bid to put his name on the Kennedy Center",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston is growing Dolly Parton's literacy program. Here's what changes.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump withdraws Lance Schroyer, a former Oklahoma state trooper, as his nominee to lead ICE",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Former Harris County sergeant pleads guilty in online sex case",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Elon Musk is spending big to keep James Talarico out of Senate",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Ex-Harris County deputy pleads guilty to manslaughter in fatal East End crash",
       "reason": "missing business relevance signal"
     }
   ]
