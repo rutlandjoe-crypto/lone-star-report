@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-20T16:05:20.693Z",
+  "checked_at": "2026-09-20T18:47:32.413Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 37,
   "sources": [
@@ -144,7 +144,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Houston Cougars",
@@ -174,7 +174,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 1,
-      "firewall_rejected": 18
+      "firewall_rejected": 15
     },
     {
       "source": "Texas Comptroller",
@@ -206,7 +206,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 87
+      "firewall_rejected": 89
     },
     {
       "source": "Austin American-Statesman Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 86
+      "firewall_rejected": 88
     },
     {
       "source": "El Paso Times Business",
@@ -238,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 78
     },
     {
       "source": "Dallas Morning News Business",
@@ -345,9 +345,9 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "El Paso Inc.",
-      "title": "Old El Paso replaces Tony the Tiger as Sun Bowl sponsor",
-      "reason": "missing business relevance signal"
+      "source": "On3 - SMU Mustangs",
+      "title": "Cardinal Sports News, Analysis & Insider Reports",
+      "reason": "blocked sports noise"
     },
     {
       "source": "El Paso Inc.",
@@ -367,11 +367,6 @@
     {
       "source": "El Paso Inc.",
       "title": "Keystone Gun-Krete Marks 46 Years as ACPA Member & REED Dealer",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Glaseco BV Adds PVC Entrance Door Installation Services",
       "reason": "missing business relevance signal"
     },
     {
@@ -416,11 +411,6 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "El Paso family gives $250,000 for special-needs dentistry",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "El Paso City Council orders Flock cameras removed within 90 days",
       "reason": "missing business relevance signal"
     },
@@ -446,22 +436,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Aldine ISD pulls Nimitz band T-shirts over complaints about offensive imagery",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "No. 1 Texas cruises past UTSA in final tuneup before beginning SEC play",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Body of decomposed man found under northeast Houston bridge",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Former hospital worker gets 4 years for secretly recording people in restroom",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "UTSA coach Jeff Traylor wants out of series vs. Texas, despite a big payday",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Aldine ISD pulls Nimitz band T-shirts over complaints about offensive imagery",
       "reason": "missing business relevance signal"
     },
     {
@@ -496,12 +486,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'A miracle.' Former UT receiver Jordan Shipley on near-fatal fire and faith",
+      "title": "'Not good enough on any level': No. 9 Texas A&M stunned by Kentucky at home",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "DA pledges not to seek death penalty for Lee Gilley at Italian court’s request",
+      "title": "'A miracle.' Former UT receiver Jordan Shipley on near-fatal fire and faith",
       "reason": "missing business relevance signal"
     },
     {
@@ -511,12 +501,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UTSA coach Jeff Traylor wants out of series vs. Texas, despite a big payday",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas coach Steve Sarkisian explains abrupt postgame interview with Holly Rowe",
+      "title": "What we learned from UH's loss to Texas Tech? This might just be the first act",
       "reason": "missing business relevance signal"
     },
     {
@@ -531,7 +516,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How long will Houston’s high heat last? Here’s what models say.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Bullpen letdown dooms Astros as they fall out of first place with loss to Braves",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "UH's Justice Carlton to miss season with ACL injury in blow to Cougars",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "DA pledges not to seek death penalty for Lee Gilley at Italian court’s request",
       "reason": "missing business relevance signal"
     },
     {
@@ -636,11 +636,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Attorney General Blanche's appearances at political events blur Justice Department boundaries",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Trump to meet acting Venezuelan President Delcy Rodríguez in New York next week, White House says",
       "reason": "missing business relevance signal"
     },
@@ -657,11 +652,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Fast food from the US and China catches on in both countries",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Michelle Obama to visit Texas to honor ‘Grandmother of Juneteenth’ Opal Lee",
       "reason": "missing business relevance signal"
     },
     {
@@ -761,17 +751,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A tip about a swerving van leads police to 66,000 US silver coins in a fraud case",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A humpback whale was spotted in a California river, 60 miles from its Pacific Ocean home",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Senators from both parties voice criticism about Pentagon briefing on US defense strategy",
       "reason": "missing business relevance signal"
     },
     {
@@ -816,17 +796,37 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Iran war’s cost grows to $43.6 billion in new US military estimate",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Lake Conroe Lions: Club members planning Cruisin' 2026 Car Show for Oct. 10",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "US approves visas for top Iranian leaders to attend UN high-level meeting even with sides at war",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump administration begins building border wall in Texas’ Big Bend region",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "America's long history of falling for hucksters and their outlandish promises",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The Latest: Postal chief says work has stopped on system key to Trump effort to limit mail voting",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas hospitals regain $12 billion in Medicaid funding after federal dispute",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Thousands join protest outside Kennedy Center, expressing concern that Trump might tear it down",
       "reason": "missing business relevance signal"
     }
   ]
