@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-20T06:15:33.552Z",
+  "checked_at": "2026-09-20T11:29:01.915Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 36,
+  "working_sources": 37,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -174,14 +174,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 2,
-      "firewall_rejected": 18
+      "firewall_rejected": 19
     },
     {
       "source": "Texas Comptroller",
       "region": "Statewide",
       "mode": "direct",
-      "status": "failed",
-      "error": "HTTP 503"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Dallas Fed Economic Updates",
@@ -221,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 83
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 83
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 72
+      "firewall_rejected": 77
     },
     {
       "source": "Dallas Morning News Business",
@@ -360,6 +361,11 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "Central Arkansas Glass Firm Pairs OEM Windshield Replacement With ADAS",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "“Deadly Bronze: Reign of Terror”: J. Marschall’s Explosive Sequel Brings Sea Peoples, Sherden Mercenaries, and Court Intrigue to Life",
       "reason": "missing business relevance signal"
     },
@@ -455,11 +461,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Hannah McNair went from Greenspoint to the Texans' inner circle",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Body of decomposed man found under northeast Houston bridge",
       "reason": "missing business relevance signal"
     },
@@ -476,16 +477,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Trump spurs a $100M avalanche of negative ads against Talarico",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "How Texas A&M fans greeted Secretary of Defense Pete Hegseth at Kyle Field",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "West Texas 'political takeover' unravels as leader arrested, followers scatter",
       "reason": "missing business relevance signal"
     },
     {
@@ -515,6 +506,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How Texas A&M fans greeted Secretary of Defense Pete Hegseth at Kyle Field",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "UH at Texas Tech: How to watch, date, time, TV channel, what to know",
       "reason": "missing business relevance signal"
     },
@@ -535,6 +531,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Bullpen letdown dooms Astros as they fall out of first place with loss to Braves",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "'Numbers don't lie.' Yordan Alvarez launches HR No. 40 in MVP-caliber season",
       "reason": "missing business relevance signal"
     },
@@ -546,6 +547,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Anthropic says its model Claude is helping to build the next version of itself",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A 30-foot waterslide and penthouse views: See inside Houston’s priciest homes",
       "reason": "missing business relevance signal"
     },
     {
@@ -595,12 +601,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Scientists hope deeper-rooted soybeans can withstand climate extremes and store more carbon",
+      "title": "Russian election observer loses consciousness during arrest by police, opposition party says",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Russian election observer loses consciousness during arrest by police, opposition party says",
+      "title": "Scientists hope deeper-rooted soybeans can withstand climate extremes and store more carbon",
       "reason": "missing business relevance signal"
     },
     {
@@ -615,11 +621,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ohio voters rejected Sherrod Brown. Two years later, are they ready to give him a second chance?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Nobel laureate Narges Mohammadi tells the AP that Iranians paying the price for war and repression",
       "reason": "missing business relevance signal"
     },
@@ -630,17 +631,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Many Venezuelan immigrants shun Florida and turn to smaller cities in Utah, elsewhere",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Cuba hit with another blackout as millions across the island are left without electricity",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Attorney General Blanche's appearances at political events blur Justice Department boundaries",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Many Venezuelan immigrants shun Florida and turn to smaller cities in Utah, elsewhere",
       "reason": "missing business relevance signal"
     },
     {
@@ -666,6 +667,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Man found dead outside Conroe courthouse before sentencing, police say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Fast food from the US and China catches on in both countries",
       "reason": "missing business relevance signal"
     },
     {
@@ -700,26 +706,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump defends bid to put his name on the Kennedy Center",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston is growing Dolly Parton's literacy program. Here's what changes.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump withdraws Lance Schroyer, a former Oklahoma state trooper, as his nominee to lead ICE",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Elon Musk is spending big to keep James Talarico out of Senate",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Ban on selling handguns to young adults under 21 is unconstitutional, Justice Department says",
       "reason": "missing business relevance signal"
     },
@@ -731,11 +717,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Judge strikes down Trump policy that cut millions in teacher-training money",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Burn ban takes effect in unincorporated Harris County as dry conditions persist",
       "reason": "missing business relevance signal"
     },
     {
@@ -780,16 +761,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Anger in Jamaica over deal to accept migrants expelled by the US",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas glutathione injections tied to illnesses in four-state CDC investigation",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "The Latest: Federal judge orders Kennedy Center to provide 30 days' notice of any building changes",
       "reason": "missing business relevance signal"
     },
@@ -801,11 +772,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "A tip about a swerving van leads police to 66,000 US silver coins in a fraud case",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Carney says Canada is ‘strong’ as US borrowing costs rise and Europe ties deepen",
       "reason": "missing business relevance signal"
     },
     {
@@ -826,6 +792,41 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Trump used to slam China. Here's why he's now rolling out the red carpet for Xi",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "US envoy to NATO criticizes Czech Republic's 'disappointing' spending on defense",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A humpback whale was spotted in a California river, 60 miles from its Pacific Ocean home",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Senators from both parties voice criticism about Pentagon briefing on US defense strategy",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Malachi Singleton throws for 331 yards and Appalachian State defeats Charlotte 26-21",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "State blames mail delivery issues for dozens of ballots from rural Alaska not counting in primary",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump pushes his $5,000 'dividend' pledge if GOP wins midterms. Republican candidates, not as much",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "For Palestinian aid groups, Macklemore's $1M pledge brings relief and attention to ongoing suffering",
       "reason": "missing business relevance signal"
     }
   ]
