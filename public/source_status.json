@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-19T23:03:50.650Z",
+  "checked_at": "2026-09-20T01:08:22.421Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 37,
   "sources": [
@@ -144,7 +144,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Houston Cougars",
@@ -173,7 +173,7 @@
       "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 1,
+      "accepted": 2,
       "firewall_rejected": 18
     },
     {
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 79
     },
     {
       "source": "El Paso Times Business",
@@ -253,7 +253,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "Houston Chronicle Astros Desk",
@@ -261,7 +261,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Houston Chronicle Rockets Desk",
@@ -352,6 +352,11 @@
     {
       "source": "On3 - Baylor Bears",
       "title": "Joe Tipton joins Sources Say to share the latest on Kentucky basketball recruiting",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - SMU Mustangs",
+      "title": "Cardinal Sports News, Analysis & Insider Reports",
       "reason": "blocked sports noise"
     },
     {
@@ -481,6 +486,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "UTSA coach Jeff Traylor wants out of series vs. Texas, despite a big payday",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Aldine ISD pulls Nimitz band T-shirts over complaints about offensive imagery",
       "reason": "missing business relevance signal"
     },
@@ -496,22 +506,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros' offense stymied again, team falls to AL West tie after loss to Royals",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "DA pledges not to seek death penalty for Lee Gilley at Italian court’s request",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texans wide receiver Nico Collins slowed by hamstring injury",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "UTSA coach Jeff Traylor wants out of series vs. Texas, despite a big payday",
+      "title": "Astros' offense stymied again, team falls to AL West tie after loss to Royals",
       "reason": "missing business relevance signal"
     },
     {
@@ -532,11 +532,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Spring ISD student hit, killed by truck while crossing I-45",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "A 99-year-old school building is heavily demolished near Washington Avenue",
       "reason": "missing business relevance signal"
     },
     {
@@ -566,17 +561,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Will AI models achieve the ability to improve autonomously? Leading labs say the scenario is near",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump suggests EU allowing Canada as associate member could be a 'hostile act'",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas freezes installation of Flock cameras along state roads",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Will AI models achieve the ability to improve autonomously? Leading labs say the scenario is near",
       "reason": "missing business relevance signal"
     },
     {
@@ -612,11 +602,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Russian election observer loses consciousness during arrest by police, opposition party says",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas puts to death a man in killing of 3 during home robbery, the state’s fifth execution this year",
       "reason": "missing business relevance signal"
     },
     {
@@ -721,11 +706,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston is becoming a destination for a new wave of Cuban migrants. Here's why.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "FCC grants Paramount's indirect ownership request for Gulf funds in Warner Bros. Discovery buyout",
       "reason": "missing business relevance signal"
     },
@@ -776,11 +756,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Florida woman pleads guilty to defrauding fund for Jeffrey Epstein victims",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Ban on selling handguns to young adults under 21 is unconstitutional, Justice Department says",
       "reason": "missing business relevance signal"
     },
@@ -827,6 +802,31 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Former hospital worker gets 4 years for secretly recording people in restroom",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Spring ISD student critically injured after being struck while crossing I-45",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump pushes his $5,000 'dividend' pledge if GOP wins midterms. Republican candidates, not as much",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Humble-area child found in pool as Life Flight is called",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Michigan authorities advise shelter in place after small plane crash in Grand Traverse County",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Chef David Chang hits the road across the US in new food-centric CNN travel series",
       "reason": "missing business relevance signal"
     }
   ]
