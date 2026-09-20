@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-20T18:47:32.413Z",
+  "checked_at": "2026-09-20T21:33:19.042Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 37,
+  "working_sources": 36,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -112,7 +112,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -172,9 +172,8 @@
       "source": "El Paso Inc.",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 1,
-      "firewall_rejected": 15
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "Texas Comptroller",
@@ -206,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 90
     },
     {
       "source": "Austin American-Statesman Business",
@@ -214,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 93
+      "firewall_rejected": 94
     },
     {
       "source": "San Antonio Express-News Business",
@@ -222,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 84
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 88
+      "firewall_rejected": 92
     },
     {
       "source": "El Paso Times Business",
@@ -238,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 77
     },
     {
       "source": "Dallas Morning News Business",
@@ -340,11 +339,6 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Joseph Hastings",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - SMU Mustangs",
       "title": "Cardinal Sports News, Analysis & Insider Reports",
       "reason": "blocked sports noise"
@@ -371,32 +365,12 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Meta gives $2.5 million to El Paso Giving Day",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "El Paso Children’s Hospital NICU earns highest state honor",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "UTEP receives $375,000 TRIO Talent Search grant",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "Reyes Mata",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
       "title": "Strong retention, affordable tuition drive UTEP enrollment record",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "New Las Espadas Brazilian Steakhouse now open in El Paso",
       "reason": "missing business relevance signal"
     },
     {
@@ -441,17 +415,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former hospital worker gets 4 years for secretly recording people in restroom",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "UTSA coach Jeff Traylor wants out of series vs. Texas, despite a big payday",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Aldine ISD pulls Nimitz band T-shirts over complaints about offensive imagery",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "No. 1 Texas cruises past UTSA in final tuneup before beginning SEC play",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Former hospital worker gets 4 years for secretly recording people in restroom",
       "reason": "missing business relevance signal"
     },
     {
@@ -461,12 +435,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Before his death, Duncan Sheik found a creative home in Houston's theater scene",
+      "title": "Trump spurs a $100M avalanche of negative ads against Talarico",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump spurs a $100M avalanche of negative ads against Talarico",
+      "title": "Before his death, Duncan Sheik found a creative home in Houston's theater scene",
       "reason": "missing business relevance signal"
     },
     {
@@ -477,6 +451,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "A Sooner and an Aggie explain why racists don't understand football | Opinion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "West Texas 'political takeover' unravels as leader arrested, followers scatter",
       "reason": "missing business relevance signal"
     },
     {
@@ -497,6 +476,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "How Texas A&M fans greeted Secretary of Defense Pete Hegseth at Kyle Field",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "UTSA coach Jeff Traylor wants out of series vs. Texas, despite a big payday",
       "reason": "missing business relevance signal"
     },
     {
@@ -522,6 +506,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Bullpen letdown dooms Astros as they fall out of first place with loss to Braves",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Several swastikas found drawn on Houston's Kinkaid School baseball fence",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Nico Collins isn't only key player for Texans ruled out against Bengals",
       "reason": "missing business relevance signal"
     },
     {
@@ -572,11 +566,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Warren Buffett gives up chairman title at Berkshire Hathaway in the next step of his succession plan",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Why the Federal Reserve is lifting rates now, and what it means",
       "reason": "missing business relevance signal"
     },
     {
@@ -646,17 +635,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Man found dead outside Conroe courthouse before sentencing, police say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Fast food from the US and China catches on in both countries",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Popular Galveston restaurant closes indefinitely after 12 years on The Strand",
       "reason": "missing business relevance signal"
     },
     {
@@ -711,11 +690,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Michigan authorities advise shelter in place after small plane crash in Grand Traverse County",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Republican Mike Rogers courts Michigan Democrats and Trump voters as GOP hopes to hold the Senate",
       "reason": "missing business relevance signal"
     },
@@ -736,17 +710,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Judge isn't swayed by government's claims that plans for an 'anti-weaponization fund' are dead",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Trump used to slam China. Here's why he's now rolling out the red carpet for Xi",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "US envoy to NATO criticizes Czech Republic's 'disappointing' spending on defense",
       "reason": "missing business relevance signal"
     },
     {
@@ -762,11 +726,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "State blames mail delivery issues for dozens of ballots from rural Alaska not counting in primary",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump pushes his $5,000 'dividend' pledge if GOP wins midterms. Republican candidates, not as much",
       "reason": "missing business relevance signal"
     },
     {
@@ -801,7 +760,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "US approves visas for top Iranian leaders to attend UN high-level meeting even with sides at war",
+      "title": "At least 33 illegal mining suspects found dead in Nigerian custody, and officials suspect disease",
       "reason": "missing business relevance signal"
     },
     {
@@ -811,22 +770,62 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "America's long history of falling for hucksters and their outlandish promises",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "The Latest: Postal chief says work has stopped on system key to Trump effort to limit mail voting",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas hospitals regain $12 billion in Medicaid funding after federal dispute",
+      "title": "Thousands join protest outside Kennedy Center, expressing concern that Trump might tear it down",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Thousands join protest outside Kennedy Center, expressing concern that Trump might tear it down",
+      "title": "This swing state Republican keeps distancing himself from Trump. It may not save him in the midterms",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "JD Vance returns to Iowa as Senate and governor races heat up",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "UNGA lingo: A guide to UN General Assembly meeting acronyms, buzzwords and more",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "ICE officer pleads not guilty to charges he lied to the FBI about nonfatal Minneapolis shooting",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Postal Service chief says work stopped on computer system key to Trump effort to limit mail voting",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Iran war’s cost grows to $43.6 billion in new US military estimate",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "New laws trigger a fresh legal fight over Nazi-looted art in Los Angeles and Auschwitz museums",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Early voting begins in US midterm elections that could flip control of Congress",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Preparing to leave office, with world beset by problems, UN chief talks of a way forward",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Judge strikes down Trump policy that cut millions in teacher-training money",
       "reason": "missing business relevance signal"
     }
   ]
