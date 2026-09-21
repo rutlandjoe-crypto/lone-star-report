@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-21T00:16:17.641Z",
+  "checked_at": "2026-09-21T05:02:10.425Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 36,
   "sources": [
@@ -88,7 +88,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Dave Campbell's Texas Football",
@@ -144,7 +144,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Houston Cougars",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 91
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 94
+      "firewall_rejected": 95
     },
     {
       "source": "San Antonio Express-News Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 93
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 77
+      "firewall_rejected": 82
     },
     {
       "source": "Dallas Morning News Business",
@@ -339,8 +339,18 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
+      "source": "San Antonio Express-News",
+      "title": "Opinion: The Holly Rowe video was fake. The disrespect was real. - San Antonio Express-News",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "On3 - Texas A&M Aggies",
       "title": "Joseph Hastings",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - SMU Mustangs",
+      "title": "Cardinal Sports News, Analysis & Insider Reports",
       "reason": "blocked sports noise"
     },
     {
@@ -356,11 +366,6 @@
     {
       "source": "El Paso Inc.",
       "title": "“Deadly Bronze: Reign of Terror”: J. Marschall’s Explosive Sequel Brings Sea Peoples, Sherden Mercenaries, and Court Intrigue to Life",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Keystone Gun-Krete Marks 46 Years as ACPA Member & REED Dealer",
       "reason": "missing business relevance signal"
     },
     {
@@ -400,6 +405,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Aldine ISD pulls Nimitz band T-shirts over complaints about offensive imagery",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "No. 1 Texas cruises past UTSA in final tuneup before beginning SEC play",
       "reason": "missing business relevance signal"
     },
@@ -411,11 +421,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "UTSA coach Jeff Traylor wants out of series vs. Texas, despite a big payday",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Aldine ISD pulls Nimitz band T-shirts over complaints about offensive imagery",
       "reason": "missing business relevance signal"
     },
     {
@@ -435,17 +440,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Texas A&M fans greeted Secretary of Defense Pete Hegseth at Kyle Field",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A Sooner and an Aggie explain why racists don't understand football | Opinion",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "West Texas 'political takeover' unravels as leader arrested, followers scatter",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ken Paxton’s Cypress typo draws ridicule ahead of rally with Ted Cruz",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'Not good enough on any level': No. 9 Texas A&M stunned by Kentucky at home",
       "reason": "missing business relevance signal"
     },
     {
@@ -470,22 +480,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How Texas A&M fans greeted Secretary of Defense Pete Hegseth at Kyle Field",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Spring ISD student hit, killed by truck while crossing I-45",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Tropical Depression Six forms near Azores in Atlantic, far from Texas",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "How long will Houston’s high heat last? Here’s what models say.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Matthew McConaughey helps Houston Symphony celebrate America’s 250th birthday",
       "reason": "missing business relevance signal"
     },
     {
@@ -515,12 +520,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Anthropic says its model Claude is helping to build the next version of itself",
+      "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
+      "title": "Bessent: US proposes AI incident alert system in talks with China",
       "reason": "missing business relevance signal"
     },
     {
@@ -685,11 +690,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump pushes his $5,000 'dividend' pledge if GOP wins midterms. Republican candidates, not as much",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "For Palestinian aid groups, Macklemore's $1M pledge brings relief and attention to ongoing suffering",
       "reason": "missing business relevance signal"
     },
@@ -711,11 +711,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Denmark's leaders are cautiously optimistic about Trump's announcement of a Greenland deal",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Lake Conroe Lions: Club members planning Cruisin' 2026 Car Show for Oct. 10",
       "reason": "missing business relevance signal"
     },
     {
@@ -750,7 +745,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "ICE officer pleads not guilty to charges he lied to the FBI about nonfatal Minneapolis shooting",
+      "title": "At least 13 school districts have board elections in November. See the list.",
       "reason": "missing business relevance signal"
     },
     {
@@ -770,21 +765,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Judge strikes down Trump policy that cut millions in teacher-training money",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "At least 13 school districts have board elections in November. See the list.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Mourinho blasts referee and VAR after Real Madrid’s 2-1 loss at Atletico",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Whitecaps win 3-0, extend Real Salt Lake's winless streak to 12 games",
       "reason": "missing business relevance signal"
     },
@@ -796,6 +776,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Holdout juror in Clancy trial didn't have 'any doubts' that she was responsible for killing her kids",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mourinho blasts referee and VAR after Real Madrid’s 2-1 loss at Atletico",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,8 +809,23 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "From Chuy's to Juan in a Million: Austin's Tex-Mex boom - Austin American-Statesman",
+      "source": "Houston Chronicle Business",
+      "title": "Attorney General Blanche's appearances at political events blur Justice Department boundaries",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Before the freeways, Houston’s El Alacrán was a haven for Mexican families",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "MS NOW, CNN and Politico say their journalists were denied access to White House after Trump ban",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston restaurants offering National Cheeseburger Day burger deals Friday",
       "reason": "missing business relevance signal"
     }
   ]
