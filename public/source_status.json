@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-20T21:33:19.042Z",
+  "checked_at": "2026-09-21T00:16:17.641Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 36,
   "sources": [
@@ -112,7 +112,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -144,7 +144,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Houston Cougars",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 90
+      "firewall_rejected": 89
     },
     {
       "source": "Austin American-Statesman Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 87
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -339,8 +339,8 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "On3 - SMU Mustangs",
-      "title": "Cardinal Sports News, Analysis & Insider Reports",
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Joseph Hastings",
       "reason": "blocked sports noise"
     },
     {
@@ -370,32 +370,17 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Strong retention, affordable tuition drive UTEP enrollment record",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Kappy’s Corner: Too soon? Five NFL overreactions after week 1",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Cascarrabias’ turns pain into a story of healing",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "El Paso City Council orders Flock cameras removed within 90 days",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
-      "title": "Art, Legacy & Boots: Boots become canvases for Borderland artists",
+      "title": "Tony the Tiger is Out, Old El Paso is in at the Sun Bowl",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "El Paso Inc.",
-      "title": "Tony the Tiger is Out, Old El Paso is in at the Sun Bowl",
+      "source": "Houston Chronicle Business",
+      "title": "A 30-foot waterslide and penthouse views: See inside Houston’s priciest homes",
       "reason": "missing business relevance signal"
     },
     {
@@ -415,11 +400,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Aldine ISD pulls Nimitz band T-shirts over complaints about offensive imagery",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "No. 1 Texas cruises past UTSA in final tuneup before beginning SEC play",
       "reason": "missing business relevance signal"
     },
@@ -430,7 +410,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "New renderings show Houston Rodeo's $300M arena as 2029 project breaks ground",
+      "title": "UTSA coach Jeff Traylor wants out of series vs. Texas, despite a big payday",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Aldine ISD pulls Nimitz band T-shirts over complaints about offensive imagery",
       "reason": "missing business relevance signal"
     },
     {
@@ -450,6 +435,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How Texas A&M fans greeted Secretary of Defense Pete Hegseth at Kyle Field",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "A Sooner and an Aggie explain why racists don't understand football | Opinion",
       "reason": "missing business relevance signal"
     },
@@ -460,27 +450,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UH comes up inches short against Texas Tech but sends a message in loss",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "'Not good enough on any level': No. 9 Texas A&M stunned by Kentucky at home",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "'A miracle.' Former UT receiver Jordan Shipley on near-fatal fire and faith",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Texas A&M fans greeted Secretary of Defense Pete Hegseth at Kyle Field",
+      "title": "Bullpen letdown dooms Astros as they fall out of first place with loss to Braves",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UTSA coach Jeff Traylor wants out of series vs. Texas, despite a big payday",
+      "title": "Texas college football rankings: Longhorns, Red Raiders are last two unbeatens",
       "reason": "missing business relevance signal"
     },
     {
@@ -505,7 +485,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Bullpen letdown dooms Astros as they fall out of first place with loss to Braves",
+      "title": "Matthew McConaughey helps Houston Symphony celebrate America’s 250th birthday",
       "reason": "missing business relevance signal"
     },
     {
@@ -540,11 +520,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A 30-foot waterslide and penthouse views: See inside Houston’s priciest homes",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
       "reason": "missing business relevance signal"
     },
@@ -571,11 +546,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Parents awarded $40 million after Uber found liable for passenger who was fatally struck on highway",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump administration allows inadvertent killing of endangered species",
       "reason": "missing business relevance signal"
     },
     {
@@ -621,6 +591,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Cuba hit with another blackout as millions across the island are left without electricity",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Carney and Macron deepen ties as Canada turns toward Europe and away from US dependence",
       "reason": "missing business relevance signal"
     },
     {
@@ -675,11 +650,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A sweeping US sanctions bill offers Ukraine new leverage on Russia, but enforcement looms",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Third time's a charm: Japan beats Fiji 20-15 in the Pacific Nations Cup rugby final",
       "reason": "missing business relevance signal"
     },
@@ -700,12 +670,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "AI fears are fueling progressive Democrat's campaign in Michigan battleground district",
+      "title": "A humpback whale was spotted in a California river, 60 miles from its Pacific Ocean home",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Shooting at high school in the Philippines leaves 2 students and gunman dead, several injured",
+      "title": "State blames mail delivery issues for dozens of ballots from rural Alaska not counting in primary",
       "reason": "missing business relevance signal"
     },
     {
@@ -715,17 +685,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A humpback whale was spotted in a California river, 60 miles from its Pacific Ocean home",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Malachi Singleton throws for 331 yards and Appalachian State defeats Charlotte 26-21",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "State blames mail delivery issues for dozens of ballots from rural Alaska not counting in primary",
+      "title": "Trump pushes his $5,000 'dividend' pledge if GOP wins midterms. Republican candidates, not as much",
       "reason": "missing business relevance signal"
     },
     {
@@ -756,11 +716,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Lake Conroe Lions: Club members planning Cruisin' 2026 Car Show for Oct. 10",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "At least 33 illegal mining suspects found dead in Nigerian custody, and officials suspect disease",
       "reason": "missing business relevance signal"
     },
     {
@@ -800,11 +755,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Postal Service chief says work stopped on computer system key to Trump effort to limit mail voting",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Iran war’s cost grows to $43.6 billion in new US military estimate",
       "reason": "missing business relevance signal"
     },
@@ -815,17 +765,67 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Early voting begins in US midterm elections that could flip control of Congress",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Preparing to leave office, with world beset by problems, UN chief talks of a way forward",
+      "title": "AI fears are fueling progressive Democrat's campaign in Michigan battleground district",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Judge strikes down Trump policy that cut millions in teacher-training money",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "At least 13 school districts have board elections in November. See the list.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mourinho blasts referee and VAR after Real Madrid’s 2-1 loss at Atletico",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Whitecaps win 3-0, extend Real Salt Lake's winless streak to 12 games",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Real Salt Lake hosts the Vancouver Whitecaps in Western Conference action",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Holdout juror in Clancy trial didn't have 'any doubts' that she was responsible for killing her kids",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Atletico Madrid beats 10-man Real Madrid 2-1, Man City outlasts Sunderland in Premier League",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Bournemouth beats Real Sociedad 2-1 in its first European match. Juventus, Crystal Palace win big",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Despite strong turns from Ethan Hawke and Russell Crowe, 'The Weight' is a drag",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump targets more news outlets, saying he will ban CNN, MS NOW and Politico from the White House",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Taylor's four TDs rally Mississippi St. from 16-0 down to 41-34 win at South Carolina in SEC opener",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "From Chuy's to Juan in a Million: Austin's Tex-Mex boom - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
