@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-22T22:09:01.619Z",
+  "checked_at": "2026-09-23T00:32:46.128Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 37,
   "sources": [
@@ -33,7 +33,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "El Paso Matters",
@@ -174,7 +174,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 1,
-      "firewall_rejected": 4
+      "firewall_rejected": 5
     },
     {
       "source": "Texas Comptroller",
@@ -206,7 +206,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 79
     },
     {
       "source": "Austin American-Statesman Business",
@@ -222,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 77
+      "firewall_rejected": 76
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 80
     },
     {
       "source": "El Paso Times Business",
@@ -238,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 55
+      "firewall_rejected": 52
     },
     {
       "source": "Dallas Morning News Business",
@@ -330,6 +330,11 @@
   ],
   "firewall_rejections": [
     {
+      "source": "San Antonio Report",
+      "title": "Pulitzer winner Eugene Robinson to speak at Trinity’s Maverick Lecture",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "El Paso Matters",
       "title": "Opinion: Why El Paso’s Pure Water Center can protect against cyclospora and other pathogens",
       "reason": "blocked editorial/opinion phrase"
@@ -347,6 +352,11 @@
     {
       "source": "El Paso Inc.",
       "title": "Hope takes center stage at annual Grief Center gala",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Search Atlas Releases Content Genius V5 with In-Workflow Translation",
       "reason": "missing business relevance signal"
     },
     {
@@ -381,22 +391,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Fact check: Sam Altman says an almond uses as much water as 38K ChatGPT queries",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Ken Paxton’s Cypress typo draws ridicule ahead of rally with Ted Cruz",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "The real UT? Longhorns and Volunteers meet in a key game with more at stake",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Fact check: Sam Altman says an almond uses as much water as 38K ChatGPT queries",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Dallas-based American seafood restaurant plans third Houston location",
       "reason": "missing business relevance signal"
     },
     {
@@ -411,12 +416,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'Unacceptable': Tailgating video prompts Galveston County Sheriff to fire deputy",
+      "title": "Dallas-based American seafood restaurant plans third Houston location",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "3 student athletes charged in alleged sexual assaults at Houston private school",
+      "title": "'Unacceptable': Tailgating video prompts Galveston County Sheriff to fire deputy",
       "reason": "missing business relevance signal"
     },
     {
@@ -427,11 +432,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "'Not good enough on any level': No. 9 Texas A&M stunned by Kentucky at home",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "UH's Justice Carlton to miss season with ACL injury in blow to Cougars",
       "reason": "missing business relevance signal"
     },
     {
@@ -461,12 +461,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Cubs' Alex Bregman posts gruesome photo of his face after getting hit by foul ball",
+      "title": "Evidence suggests road rage suspect shot his own truck before 5-year-old girl's death, DA says",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston heat continues. Is a cold front arriving soon?",
+      "title": "Fired HISD veteran teacher alleges discrimination in federal court filing",
       "reason": "missing business relevance signal"
     },
     {
@@ -477,6 +477,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Shooting, crash on Houston's Loop 610 injures 3 people, police say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston heat continues. Is a cold front arriving soon?",
       "reason": "missing business relevance signal"
     },
     {
@@ -551,6 +556,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Air traffic control calamity disrupting hundreds of US flights spotlights the aging system",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "China's Alibaba unveils new powerful chip and ambitious AI model plans",
       "reason": "missing business relevance signal"
     },
@@ -596,6 +606,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "They said it: Leaders at the UN, in their own words",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "What to know about Paramount's settlement and its impact on movies",
       "reason": "missing business relevance signal"
     },
@@ -607,6 +622,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "US Supreme Court won’t intervene in custody dispute between California couple and surrogate",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Justice Department charges Utah postal worker for dumping mail ballots in trash during state primary",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Administration's focus on noncitizen voting has led to 160 arrests. Experts say that shows it's rare",
       "reason": "missing business relevance signal"
     },
     {
@@ -691,12 +716,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Dynamo settle for draw after FC Cincinnati's tying goal in stoppage time",
+      "title": "Coach Ime Udoka pushes Rockets to 'make some real noise' after 2 straight first-round exits",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Some Houston restaurants called HRW a success. Others weren’t so sure.",
+      "title": "Dynamo settle for draw after FC Cincinnati's tying goal in stoppage time",
       "reason": "missing business relevance signal"
     },
     {
@@ -706,7 +731,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Some Houston restaurants called HRW a success. Others weren’t so sure.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Atlético Madrid wants end to \"refereeing harassment\" after Mourinho complaints",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mets hire interim manager Andy Green for the full-time job, giving him a 3-year contract",
       "reason": "missing business relevance signal"
     },
     {
@@ -735,26 +770,6 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Mbappé brushes off talk of tension with France teammate Dembélé as Ballon d’Or race heats up",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Dash snap 4-game winless streak with win over Boston Legacy FC",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Appeals court favors Trump-backed Missouri congressional map, but Supreme Court will have final say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Cheers! Wrexham's celebrity owners buy 'The Turf' pub that's adjacent to the club's stadium",
-      "reason": "blocked non-business or soft-content term"
-    },
-    {
       "source": "Austin American-Statesman Business",
       "title": "Texas football: Arch Manning ends week with performance that was 'not good enough' vs UTSA - Austin American-Statesman",
       "reason": "missing business relevance signal"
@@ -766,12 +781,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin weather: Heat for some, rain for others Sunday. Here's what to expect - Austin American-Statesman",
+      "title": "Austin's restaurant scene this summer saw major openings, closings, two devastating fires - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin's restaurant scene this summer saw major openings, closings, two devastating fires - Austin American-Statesman",
+      "title": "Musk pitches hyperloop tunnel to cut Austin-San Antonio travel time - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -781,7 +796,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Musk pitches hyperloop tunnel to cut Austin-San Antonio travel time - Austin American-Statesman",
+      "title": "Waymo begins highway service in Austin - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -811,23 +826,8 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Garcés Pérez says he didn't flee ICE. New video calls that claim into question. - Austin American-Statesman",
+      "title": "Steve Sarkisian won't discuss DE Colin Simmons, Texas football injuries - Austin American-Statesman",
       "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Lauren Schellhammer: Star pitcher in 2028 class picks Texas softball - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "An ICE agent shot an Austin man. Can Travis County investigate a federal agent? - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "ICE brought gunfire to Austin. It owes the public answers | Editorial - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
     }
   ]
 }
