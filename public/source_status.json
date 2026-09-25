@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-25T07:47:53.184Z",
+  "checked_at": "2026-09-25T13:46:42.988Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 37,
   "sources": [
@@ -72,7 +72,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "El Paso Times",
@@ -174,7 +174,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 22
+      "firewall_rejected": 21
     },
     {
       "source": "Texas Comptroller",
@@ -206,7 +206,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 77
+      "firewall_rejected": 78
     },
     {
       "source": "Austin American-Statesman Business",
@@ -214,7 +214,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 94
+      "firewall_rejected": 92
     },
     {
       "source": "San Antonio Express-News Business",
@@ -222,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 75
+      "firewall_rejected": 77
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 69
+      "firewall_rejected": 70
     },
     {
       "source": "El Paso Times Business",
@@ -292,7 +292,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 2,
+      "accepted": 1,
       "firewall_rejected": 0
     },
     {
@@ -340,11 +340,6 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "Austin American-Statesman",
-      "title": "UT students should answer Hasan Piker’s hate speech with more speech | Opinion - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
       "source": "El Paso Times",
       "title": "OPINION: Flu season is coming. Protect yourself and those you love",
       "reason": "blocked editorial/opinion phrase"
@@ -376,12 +371,12 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "El Paso plastic surgeon named president-elect of ISAPS",
+      "title": "Maxey Scherr elected president of Academy of Truck Accident Attorneys",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
-      "title": "Maxey Scherr elected president of Academy of Truck Accident Attorneys",
+      "title": "El Paso plastic surgeon named president-elect of ISAPS",
       "reason": "missing business relevance signal"
     },
     {
@@ -461,11 +456,6 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Taxi drivers rarely die of Alzheimer’s – how complex mental maps and spatial reasoning protect your brain",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "El Paso County honors Raymond Telles and his daughter for trailblazing political legacy",
       "reason": "missing business relevance signal"
     },
@@ -492,11 +482,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "See how much Harris County's tax rate increase will cost you",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "The real UT? Longhorns and Volunteers meet in a key game with more at stake",
       "reason": "missing business relevance signal"
     },
     {
@@ -531,12 +516,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Evidence suggests road rage suspect shot his own truck before 5-year-old girl's death, DA says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Ken Paxton is talking about his humble childhood. Will it help with rural voters?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "A 'disrespectful' offer and chance to come home: Why Marcus Smart chose Houston",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Astros extend Josh Hader's usage, fall short in bid to create AL West cushion",
       "reason": "missing business relevance signal"
     },
     {
@@ -551,7 +546,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Kevin Durant dismisses WNBA culture wars, promotes league. Enes Kanter responds.",
+      "title": "Why Nico Collins, Ed Ingram and Jadeveon Clowney likely won't play vs. Colts",
       "reason": "missing business relevance signal"
     },
     {
@@ -561,27 +556,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Kevin Durant dismisses WNBA culture wars, promotes league. Enes Kanter responds.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Fay makes a rare comeback as a ‘zombie storm’ in the mid-Atlantic",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros extend Josh Hader's usage, fall short in bid to create AL West cushion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Jeremy Peña out of Astros' lineup for series finale vs. Mariners",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "FDA issues top risk warning on recalled 'super potent' thyroid drug",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Cypress man charged with capital murder after roadway shooting kills 5-year-old",
       "reason": "missing business relevance signal"
     },
     {
@@ -596,6 +581,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Jeremy Peña out of Astros' lineup for series finale vs. Mariners",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Ella Langley’s ‘Choosin’ Texas’ breaks Billboard Hot 100 record",
       "reason": "missing business relevance signal"
     },
@@ -606,12 +596,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Cypress man charged with capital murder after roadway shooting kills 5-year-old",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Astros regain control of AL West race with 7-0 win over Mariners",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Dolly Parton’s estate accuses her nephew of threatening violence and to destroy his aunt’s legacy",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Cypress lands new Whole Foods as major shopping center breaks ground",
       "reason": "missing business relevance signal"
     },
     {
@@ -696,16 +696,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "What to know about hospital deals with the Trump administration to avoid treating transgender minors",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Flights disrupted across the US Northeast due to technical problems at a key air traffic center",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Trump and Xi Jinping head into Washington summit with both leaders thinking time is on their side",
       "reason": "missing business relevance signal"
     },
@@ -716,12 +706,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Democrats press RFK Jr. on an ethics agreement change involving law firm fees",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "FDA nominee says vaccines are safe despite Trump efforts to overhaul childhood shots",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "China's Alibaba unveils new powerful chip and ambitious AI model plans",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Europe uses subsidies, taxes and policy pauses to offset pain of high fuel prices",
       "reason": "missing business relevance signal"
     },
     {
@@ -746,17 +746,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump praises new British PM Andy Burnham but slams UK deal on Indian Ocean islands",
+      "title": "Gov. Abbott’s data center moratorium sets a dangerous precedent | Opinion",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "British Columbia leader calls snap election as premier tells voters to say ‘hell no to Trump’",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Gov. Abbott’s data center moratorium sets a dangerous precedent | Opinion",
       "reason": "missing business relevance signal"
     },
     {
@@ -787,6 +782,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Karol G, Rush, Alley Theatre's 'Romeo & Juliet' top list of live Houston events this week",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston police make 90,000 Flock searches a month. That’s concerning.",
       "reason": "missing business relevance signal"
     },
     {
