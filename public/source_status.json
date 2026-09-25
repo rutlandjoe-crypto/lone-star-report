@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-25T18:36:20.851Z",
+  "checked_at": "2026-09-25T22:19:45.055Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 37,
   "sources": [
@@ -33,7 +33,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "El Paso Matters",
@@ -174,7 +174,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 24
+      "firewall_rejected": 27
     },
     {
       "source": "Texas Comptroller",
@@ -206,7 +206,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 79
+      "firewall_rejected": 78
     },
     {
       "source": "Austin American-Statesman Business",
@@ -214,7 +214,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 91
     },
     {
       "source": "San Antonio Express-News Business",
@@ -222,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 79
+      "firewall_rejected": 78
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 74
     },
     {
       "source": "El Paso Times Business",
@@ -238,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 54
+      "firewall_rejected": 52
     },
     {
       "source": "Dallas Morning News Business",
@@ -330,11 +330,6 @@
   ],
   "firewall_rejections": [
     {
-      "source": "San Antonio Report",
-      "title": "San Antonio needs an SAPD audit for local systemic justice",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
       "source": "El Paso Matters",
       "title": "Opinion: A mobile, decentralized Latino museum could reach communities nationwide",
       "reason": "blocked editorial/opinion phrase"
@@ -416,12 +411,12 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Cancer leads AI physician queries across 9 countries",
+      "title": "Cesar Martinez interprets Chicano culture through his art",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
-      "title": "El Paso welcomes second 7 Brew drive-thru coffee stand",
+      "title": "Cancer leads AI physician queries across 9 countries",
       "reason": "missing business relevance signal"
     },
     {
@@ -466,12 +461,27 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "Alfonso Lopez leaves a lasting Bowie baseball legacy",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "What’s on the horizon for El Paso TxDOT roadway projects",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "Texas NAACP's 89th Annual Convention is coming to El Paso",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
       "title": "Brewed & Whisked: Café con Leche serves up the cool feeling of fall",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "El Paso Electric only considered gas to power $10 billion Meta data center",
       "reason": "missing business relevance signal"
     },
     {
@@ -506,6 +516,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Multiple people arrested in North Houston drugs and weapons raid, DPS says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Gina Hinojosa says her campaign has raised $20 million to challenge Greg Abbott",
       "reason": "missing business relevance signal"
     },
@@ -526,17 +541,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Evidence suggests road rage suspect shot his own truck before 5-year-old girl's death, DA says",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Ken Paxton is talking about his humble childhood. Will it help with rural voters?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "A 'disrespectful' offer and chance to come home: Why Marcus Smart chose Houston",
       "reason": "missing business relevance signal"
     },
     {
@@ -551,6 +556,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "A 'disrespectful' offer and chance to come home: Why Marcus Smart chose Houston",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Why Nico Collins, Ed Ingram and Jadeveon Clowney likely won't play vs. Colts",
       "reason": "missing business relevance signal"
     },
@@ -561,7 +571,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Rookie Lucas Spence hits 3 homers as Astros beat Athletics to stay atop AL West",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Kevin Durant dismisses WNBA culture wars, promotes league. Enes Kanter responds.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Bun B's fourth Houston-area Trill Burgers location opens on Westheimer",
       "reason": "missing business relevance signal"
     },
     {
@@ -571,12 +591,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Fay makes a rare comeback as a ‘zombie storm’ in the mid-Atlantic",
+      "title": "Texas taxpayers may cover $200M in World Cup hosting costs. Was it worth it?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas taxpayers may cover $200M in World Cup hosting costs. Was it worth it?",
+      "title": "Fay makes a rare comeback as a ‘zombie storm’ in the mid-Atlantic",
       "reason": "missing business relevance signal"
     },
     {
@@ -591,12 +611,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Jeremy Peña out of Astros' lineup for series finale vs. Mariners",
+      "title": "Houston Metro's electric shuttles won't be free starting next week. See why.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros extend Josh Hader's usage, fall short in bid to create AL West cushion",
+      "title": "Jeremy Peña out of Astros' lineup for series finale vs. Mariners",
       "reason": "missing business relevance signal"
     },
     {
@@ -606,17 +626,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston Starbucks are getting a makeover. Here’s what’s changing.",
+      "title": "Astros extend Josh Hader's usage, fall short in bid to create AL West cushion",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Astros regain control of AL West race with 7-0 win over Mariners",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Cypress man charged with capital murder after roadway shooting kills 5-year-old",
       "reason": "missing business relevance signal"
     },
     {
@@ -726,11 +741,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Air traffic control calamity disrupting hundreds of US flights spotlights the aging system",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Democrats press RFK Jr. on an ethics agreement change involving law firm fees",
       "reason": "missing business relevance signal"
     },
@@ -741,7 +751,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Katy debates digital signs amid concerns over a 'Las Vegas' look",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Europe uses subsidies, taxes and policy pauses to offset pain of high fuel prices",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston Politics & Policy | HoustonChronicle.com - Page 7",
       "reason": "missing business relevance signal"
     },
     {
@@ -757,6 +777,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Sen. Bernie Sanders unveils bill to ban artificial superintelligence and create Department of AI",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Onetime Tony Buzbee client who accused Jay-Z of rape says claims were false",
       "reason": "missing business relevance signal"
     },
     {
@@ -802,31 +827,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Trump-backed Missouri congressional map returns to the Supreme Court for the third time",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Karol G, Rush, Alley Theatre's 'Romeo & Juliet' top list of live Houston events this week",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston police make 90,000 Flock searches a month. That’s concerning.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Takeaways: What a new AP-KFF survey reveals about rural American voters",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Administration's focus on noncitizen voting has led to 160 arrests. Experts say that shows it's rare",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Nepal's leader, at UN, says recent floods serve as a 'warning to the world' about climate change",
       "reason": "missing business relevance signal"
     }
   ]
