@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-25T22:19:45.055Z",
+  "checked_at": "2026-09-26T01:33:10.956Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 37,
+  "working_sources": 36,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -174,7 +174,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 27
+      "firewall_rejected": 28
     },
     {
       "source": "Texas Comptroller",
@@ -222,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 80
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 74
+      "firewall_rejected": 77
     },
     {
       "source": "El Paso Times Business",
@@ -238,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 52
+      "firewall_rejected": 51
     },
     {
       "source": "Dallas Morning News Business",
@@ -291,9 +291,8 @@
       "source": "Fort Worth Star-Telegram Mavericks Desk",
       "region": "North Texas / DFW",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 1,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "San Antonio Express-News Spurs Desk",
@@ -376,6 +375,11 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "Ricardo Mora to step down this year as El Paso Chamber CEO",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "Research shows strokes among young adults nearly doubled in 27 years",
       "reason": "missing business relevance signal"
     },
@@ -421,11 +425,6 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "It’s a ‘barrio thing’: Chicano life through art",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "1 in 5 people may have this hidden genetic stroke risk",
       "reason": "missing business relevance signal"
     },
@@ -461,6 +460,11 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "It’s a ‘barrio thing’: Chicano life through art",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "Alfonso Lopez leaves a lasting Bowie baseball legacy",
       "reason": "missing business relevance signal"
     },
@@ -487,11 +491,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "These 8 Houston billionaires made Forbes' 2026 list of richest Americans",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "SpaceX brought a boom to Brownsville. Will it hurt Texas’ Latino culture?",
       "reason": "missing business relevance signal"
     },
     {
@@ -526,6 +525,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Westbury basketball player identified as victim shot and killed near campus",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "14-year-old in custody in fatal shooting of Westfield High School student in Spring",
       "reason": "missing business relevance signal"
     },
@@ -541,22 +545,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ken Paxton is talking about his humble childhood. Will it help with rural voters?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Maybe this is who Arch Manning is, and A&M's must-win game vs. LSU | Bohls",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Rockets media day takeaways from Kevin Durant and Amen Thompson",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "A 'disrespectful' offer and chance to come home: Why Marcus Smart chose Houston",
       "reason": "missing business relevance signal"
     },
     {
@@ -576,17 +565,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Kevin Durant dismisses WNBA culture wars, promotes league. Enes Kanter responds.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Bun B's fourth Houston-area Trill Burgers location opens on Westheimer",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "James Talarico says he hopes to learn from Ted Cruz if he wins in November",
+      "title": "Kevin Durant dismisses WNBA culture wars, promotes league. Enes Kanter responds.",
       "reason": "missing business relevance signal"
     },
     {
@@ -606,17 +590,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The Rockets have their point guard back. How long will it take Fred VanVleet to be himself again?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston Metro's electric shuttles won't be free starting next week. See why.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Jeremy Peña out of Astros' lineup for series finale vs. Mariners",
       "reason": "missing business relevance signal"
     },
     {
@@ -696,11 +670,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Bill Clinton calls on leaders to fill gaps left by 'retreating governments'",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Why bond yields are rising and why everyone should care",
       "reason": "missing business relevance signal"
     },
@@ -716,7 +685,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "New Mexico jury finds Facebook liable of deceiving users about privacy protections",
+      "title": "TikTok settles lawsuit with Alabama for at least $100 million, will implement safety features",
       "reason": "missing business relevance signal"
     },
     {
@@ -737,6 +706,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Trump and Xi Jinping head into Washington summit with both leaders thinking time is on their side",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "New Mexico jury finds Facebook liable for deceiving users about privacy protections",
       "reason": "missing business relevance signal"
     },
     {
@@ -801,12 +775,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Pioneering female coach Sabrina Wittmann fired at German soccer club Ingolstadt",
+      "title": "A White House press ban was lifted this week. But the tensions and legal battle aren't over yet",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Conroe to purchase Mid-South Electric Cooperative water subsidiaries to address future water needs",
+      "title": "SpaceX brought a boom to Brownsville. Will it hurt Texas’ Latino culture?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Pioneering female coach Sabrina Wittmann fired at German soccer club Ingolstadt",
       "reason": "missing business relevance signal"
     },
     {
@@ -821,12 +800,32 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "They said it: Leaders at the UN, in their own words",
+      "title": "Bill Giles, longtime Philadelphia Phillies owner and executive, dies at 92",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston police make 90,000 Flock searches a month. That’s concerning.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Trump-backed Missouri congressional map returns to the Supreme Court for the third time",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Karol G, Rush, Alley Theatre's 'Romeo & Juliet' top list of live Houston events this week",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "How Hurricane Polo and El Niño could shape Texas weather next week",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "From Gaza to Sudan to Nepal, more than 500 million children are in desperate need of education",
       "reason": "missing business relevance signal"
     }
   ]
