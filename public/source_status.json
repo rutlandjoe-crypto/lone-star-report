@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-26T01:33:10.956Z",
+  "checked_at": "2026-09-26T07:40:34.590Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 36,
+  "working_sources": 37,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -206,7 +206,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 75
     },
     {
       "source": "Austin American-Statesman Business",
@@ -222,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 81
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 77
+      "firewall_rejected": 76
     },
     {
       "source": "El Paso Times Business",
@@ -238,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 51
+      "firewall_rejected": 52
     },
     {
       "source": "Dallas Morning News Business",
@@ -291,8 +291,9 @@
       "source": "Fort Worth Star-Telegram Mavericks Desk",
       "region": "North Texas / DFW",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 2,
+      "firewall_rejected": 0
     },
     {
       "source": "San Antonio Express-News Spurs Desk",
@@ -415,11 +416,6 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Cesar Martinez interprets Chicano culture through his art",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "Cancer leads AI physician queries across 9 countries",
       "reason": "missing business relevance signal"
     },
@@ -430,12 +426,22 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "El Paso Electric only considered gas to power $10 billion Meta data center",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "El Paso’s rainy days could be just the beginning",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
       "title": "The Groove Grotto: The Technics SL-1200: Vinyl’s heavyweight champion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Cesar Martinez showcases Chicano culture through his art",
       "reason": "missing business relevance signal"
     },
     {
@@ -484,11 +490,6 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "El Paso Inc.",
-      "title": "El Paso Electric only considered gas to power $10 billion Meta data center",
-      "reason": "missing business relevance signal"
-    },
-    {
       "source": "Houston Chronicle Business",
       "title": "These 8 Houston billionaires made Forbes' 2026 list of richest Americans",
       "reason": "missing business relevance signal"
@@ -515,7 +516,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Multiple people arrested in North Houston drugs and weapons raid, DPS says",
+      "title": "14-year-old in custody in fatal shooting of Westfield High School student in Spring",
       "reason": "missing business relevance signal"
     },
     {
@@ -525,12 +526,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Westbury basketball player identified as victim shot and killed near campus",
+      "title": "Houston police make arrest in fatal shooting of Westbury student athlete",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "14-year-old in custody in fatal shooting of Westfield High School student in Spring",
+      "title": "Multiple people arrested in North Houston drugs and weapons raid, DPS says",
       "reason": "missing business relevance signal"
     },
     {
@@ -545,22 +546,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Astros extend Josh Hader's usage, fall short in bid to create AL West cushion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Maybe this is who Arch Manning is, and A&M's must-win game vs. LSU | Bohls",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Why Nico Collins, Ed Ingram and Jadeveon Clowney likely won't play vs. Colts",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston's newest hero had one job: stay ready. Then came 3 homers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Rookie Lucas Spence hits 3 homers as Astros beat Athletics to stay atop AL West",
       "reason": "missing business relevance signal"
     },
     {
@@ -585,11 +581,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "FDA issues top risk warning on recalled 'super potent' thyroid drug",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston Metro's electric shuttles won't be free starting next week. See why.",
       "reason": "missing business relevance signal"
     },
@@ -600,7 +591,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros extend Josh Hader's usage, fall short in bid to create AL West cushion",
+      "title": "FDA issues top risk warning on recalled 'super potent' thyroid drug",
       "reason": "missing business relevance signal"
     },
     {
@@ -615,22 +606,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Dolly Parton’s estate accuses her nephew of threatening violence and to destroy his aunt’s legacy",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Worries about an AI internet takeover gain new urgency among doomsday scenarios",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A look at AI doomsday scenarios that researchers say could put humanity at risk",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Melania Trump rings New York Stock Exchange opening bell to launch new women's initiative Imperia",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "OpenAI says its models engaged with US government websites in new model misbehavior disclosure",
       "reason": "missing business relevance signal"
     },
     {
@@ -695,11 +681,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "FACT FOCUS: Trump made multiple false and misleading claims in front of the UN General Assembly",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "New humanitarian players hit UN sidelines in search of galvanizing force to counter aid cuts",
       "reason": "missing business relevance signal"
     },
@@ -710,17 +691,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "New Mexico jury finds Facebook liable for deceiving users about privacy protections",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Democrats press RFK Jr. on an ethics agreement change involving law firm fees",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "FDA nominee says vaccines are safe despite Trump efforts to overhaul childhood shots",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "New Mexico jury finds Facebook liable for deceiving users about privacy protections",
       "reason": "missing business relevance signal"
     },
     {
@@ -765,17 +746,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "British Columbia leader calls snap election as premier tells voters to say ‘hell no to Trump’",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Astros starter Cristian Javier leaves after two innings because of groin injury",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A White House press ban was lifted this week. But the tensions and legal battle aren't over yet",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "China has kept its promise to stop funding overseas coal, but loopholes are helping coal expand",
       "reason": "missing business relevance signal"
     },
     {
@@ -790,6 +766,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Conroe to purchase Mid-South Electric Cooperative water subsidiaries to address future water needs",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Bari Ristorante, upscale Italian spot, opening in The Woodlands next week",
       "reason": "missing business relevance signal"
     },
@@ -800,7 +781,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Bill Giles, longtime Philadelphia Phillies owner and executive, dies at 92",
+      "title": "From Gaza to Sudan to Nepal, more than 500 million children are in desperate need of education",
       "reason": "missing business relevance signal"
     },
     {
@@ -810,22 +791,42 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump-backed Missouri congressional map returns to the Supreme Court for the third time",
+      "title": "Bill Giles, longtime Philadelphia Phillies owner and executive, dies at 92",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Karol G, Rush, Alley Theatre's 'Romeo & Juliet' top list of live Houston events this week",
+      "title": "'Phenomenal': Houston and Texas politicians remember Garnet Coleman's decades of service",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Two men had remarkable impact on Houston’s skyline",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Takeaways: What a new AP-KFF survey reveals about rural American voters",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Nepal's leader, at UN, says recent floods serve as a 'warning to the world' about climate change",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Former VP Al Gore: A clean Earth is within world's grasp even as climate dangers accelerate",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Residents of largest city in northern Ethiopia express fear after eruption of fighting",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "How Hurricane Polo and El Niño could shape Texas weather next week",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "From Gaza to Sudan to Nepal, more than 500 million children are in desperate need of education",
       "reason": "missing business relevance signal"
     }
   ]
