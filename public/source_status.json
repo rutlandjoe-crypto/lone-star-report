@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-28T00:45:47.231Z",
+  "checked_at": "2026-09-28T06:53:15.754Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 32,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -220,7 +220,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 87
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -228,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 83
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 75
     },
     {
       "source": "Dallas Morning News Business",
@@ -340,6 +340,11 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Joseph Hastings",
+      "reason": "blocked sports noise"
+    },
+    {
       "source": "El Paso Inc.",
       "title": "Vertropic Publishes Disclosure Policy for Paid Editorial Placement",
       "reason": "missing business relevance signal"
@@ -357,6 +362,11 @@
     {
       "source": "El Paso Inc.",
       "title": "César A. Martinez showcases Chicano culture through his art",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "El Paso Electric only considered gas to power $10 billion Meta data center",
       "reason": "missing business relevance signal"
     },
     {
@@ -390,11 +400,6 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "El Paso Inc.",
-      "title": "El Paso Electric only considered gas to power $10 billion Meta data center",
-      "reason": "missing business relevance signal"
-    },
-    {
       "source": "Austin American-Statesman Business",
       "title": "'Understatement of a lifetime': Mike Elko seeks answers after Texas A&M's hideous LSU loss - Austin American-Statesman",
       "reason": "missing business relevance signal"
@@ -406,22 +411,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Commentary: Is ACL for millennials or Gen Z now? Both, provided they're rich - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "'Nowhere for the noise to get out': No. 1 Texas braces for Tennessee's Neyland Stadium - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "How to watch the Texas vs Tennessee game Saturday - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Urination celebration: Sarkisian not giving Colin Simmons the 'death penalty' after flag - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -446,12 +436,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas football answered an anonymous coach's soft tag with a close win - Austin American-Statesman",
+      "title": "Urination celebration: Sarkisian not giving Colin Simmons the 'death penalty' after flag - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas high school football: Austin-area scores for Week 5 of 2026 season - Austin American-Statesman",
+      "title": "Texas football answered an anonymous coach's soft tag with a close win - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -461,7 +451,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas football: Arch Manning gets the win at Tennessee while Heisman hopes sink - Austin American-Statesman",
+      "title": "Texas high school football: Austin-area scores for Week 5 of 2026 season - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -471,22 +461,27 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Texas football: Arch Manning gets the win at Tennessee while Heisman hopes sink - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "'Colin Simmons is HIM': Social media reacts to Colin Simmons big day against Tennessee - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Things to do in Austin, TX - Austin American-Statesman",
+      "title": "Commentary: Is ACL for millennials or Gen Z now? Both, provided they're rich - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Hot Wheels Monster Trucks Live Color Bash Parking - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "October Artist of the Month Showcase at The Ruby Bar - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Things to do in Austin, TX - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -526,17 +521,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Colin Simmons, Raleek Brown lead No. 1 Texas to SEC-opening road win over No. 14 Tennessee - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Things to do in Austin, TX - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Mike Valliere Music: The Rustic Tap w/ Keith Sanders - Austin American-Statesman",
+      "title": "Pat Byrne: PLAY House Concerts benefitting JoyRX - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -551,32 +536,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Back Porch Social- Michael Monroe Goodman - Acoustic - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Things to do in Austin, TX - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Things to do in Austin, TX - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Andrew Savage - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Run For The Hall 5K & Health Expo - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Things to do in Austin, TX - Austin American-Statesman",
+      "title": "Colin Simmons, Raleek Brown lead No. 1 Texas to SEC-opening road win over No. 14 Tennessee - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -586,17 +546,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Things to do in Austin, TX - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Things to do in Austin, TX - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Texas Republicans have weathered blue waves before. Is 2026 different? - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Things to do in Austin, TX - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Things to do in Austin, TX - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -606,17 +566,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Steven McClintock: South West Regional Folk Alliance - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Things to do in Austin, TX - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Back In Black - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Mark Chesnutt - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -631,7 +586,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Self Guided Tour - 05/29/2027 - Austin American-Statesman",
+      "title": "Things to do in Austin, TX - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -641,37 +596,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Things to do in Austin, TX - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "BUNT. - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "The Filthy Heathens - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Bill Palmer - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Mark Chesnutt - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "The Music of Hey Arnold! Live! - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Hayden James: Coffee & Chill - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -691,22 +621,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Zach Aaron: SWRFA: First Timers Showcase - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Tumua Tuinei - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Zach Aaron: SWRFA: Official Showcase - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Trevor Soetaert - Austin American-Statesman",
+      "title": "Lee Mathis & the Brutally Handsome: Lee & Jeff - Broken Spoke - Austin - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -746,27 +661,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Miggy Milla - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Emma Ogier: Austin City Limits Music Festival 2026 - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Steve Lacy Parking - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "concealer. - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Pancho Uresti - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -791,12 +691,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Lee Mathis & the Brutally Handsome: Lee & Jeff - Broken Spoke - Austin - Austin American-Statesman",
+      "title": "Steve Lacy: Oh yeah? Tour - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Steve Lacy: Oh yeah? Tour - Austin American-Statesman",
+      "title": "Dave Chappelle Parking - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -816,12 +716,112 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Rett Madison - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Travis Roberts - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Waylon Payne - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "Dan Penn and Spooner Oldham - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Basic Printer w/ Spirit Of The Bear - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Ryan Lawless @ Cork2Wine - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Paige Plaisance - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Skye - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Things to do in Austin, TX - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Things to do in Austin, TX - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Pancho Uresti - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "ACL Fest Nights - CMAT - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "ILYKIMCHI - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Elevator Days - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Things to do in Austin, TX - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Basic Printer - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Jet Cemetery - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Chase Baird: Jazz'SAlive 2026 - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Zach Aaron: SWRFA: Private Showcase - Song Circle Houston - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Dolly Patron - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Basic Printer and Spirit Of The Bear - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Things to do in Austin, TX - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
