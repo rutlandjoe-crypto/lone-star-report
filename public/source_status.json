@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-30T23:48:45.939Z",
+  "checked_at": "2026-10-01T05:52:05.167Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 33,
+  "working_sources": 31,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -70,9 +70,8 @@
       "source": "Austin American-Statesman",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "El Paso Times",
@@ -204,15 +203,14 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 71
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 3,
-      "firewall_rejected": 97
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "San Antonio Express-News Business",
@@ -220,7 +218,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 79
+      "firewall_rejected": 78
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -228,7 +226,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 67
+      "firewall_rejected": 64
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +234,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 57
+      "firewall_rejected": 49
     },
     {
       "source": "Dallas Morning News Business",
@@ -362,6 +360,11 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "Allergan Black Diamond Clinic Flags Multi-Session Laser Treatment Timelines",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "7 Brew expanding in El Paso with two more coffee stands",
       "reason": "missing business relevance signal"
     },
@@ -381,6 +384,11 @@
       "reason": "missing business relevance signal"
     },
     {
+      "source": "El Paso Inc.",
+      "title": "Burnout isn't just a buzzword: Why workers are reaching a breaking point",
+      "reason": "missing business relevance signal"
+    },
+    {
       "source": "Houston Chronicle Business",
       "title": "Former Midtown official sentenced in Third Ward housing theft case",
       "reason": "missing business relevance signal"
@@ -392,17 +400,12 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Ken Paxton says Trump's convention hurt his race in leaked audio",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston's highest-paid executives, ranked: See who tops the list",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Healthcare aide killed, 90-year-old man wounded in southeast Houston shooting",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston overlooked key detail on new trash fee: 'It was never communicated'",
       "reason": "missing business relevance signal"
     },
     {
@@ -412,12 +415,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Paxton making 'very risky' move by declining to debate Talarico",
+      "title": "House of Louie opens in Montrose from Justin Yu and Bobby Heugel",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "David Persse, Houston's former chief medical officer, dies at 66",
+      "title": "What Houston should know about rain Hurricane Polo will bring to Texas this week",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston overlooked key detail on new trash fee: 'It was never communicated'",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Paxton making 'very risky' move by declining to debate Talarico",
       "reason": "missing business relevance signal"
     },
     {
@@ -427,7 +440,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "What Houston should know about rain Hurricane Polo will bring to Texas this week",
+      "title": "Chris Brown defends his role, fires back at Chris Hollins over City Hall probe",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Review: Perry’s 79-cent pork chop is a pass. How’s the new prime rib sandwich?",
       "reason": "missing business relevance signal"
     },
     {
@@ -452,12 +470,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Chris Brown defends his role, fires back at Chris Hollins over City Hall probe",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Review: Perry’s 79-cent pork chop is a pass. How’s the new prime rib sandwich?",
+      "title": "David Persse, Houston's former chief medical officer, dies at 67",
       "reason": "missing business relevance signal"
     },
     {
@@ -468,6 +481,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "SpaceX Starship reaches orbit, returns to Earth in water landing",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Exclusive: Spending on state-led Bluebonnet curriculum could top $1B",
       "reason": "missing business relevance signal"
     },
     {
@@ -492,7 +510,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How the carjacking of a former Texans player led the FBI to a Houston gang bust",
+      "title": "Lake Houston has some of the region's worst floods. Can a dredging agency help?",
       "reason": "missing business relevance signal"
     },
     {
@@ -507,12 +525,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How the carjacking of a former Texans player led the FBI to a Houston gang bust",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "They voted for Trump. Now his immigration crackdown could separate their family.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Why UT should publicly discipline Colin Simmons, Raleek Brown for crude acts",
+      "title": "Shooting coach Chip Engelland's first tweaks for Alperen Şengün, Amen Thompson",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texans WR Nico Collins returns to practice, but LB Azeez Al-Shaair sidelined",
       "reason": "missing business relevance signal"
     },
     {
@@ -522,12 +550,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "On Texas' lack of offense, bad SEC refs and running steps | Bohls' nine things",
+      "title": "Why UT should publicly discipline Colin Simmons, Raleek Brown for crude acts",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Shooting coach Chip Engelland's first tweaks for Alperen Şengün, Amen Thompson",
+      "title": "On Texas' lack of offense, bad SEC refs and running steps | Bohls' nine things",
       "reason": "missing business relevance signal"
     },
     {
@@ -542,11 +570,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Where to find NBCSN? How to watch Astros-White Sox playoff series on TV",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Alperen Şengün's life should get easier this season. Will he be more efficient?",
       "reason": "missing business relevance signal"
     },
@@ -557,17 +580,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'Something deceptive': How Astros' bats were held in check by a variety of White Sox arms in Game 1",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Case Keenum drives Chicago to 3 touchdowns as the Bears beat the Eagles 27-7",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Police investigate west Houston shooting with one dead, one critically injured",
       "reason": "missing business relevance signal"
     },
     {
@@ -582,22 +595,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Wall Street closes in on a winning September following an encouraging update on inflation",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Ken Paxton says Trump's convention hurt his race in leaked audio",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump disputes his ambassador's account that he asked China's president if he wanted to buy US arms",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "California Gov. Gavin Newsom signs laws to protect workers from AI risks",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Senate approves Trump's pick to lead the Labor Department",
       "reason": "missing business relevance signal"
     },
     {
@@ -627,6 +630,16 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Rubio orders visiting Iranian UN delegation to leave NYC ahead of schedule",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Man arrested on suspicion of planning an attack on the Texas Capitol, authorities say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Rivals for California governor to meet in only scheduled debate as mail ballots go to voters",
       "reason": "missing business relevance signal"
     },
@@ -637,12 +650,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Lineup revealed for Top 100 Restaurants event",
+      "title": "Houston chef and restaurant owner Ryan Tapp dies at 37",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Greg Abbott lifts restrictions on dyed diesel in effort to curb high fuel prices",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Healthcare aide killed, 90-year-old man wounded in southeast Houston shooting",
       "reason": "missing business relevance signal"
     },
     {
@@ -653,11 +671,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Police say parents to face charges after a Michigan toddler displayed a gun at daycare",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston chef and restaurant owner Ryan Tapp dies at 37",
       "reason": "missing business relevance signal"
     },
     {
@@ -692,11 +705,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "House of Louie opens in Montrose from Justin Yu and Bobby Heugel",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Justice Department files complaint against judges over immigration enforcement surge comments",
       "reason": "missing business relevance signal"
     },
@@ -707,7 +715,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas GOP candidate once suggested executing former President Barack Obama",
+      "title": "Trump administration considers scaling back border project in Texas' Big Bend National Park",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "I miss the old Republican Party. What does the GOP stand for now?",
       "reason": "missing business relevance signal"
     },
     {
@@ -731,98 +744,83 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Federal judge blocks FEMA threat to withhold Harris County anti-terrorism funds over election rules",
+      "source": "San Antonio Express-News Business",
+      "title": "H-E-B sells far North Side land with restrictions barring use for grocery - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Former Homeland Security Secretary Kristi Noem files for divorce from her husband of 34 years",
+      "source": "San Antonio Express-News Business",
+      "title": "Mitch Johnson outlines Spurs' plan for Jayden Quaintance's rookie season - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Six Flags Magic Mountain retires X2 roller coaster amid brain injury lawsuits",
+      "source": "San Antonio Express-News Business",
+      "title": "South Texas storm timing has shifted. Here’s when to expect rain. - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Austin luxury homes are bucking the housing slowdown. Here's why - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "South Texas flood watch issued: Here's how much rain is coming - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Legendary Lammes Candies is returning with new partners - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "Flash flooding expected in Texas starting tonight. Here’s where. - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Tesla sued in Travis County over fatal crash alleging sudden acceleration - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "Why the Spurs tabbed Tobias Harris to fill their most glaring hole - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Austin executive files RICO lawsuit against Dads Against Predators - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "Councilman McKee-Rodriguez hit with $1,000 in ethics fines over Facebook post - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "7 new nonstop Southwest Airlines flights from Austin are now available to book - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "When will flooding rain start in San Antonio? Here’s a timeline. - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Paige Ellis is out. Two candidates are vying for her Austin City Council seat. - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "SpaceX Starship mega-rocket splashes down after first-ever orbital flight - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "'Abolish ICE' shirt gets fan kicked out of Q2 Stadium before Austin FC match - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "Police investigate stabbing at Metzger Middle School - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Judge says he’ll rule within 10 days on Austin dog’s future - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "City, BAMC warns Methodist trauma center could hurt military training mission - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "'Free speech only goes in one direction': Piker criticizes UT over venue dispute - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "Violent crime has been in rapid decline for years in S.A., with one exception - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Chris Del Conte: Texas AD not happy with football celebrations v Tennessee - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "Spurs Media Day: Castle, Harper dish on Tex-Mex, trash talk and more - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Best summer dishes in Austin, from fried chicken to raw oysters - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "Inflation cooled slightly last month even as consumers stepped up spending - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Charli XCX to Lorde: The 10 best sets you'll see at ACL Fest 2026 - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "Viral bagel shop to make San Antonio debut before the end of the year - San Antonio Express-News",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Athena’s owlet, once believed dead, is now back in the wild - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Here's when Texas police can legally stop your car - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Austin man shot by ICE agent charged with assaulting federal officer - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Austin ISD enrollment is falling short. What could that mean for its budget? - Austin American-Statesman",
+      "source": "San Antonio Express-News Business",
+      "title": "Six Flags Magic Mountain retires X2 roller coaster amid brain injury lawsuits - San Antonio Express-News",
       "reason": "missing business relevance signal"
     }
   ]
