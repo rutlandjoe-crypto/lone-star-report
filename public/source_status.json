@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-03T12:33:46.921Z",
+  "checked_at": "2026-10-03T17:16:27.539Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 33,
+  "working_sources": 28,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -31,9 +31,8 @@
       "source": "San Antonio Report",
       "region": "San Antonio",
       "mode": "direct",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "HTTP 429"
     },
     {
       "source": "El Paso Matters",
@@ -62,9 +61,8 @@
       "source": "Beaumont Enterprise",
       "region": "Southeast Texas / Beaumont",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "Austin American-Statesman",
@@ -78,9 +76,8 @@
       "source": "El Paso Times",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 1
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "San Antonio Express-News",
@@ -150,7 +147,7 @@
       "region": "Houston / Gulf Coast",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 4,
       "firewall_rejected": 0
     },
     {
@@ -173,7 +170,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 3,
-      "firewall_rejected": 7
+      "firewall_rejected": 5
     },
     {
       "source": "Texas Comptroller",
@@ -205,15 +202,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 74
+      "firewall_rejected": 75
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
-      "firewall_rejected": 97
+      "accepted": 4,
+      "firewall_rejected": 96
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,23 +218,21 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 74
+      "firewall_rejected": 75
     },
     {
       "source": "Beaumont Enterprise Business",
       "region": "Southeast Texas / Beaumont",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 73
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "El Paso Times Business",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 55
+      "status": "failed",
+      "error": "no straight-news items accepted"
     },
     {
       "source": "Dallas Morning News Business",
@@ -341,11 +336,6 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "El Paso Times",
-      "title": "OPINION: Washington should follow Texas on nutrition policy",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
       "source": "On3 - Texas A&M Aggies",
       "title": "4-star SG Malik Olajuwon, son of Hakeem, commits to SMU",
       "reason": "blocked sports noise"
@@ -357,12 +347,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M baseball coach Michael Earley gives update on three injured pitchers entering 2026 fall campaign",
+      "title": "Alex Byington",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Alex Byington",
+      "title": "Texas A&M baseball coach Michael Earley gives update on three injured pitchers entering 2026 fall campaign",
       "reason": "blocked sports noise"
     },
     {
@@ -402,7 +392,7 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Southern Europe Captures 41% of Flyto Move Enquiries",
+      "title": "Your dog's microbiome is the secret to good dental health",
       "reason": "missing business relevance signal"
     },
     {
@@ -426,18 +416,8 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "El Paso Inc.",
-      "title": "Coffee Boss goes from coffee truck to Downtown El Paso shop",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Burnout isn't just a buzzword: Why workers are reaching a breaking point",
-      "reason": "missing business relevance signal"
-    },
-    {
       "source": "Houston Chronicle Business",
-      "title": "Ken Paxton says Trump's convention hurt his race in leaked audio",
+      "title": "Amazon clears key water hurdle for nearly 3,000-acre data center near Houston",
       "reason": "missing business relevance signal"
     },
     {
@@ -447,12 +427,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Amazon clears key water hurdle for nearly 3,000-acre data center near Houston",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Paxton making 'very risky' move by declining to debate Talarico",
+      "title": "Greg Abbott pulls endorsement of Texas House candidate after video shows DWI arrest, racial slur",
       "reason": "missing business relevance signal"
     },
     {
@@ -462,22 +437,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Greg Abbott pulls endorsement of Texas House candidate after video shows DWI arrest, racial slur",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "How's it looking for Texas GOP as midterms near? Not good, says key Republican.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Blue Alert: Manhunt underway after Harris County deputy shot in Channelview",
+      "title": "Houston mother accused of killing 4-year-old daughter has died, police say",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston mother accused of killing 4-year-old daughter has died, police say",
+      "title": "Blue Alert: Manhunt underway after Harris County deputy shot in Channelview",
       "reason": "missing business relevance signal"
     },
     {
@@ -517,17 +487,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Judge rules Galveston ISD has 10 days to display Ten Commandments in classrooms",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "US Supreme Court clears way for Christa Gail Pike’s execution in Tennessee to go forward",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Kristin Guiney, Texas First Court of Appeals justice, dies",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Judge rules Galveston ISD has 10 days to display Ten Commandments in classrooms",
+      "title": "Texas First Court of Appeals Justice Kristin Guiney, a former Harris County judge and prosecutor, dies",
       "reason": "missing business relevance signal"
     },
     {
@@ -562,17 +532,27 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Who can become a free agent? Contract situation for every Astros player entering 2026-27 offseason",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Which HISD schools are losing staff and programs due to enrollment decline? Here's a list so far.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "In proposal to Pope, Mattress Mack will send Chicago students to White Sox game",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston could change the rules on its tax breaks. Here’s how.",
+      "title": "Rain, cooler weather and a Gulf signal. What’s next for Houston?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Rain, cooler weather and a Gulf signal. What’s next for Houston?",
+      "title": "Houston could change the rules on its tax breaks. Here’s how.",
       "reason": "missing business relevance signal"
     },
     {
@@ -627,12 +607,27 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "This rock legend is putting big money into turning Texas blue",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston to honor former state Rep. Garnet Coleman at Oct. 9 memorial",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Rubio orders visiting Iranian UN delegation to leave NYC ahead of schedule",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "The Latest: Trump hits the campaign trail as a new AP-NORC poll shows his deepening unpopularity",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston’s boudin and po-boy scenes keep evolving",
       "reason": "missing business relevance signal"
     },
     {
@@ -652,17 +647,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston to honor former state Rep. Garnet Coleman at Oct. 9 memorial",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Tips for getting a professional headshot that feels authentic and conveys the image you want",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "A Russian drone hits a Kyiv school as Moscow presses its aerial campaign against Ukraine",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Governor says Tennessee's prisons chief is resigning after failed execution of Christa Pike",
       "reason": "missing business relevance signal"
     },
     {
@@ -677,22 +672,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "A famed Hawaii sea arch collapses, prompting NPS warnings of unstable cliffs",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Dual UK-Iranian national arrested over security incident at US-run air base in England",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston’s boudin and po-boy scenes keep evolving",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Kennedy Center Honors to be held at Capital One Arena amid fight over adding Trump's name",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Red tide returns to Texas coast, raising health concerns for beachgoers",
       "reason": "missing business relevance signal"
     },
     {
@@ -707,12 +697,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Betelgeuse Betelgeuse unveils $40,000 Halloween decor after donation",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Police say parents to face charges after a Michigan toddler displayed a gun at daycare",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "An Ebola treatment center was burned down as the death toll in Congo passes 4,000",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A $28B hemp THC industry is fighting to save itself from a looming federal ban",
       "reason": "missing business relevance signal"
     },
     {
@@ -747,11 +747,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Rep. Charlene Ward Johnson brings higher ed experience to Austin | Endorsement",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Hurricane risk for Texas drops significantly in October. What's next?",
       "reason": "missing business relevance signal"
     },
@@ -768,16 +763,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "New ICE guidance bans high-speed car chases and sets tighter rules for traffic stops, a memo shows",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Flood threat grows across several states. Is Houston in the path?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Betelgeuse Betelgeuse unveils $40,000 Halloween decor after donation",
       "reason": "missing business relevance signal"
     },
     {
@@ -817,13 +802,23 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Police: Man killed in South Austin burglary may be tied to other thefts - Austin American-Statesman",
+      "title": "Charli xcx hints at a surprise for her ACL Fest set - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Watch Charli XCX, Skrillex and more from ACL Fest on Hulu - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "UT’s leaders are putting the university’s academic strength at risk | Opinion - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Travis County must process 35,000 voter records after DPS error - Austin American-Statesman",
+      "reason": "missing business relevance signal"
     }
   ]
 }
