@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-03T17:16:27.539Z",
+  "checked_at": "2026-10-03T19:57:47.355Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 28,
+  "working_sources": 31,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -31,8 +31,9 @@
       "source": "San Antonio Report",
       "region": "San Antonio",
       "mode": "direct",
-      "status": "failed",
-      "error": "HTTP 429"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "El Paso Matters",
@@ -76,8 +77,9 @@
       "source": "El Paso Times",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "San Antonio Express-News",
@@ -202,15 +204,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 75
+      "firewall_rejected": 76
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 96
+      "accepted": 3,
+      "firewall_rejected": 97
     },
     {
       "source": "San Antonio Express-News Business",
@@ -231,8 +233,9 @@
       "source": "El Paso Times Business",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 54
     },
     {
       "source": "Dallas Morning News Business",
@@ -427,22 +430,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "This rock legend is putting big money into turning Texas blue",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Greg Abbott pulls endorsement of Texas House candidate after video shows DWI arrest, racial slur",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Chris Brown defends his role, fires back at Chris Hollins over City Hall probe",
+      "title": "Houston mother accused of killing 4-year-old daughter has died, police say",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "How's it looking for Texas GOP as midterms near? Not good, says key Republican.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston mother accused of killing 4-year-old daughter has died, police say",
       "reason": "missing business relevance signal"
     },
     {
@@ -462,17 +465,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Exclusive: Spending on state-led Bluebonnet curriculum could top $1B",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas Faith Fest speakers propose plans to make Muslims ‘more uncomfortable’",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "A matter of minutes: Conroe ISD is extending school days this year.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas First Court of Appeals Justice Kristin Guiney, a former Harris County judge and prosecutor, dies",
       "reason": "missing business relevance signal"
     },
     {
@@ -497,11 +500,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas First Court of Appeals Justice Kristin Guiney, a former Harris County judge and prosecutor, dies",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Don’t vote out Gov. Greg Abbott’s felony court judges | Endorsement",
       "reason": "missing business relevance signal"
     },
@@ -522,22 +520,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texans WR Nico Collins returns to practice, but LB Azeez Al-Shaair sidelined",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Looking ahead to UT-OU, Lincoln Riley's fate | A Texas take on college football",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Who can become a free agent? Contract situation for every Astros player entering 2026-27 offseason",
+      "title": "Contract situation for every Houston Astros player entering 2026-27 offseason",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Which HISD schools are losing staff and programs due to enrollment decline? Here's a list so far.",
+      "title": "UH unveils space-themed helmets for game vs. UCF",
       "reason": "missing business relevance signal"
     },
     {
@@ -607,11 +600,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "This rock legend is putting big money into turning Texas blue",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston to honor former state Rep. Garnet Coleman at Oct. 9 memorial",
       "reason": "missing business relevance signal"
     },
@@ -658,6 +646,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Governor says Tennessee's prisons chief is resigning after failed execution of Christa Pike",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mary Ann Perez for Texas House 144. She’s not a drunk idiot. | Endorsement",
       "reason": "missing business relevance signal"
     },
     {
@@ -737,11 +730,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Justice Department files complaint against judges over immigration enforcement surge comments",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "How the Smithsonian is using AI to connect artifacts from the American Revolution",
       "reason": "missing business relevance signal"
     },
@@ -791,23 +779,33 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Inside Tesla's Cybercab: No steering wheel, no pedals and a few surprises. - Austin American-Statesman",
+      "source": "Houston Chronicle Business",
+      "title": "Trump heads to Alabama: 'I go there because they want to see me there'",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "FACT FOCUS: What people are alleging in a Cornell University fraternity gang rape case",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Voters favor Democrats on key issues but lack faith in either party to solve problems: AP-NORC poll",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Democratic group offers a new framework for the US-Israel relationship as party rifts deepen",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin executive files RICO lawsuit against Dads Against Predators - Austin American-Statesman",
+      "title": "New Austin flights: Southwest will serve these Caribbean destinations - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Charli xcx hints at a surprise for her ACL Fest set - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Watch Charli XCX, Skrillex and more from ACL Fest on Hulu - Austin American-Statesman",
+      "title": "No steering wheel. No pedals. Plenty of surprises inside Tesla's new Cybercab. - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -817,7 +815,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Travis County must process 35,000 voter records after DPS error - Austin American-Statesman",
+      "title": "Jim Rome doesn’t mind Colin Simmons’ Texas urination celebration - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "$42 million Austin-area ranch finds buyer in less than six months - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
