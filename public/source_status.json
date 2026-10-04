@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-04T19:37:28.955Z",
+  "checked_at": "2026-10-04T23:09:20.100Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 30,
+  "working_sources": 33,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -70,8 +70,9 @@
       "source": "Austin American-Statesman",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "El Paso Times",
@@ -110,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -118,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -126,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Baylor Bears",
@@ -142,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Houston Cougars",
@@ -170,8 +171,9 @@
       "source": "El Paso Inc.",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 1,
+      "firewall_rejected": 7
     },
     {
       "source": "Texas Comptroller",
@@ -203,14 +205,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 79
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 1,
+      "firewall_rejected": 99
     },
     {
       "source": "San Antonio Express-News Business",
@@ -226,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 81
     },
     {
       "source": "El Paso Times Business",
@@ -234,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 71
+      "firewall_rejected": 70
     },
     {
       "source": "Dallas Morning News Business",
@@ -339,22 +342,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "4-star SG Malik Olajuwon, son of Hakeem, commits to SMU",
+      "title": "Joseph Hastings",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
       "title": "Texas A&M baseball coach Michael Earley gives update on three injured pitchers entering 2026 fall campaign",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Alex Byington",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Tech Red Raiders",
-      "title": "4-star SG Malik Olajuwon, son of Hakeem, commits to SMU",
       "reason": "blocked sports noise"
     },
     {
@@ -368,33 +361,13 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "4-star SG Malik Olajuwon, son of Hakeem, commits to SMU",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "Pittsburgh Sports Now News, Analysis & Insider Reports",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - SMU Mustangs",
-      "title": "4-star SG Malik Olajuwon, son of Hakeem, commits to SMU",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "El Paso Inc.",
-      "title": "October’s National Pedestrian Safety Month Puts Spotlight on Pedestrian Accidents Across Georgia",
+      "title": "- El Paso Inc.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
       "title": "Solar Panel Installers at Lumina Solar Delaware on Solar When the Grid Goes Down",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Lone Wolf Exteriors Introduces Zero-Percent Financing for Window Replacement and Siding Projects",
       "reason": "missing business relevance signal"
     },
     {
@@ -434,11 +407,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Greg Abbott pulls endorsement of Texas House candidate after video shows DWI arrest, racial slur",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "This rock legend is putting big money into turning Texas blue",
       "reason": "missing business relevance signal"
     },
@@ -449,17 +417,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston mother accused of killing 4-year-old daughter has died, police say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "She built a life in Houston. Now her family's future is in limbo.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Judge rules Galveston ISD has 10 days to display Ten Commandments in classrooms",
       "reason": "missing business relevance signal"
     },
     {
@@ -469,12 +427,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Duke Carlisle, quarterback who won national title at Texas, dies at 84",
+      "title": "Inside Jerry Jones' push to help Bob McNair get a NFL team in Houston",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas high school football: Friday's scores from Week 6",
+      "title": "Duke Carlisle, quarterback who won national title at Texas, dies at 84",
       "reason": "missing business relevance signal"
     },
     {
@@ -484,7 +442,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UH soldiers on, storms past UCF with big second-half comeback",
+      "title": "Texas high school football: Friday's scores from Week 6",
       "reason": "missing business relevance signal"
     },
     {
@@ -494,17 +452,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Contract situation for every Houston Astros player entering 2026-27 offseason",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Something to build on? Texas A&M rides ground game to beatdown of Arkansas",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Sprouts slated to expand in Houston area with two new stores next year",
       "reason": "missing business relevance signal"
     },
     {
@@ -515,6 +463,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Trump names national intelligence director Jay Clayton to lead a new federal AI task force",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Sprouts slated to expand in Houston area with two new stores next year",
       "reason": "missing business relevance signal"
     },
     {
@@ -644,6 +597,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "US Air Force removes all bombers from British air base targeted by a suspected terror attack",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "In a 99-cent AriZona Iced Tea can, echoes of childhood autonomy and fleeting freedoms",
       "reason": "missing business relevance signal"
     },
@@ -675,11 +633,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "FACT FOCUS: What people are alleging in a Cornell University fraternity gang rape case",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Rubio waives human rights restrictions to release $320 million in military aid to Egypt",
       "reason": "missing business relevance signal"
     },
     {
@@ -719,22 +672,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Georgia election board will not immediately move ahead with GOP plan to fix flaw in election system",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Christa Pike's lawyer says she has not regained consciousness since her failed Tennessee execution",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Christa Pike on a ventilator and unconscious after failed Tennessee execution, attorneys say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump urges calls to Arkansas Sen. Tom Cotton in push for permanent daylight saving time",
       "reason": "missing business relevance signal"
     },
     {
@@ -759,11 +702,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Hurricane Rachel strengthens to a Category 3 storm off Mexico's Pacific coast",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Turkey is considering nominating former foreign minister for top United Nations job",
       "reason": "missing business relevance signal"
     },
@@ -784,12 +722,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Search ongoing for missing medical flight from Bermuda to Boston as crews plan to scour ocean floor",
+      "title": "2 shot dead and dozens injured at neighborhood block party shooting in southern Georgia",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Judge denies defense motion asking Lindsay Clancy be found not guilty due to a lack of evidence",
+      "title": "Search ongoing for missing medical flight from Bermuda to Boston as crews plan to scour ocean floor",
       "reason": "missing business relevance signal"
     },
     {
@@ -809,17 +747,82 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former Dallas officer who shot Black man in apartment that she mistook for hers gets parole",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Federal panel gives final approval to new design for White House security screening center",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "After rainy start to October, Houston’s weather is about to shift. Here's what's coming.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Taiwan receives 2 long-delayed US F-16Vs and awaits additional fighter jets",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Tennessee's prisons chief is resigning after failed execution of Christa Pike",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Now it's Typhoon Nolo after Pacific hurricane crosses the international dateline",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The Supreme Court will hear a major climate change case involving a devastating Colorado wildfire",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What to know about the investigation into Cornell University gang rape allegations",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What to expect this week from school protests rattling France's government",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Untitled Art Houston fair expands into a 'cultural event' in 2026",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mary Ann Perez for Texas House 144. She’s not a drunk idiot. | Endorsement",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "New Austin flights: Southwest will serve these Caribbean destinations - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Underwear explodes during Charli xcx's ACL Fest headline set - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Did Trump’s convention hurt Paxton? The Senate hopeful says his numbers dropped - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Man shot by ICE in Austin finally has bullet removed. Was the 11-day wait too long? - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Steve Sarkisian: Can Texas football coach fix these offensive issues? - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Strong second quarter spurs Westlake to rout of Round Rock - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Charli xcx hints at a surprise for her ACL Fest set - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
