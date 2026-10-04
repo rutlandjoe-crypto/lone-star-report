@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-03T23:03:35.228Z",
+  "checked_at": "2026-10-04T02:38:35.835Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 31,
+  "working_sources": 33,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -70,8 +70,9 @@
       "source": "Austin American-Statesman",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 2
     },
     {
       "source": "El Paso Times",
@@ -142,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 3
     },
     {
       "source": "On3 - Houston Cougars",
@@ -204,14 +205,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 81
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 3,
+      "firewall_rejected": 97
     },
     {
       "source": "San Antonio Express-News Business",
@@ -227,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 75
+      "firewall_rejected": 76
     },
     {
       "source": "El Paso Times Business",
@@ -235,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 55
+      "firewall_rejected": 59
     },
     {
       "source": "Dallas Morning News Business",
@@ -250,7 +252,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "Houston Chronicle Astros Desk",
@@ -329,6 +331,16 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
+      "source": "Austin American-Statesman",
+      "title": "UT’s leaders are putting the university’s academic strength at risk | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman",
+      "title": "Oil theft steals billions.Texas leaders must listen to locals | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "San Antonio Express-News",
       "title": "Opinion: A judge shuts down Trump’s ‘fanciful’ charges. Will voters? - San Antonio Express-News",
       "reason": "blocked editorial/opinion phrase"
@@ -386,6 +398,11 @@
     {
       "source": "On3 - SMU Mustangs",
       "title": "James Franklin's 4-0 Hokies host Pittsburgh and a wave of priority recruits Friday night",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - SMU Mustangs",
+      "title": "Texas A&M baseball coach Michael Earley gives update on three injured pitchers entering 2026 fall campaign",
       "reason": "blocked sports noise"
     },
     {
@@ -470,11 +487,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas First Court of Appeals Justice Kristin Guiney, a former Harris County judge and prosecutor, dies",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston rain timeline: Here's when storms arrive and where flooding is possible",
       "reason": "missing business relevance signal"
     },
@@ -485,17 +497,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Review: Perry’s 79-cent pork chop is a pass. How’s the new prime rib sandwich?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "She built a life in Houston. Now her family's future is in limbo.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Don’t vote out Gov. Greg Abbott’s felony court judges | Endorsement",
+      "title": "Texas First Court of Appeals Justice Kristin Guiney, a former Harris County judge and prosecutor, dies",
       "reason": "missing business relevance signal"
     },
     {
@@ -505,12 +512,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Bellaire cancels football game because of staph infection among players",
+      "title": "Inside Jerry Jones' push to help Bob McNair get a NFL team in Houston",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Inside Jerry Jones' push to help Bob McNair get a NFL team in Houston",
+      "title": "Bellaire cancels football game because of staph infection among players",
       "reason": "missing business relevance signal"
     },
     {
@@ -540,6 +547,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "UH soldiers on, storms past UCF with big second-half comeback",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston could change the rules on its tax breaks. Here’s how.",
       "reason": "missing business relevance signal"
     },
@@ -551,11 +563,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "The Latest: Trump will campaign in Alabama ahead of the midterm elections",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "California Gov. Gavin Newsom signs laws to protect workers from AI risks",
       "reason": "missing business relevance signal"
     },
     {
@@ -605,17 +612,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Rubio orders visiting Iranian UN delegation to leave NYC ahead of schedule",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "The Latest: Trump hits the campaign trail as a new AP-NORC poll shows his deepening unpopularity",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston’s boudin and po-boy scenes keep evolving",
+      "title": "Nolo becomes a Category 3 Hurricane in the remote Pacific Ocean",
       "reason": "missing business relevance signal"
     },
     {
@@ -645,11 +647,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Mary Ann Perez for Texas House 144. She’s not a drunk idiot. | Endorsement",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "California helicopter crash kills 2 people and leaves 2 hospitalized and 1 missing",
       "reason": "missing business relevance signal"
     },
@@ -661,6 +658,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "A famed Hawaii sea arch collapses, prompting NPS warnings of unstable cliffs",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Cornell president calls alleged gang rape 'deeply disturbing,' pledges greater transparency",
       "reason": "missing business relevance signal"
     },
     {
@@ -745,6 +747,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Rubio orders visiting Iranian UN delegation to leave NYC ahead of schedule",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Nolo strengthens to a hurricane again in the Pacific Ocean",
       "reason": "missing business relevance signal"
     },
@@ -790,12 +797,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Democratic group offers a new framework for the US-Israel relationship as party rifts deepen",
+      "title": "Rubio waives human rights restrictions to release $320 million in military aid to Egypt",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Rubio waives human rights restrictions to release $320 million in military aid to Egypt",
+      "title": "Houston’s boudin and po-boy scenes keep evolving",
       "reason": "missing business relevance signal"
     },
     {
@@ -805,22 +812,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "3 billionaires give Republican Tom Tiffany a big cash boost in the Wisconsin governor's race",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Trump rallies in Ohio to boost Jon Husted in a tight Senate race against Sherrod Brown",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "San Antonio Express-News Business",
-      "title": "San Antonio's beloved Hungry Farmer Steakhouse closes days after founder's death - San Antonio Express-News",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "San Antonio Express-News Business",
-      "title": "Conservation Society scraps La Villita deal, raising more doubts about NIOSA - San Antonio Express-News",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "San Antonio Express-News Business",
-      "title": "Flash flood warning issued for San Antonio: Avoid all travel if possible - San Antonio Express-News",
+      "source": "Houston Chronicle Business",
+      "title": "A 21-year-old Fortnite pro gives out computers to young gamers and plans for more through a new fund",
       "reason": "missing business relevance signal"
     }
   ]
