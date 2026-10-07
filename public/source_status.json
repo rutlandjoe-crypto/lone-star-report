@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-07T00:42:23.696Z",
+  "checked_at": "2026-10-07T07:14:07.330Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 32,
+  "working_sources": 33,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -171,8 +171,9 @@
       "source": "El Paso Inc.",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 1,
+      "firewall_rejected": 2
     },
     {
       "source": "Texas Comptroller",
@@ -204,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 86
+      "firewall_rejected": 85
     },
     {
       "source": "Austin American-Statesman Business",
@@ -212,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 96
+      "firewall_rejected": 95
     },
     {
       "source": "San Antonio Express-News Business",
@@ -220,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 87
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -236,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 81
     },
     {
       "source": "Dallas Morning News Business",
@@ -282,7 +283,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 2,
+      "accepted": 1,
       "firewall_rejected": 0
     },
     {
@@ -401,17 +402,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Polls show Hinojosa closer to knocking off Abbott compared to prior challengers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas Republicans forgot how to ask for your vote | Opinion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston gets $12M from feds for ‘treatment first’ homelessness approach",
       "reason": "missing business relevance signal"
     },
     {
@@ -421,7 +412,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston to pull bid for $150M federal grant as council questioned its ICE rules",
+      "title": "Polls show Hinojosa closer to knocking off Abbott compared to prior challengers",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston gets $12M from feds for ‘treatment first’ homelessness approach",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Whitmire administration will pull bid for $150M federal grant as council questioned its ICE implications",
       "reason": "missing business relevance signal"
     },
     {
@@ -461,11 +462,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas high school football: Saturday's scores from Week 6",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "How Texas teams rank in AP college football top 25",
       "reason": "missing business relevance signal"
     },
@@ -481,22 +477,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Something to build on? Texas A&M rides ground game to beatdown of Arkansas",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "UH football notes: RB John Hebert likely lost for rest of season with leg injury",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "UH gets prime-time slot for home game vs. Oklahoma State",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Former Texans running back Joe Mixon, healthy again, signs with Seattle Seahawks",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "UH football notes: RB John Hebert likely lost for rest of season with leg injury",
       "reason": "missing business relevance signal"
     },
     {
@@ -517,11 +508,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "US stocks rise to the edge of an all-time high",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump highlights a big new defense project in Maryland, a blue state whose governor won't be there",
       "reason": "missing business relevance signal"
     },
     {
@@ -561,6 +547,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Trump highlights a big new defense project in Maryland, a blue state whose governor didn't attend",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Zambia says it will sign $3.6 billion US health deal after stripping patient data clauses",
       "reason": "missing business relevance signal"
     },
@@ -572,11 +563,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Trump approves firing squad execution for Fort Hood shooter Nidal Hasan",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Make room on the fall table for this mushroom and wild rice pilaf",
       "reason": "missing business relevance signal"
     },
     {
@@ -596,6 +582,16 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Dozens of dogs rescued from north Houston mobile home",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Make room on the fall table for this mushroom and wild rice pilaf",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "US military says latest strike on alleged drug-smuggling boat in the Caribbean kills 4",
       "reason": "missing business relevance signal"
     },
@@ -611,7 +607,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Firing squad execution of Fort Hood shooter Nidal Hasan scheduled for December",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Mother and son from Bermuda named as passengers on missing medical flight from Bermuda to Boston",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Christa Pike is awake after failed execution as her attorneys seek more information",
       "reason": "missing business relevance signal"
     },
     {
@@ -631,11 +637,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Republicans to spend $5 million in South Carolina Senate race as Trump plans trip there",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Trump says his super PAC will pay for taxpayer-funded ads that sparked backlash for glorifying him",
       "reason": "missing business relevance signal"
     },
@@ -647,6 +648,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "A new Supreme Court term begins with cases on climate change, immigration and gun rights",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "These 4 school districts are being targeted by Greg Abbott's audit order",
       "reason": "missing business relevance signal"
     },
     {
@@ -681,12 +687,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Israeli strike kills 1 Palestinian in Gaza, and other Mideast news",
+      "title": "Texas set to execute man for fatally shooting a convenience store clerk during robbery in 2000",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas state representative, District 147: Jolanda Jones | Endorsement",
+      "title": "Israeli strike kills 1 Palestinian in Gaza, and other Mideast news",
       "reason": "missing business relevance signal"
     },
     {
@@ -711,7 +717,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Spain's prime minister calls snap election aiming to seize momentum over housing crisis",
+      "title": "Republicans to spend $5 million in South Carolina Senate race as Trump plans trip there",
       "reason": "missing business relevance signal"
     },
     {
@@ -727,11 +733,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "What Paramount’s Warner Bros. takeover means for streaming, movies and news",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Former ‘American Idol’ singer Caleb Flynn is sentenced to life in prison for wife’s murder",
       "reason": "missing business relevance signal"
     },
     {
@@ -756,6 +757,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston stays sunny Tuesday before rain chances return later this week",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Letitia Plummer outraises Orlando Sanchez by $100K in Harris County judge race",
       "reason": "missing business relevance signal"
     },
@@ -776,22 +782,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "These 4 school districts are being targeted by Greg Abbott's audit order",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Christa Pike is conscious and speaking after Tennessee failed execution, her attorneys say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Doctors, insurers sue Newsom over health insurance premium increases",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Despair over future fuels political anxiety for college students on the cusp of adulthood",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Okinawa governor wants discipline for US military in Japan after murder linked to Marine",
       "reason": "missing business relevance signal"
     },
     {
@@ -806,12 +807,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former Prince Andrew files a legal action to quash warrants that led to searches of his residence",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Appeals court weighs judge's authority to restore Trump administration funding cuts to Harvard",
+      "title": "In first Maine Senate debate, Collins seeks to distance herself from Trump",
       "reason": "missing business relevance signal"
     },
     {
@@ -822,6 +818,11 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "Your Austin H-E-B may have started as a Piggly Wiggly. See how the chain grew. - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "ICE releases Austin woman minutes after stopping her near school bus stop - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
