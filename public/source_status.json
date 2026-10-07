@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-07T14:31:24.191Z",
+  "checked_at": "2026-10-07T20:37:26.427Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -41,7 +41,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 3
     },
     {
       "source": "Houston Chronicle",
@@ -72,7 +72,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 4
+      "firewall_rejected": 5
     },
     {
       "source": "El Paso Times",
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -143,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Houston Cougars",
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 1,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "Texas Comptroller",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 88
     },
     {
       "source": "Austin American-Statesman Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 87
+      "firewall_rejected": 84
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 90
+      "firewall_rejected": 89
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 74
     },
     {
       "source": "Dallas Morning News Business",
@@ -320,11 +320,16 @@
       "region": "San Antonio / South Central Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 4,
       "firewall_rejected": 0
     }
   ],
   "firewall_rejections": [
+    {
+      "source": "El Paso Matters",
+      "title": "Opinion: Switch Together program brings deals on rooftop solar and home batteries",
+      "reason": "blocked editorial/opinion phrase"
+    },
     {
       "source": "El Paso Matters",
       "title": "Opinion: El Paso women cannot underestimate the danger in Texas’ extreme reproductive policies",
@@ -352,6 +357,11 @@
     },
     {
       "source": "Austin American-Statesman",
+      "title": "Rosenthal would bring crucial expertise to Railroad Commission | Endorsement - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman",
       "title": "How we reach our endorsements — and why your vote is yours | Opinion - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
     },
@@ -366,11 +376,6 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - Texas Tech Red Raiders",
-      "title": "Paul Finebaum on Deion Sanders at Colorado: 'It's over'",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - TCU Horned Frogs",
       "title": "Edwards' Bounce Back Bodes Well for UNC - Daily Take",
       "reason": "blocked sports noise"
@@ -381,13 +386,18 @@
       "reason": "blocked sports noise"
     },
     {
+      "source": "On3 - SMU Mustangs",
+      "title": "SMU Basketball recruiting heating up in a big way",
+      "reason": "blocked sports noise"
+    },
+    {
       "source": "El Paso Inc.",
-      "title": "Why Schneider Electric's biggest U.S. hub keeps growing in El Paso",
+      "title": "Michigan Firm Targets Estate Gaps With Litigation-Backed Planning",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "A Gulf system could develop this week. How strong could it get?",
+      "source": "El Paso Inc.",
+      "title": "Why Schneider Electric's biggest U.S. hub keeps growing in El Paso",
       "reason": "missing business relevance signal"
     },
     {
@@ -402,11 +412,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Sprouts slated to expand in Houston area with two new stores next year",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas Republicans forgot how to ask for your vote | Opinion",
       "reason": "missing business relevance signal"
     },
@@ -417,7 +422,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Juan Lozano named Houston Chronicle breaking news editor",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Tropical Depression Nine forms in Gulf and could become season’s first hurricane",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Polls show Hinojosa closer to knocking off Abbott compared to prior challengers",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Katy 22-year-old missing for a week in Louisiana after hit-and-run crash",
       "reason": "missing business relevance signal"
     },
     {
@@ -427,12 +447,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Allegations against former Conroe ISD coach sent to sheriff's office for review after Paxton opinion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What to know before Michelin unveils its 2026 Texas restaurant guide",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston gets $12M from feds for ‘treatment first’ homelessness approach",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Allegations against former Conroe ISD coach sent to sheriff's office for review after Paxton opinion",
+      "title": "Letitia Plummer outraises Orlando Sanchez by $100K in Harris County judge race",
       "reason": "missing business relevance signal"
     },
     {
@@ -452,7 +482,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston doctor accused of filing 9,000 visit claims in 1 day in $30M fraud case",
+      "title": "Former Texas A&M, TCU, Alabama football coach Dennis Franchione dead at 75",
       "reason": "missing business relevance signal"
     },
     {
@@ -472,7 +502,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Social media star BenDaDonnn tased, arrested near Texas A&M college bar over the weekend",
+      "title": "Review: Mark Zuckerberg is going to be big mad with Aaron Sorkin's 'The Social Reckoning'",
       "reason": "missing business relevance signal"
     },
     {
@@ -487,12 +517,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Why Texans used timeouts on defense while trying to hold lead in loss to Cowboys",
+      "title": "Houston doctor accused of filing 9,000 visit claims in 1 day in $30M fraud case",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Texas teams rank in AP college football top 25",
+      "title": "Why Texans used timeouts on defense while trying to hold lead in loss to Cowboys",
       "reason": "missing business relevance signal"
     },
     {
@@ -502,17 +532,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "With Texans' 0-4 start, here are only teams to do that and finish at least .500",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas Voter Guide: See which candidates are endorsed by our Editorial Board",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former Texas A&M, TCU, Alabama football coach Dennis Franchione dead at 75",
+      "title": "Houston man charged with capital murder in fatal shooting of ex-girlfriend, her boyfriend",
       "reason": "missing business relevance signal"
     },
     {
@@ -557,6 +582,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston is selling 2 downtown office towers in 'skyline-redefining' move",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Camp Mystic should be leveled to the ground. | Opinion",
       "reason": "missing business relevance signal"
     },
@@ -567,12 +597,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Trump administration proposes a $70,000 fee for international students to work in the US",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Before a natural disaster, a governor’s order can free up the National Guard and medical help",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "ABC and Trump's FCC battle in federal court over issues of free speech and jurisdiction",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Standoff ends peacefully after man barricades himself with infant",
+      "title": "Standoff ends peacefully after man barricades himself with infant in south Houston, authorities say",
       "reason": "missing business relevance signal"
     },
     {
@@ -612,6 +652,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "FCC considers allowing more political robocalls before midterms, including those created with AI",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "McDonald's sued over AI tool that recommends prices to US franchisees",
       "reason": "missing business relevance signal"
     },
@@ -642,12 +687,32 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston heat this week peaks Wednesday, threatens 70-year record",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Flight attendants' union flags safety concerns over Trump's Washington arch",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "This longtime Texas Democrat takes his job in Austin personally | Endorsement",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trial begins for a man accused of killing UNC student Faith Hedgepeth 14 years ago",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Mother and son from Bermuda named as passengers on missing medical flight from Bermuda to Boston",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Christa Pike is awake after failed execution as her attorneys seek more information",
+      "title": "This GOP incumbent is at his best when he’s focused on the basics | Endorsement",
       "reason": "missing business relevance signal"
     },
     {
@@ -663,11 +728,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Dolly Parton's multifaceted legacy showcased at Nashville museum and hotel",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston heat this week peaks Wednesday, threatens 70-year record",
       "reason": "missing business relevance signal"
     },
     {
@@ -692,7 +752,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Katy 22-year-old missing for a week in Louisiana after hit-and-run crash",
+      "title": "Houston Chronicle partners with emergency notifications platform Everbridge for alerts pilot",
       "reason": "missing business relevance signal"
     },
     {
@@ -712,17 +772,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas voters have one more day to register for the 2026 midterm election",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Paramount and Warner Bros are now one Hollywood giant: Skydance. Here's how we got here",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Philanthropists launch $48M fund for Houston’s ‘next chapter’ in homelessness",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "The enduring popularity of Elvis Presley's Graceland is a monument to his legacy",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Appeals court weighs judge's authority to restore Trump administration funding cuts to Harvard",
       "reason": "missing business relevance signal"
     },
     {
@@ -742,7 +807,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Gulf Tropical Storm Isaias forms, likely to be season's first hurricane",
+      "title": "Texas voters have one more day to register for the 2026 midterm election",
       "reason": "missing business relevance signal"
     },
     {
@@ -758,71 +823,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Republicans to spend $5 million in South Carolina Senate race as Trump plans trip there",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Nepal ends search for thousands of flood victims as family reactions range from anger to relief",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "What Paramount’s Warner Bros. takeover means for streaming, movies and news",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas set to execute man for fatally shooting a convenience store clerk during robbery in 2000",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "White House aide: Trump did not call for attacks on US cities but explained how he's preventing them",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "11 minutes on the steps: How an AP photographer framed Trump and Xi’s red-carpet shot",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump criticizes election officials in Arizona’s Maricopa County over error affecting 3,000 ballots",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston stays sunny Tuesday before rain chances return later this week",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "These 10 Houston restaurants closed in September",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Letitia Plummer outraises Orlando Sanchez by $100K in Harris County judge race",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "PEN America: Nearly 12,000 school book bans in a year, a record high",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston dries out this week, but when could a stronger front arrive?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Doctors, insurers sue Newsom over health insurance premium increases",
       "reason": "missing business relevance signal"
     }
   ]
