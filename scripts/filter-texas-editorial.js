@@ -48,7 +48,8 @@ const texasSignals = [
   "texas workforce",
   "texas education agency",
   "texas parks and wildlife",
-  "border",
+  "rio grande",
+  "texas-mexico border",
   "big bend"
 ];
 
@@ -343,6 +344,12 @@ function dedicatedSportsFeedCheck(story, text) {
 }
 
 function allowStory(story, section) {
+  const headline = String(story.headline || story.title || "").trim();
+  if (!headline || /\s[-??:]\s*page\s+\d+\s*$/i.test(headline)) return false;
+  try {
+    const link = new URL(story.url);
+    if (!["http:", "https:"].includes(link.protocol)) return false;
+  } catch { return false; }
   const text = textOf(story);
 
   if (!text.trim()) {
@@ -474,11 +481,18 @@ if (Array.isArray(report.homepage_cards)) {
     report.homepage_cards
       .map(normalizeStory)
       .filter(story =>
-        !story.url ||
         validUrls.has(story.url)
       );
 }
 
+const retained = Object.values(report.sections).flat();
+if (!retained.length) throw new Error("Editorial filter retained no stories; refusing to publish");
+report.source_counts = {};
+report.region_counts = {};
+for (const story of retained) {
+  if (story.source) report.source_counts[story.source] = (report.source_counts[story.source] || 0) + 1;
+  if (story.region) report.region_counts[story.region] = (report.region_counts[story.region] || 0) + 1;
+}
 fs.writeFileSync(
   REPORT,
   JSON.stringify(

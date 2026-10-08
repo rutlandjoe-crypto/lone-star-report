@@ -35,7 +35,7 @@ jobs:
           fi
 
       - name: Refresh Texas news
-        run: node scripts/fetch-texas-news.js
+        run: npm run fetch:texas
 
       - name: Validate generated report
         run: |
