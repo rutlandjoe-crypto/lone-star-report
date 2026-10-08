@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-07T20:37:26.427Z",
+  "checked_at": "2026-10-08T01:00:11.063Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -33,7 +33,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "El Paso Matters",
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 1,
-      "firewall_rejected": 2
+      "firewall_rejected": 3
     },
     {
       "source": "Texas Comptroller",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 88
+      "firewall_rejected": 89
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 95
+      "firewall_rejected": 93
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 86
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 74
+      "firewall_rejected": 73
     },
     {
       "source": "Dallas Morning News Business",
@@ -326,6 +326,11 @@
   ],
   "firewall_rejections": [
     {
+      "source": "San Antonio Report",
+      "title": "Wine, music and cars make Johnson City a fall hotspot",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "El Paso Matters",
       "title": "Opinion: Switch Together program brings deals on rooftop solar and home batteries",
       "reason": "blocked editorial/opinion phrase"
@@ -401,6 +406,11 @@
       "reason": "missing business relevance signal"
     },
     {
+      "source": "El Paso Inc.",
+      "title": "Many women are unaware of the serious link between breast cancer and alcohol consumption",
+      "reason": "missing business relevance signal"
+    },
+    {
       "source": "Houston Chronicle Business",
       "title": "A $100 million divorce shows why Texas needs anti-Sharia laws",
       "reason": "missing business relevance signal"
@@ -412,22 +422,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas Republicans forgot how to ask for your vote | Opinion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "These 4 school districts are being targeted by Greg Abbott's audit order",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Juan Lozano named Houston Chronicle breaking news editor",
+      "title": "Texas Republicans forgot how to ask for your vote | Opinion",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Tropical Depression Nine forms in Gulf and could become season’s first hurricane",
+      "title": "Juan Lozano named Houston Chronicle breaking news editor",
       "reason": "missing business relevance signal"
     },
     {
@@ -442,6 +447,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "What to know before Michelin unveils its 2026 Texas restaurant guide",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Whitmire administration will pull bid for $150M federal grant as council questioned its ICE implications",
       "reason": "missing business relevance signal"
     },
@@ -452,17 +462,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "What to know before Michelin unveils its 2026 Texas restaurant guide",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston gets $12M from feds for ‘treatment first’ homelessness approach",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Letitia Plummer outraises Orlando Sanchez by $100K in Harris County judge race",
       "reason": "missing business relevance signal"
     },
     {
@@ -472,12 +472,27 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Letitia Plummer outraises Orlando Sanchez by $100K in Harris County judge race",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Dozens of dogs rescued from north Houston mobile home",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Will Harris County's pay raises and historic tax rate hurt Democrats?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Family of 13-year-old sues ex-HCSO deputy, dating app over alleged assault",
+      "title": "Christa Gilley’s parents plead for her accused killer’s return to U.S.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Baby in critical condition after being pulled from home's bathtub in Second Ward area",
       "reason": "missing business relevance signal"
     },
     {
@@ -492,7 +507,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Police shoot woman multiple times at Northwest Houston apartment complex",
+      "title": "Review: Mark Zuckerberg is going to be big mad with Aaron Sorkin's 'The Social Reckoning'",
       "reason": "missing business relevance signal"
     },
     {
@@ -502,37 +517,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Review: Mark Zuckerberg is going to be big mad with Aaron Sorkin's 'The Social Reckoning'",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Ellen Manning, Arch's mom, takes spotlight in new commercial with UT's QB",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas college football rankings: Texas Tech and UH stay right behind Longhorns",
+      "title": "Meet the new Rockets' coach helping Amen Thompson and Alperen Sengun's shooting",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Houston doctor accused of filing 9,000 visit claims in 1 day in $30M fraud case",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Why Texans used timeouts on defense while trying to hold lead in loss to Cowboys",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Baby in critical condition after being pulled from home's bathtub in Second Ward area",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas Voter Guide: See which candidates are endorsed by our Editorial Board",
       "reason": "missing business relevance signal"
     },
     {
@@ -577,12 +572,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Exxon attorney tells SCOTUS that climate lawsuits threaten its bottom line",
+      "title": "Talks for Galveston's fifth cruise terminal move ahead as traffic study begins",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston is selling 2 downtown office towers in 'skyline-redefining' move",
+      "title": "Exxon attorney tells SCOTUS that climate lawsuits threaten its bottom line",
       "reason": "missing business relevance signal"
     },
     {
@@ -592,7 +587,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston is selling 2 downtown office towers in 'skyline-redefining' move",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Trump names national intelligence director Jay Clayton to lead a new federal AI task force",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Some guardrails on ChatGPT for Teens don't work as promised, watchdog group says",
       "reason": "missing business relevance signal"
     },
     {
@@ -608,6 +613,16 @@
     {
       "source": "Houston Chronicle Business",
       "title": "ABC and Trump's FCC battle in federal court over issues of free speech and jurisdiction",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Weaker wind shear during El Nino plays a role in the formation of Isaias in the US Gulf",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trump proposes Camp David-style presidential retreat at his private Florida golf club",
       "reason": "missing business relevance signal"
     },
     {
@@ -682,6 +697,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Philanthropists launch $48M fund for Houston’s ‘next chapter’ in homelessness",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "She's longest-serving woman in the Lege for a reason, y'all | Endorsement",
       "reason": "missing business relevance signal"
     },
@@ -693,11 +713,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Flight attendants' union flags safety concerns over Trump's Washington arch",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "This longtime Texas Democrat takes his job in Austin personally | Endorsement",
       "reason": "missing business relevance signal"
     },
     {
@@ -737,22 +752,27 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "FBI Director Kash Patel gets engaged to longtime girlfriend, country singer Alexis Wilkins",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A new Supreme Court term begins with cases on climate change, immigration and gun rights",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Grammy-nominated R&B singer Freddie Jackson, known for '80s hits like 'You Are My Lady,' dies at 70",
+      "title": "Trump choosin' Texas in bid to save GOP majority in Congress",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston Chronicle partners with emergency notifications platform Everbridge for alerts pilot",
+      "title": "Tropical Depression Nine forms in Gulf and could become season’s first hurricane",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "What to know about Kenya's first Ebola case and how officials are responding",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "AI-linked groups spent $3.5M to boost these Texas congressional candidates",
       "reason": "missing business relevance signal"
     },
     {
@@ -767,7 +787,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Dozens of dogs rescued from north Houston mobile home",
+      "title": "What’s keeping Isaias away from Texas as watches go up?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A rocky 'wonderland' in Arizona is poised to be the next US national park",
       "reason": "missing business relevance signal"
     },
     {
@@ -777,12 +802,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Philanthropists launch $48M fund for Houston’s ‘next chapter’ in homelessness",
+      "title": "The enduring popularity of Elvis Presley's Graceland is a monument to his legacy",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The enduring popularity of Elvis Presley's Graceland is a monument to his legacy",
+      "title": "FBI Director Kash Patel gets engaged to longtime girlfriend, country singer Alexis Wilkins",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Grammy-nominated R&B singer Freddie Jackson, known for '80s hits like 'You Are My Lady,' dies at 70",
       "reason": "missing business relevance signal"
     },
     {
@@ -793,36 +823,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "What will the next leader of the UN need to get the job done in an increasingly complex world?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Supreme Court rejects Roy Moore's push to restore $8.2M defamation verdict",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "What to know about Spain's housing protests sparked by the eviction of an 87-year-old woman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas voters have one more day to register for the 2026 midterm election",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Tropical Storm Isaias forms, is forecast to become a hurricane and hit US Gulf Coast this week",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Cold War memories stir Rubio in Iceland as he champions diplomacy and downplays differences",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Republicans to spend $5 million in South Carolina Senate race as Trump plans trip there",
       "reason": "missing business relevance signal"
     }
   ]
