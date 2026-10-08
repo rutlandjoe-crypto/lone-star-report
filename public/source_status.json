@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-08T15:29:47.858Z",
+  "checked_at": "2026-10-08T15:36:30.586Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 88
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 90
+      "firewall_rejected": 89
     },
     {
       "source": "San Antonio Express-News Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 72
+      "firewall_rejected": 74
     },
     {
       "source": "Dallas Morning News Business",
@@ -458,6 +458,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "For Harris County Treasurer: Marc Cowart | Endorsement",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Trespassing, AI, mean texts: Historic district rules fuel Heights-area clash",
       "reason": "missing business relevance signal"
     },
     {
@@ -818,11 +823,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Paramount and Warner Bros are now one Hollywood giant: Skydance. Here's how we got here",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump's magic touch with Hispanics in 2024 appears hard to replicate in 2026",
       "reason": "missing business relevance signal"
     }
   ]
