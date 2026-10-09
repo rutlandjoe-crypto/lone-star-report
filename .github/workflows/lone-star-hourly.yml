@@ -54,3 +54,44 @@ jobs:
             git commit -m "Auto refresh Lone Star Report"
             git push
           fi
+
+  refresh-weather:
+    name: Refresh Texas weather
+    needs: refresh-lone-star
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out latest Lone Star Report
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Fetch unexpired NWS forecasts
+        run: node scripts/fetch-texas-weather.js
+
+      - name: Publish fresh weather snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/texas_weather.json
+          if git diff --cached --quiet; then
+            echo "Weather snapshot unchanged."
+            exit 0
+          fi
+          git commit -m "Refresh Texas NWS forecasts"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "Weather publication failed."
+          exit 1

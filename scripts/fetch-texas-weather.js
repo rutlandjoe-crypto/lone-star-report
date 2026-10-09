@@ -139,8 +139,18 @@ async function fetchLocation(location) {
     );
   }
 
-  const current = periods[0];
-  const next = periods[1] || null;
+  const now = Date.now();
+  const currentIndex = periods.findIndex(period =>
+    Date.parse(period.startTime) <= now &&
+    Date.parse(period.endTime) > now &&
+    Number.isFinite(period.temperature) &&
+    period.temperatureUnit === "F"
+  );
+  if (currentIndex < 0) {
+    throw new Error("No unexpired forecast period for " + location.name);
+  }
+  const current = periods[currentIndex];
+  const next = periods[currentIndex + 1] || null;
 
   return {
     name: location.name,
@@ -151,9 +161,14 @@ async function fetchLocation(location) {
     wind_speed: current.windSpeed,
     wind_direction: current.windDirection,
     period: current.name,
+    start_time: current.startTime,
+    end_time: current.endTime,
+    fetched_at: new Date().toISOString(),
     next_period: next
       ? {
           name: next.name,
+          start_time: next.startTime,
+          end_time: next.endTime,
           temperature: next.temperature,
           temperature_unit: next.temperatureUnit,
           forecast: next.shortForecast

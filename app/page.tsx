@@ -2,6 +2,8 @@ import fs from "fs";
 import path from "path";
 import EditorialStandard from "@/components/EditorialStandard";
 
+export const dynamic = "force-dynamic";
+
 type Story = {
   headline: string;
   title?: string;
@@ -22,6 +24,9 @@ type WeatherLocation = {
   wind_speed: string;
   wind_direction: string;
   period: string;
+  start_time: string;
+  end_time: string;
+  fetched_at: string;
   next_period?: {
     name: string;
     temperature: number;
@@ -95,26 +100,34 @@ function loadReport(): Report {
   ) as Report;
 }
 
+
 function loadWeather(): WeatherReport {
-  const filePath = path.join(
-    process.cwd(),
-    "public",
-    "texas_weather.json"
-  );
-
-  if (!fs.existsSync(filePath)) {
+  const empty: WeatherReport = {
+    generated_at: "", source: "National Weather Service",
+    source_url: "https://www.weather.gov/",
+    editorial_note: "Official National Weather Service forecast data.",
+    locations: [],
+  };
+  try {
+    const stored = JSON.parse(fs.readFileSync(
+      path.join(process.cwd(), "public", "texas_weather.json"), "utf8",
+    )) as WeatherReport;
+    const now = Date.now();
+    const age = now - Date.parse(stored.generated_at);
+    if (!Number.isFinite(age) || age < -300000 || age > 3 * 3600000 ||
+        !Array.isArray(stored.locations)) return empty;
     return {
-      generated_at: "",
-      source: "National Weather Service",
-      source_url: "https://www.weather.gov/",
-      editorial_note: "Official National Weather Service forecast data.",
-      locations: []
+      ...stored,
+      locations: stored.locations.filter(location =>
+        Number.isFinite(location.temperature) &&
+        location.temperature_unit === "F" &&
+        Date.parse(location.start_time) <= now &&
+        Date.parse(location.end_time) > now &&
+        now - Date.parse(location.fetched_at) <= 3 * 3600000 &&
+        now - Date.parse(location.fetched_at) >= -300000
+      ),
     };
-  }
-
-  return JSON.parse(
-    fs.readFileSync(filePath, "utf8")
-  ) as WeatherReport;
+  } catch { return empty; }
 }
 function formatDate(value?: string) {
   if (!value) return "";
@@ -255,6 +268,15 @@ function TexasWeatherDesk({
           Official National Weather Service forecasts from key regions
           across Texas.
         </p>
+        {weather.locations.length > 0 ? (
+          <p className="mt-2 text-xs text-slate-500">
+            Forecast checked: {new Intl.DateTimeFormat("en-US", {
+              month: "short", day: "numeric", year: "numeric",
+              hour: "numeric", minute: "2-digit",
+              timeZone: "America/New_York", timeZoneName: "short",
+            }).format(new Date(weather.generated_at)).replace(/\b(?:EST|EDT)\b/, "ET")}
+          </p>
+        ) : null}
       </div>
 
       {weather.locations.length ? (
@@ -272,6 +294,9 @@ function TexasWeatherDesk({
                 {location.name}
               </h3>
 
+              <p className="mt-3 text-xs font-bold text-slate-500">
+                {location.period} forecast
+              </p>
               <div className="mt-4 flex items-end gap-2">
                 <span className="text-4xl font-black text-[#002868]">
                   {location.temperature}&deg;
