@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-09T16:12:09.245Z",
+  "checked_at": "2026-10-09T20:53:57.328Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 33,
   "sources": [
@@ -41,7 +41,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "Houston Chronicle",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - Baylor Bears",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 91
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 83
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 93
+      "firewall_rejected": 94
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 70
+      "firewall_rejected": 69
     },
     {
       "source": "Dallas Morning News Business",
@@ -336,11 +336,6 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "El Paso Matters",
-      "title": "Opinion: El Paso women cannot underestimate the danger in Texas’ extreme reproductive policies",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
       "source": "El Paso Times",
       "title": "OPINION: Why my family is leaving Texas to save my son",
       "reason": "blocked editorial/opinion phrase"
@@ -363,6 +358,11 @@
     {
       "source": "On3 - TCU Horned Frogs",
       "title": "UNC Injury Report: Several Starters Questionable Against Pittsburgh",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - TCU Horned Frogs",
+      "title": "'Middle Eight' Proving Critical for UNC, Pittsburgh Ahead of Matchup",
       "reason": "blocked sports noise"
     },
     {
@@ -437,11 +437,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Tropical Depression Nine forms in Gulf and could become season’s first hurricane",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Allegations against former Conroe ISD coach sent to sheriff's office for review after Paxton opinion",
       "reason": "missing business relevance signal"
     },
@@ -452,7 +447,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston gets $12M from feds for ‘treatment first’ homelessness approach",
+      "title": "From acts to vendors, here's what’s new at the 52nd Texas Renaissance Festival",
       "reason": "missing business relevance signal"
     },
     {
@@ -462,7 +457,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Muslims became a political piñata for Greg Abbott and Texas Republicans",
+      "title": "Isaias could bring Houston spotty showers. Who’s most likely to see rain?",
       "reason": "missing business relevance signal"
     },
     {
@@ -472,12 +467,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Tropical Depression Nine forms in Gulf and could become season’s first hurricane",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "How Muslims became a political piñata for Greg Abbott and Texas Republicans",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Historic Heights neighborhood’s preservation fight has become a bitter feud",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Houston plans to overhaul its struggling trash and recycling pickups",
+      "title": "This GOP incumbent is at his best when he’s focused on the basics | Endorsement",
       "reason": "missing business relevance signal"
     },
     {
@@ -487,12 +492,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Will Harris County's pay raises and historic tax rate hurt Democrats?",
+      "title": "How Houston plans to overhaul its struggling trash and recycling pickups",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "This GOP incumbent is at his best when he’s focused on the basics | Endorsement",
+      "title": "Will Harris County's pay raises and historic tax rate hurt Democrats?",
       "reason": "missing business relevance signal"
     },
     {
@@ -503,6 +508,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "DeMeco Ryans is taking over play-calling duties from DC Matt Burke. Here's why",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "American Express to renovate and expand Centurion Lounge at IAH",
       "reason": "missing business relevance signal"
     },
     {
@@ -522,11 +532,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Exclusive: Willie Nelson endorses James Talarico for U.S. Senate",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Review: Mark Zuckerberg is going to be big mad with Aaron Sorkin's 'The Social Reckoning'",
       "reason": "missing business relevance signal"
     },
@@ -537,17 +542,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Exclusive: Willie Nelson endorses James Talarico for U.S. Senate",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Texas has most book bans in the US. One Houston district ranks in state's top 5.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Who are the biggest donors backing Plummer and Sanchez in the Harris county judge race? See the top 10.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston man charged with capital murder in fatal shooting of ex-girlfriend, her boyfriend",
       "reason": "missing business relevance signal"
     },
     {
@@ -567,11 +572,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "More Houston sellers are stuck — and turning into ‘accidental landlords’",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Talks for Galveston's fifth cruise terminal move ahead as traffic study begins",
       "reason": "missing business relevance signal"
     },
@@ -582,17 +582,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former CIA official accused of stealing $40M in gold bars pleads guilty",
+      "title": "Camp Mystic should be leveled to the ground. | Opinion",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Houston’s skyline could change as city moves to sell two downtown towers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump administration proposes a $70,000 fee for international students to work in the US",
       "reason": "missing business relevance signal"
     },
     {
@@ -622,17 +617,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Trump administration proposes a $70,000 fee for international students to work in the US",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Before a natural disaster, a governor’s order can free up the National Guard and medical help",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Trump proposes Camp David-style presidential retreat at his private Florida golf club",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "ABC and Trump's FCC battle in federal court over issues of free speech and jurisdiction",
       "reason": "missing business relevance signal"
     },
     {
@@ -647,17 +642,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Firing squad execution of Fort Hood shooter Nidal Hasan scheduled for December",
+      "title": "Vance expresses doubts about Pentagon plan to livestream Fort Hood shooter's execution",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "US stocks rise toward the finish of a record-breaking week",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Florida execution called off after DeSantis withdraws death warrant for the first time",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Trump highlights a big new defense project in Maryland, a blue state whose governor didn't attend",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "McDonald's sued over AI tool that recommends prices to US franchisees",
       "reason": "missing business relevance signal"
     },
     {
@@ -687,7 +687,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Firing squad execution of Fort Hood shooter Nidal Hasan scheduled for December",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The Houston Grackles? The Fighting Crawfish? NHL, we have some ideas.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Skydance mashes proven properties of Paramount and Warner Bros. into an uncertain Hollywood hybrid",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A magnitude 7.7 earthquake shakes Panama, prompting evacuations",
       "reason": "missing business relevance signal"
     },
     {
@@ -712,7 +727,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Flight attendants' union flags safety concerns over Trump's Washington arch",
+      "title": "Hurricane Isaias could nudge fuel prices higher if Gulf of Mexico refineries lose power",
       "reason": "missing business relevance signal"
     },
     {
@@ -722,12 +737,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trial begins for a man accused of killing UNC student Faith Hedgepeth 14 years ago",
+      "title": "Isaias now season's first hurricane. Where and when will it make landfall?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Isaias now season's first hurricane. Where and when will it make landfall?",
+      "title": "Hurricane Isaias becomes major hurricane as it aims for Pensacola and Florida Panhandle",
       "reason": "missing business relevance signal"
     },
     {
@@ -747,22 +762,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Hurricane Isaias could nudge fuel prices higher if Gulf of Mexico refineries lose power",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Camp Mystic should be leveled to the ground. | Opinion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Americans 75 and older are wealthiest age group, Fed survey finds",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Nobel Peace Prize to be awarded in Norway",
       "reason": "missing business relevance signal"
     },
     {
@@ -777,12 +777,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "What to know about Kenya's first Ebola case and how officials are responding",
+      "title": "Trial begins for a man accused of killing UNC student Faith Hedgepeth 14 years ago",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "AI-linked groups spent $3.5M to boost these Texas congressional candidates",
+      "title": "What to know about Kenya's first Ebola case and how officials are responding",
       "reason": "missing business relevance signal"
     },
     {
@@ -792,12 +792,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Wall Street retreats from its record as stocks fall worldwide",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "What’s keeping Isaias away from Texas as watches go up?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A rocky 'wonderland' in Arizona is poised to be the next US national park",
+      "title": "Deaths of 2 men found dead miles apart in Buffalo Bayou may be linked, HPD says",
       "reason": "missing business relevance signal"
     },
     {
@@ -807,22 +812,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "This Democratic Harris County commissioner focuses on the future | Endorsement",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "The enduring popularity of Elvis Presley's Graceland is a monument to his legacy",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "in photos",
+      "title": "Legal path seems narrow to challenge livestream of Fort Hood shooter's execution, experts say",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "In first Maine Senate debate, Collins seeks to distance herself from Trump",
+      "title": "in photos",
       "reason": "missing business relevance signal"
     }
   ]
