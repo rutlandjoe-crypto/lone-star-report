@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T18:35:16.133Z",
+  "checked_at": "2026-10-10T22:31:03.002Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 32,
   "sources": [
@@ -135,7 +135,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - SMU Mustangs",
@@ -172,7 +172,7 @@
       "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 2,
+      "accepted": 1,
       "firewall_rejected": 6
     },
     {
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 83
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 90
+      "firewall_rejected": 92
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 82
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 87
+      "firewall_rejected": 88
     },
     {
       "source": "El Paso Times Business",
@@ -360,19 +360,9 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "On3 - Baylor Bears",
-      "title": "Column: Circling back to Alex Golesh's demands for identity and violence",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
       "source": "On3 - SMU Mustangs",
       "title": "Louisville football: Photo gallery from day three of fall camp with the Cardinals",
       "reason": "blocked sports noise"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Annapolis Elite Soccer Club is Building a New Era of Youth Soccer in Maryland",
-      "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
@@ -387,6 +377,11 @@
     {
       "source": "El Paso Inc.",
       "title": "Lauterbach, Borschow names Miguel Murguia tax shareholder",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Go West Film Fest Opens Nov. 9 with 1927 Silent Western, Live Score",
       "reason": "missing business relevance signal"
     },
     {
@@ -431,12 +426,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Katy 22-year-old missing for a week in Louisiana after hit-and-run crash",
+      "title": "More than 60 Flock cameras in west Houston are about to go dark. Here's why.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "More than 60 Flock cameras in west Houston are about to go dark. Here's why.",
+      "title": "Man struck by vehicle during ICE enforcement operation",
       "reason": "missing business relevance signal"
     },
     {
@@ -481,11 +476,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Muslims became a political piñata for Greg Abbott and Texas Republicans",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Nidal Malik Hasan firing squad execution to be military's first in 65 years",
       "reason": "missing business relevance signal"
     },
@@ -496,7 +486,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Christa Gilley’s parents plead for her accused killer’s return to U.S.",
+      "title": "How Muslims became a political piñata for Greg Abbott and Texas Republicans",
       "reason": "missing business relevance signal"
     },
     {
@@ -506,12 +496,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Exclusive: Sylvia Garcia names worker heat bill after Lorenzo Salgado Araujo",
+      "title": "Texas Voter Guide: See which candidates are endorsed by our Editorial Board",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Who are the biggest donors backing Plummer and Sanchez in the Harris county judge race? See the top 10.",
+      "title": "Exclusive: Sylvia Garcia names worker heat bill after Lorenzo Salgado Araujo",
       "reason": "missing business relevance signal"
     },
     {
@@ -521,12 +511,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Exclusive: Inside George Foreman’s private Houston-area compound, listed for $6M",
+      "title": "HISD takeover panel calls for new guardrails over state takeovers",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Talks for Galveston's fifth cruise terminal move ahead as traffic study begins",
+      "title": "Exclusive: Inside George Foreman’s private Houston-area compound, listed for $6M",
       "reason": "missing business relevance signal"
     },
     {
@@ -536,7 +526,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston’s skyline could change as city moves to sell two downtown towers",
+      "title": "Talks for Galveston's fifth cruise terminal move ahead as traffic study begins",
       "reason": "missing business relevance signal"
     },
     {
@@ -562,11 +552,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "It can be hard to tell Democrats and Republicans apart in Fort Bend | Endorsemen",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Abbott makes state income tax a big issue ahead of the midterms. But is it?",
       "reason": "missing business relevance signal"
     },
     {
@@ -601,6 +586,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Mystery surrounds young worker's death at Russia lab studying severe diseases",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Justice Department won't enforce registration rules on silencers and certain guns after court ruling",
       "reason": "missing business relevance signal"
     },
@@ -626,7 +616,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "DNC sues Trump administration, alleging taxpayer-funded ads violate propaganda law",
+      "title": "The Houston Grackles? The Fighting Crawfish? NHL, we have some ideas.",
       "reason": "missing business relevance signal"
     },
     {
@@ -641,7 +631,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The Houston Grackles? The Fighting Crawfish? NHL, we have some ideas.",
+      "title": "Abbott makes state income tax a big issue ahead of the midterms. But is it?",
       "reason": "missing business relevance signal"
     },
     {
@@ -667,11 +657,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Man with a gun and knife is fatally shot by security at Nashville federal courthouse, police say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "How Texas barbecue side hustles are making up for the price of brisket",
       "reason": "missing business relevance signal"
     },
     {
@@ -726,22 +711,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Houston plans to overhaul its struggling trash and recycling pickups",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Trump's magic touch with Hispanics in 2024 appears hard to replicate this year",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Hurricane Isaias could nudge fuel prices higher if Gulf of Mexico refineries lose power",
+      "title": "How Texas barbecue side hustles are making up for the price of brisket",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "in photos",
+      "title": "Hurricane Isaias could nudge fuel prices higher if Gulf of Mexico refineries lose power",
       "reason": "missing business relevance signal"
     },
     {
@@ -767,11 +747,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Isaias becomes major hurricane as it aims for Pensacola and Florida Panhandle",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "A rocky 'wonderland' in Arizona is poised to be the next US national park",
       "reason": "missing business relevance signal"
     },
     {
@@ -806,22 +781,47 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ex-Marine to face death penalty in 2025 mass shooting at North Carolina bar",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "The United Auto Workers tries to reassert political power in Michigan as it faces internal divisions",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Democrats eye return to power with many of the same faces crafting their agenda",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Houston stays warm through the weekend. When could that change?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "He's already done this job well. Chris Daniel for Harris County District Clerk.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "In Silicon Valley, AI founders cheer Trump’s calls for the industry to police itself on safety",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Top Democrats and allies join the wealthiest to fight a California billionaire tax",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "I vote by mail. New rules might get my ballot rejected.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Susan Dell's White House remarks earn Trump's 'complete and total endorsement' - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Is it legal to sleep at a Texas rest area? Here's what the law says - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "James Talarico makes surprise appearance at ACL Fest after campaign absence - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
