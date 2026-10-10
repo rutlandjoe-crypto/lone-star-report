@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T13:41:05.775Z",
+  "checked_at": "2026-10-10T18:35:16.133Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 32,
   "sources": [
@@ -135,7 +135,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 2
     },
     {
       "source": "On3 - SMU Mustangs",
@@ -143,7 +143,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Houston Cougars",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 85
     },
     {
       "source": "Austin American-Statesman Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 87
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 72
+      "firewall_rejected": 73
     },
     {
       "source": "Dallas Morning News Business",
@@ -355,9 +355,14 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - SMU Mustangs",
-      "title": "SMU Basketball recruiting heating up in a big way",
-      "reason": "blocked sports noise"
+      "source": "On3 - Baylor Bears",
+      "title": "Column: Circling back to Alex Golesh's demands for identity and violence",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "On3 - Baylor Bears",
+      "title": "Column: Circling back to Alex Golesh's demands for identity and violence",
+      "reason": "blocked editorial/opinion phrase"
     },
     {
       "source": "On3 - SMU Mustangs",
@@ -401,11 +406,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Juan Lozano named Houston Chronicle breaking news editor",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Deaths of 2 men found dead miles apart in Buffalo Bayou may be linked, HPD says",
       "reason": "missing business relevance signal"
     },
@@ -421,7 +421,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "More than 60 Flock cameras in west Houston are about to go dark. Here's why.",
+      "title": "Angela Paxton is stepping in for Ken Paxton. Will Republican women follow?",
       "reason": "missing business relevance signal"
     },
     {
@@ -436,7 +436,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "More than 60 Flock cameras in west Houston are about to go dark. Here's why.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "From acts to vendors, here's what’s new at the 52nd Texas Renaissance Festival",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "She traced 95 heirs to her family’s East Texas land. Now she’s trying to save it",
       "reason": "missing business relevance signal"
     },
     {
@@ -511,11 +521,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "HISD takeover panel calls for new guardrails over state takeovers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Exclusive: Inside George Foreman’s private Houston-area compound, listed for $6M",
       "reason": "missing business relevance signal"
     },
@@ -556,12 +561,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump administration proposes a $70,000 fee for international students to work in the US",
+      "title": "It can be hard to tell Democrats and Republicans apart in Fort Bend | Endorsemen",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Before a natural disaster, a governor’s order can free up the National Guard and medical help",
+      "title": "Abbott makes state income tax a big issue ahead of the midterms. But is it?",
       "reason": "missing business relevance signal"
     },
     {
@@ -591,7 +596,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "8 dead after shooting in Erie, Pennsylvania, governor says. Shooter also dead",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Justice Department won't enforce registration rules on silencers and certain guns after court ruling",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Christa Pike is discharged from a hospital after surviving execution attempt, her attorneys say",
       "reason": "missing business relevance signal"
     },
     {
@@ -621,11 +636,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "FCC considers allowing more political robocalls before midterms, including those created with AI",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Amazon's delivery box: a symbol of instant gratification and convenience",
       "reason": "missing business relevance signal"
     },
@@ -641,12 +651,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The Trump administration is suspending Microsoft from a green card program, alleging fraud",
+      "title": "You want Hispanic representation? Meet Desiree Klaus. | Endorsement",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Philanthropists launch $48M fund for Houston’s ‘next chapter’ in homelessness",
+      "title": "Barbara Bush statue dedicated at Houston Public Library",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The Trump administration is suspending Microsoft from a green card program, alleging fraud",
       "reason": "missing business relevance signal"
     },
     {
@@ -662,11 +677,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Isaias now season's first hurricane. Where and when will it make landfall?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "What’s keeping Isaias away from Texas as watches go up?",
       "reason": "missing business relevance signal"
     },
     {
@@ -696,7 +706,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trial begins for a man accused of killing UNC student Faith Hedgepeth 14 years ago",
+      "title": "Hurricane Isaias makes landfall on Florida Panhandle, quickly weakens",
       "reason": "missing business relevance signal"
     },
     {
@@ -717,11 +727,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "How Houston plans to overhaul its struggling trash and recycling pickups",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "You want Hispanic representation? Meet Desiree Klaus. | Endorsement",
       "reason": "missing business relevance signal"
     },
     {
@@ -776,11 +781,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Barbara Bush statue dedicated at Houston Public Library",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Opal Lee, 'grandmother of Juneteenth,' spends 100th birthday at the center of celebrations in Texas",
       "reason": "missing business relevance signal"
     },
@@ -806,22 +806,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Angela Paxton is stepping in for Ken Paxton. Will Republican women follow?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Ex-Marine to face death penalty in 2025 mass shooting at North Carolina bar",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Susan Dell's White House remarks earn Trump's 'complete and total endorsement' - Austin American-Statesman",
+      "source": "Houston Chronicle Business",
+      "title": "The United Auto Workers tries to reassert political power in Michigan as it faces internal divisions",
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Austin leads the state in Michelin Awards, but one restaurant loses a star - Austin American-Statesman",
+      "source": "Houston Chronicle Business",
+      "title": "Democrats eye return to power with many of the same faces crafting their agenda",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston stays warm through the weekend. When could that change?",
       "reason": "missing business relevance signal"
     }
   ]
