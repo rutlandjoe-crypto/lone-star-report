@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-11T01:53:11.859Z",
+  "checked_at": "2026-10-11T08:49:37.426Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 32,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -127,7 +127,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Baylor Bears",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 81
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 93
+      "firewall_rejected": 94
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 83
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 86
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 72
+      "firewall_rejected": 71
     },
     {
       "source": "Dallas Morning News Business",
@@ -340,16 +340,6 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Joseph Hastings",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "UNC Injury Report: Several Starters Questionable Against Pittsburgh",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - TCU Horned Frogs",
       "title": "'Middle Eight' Proving Critical for UNC, Pittsburgh Ahead of Matchup",
       "reason": "blocked sports noise"
@@ -396,7 +386,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Michelin reveals its restaurant selections for Texas. Here's the full list",
+      "title": "Abbott makes state income tax a big issue ahead of the midterms. But is it?",
       "reason": "missing business relevance signal"
     },
     {
@@ -451,17 +441,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Isaias could bring Houston spotty showers. Who’s most likely to see rain?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "American Express to renovate and expand Centurion Lounge at IAH",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Donald Trump says he'll award Roger Clemens the Presidential Medal of Freedom",
       "reason": "missing business relevance signal"
     },
     {
@@ -471,12 +451,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Muslims became a political piñata for Greg Abbott and Texas Republicans",
+      "title": "Nidal Malik Hasan firing squad execution to be military's first in 65 years",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Nidal Malik Hasan firing squad execution to be military's first in 65 years",
+      "title": "Texas' loss to Oklahoma raises big questions about Longhorns, Steve Sarkisian",
       "reason": "missing business relevance signal"
     },
     {
@@ -486,12 +466,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Jabari Smith Jr. was solid at a lot of things. Can he become elite for Rockets?",
+      "title": "How Muslims became a political piñata for Greg Abbott and Texas Republicans",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "HISD takeover panel calls for new guardrails over state takeovers",
+      "title": "No. 1 Texas loses in Red River shocker as Oklahoma wins on walk-off FG",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Jabari Smith Jr. was solid at a lot of things. Can he become elite for Rockets?",
       "reason": "missing business relevance signal"
     },
     {
@@ -561,6 +546,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Hurricane Isaias makes landfall on Florida Panhandle, quickly weakens",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Christa Pike is discharged from a hospital after surviving execution attempt, her attorneys say",
       "reason": "missing business relevance signal"
     },
@@ -576,12 +566,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How Texas barbecue side hustles are making up for the price of brisket",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Trump's memorial arch faces new lawsuit from Arlington County, Virginia",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The Houston Grackles? The Fighting Crawfish? NHL, we have some ideas.",
+      "title": "DOJ says it's investigating whether White House TV pool's coverage halt violated antitrust law",
       "reason": "missing business relevance signal"
     },
     {
@@ -592,11 +587,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Amazon's delivery box: a symbol of instant gratification and convenience",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Abbott makes state income tax a big issue ahead of the midterms. But is it?",
       "reason": "missing business relevance signal"
     },
     {
@@ -621,17 +611,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Texas barbecue side hustles are making up for the price of brisket",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston stays warm through the weekend. When could that change?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Isaias now season's first hurricane. Where and when will it make landfall?",
       "reason": "missing business relevance signal"
     },
     {
@@ -642,6 +622,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Fatal car crash closes East Loop southbound lanes amid Friday rush hour",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Polish leader says school attacks were fueled by online glorification of violence",
       "reason": "missing business relevance signal"
     },
     {
@@ -666,7 +651,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Hurricane Isaias makes landfall on Florida Panhandle, quickly weakens",
+      "title": "The Houston Grackles? The Fighting Crawfish? NHL, we have some ideas.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "In Silicon Valley, AI founders cheer Trump’s calls for the industry to police itself on safety",
       "reason": "missing business relevance signal"
     },
     {
@@ -691,6 +681,16 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "He's already done this job well. Chris Daniel for Harris County District Clerk.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Isaias now season's first hurricane. Where and when will it make landfall?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "As Hurricane Isaias hits Gulf Coast, here's how Houstonians can rebook flights",
       "reason": "missing business relevance signal"
     },
@@ -711,11 +711,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Opal Lee, 'grandmother of Juneteenth,' spends 100th birthday at the center of celebrations in Texas",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Gina Hinojosa renews calls for a debate with Greg Abbott",
       "reason": "missing business relevance signal"
     },
@@ -726,22 +721,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A quarter century later, the legacy of the US-led invasion of Afghanistan endures",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "The FBI has seized tools used by Chinese hackers for cyber operations, officials say",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Democrats eye return to power with many of the same faces crafting their agenda",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "In Silicon Valley, AI founders cheer Trump’s calls for the industry to police itself on safety",
       "reason": "missing business relevance signal"
     },
     {
@@ -757,11 +742,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Public executions in the US were once a community spectacle and then they stopped",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Panama declares a state of emergency as powerful quake aftershocks rattle communities",
       "reason": "missing business relevance signal"
     },
     {
@@ -805,8 +785,28 @@
       "reason": "missing business relevance signal"
     },
     {
+      "source": "Houston Chronicle Business",
+      "title": "Isaias could bring Houston spotty showers. Who’s most likely to see rain?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "College Station prepares for impacts from Elon Musk's Terafab - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
       "source": "Austin American-Statesman Business",
       "title": "Susan Dell's White House remarks earn Trump's 'complete and total endorsement' - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Is it legal to sleep at a Texas rest area? Here's what the law says - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Whatever you think of nepo babies, Sienna Spiro delivered - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -821,7 +821,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "'Best player in...Texas': How lack of a UT offer motivated Hutto star, OU commit - Austin American-Statesman",
+      "title": "Austin skyline then and now: ACL Fest photos from 2005 to 2026 - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
