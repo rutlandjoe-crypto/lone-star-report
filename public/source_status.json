@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-12T22:58:56.329Z",
+  "checked_at": "2026-10-13T03:33:53.799Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 32,
+  "working_sources": 33,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 84
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 86
+      "firewall_rejected": 87
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 89
     },
     {
       "source": "Dallas Morning News Business",
@@ -289,8 +289,9 @@
       "source": "Fort Worth Star-Telegram Mavericks Desk",
       "region": "North Texas / DFW",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 1,
+      "firewall_rejected": 0
     },
     {
       "source": "San Antonio Express-News Spurs Desk",
@@ -345,11 +346,6 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Joseph Hastings",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "On3 - Baylor Bears",
       "title": "Column: Circling back to Alex Golesh's demands for identity and violence",
       "reason": "blocked editorial/opinion phrase"
@@ -386,6 +382,16 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "As Ken Paxton attacks James Talarico on faith, his church remains a mystery",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas needs more than rocket scientists. It needs ‘space cowboys,’ too.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Family seeks release of Miguel Parra-Hernandez, struck by ICE vehicle in Houston",
       "reason": "missing business relevance signal"
     },
@@ -396,12 +402,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "As Ken Paxton attacks James Talarico on faith, his church remains a mystery",
+      "title": "This weekend, Team Paxton acted like they think they're going to lose | Opinion",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "This weekend, Team Paxton acted like they think they're going to lose | Opinion",
+      "title": "ICE agent may have hit Houston man on purpose with patrol vehicle, DA Teare says",
       "reason": "missing business relevance signal"
     },
     {
@@ -416,17 +422,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas needs more than rocket scientists. It needs ‘space cowboys,’ too.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Social Security sent millions of Americans $90 Medicare checks. Why?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "UH vs. Oklahoma State will be a top-20 showdown at TDECU on Saturday",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mike Elko regrets how his ‘cesspool’ comment about website came across to fans",
       "reason": "missing business relevance signal"
     },
     {
@@ -441,12 +442,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Reliant Stadium needs expensive repairs. Will Texans or taxpayers pay for it?",
+      "title": "Did Texans overpay for Marvin Harrison Jr.? It depends on whom you ask",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Did Texans overpay for Marvin Harrison Jr.? It depends on whom you ask",
+      "title": "Texas college football rankings: Texas Tech and UH are 1-2 as Longhorns fall",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Reliant Stadium needs expensive repairs. Will Texans or taxpayers pay for it?",
       "reason": "missing business relevance signal"
     },
     {
@@ -456,17 +462,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Body recovered in the search for a missing 16-year-old at Surfside Beach",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Texas high school football: Friday's scores from Week 7",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas Longhorns fall to No. 7 in AP top 25, and UH moves into top 20",
+      "title": "Texans' history of trading for players midseason like Marvin Harrison Jr. deal",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texans' history of trading for players midseason like Marvin Harrison Jr. deal",
+      "title": "Texas Longhorns fall to No. 7 in AP top 25, and UH moves into top 20",
       "reason": "missing business relevance signal"
     },
     {
@@ -501,22 +512,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Police search for missing teen at Surfside Beach amid rip current risk",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Mystery surrounds young worker's death at Russia lab studying severe diseases",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Houston’s humidity is rising. What could change by the weekend?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Justice Department won't enforce registration rules on silencers and certain guns after court ruling",
       "reason": "missing business relevance signal"
     },
     {
@@ -531,7 +532,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "New York prosecutors seek to sustain their case against Luigi Mangione, despite his federal plea",
+      "title": "Rep. Dan Crenshaw calls out Elon Musk over post critical of Ukraine's president",
       "reason": "missing business relevance signal"
     },
     {
@@ -546,12 +547,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Selma Blair taken into custody in New York after an alleged assault on a Delta flight",
+      "title": "Colombia's new government: 2016 deal with rebel group has not brought peace — but 132,000 killings",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "ICE agent may have hit Houston man on purpose with patrol vehicle, DA Teare says",
+      "title": "Selma Blair taken into custody in New York after an alleged assault on a Delta flight",
       "reason": "missing business relevance signal"
     },
     {
@@ -576,6 +577,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How Texas barbecue side hustles are making up for the price of brisket",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "The Houston Grackles? The Fighting Crawfish? NHL, we have some ideas.",
       "reason": "missing business relevance signal"
     },
@@ -591,17 +597,12 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "In Silicon Valley, AI founders cheer Trump’s calls for the industry to police itself on safety",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Giant pumpkins battle for heavyweight glory and the world record in California",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Wall Street finishes its record-setting week with gains",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Who is Miguel Parra-Hernandez? What to know about Houston man struck by ICE SUV",
       "reason": "missing business relevance signal"
     },
     {
@@ -616,7 +617,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Fatal car crash closes East Loop southbound lanes amid Friday rush hour",
+      "title": "Pacific hurricane region sets record for big, long-lasting storms thanks to El Niño",
       "reason": "missing business relevance signal"
     },
     {
@@ -631,17 +632,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Legal path seems narrow to challenge livestream of Fort Hood shooter's execution, experts say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Mahmoud Abbas postpones Palestinian legislative elections another year",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Vance expresses doubts about Pentagon plan to livestream Fort Hood shooter's execution",
       "reason": "missing business relevance signal"
     },
     {
@@ -656,12 +647,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Trump and Iran agree on one thing. The US election calendar isn't driving their decisions on the war",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "What is Indigenous Peoples Day? A day of celebration, protest and reclaiming history",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Pope will be admitted to hospital Tuesday for lung nodule surgery, Vatican says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "One person is dead, several others injured in incident involving Six Flags roller coaster in Georgia",
       "reason": "missing business relevance signal"
     },
     {
@@ -716,22 +717,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "In Silicon Valley, AI founders cheer Trump’s calls for the industry to police itself on safety",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "This Democratic former teacher will make for a great state rep. | Endorsement",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Trump urges Sen. John Fetterman to switch parties and become a Republican",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Rep. Dan Crenshaw calls out Elon Musk over post critical of Ukraine's president",
       "reason": "missing business relevance signal"
     },
     {
@@ -785,6 +771,16 @@
       "reason": "missing business relevance signal"
     },
     {
+      "source": "Houston Chronicle Business",
+      "title": "Who is Miguel Parra-Hernandez? What to know about Houston man struck by ICE SUV",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Nathan Johnson will put Texans first. MAGA Mayes will put DC first | Endorsement",
+      "reason": "missing business relevance signal"
+    },
+    {
       "source": "Austin American-Statesman Business",
       "title": "Has ACL Fest outgrown Zilker Park? Our readers have thoughts - Austin American-Statesman",
       "reason": "missing business relevance signal"
@@ -806,12 +802,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "James Talarico makes surprise appearance at ACL Fest after campaign absence - Austin American-Statesman",
+      "title": "Texas QB Arch Manning throws 2 key interceptions in stunning loss to Oklahoma - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas QB Arch Manning throws 2 key interceptions in stunning loss to Oklahoma - Austin American-Statesman",
+      "title": "When does daylight saving time end in Austin? Here's when the time changes - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -821,7 +817,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "When does daylight saving time end in Austin? Here's when the time changes - Austin American-Statesman",
+      "title": "Austin sisters honor Camp Mystic victim with ACL Fest lemonade stand - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "College Station prepares for impacts from Elon Musk's Terafab - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
