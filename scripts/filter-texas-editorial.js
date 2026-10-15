@@ -343,7 +343,25 @@ function dedicatedSportsFeedCheck(story, text) {
   return null;
 }
 
+
+function isSpanishEditionItem(story) {
+  const language = String(story.language || story.lang || "").toLowerCase();
+  if (/^es(?:[-_]|$)/.test(language)) return true;
+  const url = String(story.url || "");
+  if (/[\/](?:es|espanol|en-espanol|spanish)(?:[\/?#]|$)/i.test(url)) return true;
+  // Conservative check for Spanish headlines in mixed-language feeds.
+  // Accents and Spanish place names alone do not trigger exclusion.
+  const words = new Set(String(story.headline || story.title || "")
+    .toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .match(/[a-z]+/g) || []);
+  const markers = ["el", "la", "los", "las", "del", "una", "que", "para",
+    "por", "con", "como", "aqui", "este", "esta", "sus", "su", "te",
+    "comienza", "elecciones", "votacion", "votar", "explicamos"];
+  return markers.filter(word => words.has(word)).length >= 4;
+}
+
 function allowStory(story, section) {
+  if (isSpanishEditionItem(story)) return false;
   const headline = String(story.headline || story.title || "").trim();
   if (!headline || /\s[-??:]\s*page\s+\d+\s*$/i.test(headline)) return false;
   try {

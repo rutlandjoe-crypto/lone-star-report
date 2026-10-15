@@ -7,9 +7,9 @@
   "source_headline_policy": "Original source headlines are preserved.",
   "source_counts": {
     "El Paso Times": 1,
-    "San Antonio Report": 2,
     "Austin American-Statesman": 4,
     "San Antonio Express-News": 4,
+    "San Antonio Report": 1,
     "Houston Chronicle": 2,
     "Houston Public Media": 1,
     "Texas Public Radio": 1,
@@ -22,9 +22,9 @@
   },
   "region_counts": {
     "El Paso / West Texas": 1,
-    "San Antonio": 2,
     "Austin / Central Texas": 5,
     "San Antonio / South Central Texas": 7,
+    "San Antonio": 1,
     "Houston / Gulf Coast": 3,
     "Statewide": 2,
     "Central Texas": 1,
@@ -69,20 +69,6 @@
       "region": "San Antonio",
       "published_at": "Thu, 15 Oct 2026 17:49:00 +0000",
       "section": "State Politics",
-      "sport_desk": null,
-      "ingestion_mode": "direct",
-      "editorial_firewall": "passed"
-    },
-    {
-      "headline": "La votación temprana comienza el lunes en Texas. Aquí te explicamos cómo votar en las elecciones intermedias.",
-      "title": "La votación temprana comienza el lunes en Texas. Aquí te explicamos cómo votar en las elecciones intermedias.",
-      "url": "https://sanantonioreport.org/como-votar-en-las-elecciones-intermedias/",
-      "source": "San Antonio Report",
-      "source_attribution": "San Antonio Report",
-      "source_type": "nonprofit-news",
-      "region": "San Antonio",
-      "published_at": "Thu, 15 Oct 2026 17:44:00 +0000",
-      "section": "State News",
       "sport_desk": null,
       "ingestion_mode": "direct",
       "editorial_firewall": "passed"
@@ -354,20 +340,6 @@
         "section": "State News",
         "sport_desk": null,
         "ingestion_mode": "discovery",
-        "editorial_firewall": "passed"
-      },
-      {
-        "headline": "La votación temprana comienza el lunes en Texas. Aquí te explicamos cómo votar en las elecciones intermedias.",
-        "title": "La votación temprana comienza el lunes en Texas. Aquí te explicamos cómo votar en las elecciones intermedias.",
-        "url": "https://sanantonioreport.org/como-votar-en-las-elecciones-intermedias/",
-        "source": "San Antonio Report",
-        "source_attribution": "San Antonio Report",
-        "source_type": "nonprofit-news",
-        "region": "San Antonio",
-        "published_at": "Thu, 15 Oct 2026 17:44:00 +0000",
-        "section": "State News",
-        "sport_desk": null,
-        "ingestion_mode": "direct",
         "editorial_firewall": "passed"
       },
       {
