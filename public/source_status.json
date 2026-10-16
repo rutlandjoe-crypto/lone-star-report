@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-16T16:38:48.270Z",
+  "checked_at": "2026-10-16T19:58:03.485Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 37,
   "sources": [
@@ -72,7 +72,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 7
+      "firewall_rejected": 5
     },
     {
       "source": "El Paso Times",
@@ -222,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 83
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 47
+      "firewall_rejected": 48
     },
     {
       "source": "El Paso Times Business",
@@ -238,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 76
     },
     {
       "source": "Dallas Morning News Business",
@@ -360,16 +360,6 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "Austin American-Statesman",
-      "title": "Anderson would bring neighborhood focus to Austin City Council | Endorsement - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "Austin American-Statesman",
-      "title": "Alter’s first term brought progress — and lessons — to City Hall | Endorsement - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
       "source": "San Antonio Express-News",
       "title": "Opinion: Artificial intelligence needs oversight before it runs amok - San Antonio Express-News",
       "reason": "blocked editorial/opinion phrase"
@@ -396,12 +386,12 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Family Yard Fall To-Dos",
+      "title": "EPCC trustee named again to Texas community college board",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
-      "title": "EPCC trustee named again to Texas community college board",
+      "title": "Family Yard Fall To-Dos",
       "reason": "missing business relevance signal"
     },
     {
@@ -416,7 +406,7 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "What should you drink before bed? 5 fall drinks that may help you sleep",
+      "title": "El Paso gets another swing at Banana Ball after sellouts",
       "reason": "missing business relevance signal"
     },
     {
@@ -427,11 +417,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Ignore her partisan antics. Buckingham delivered flood funds. | Endorsement",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Judge Lina Hidalgo’s approval falls following spats with Dems, rodeo",
       "reason": "missing business relevance signal"
     },
     {
@@ -452,6 +437,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Houston’s no-zoning reality puts historic minority neighborhoods at risk. The city could help — will it?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Cast a protest vote in these three open congressional seats | Endorsement",
       "reason": "missing business relevance signal"
     },
     {
@@ -486,7 +476,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Tell HPD to stop arresting folks for low-level pot possession. | Endorsement",
+      "title": "FedEx plans a $55 million distribution center in Cypress",
       "reason": "missing business relevance signal"
     },
     {
@@ -501,11 +491,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "New poll finds Democrats leading in nearly every statewide contest",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Ken Paxton's path to victory: Here are four key places to watch on Election Day",
       "reason": "missing business relevance signal"
     },
@@ -516,12 +501,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Why Greg Abbott says he will not debate Gina Hinojosa",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Cast a protest vote in these three open congressional seats | Endorsement",
+      "title": "New poll finds Democrats leading in nearly every statewide contest",
       "reason": "missing business relevance signal"
     },
     {
@@ -531,17 +511,37 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Tell HPD to stop arresting folks for low-level pot possession. | Endorsement",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Why Greg Abbott says he will not debate Gina Hinojosa",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Inside Greg Abbott's push to turn Harris County red",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Vote David Overhuls and Nathan Moss for criminal district judge. | Endorsement",
+      "title": "You’re gonna die, so vote for a good probate court judge | Endorsement",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Pasadena council weighing investigation into alleged illegal police department appointment",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Houston-area church youth counselor gets probation in child pornography case",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "City settles with contractor it said held Lake Houston water supply ‘hostage’",
       "reason": "missing business relevance signal"
     },
     {
@@ -571,17 +571,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Pasadena council weighing investigation into alleged illegal police department appointment",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "If you care about data centers, ICE raids or inflation, watch these Texas races",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Houston’s next cold front could bring 30s in parts of Texas. Here’s where.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Vote David Overhuls and Nathan Moss for criminal district judge. | Endorsement",
       "reason": "missing business relevance signal"
     },
     {
@@ -597,11 +597,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Dolly Parton's nephew denies threatening to harm her estate, pushes back against restraining order",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Sugar Land is nearly built out. Records show $38B in projects it couldn't pursue",
       "reason": "missing business relevance signal"
     },
     {
@@ -626,22 +621,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Barack Obama to campaign with Ohio Democrats as he expands his outreach ahead of Election Day",
+      "title": "Sugar Land is nearly built out. Records show $38B in projects it couldn't pursue",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "US consumers are muscling through higher prices, but for how long?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Chicago police say DNA ties a former detective to decades-old unsolved killing of 8-year-old girl",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "CVS agrees to pay $315 million to settle Justice Department case over opioid prescriptions",
       "reason": "missing business relevance signal"
     },
     {
@@ -652,11 +637,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Teen accused of plotting mass shooting at Chicago-area Hindu temple",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "New $31M HPD police records system, delayed twice, is set to launch this month",
       "reason": "missing business relevance signal"
     },
     {
@@ -672,11 +652,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Democrats see voter enthusiasm in fundraising haul from small-dollar donors before the midterms",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Supreme Court will review asylum case of Nigerian man who cooked meals for terrorist leaders",
       "reason": "missing business relevance signal"
     },
     {
@@ -827,6 +802,31 @@
     {
       "source": "Houston Chronicle Business",
       "title": "The Latest: AP-NORC poll: Strong majority of voters believes Trump is failing at home and abroad",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "House Democrats plan a first 100-days agenda if they sweep to power in midterm elections",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Florida wins key ruling allowing it to enforce a law that targets social media use by kids",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Her son has serious disabilities. She believes she's the best person to teach him",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Hot weather and winds raise California wildfire threat as power shutoffs start",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Austin resident finds six suspected World War II grenades at estate sale - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
