@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-16T22:51:32.226Z",
+  "checked_at": "2026-10-17T01:19:12.282Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 37,
   "sources": [
@@ -72,7 +72,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 5
+      "firewall_rejected": 6
     },
     {
       "source": "El Paso Times",
@@ -222,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 83
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 45
+      "firewall_rejected": 44
     },
     {
       "source": "El Paso Times Business",
@@ -346,6 +346,11 @@
     },
     {
       "source": "Austin American-Statesman",
+      "title": "Anderson would bring neighborhood focus to Austin City Council | Endorsement - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman",
       "title": "Counihan offers fresh perspective for Austin school board | Endorsement - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
     },
@@ -441,6 +446,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Map: See which areas of Houston receive the most parking citations",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Ignore her partisan antics. Buckingham delivered flood funds. | Endorsement",
       "reason": "missing business relevance signal"
     },
@@ -452,11 +462,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Young Texans are fed up with hate. They're ready to lead a more diverse Texas.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Map: See which areas of Houston receive the most parking citations",
       "reason": "missing business relevance signal"
     },
     {
@@ -476,17 +481,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Ken Paxton's path to victory: Here are four key places to watch on Election Day",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Trump’s struggles have put this GOP-redrawn Houston district back in play for Democrats",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "New poll finds Democrats leading in nearly every statewide contest",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Ken Paxton's path to victory: Here are four key places to watch on Election Day",
       "reason": "missing business relevance signal"
     },
     {
@@ -516,11 +521,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Pasadena council weighing investigation into alleged illegal police department appointment",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "You’re gonna die, so vote for a good probate court judge | Endorsement",
       "reason": "missing business relevance signal"
     },
@@ -536,6 +536,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Houston-area church youth counselor gets probation in child pornography case",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Time to replace Democrat Tamika Craft as civil district judge",
       "reason": "missing business relevance signal"
     },
@@ -546,7 +551,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston-area church youth counselor gets probation in child pornography case",
+      "title": "Pasadena council weighing investigation into alleged illegal police department appointment",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas high school football: Thursday's scores from Week 8",
       "reason": "missing business relevance signal"
     },
     {
@@ -561,12 +571,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston’s next cold front could bring 30s in parts of Texas. Here’s where.",
+      "title": "Vote David Overhuls and Nathan Moss for criminal district judge. | Endorsement",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Vote David Overhuls and Nathan Moss for criminal district judge. | Endorsement",
+      "title": "Houston’s next cold front could bring 30s in parts of Texas. Here’s where.",
       "reason": "missing business relevance signal"
     },
     {
@@ -577,16 +587,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Voters can't go wrong with the 1st and 14th Courts of Appeals",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "ODonnell has worked and now Harris County needs to protect it. | Endorsement",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Dolly Parton's nephew denies threatening to harm her estate, pushes back against restraining order",
       "reason": "missing business relevance signal"
     },
     {
@@ -721,6 +721,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Mexican judge closes the case against immigration chief Francisco Garduño over 2023 Juarez fire",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Former Ukrainian officer goes on trial over Nord Stream gas pipeline blasts",
       "reason": "missing business relevance signal"
     },
@@ -822,11 +827,6 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "Tesla's new Roadster drove updside down and flew at unveiling event in Texas - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "City of Austin to assume ownership of historic 'Muny' golf course - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
