@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T18:30:54.230Z",
+  "generated_at": "2026-10-17T21:28:17.946Z",
   "source": "National Weather Service",
   "source_url": "https://www.weather.gov/",
   "editorial_note": "Official National Weather Service forecast data.",
@@ -10,12 +10,12 @@
       "temperature": 62,
       "temperature_unit": "F",
       "forecast": "Sunny",
-      "wind_speed": "5 to 10 mph",
-      "wind_direction": "SSW",
+      "wind_speed": "10 mph",
+      "wind_direction": "S",
       "period": "This Afternoon",
-      "start_time": "2026-10-17T13:00:00-05:00",
+      "start_time": "2026-10-17T16:00:00-05:00",
       "end_time": "2026-10-17T18:00:00-05:00",
-      "fetched_at": "2026-10-17T18:30:49.647Z",
+      "fetched_at": "2026-10-17T21:28:16.085Z",
       "next_period": {
         "name": "Tonight",
         "start_time": "2026-10-17T18:00:00-05:00",
@@ -34,10 +34,10 @@
       "forecast": "Sunny",
       "wind_speed": "14 mph",
       "wind_direction": "ESE",
-      "period": "Today",
-      "start_time": "2026-10-17T10:00:00-06:00",
+      "period": "This Afternoon",
+      "start_time": "2026-10-17T15:00:00-06:00",
       "end_time": "2026-10-17T18:00:00-06:00",
-      "fetched_at": "2026-10-17T18:30:50.350Z",
+      "fetched_at": "2026-10-17T21:28:16.395Z",
       "next_period": {
         "name": "Tonight",
         "start_time": "2026-10-17T18:00:00-06:00",
@@ -55,11 +55,11 @@
       "temperature_unit": "F",
       "forecast": "Sunny",
       "wind_speed": "5 mph",
-      "wind_direction": "NNE",
+      "wind_direction": "N",
       "period": "This Afternoon",
-      "start_time": "2026-10-17T13:00:00-05:00",
+      "start_time": "2026-10-17T16:00:00-05:00",
       "end_time": "2026-10-17T18:00:00-05:00",
-      "fetched_at": "2026-10-17T18:30:51.564Z",
+      "fetched_at": "2026-10-17T21:28:16.563Z",
       "next_period": {
         "name": "Tonight",
         "start_time": "2026-10-17T18:00:00-05:00",
@@ -76,19 +76,19 @@
       "temperature": 70,
       "temperature_unit": "F",
       "forecast": "Sunny",
-      "wind_speed": "5 to 10 mph",
+      "wind_speed": "5 mph",
       "wind_direction": "NNE",
       "period": "This Afternoon",
-      "start_time": "2026-10-17T13:00:00-05:00",
+      "start_time": "2026-10-17T16:00:00-05:00",
       "end_time": "2026-10-17T18:00:00-05:00",
-      "fetched_at": "2026-10-17T18:30:52.517Z",
+      "fetched_at": "2026-10-17T21:28:16.752Z",
       "next_period": {
         "name": "Tonight",
         "start_time": "2026-10-17T18:00:00-05:00",
         "end_time": "2026-10-18T06:00:00-05:00",
         "temperature": 47,
         "temperature_unit": "F",
-        "forecast": "Partly Cloudy"
+        "forecast": "Mostly Clear"
       },
       "source": "National Weather Service"
     },
@@ -97,13 +97,13 @@
       "region": "South Central Texas",
       "temperature": 70,
       "temperature_unit": "F",
-      "forecast": "Mostly Sunny",
-      "wind_speed": "5 to 10 mph",
+      "forecast": "Sunny",
+      "wind_speed": "5 mph",
       "wind_direction": "NNE",
       "period": "This Afternoon",
-      "start_time": "2026-10-17T13:00:00-05:00",
+      "start_time": "2026-10-17T16:00:00-05:00",
       "end_time": "2026-10-17T18:00:00-05:00",
-      "fetched_at": "2026-10-17T18:30:53.078Z",
+      "fetched_at": "2026-10-17T21:28:17.125Z",
       "next_period": {
         "name": "Tonight",
         "start_time": "2026-10-17T18:00:00-05:00",
@@ -123,9 +123,9 @@
       "wind_speed": "10 mph",
       "wind_direction": "N",
       "period": "This Afternoon",
-      "start_time": "2026-10-17T13:00:00-05:00",
+      "start_time": "2026-10-17T15:00:00-05:00",
       "end_time": "2026-10-17T18:00:00-05:00",
-      "fetched_at": "2026-10-17T18:30:53.405Z",
+      "fetched_at": "2026-10-17T21:28:17.319Z",
       "next_period": {
         "name": "Tonight",
         "start_time": "2026-10-17T18:00:00-05:00",
@@ -145,9 +145,9 @@
       "wind_speed": "5 to 10 mph",
       "wind_direction": "N",
       "period": "This Afternoon",
-      "start_time": "2026-10-17T13:00:00-05:00",
+      "start_time": "2026-10-17T16:00:00-05:00",
       "end_time": "2026-10-17T18:00:00-05:00",
-      "fetched_at": "2026-10-17T18:30:53.732Z",
+      "fetched_at": "2026-10-17T21:28:17.672Z",
       "next_period": {
         "name": "Tonight",
         "start_time": "2026-10-17T18:00:00-05:00",
@@ -157,29 +157,12 @@
         "forecast": "Mostly Clear"
       },
       "source": "National Weather Service"
-    },
-    {
-      "name": "McAllen",
-      "region": "Rio Grande Valley",
-      "temperature": 74,
-      "temperature_unit": "F",
-      "forecast": "Sunny",
-      "wind_speed": "14 mph",
-      "wind_direction": "N",
-      "period": "This Afternoon",
-      "start_time": "2026-10-17T13:00:00-05:00",
-      "end_time": "2026-10-17T18:00:00-05:00",
-      "fetched_at": "2026-10-17T18:30:54.230Z",
-      "next_period": {
-        "name": "Tonight",
-        "start_time": "2026-10-17T18:00:00-05:00",
-        "end_time": "2026-10-18T06:00:00-05:00",
-        "temperature": 56,
-        "temperature_unit": "F",
-        "forecast": "Mostly Clear"
-      },
-      "source": "National Weather Service"
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "name": "McAllen",
+      "error": "HTTP 500: https://api.weather.gov/gridpoints/BRO/49,19/forecast"
+    }
+  ]
 }
