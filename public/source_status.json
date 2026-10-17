@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-17T18:30:38.097Z",
+  "checked_at": "2026-10-17T21:28:04.778Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -88,7 +88,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 2
     },
     {
       "source": "Dave Campbell's Texas Football",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 80
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 94
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 85
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 42
+      "firewall_rejected": 44
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 74
     },
     {
       "source": "Dallas Morning News Business",
@@ -343,7 +343,7 @@
     },
     {
       "source": "Beaumont Enterprise",
-      "title": "Column: West Brook Bruins rejuvenate season with Beaumont Bowl victory",
+      "title": "Column: West Brook Bruins rejuvenate season with Beaumont Bowl win",
       "reason": "blocked editorial/opinion phrase"
     },
     {
@@ -384,11 +384,6 @@
     {
       "source": "San Antonio Express-News",
       "title": "Opinion: Why are candidates overlooking people with disabilities? - San Antonio Express-News",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "San Antonio Express-News",
-      "title": "Opinion: Our recommendations for Bexar County’s courts-at-law races - San Antonio Express-News",
       "reason": "blocked editorial/opinion phrase"
     },
     {
@@ -443,11 +438,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harris County judge nominee had council’s highest absence rate in her final term",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "The worst candidates on the 2026 Texas election ballot | Editorial",
       "reason": "missing business relevance signal"
     },
@@ -468,12 +458,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Why Greg Abbott says he will not debate Gina Hinojosa",
+      "title": "Texas A&M-Citadel game won't be on regular TV platform. Here's how to watch it",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas A&M-Citadel game won't be on regular TV platform. Here's how to watch it",
+      "title": "Why Greg Abbott says he will not debate Gina Hinojosa",
       "reason": "missing business relevance signal"
     },
     {
@@ -484,11 +474,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Inside Greg Abbott's push to turn Harris County red",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Harris County hires ex-U.S. attorney for Houston ICE shooting investigation",
       "reason": "missing business relevance signal"
     },
     {
@@ -508,17 +493,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Savannah Bananas will try to fill Reliant Stadium with pair of games in 2027",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Petition seeks to remove Harris County Treasurer Carla Wyatt after arrests",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston-area church youth counselor gets probation in child pornography case",
+      "title": "Alief ISD has lost nearly 10,000 students. Could schools close?",
       "reason": "missing business relevance signal"
     },
     {
@@ -538,17 +513,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas high school football: Thursday's scores from Week 8",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas woman sues Torchy's Tacos after finding cow tooth in her food",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Texas high school football: Thursday's scores from Week 8",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston’s next cold front could bring 30s in parts of Texas. Here’s where.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Petition seeks to remove Harris County Treasurer Carla Wyatt after arrests",
       "reason": "missing business relevance signal"
     },
     {
@@ -569,6 +549,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Legals Bids & Proposals",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston-area church youth counselor gets probation in child pornography case",
       "reason": "missing business relevance signal"
     },
     {
@@ -613,16 +598,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Rep. Ilhan Omar's phone seized and relatives subpoenaed in criminal probe, AP source says",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Ukrainian drones are forced to slow down by sudden restrictions on use of Starlink",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "The Latest: AP-NORC poll: Strong majority of voters believes Trump is failing at home and abroad",
       "reason": "missing business relevance signal"
     },
@@ -658,11 +633,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Speaker Johnson dismisses skeptics as he campaigns for House GOP in Maine battleground",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "A gang rape allegation at Cornell highlights how Title IX guides campus sex assault cases",
       "reason": "missing business relevance signal"
     },
@@ -674,11 +644,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Pope Leo XIV's cancer diagnosis raises questions about the future and the very recent past",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Cornell president admits he never followed up on gang rape allegation ahead of no-confidence debate",
       "reason": "missing business relevance signal"
     },
     {
@@ -703,17 +668,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Body found in downtown Houston park near Buffalo Bayou, police say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Howard Hughes Texas Region President Jim Carman to transition to advisory role in 2027",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Austin's historic Lions Municipal Golf Course appears to be saved",
       "reason": "missing business relevance signal"
     },
     {
@@ -724,11 +679,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "City of Liberty loses about $600,000 in lookalike email scam",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Rep. Penny Morales Shaw seems dispirited. It's understanable. | Endorsement",
       "reason": "missing business relevance signal"
     },
     {
@@ -812,8 +762,58 @@
       "reason": "missing business relevance signal"
     },
     {
+      "source": "Houston Chronicle Business",
+      "title": "Baylor unveils new medical school building in Houston, $1B campaign",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Madrid demands La Liga president resigns after comparing attacks on referees with Nazi propaganda",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Vinícius Júnior to miss 'clasico' after being hit with a 4-game ban for hair pull and angry protests",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Sylvia Garcia fights for her constituents with courage and heart. Reelect her.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Anti-government protests force Conference League game to be moved out of Albanian capital Tirana",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Vinícius Júnior says he's being targeted by referees, wants more protection for talented players",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Karl Smesko took a bold leap from FGCU to the Atlanta Dream. It paid off with a WNBA Finals run",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "PSG piles more woe on scandal-hit Man City in Champions League, Real Madrid leaves it late in Rome",
+      "reason": "missing business relevance signal"
+    },
+    {
       "source": "Austin American-Statesman Business",
       "title": "Elon Musk settles Austin lawsuit over $1 million voter sweepstakes before he had to testify - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Barbara Bush’s latest donation puts her in the mix in Texas’ Senate race - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Second LBJ band director charged with sex with teen who was already a victim - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
