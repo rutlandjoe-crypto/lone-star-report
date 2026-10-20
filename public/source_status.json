@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-20T15:05:22.146Z",
+  "checked_at": "2026-10-20T19:15:50.036Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 35,
   "sources": [
@@ -64,7 +64,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "Austin American-Statesman",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 75
     },
     {
       "source": "Austin American-Statesman Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 85
+      "firewall_rejected": 86
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 77
     },
     {
       "source": "Dallas Morning News Business",
@@ -353,11 +353,6 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "Beaumont Enterprise",
-      "title": "Column: West Brook Bruins rejuvenate season with Beaumont Bowl win",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
       "source": "Austin American-Statesman",
       "title": "Props A and B can wait until Austin delivers on earlier bonds | Endorsement - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
@@ -379,7 +374,7 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Pacific Mobile Structures Provides Secure Modular Buildings for Data Campuses",
+      "title": "AI can estimate cancer patients’ survival risk from a single photo",
       "reason": "missing business relevance signal"
     },
     {
@@ -414,17 +409,47 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Talarico holds slim lead in Senate race, UH poll shows",
+      "title": "Al Green displays letter tied to suspicious powder at Houston federal building",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "I admit that I am an angry Republican. Here's why. | Opinion",
+      "title": "Italian court denies Lee Gilley's extradition in pregnant wife's death, but return still possible",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "‘No voter found’: What to do if you’re purged from Texas’ voter rolls",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Talarico holds slim lead in Senate race, UH poll shows",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Jasmine Crockett insists she's helping James Talarico in the best way possible",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Map: Where to vote in Harris County for the Nov. 3 election",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Paxton or Talarico? Texas Christians weigh abortion, character, faith and more",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "1.5M pounds of meat recalled in highest-risk category over storage concerns",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The best candidates on the 2026 Texas election ballot | Editorial",
       "reason": "missing business relevance signal"
     },
     {
@@ -439,27 +464,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'A good stepping stone': Texas A&M bounces back, rides rushing attack to blowout of The Citadel",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Jasmine Crockett, Greg Abbott visit Houston as early voting begins",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Paxton or Talarico? Texas Christians weigh abortion, character, faith and more",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas college football rankings: No doubts about Tech and UH but plenty on UT",
+      "title": "'A good stepping stone': Texas A&M bounces back, rides rushing attack to blowout of The Citadel",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "UH. Conner Weigman make a statement with memorable win over Oklahoma State",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas college football rankings: No doubts about Tech and UH but plenty on UT",
       "reason": "missing business relevance signal"
     },
     {
@@ -494,27 +514,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'Time for him to be back.' Texans WR Tank Dell to play Sunday against Giants",
+      "title": "Fight at Houston private school prompts police response, student detained",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The best candidates on the 2026 Texas election ballot | Editorial",
+      "title": "Early voting is underway in Texas. See where turnout is highest.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Why Steve Sarkisian is sticking with Arch Manning as UT's starting QB",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "1.5M pounds of meat recalled in highest-risk category over storage concerns",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Photos: Texans fans arrive in London before game vs. Jaguars",
+      "title": "Body found in downtown Houston park near Buffalo Bayou, police say",
       "reason": "missing business relevance signal"
     },
     {
@@ -540,6 +550,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Anthropic commits 5% of its stock to a new 'public benefit' fund",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "US to approve Boeing 737 Max 10 for passenger service after years of delays, AP source says",
       "reason": "missing business relevance signal"
     },
     {
@@ -594,6 +609,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Data center permits kept moving after Abbott’s directive, watchdogs say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Diego Gomez scores from halfway line for Brighton to revive memories of David Beckham's famous goal",
       "reason": "missing business relevance signal"
     },
@@ -604,17 +624,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "A cancer survivor and a man with an arm full of tattoos among the Korn Ferry graduates to PGA Tour",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Sig Byrd in 1959: A note of praise for the paperboy",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "More refereeing controversy involving Real Madrid. Sevilla complains and Madrid attacks Tebas again",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Oh, 'Susannah'! Houston Grand Opera opens season with opera with Houston ties",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump's decision to waive Russian sanctions outrages Congress, but no quick counter seen",
       "reason": "missing business relevance signal"
     },
     {
@@ -634,7 +654,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Early voting starts today in Texas. Here’s what you need to know.",
+      "title": "This endangered African bird is riding a population surge at the Houston Zoo",
       "reason": "missing business relevance signal"
     },
     {
@@ -644,22 +664,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "This endangered African bird is riding a population surge at the Houston Zoo",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "UIL approves girls flag football pilot program, eyes 2028-29 debut",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Rubio heads to Central Asia as some wonder if he's keeping the most pressing matters at a distance",
+      "title": "Early voting starts today in Texas. Here’s what you need to know.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Shrewd moves helped the Brewers become annual contenders. Here's how they got to the World Series",
+      "title": "Rubio heads to Central Asia as some wonder if he's keeping the most pressing matters at a distance",
       "reason": "missing business relevance signal"
     },
     {
@@ -675,6 +690,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "China defends DeepSeek after US ban of its AI from government systems",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Fire-damaged attraction at Texas Ren Fest won't reopen in time for 2026 season",
       "reason": "missing business relevance signal"
     },
     {
@@ -714,7 +734,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Fire-damaged attraction at Texas Ren Fest won't reopen in time for 2026 season",
+      "title": "Oh, 'Susannah'! Houston Grand Opera opens season with opera with Houston ties",
       "reason": "missing business relevance signal"
     },
     {
@@ -738,58 +758,8 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Al Green displays letter tied to suspicious powder at Houston federal building",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Astros roster analysis: Catcher. Who will back up Yainer Diaz?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston nightclub shooting leaves man critically injured after ownership dispute",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Commanders WR Terry McLaurin suffers knee injury vs. 49ers that team fears is serious",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "In their own words: Israeli politicians' extreme speech surges ahead of elections",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Frontline breach may have exposed data of 38K, including Klein ISD employees",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Thomas starts at QB for Oregon over Raiola against Nebraska",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "James Talarico’s past has Republicans on edge. I don’t blame them. | Opinion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Driver in deadly Kansas soccer field crash released while investigation continues",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Saudi Arabia executes 2 Bangladeshis over 'indecent acts,' and other Mideast news",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Stephen F. Austin anglers compete at Bassmaster College Classic Cup",
+      "source": "Austin American-Statesman Business",
+      "title": "Can you get pulled over while wearing headphones in Texas? - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -809,12 +779,37 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "What are the 8 Austin propositions on the November ballot? What to know - Austin American-Statesman",
+      "title": "Can slumping Texas Longhorns recover for a CFP berth? With 6 games left, it won't be easy - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Can slumping Texas Longhorns recover for a CFP berth? With 6 games left, it won't be easy - Austin American-Statesman",
+      "title": "Austin is America's No. 1 college town for a second year - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "F1 Austin: Free events and parties happening around town - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas football: Steve Sarkisian doesn't rule out benching Arch Manning after Florida loss - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Props A and B can wait until Austin delivers on earlier bonds | Endorsement - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Where to vote early near Austin: 2026 locations and hours - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "No. 7 Texas football falls to unranked Florida in second straight loss - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -824,7 +819,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "F1 Austin: Free events and parties happening around town - Austin American-Statesman",
+      "title": "Former Texas football players take to social media to voice frustration - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "What changes are coming to Texas football after second straight loss? - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
