@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-22T07:39:06.894Z",
+  "checked_at": "2026-10-22T13:47:27.998Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 36,
   "sources": [
@@ -72,7 +72,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 3
     },
     {
       "source": "El Paso Times",
@@ -205,15 +205,15 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 74
+      "firewall_rejected": 73
     },
     {
       "source": "Austin American-Statesman Business",
       "region": "Austin / Central Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
-      "firewall_rejected": 88
+      "accepted": 4,
+      "firewall_rejected": 85
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 84
+      "firewall_rejected": 82
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 77
+      "firewall_rejected": 80
     },
     {
       "source": "El Paso Times Business",
@@ -268,7 +268,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Fort Worth Star-Telegram Cowboys Desk",
@@ -300,7 +300,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "Dave Campbell's Texas Football - College",
@@ -349,6 +349,16 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
+      "source": "Austin American-Statesman",
+      "title": "Youth need a home base. New RBI Austin complex will provide it | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman",
+      "title": "Ted Cruz’s college sports win could be a loss for Texas football | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "San Antonio Express-News",
       "title": "Opinion: Response to airman’s fatal fall shows San Antonio’s character - San Antonio Express-News",
       "reason": "blocked editorial/opinion phrase"
@@ -375,21 +385,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "What a $500K home looks like across Houston, from the Heights to The Woodlands",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Inflation, Iran war and ICE: Here's how Talarico and Paxton split on key issues",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Meet Montgomery County judge candidates Mark Keough and James Graf",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Greg Abbott ordered a data center halt. At least 16 projects kept moving.",
       "reason": "missing business relevance signal"
     },
@@ -405,12 +400,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Fact check: James Talarico claims Ken Paxton voted 'to protect puppy abusers'",
+      "title": "Mysterious group behind transgender mailers formed weeks ago in Wyoming",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Mysterious group behind transgender mailers formed weeks ago in Wyoming",
+      "title": "Man dies after exchange of gunfire with police at area Academy store",
       "reason": "missing business relevance signal"
     },
     {
@@ -421,11 +416,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Predictions on UT: A 7-5 season, Manning to NFL and Sarkisian stays | Bohls",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Man dies after exchange of gunfire with police at area Academy store",
       "reason": "missing business relevance signal"
     },
     {
@@ -445,47 +435,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "GoFundMe for Air Force sergeant who died at Alamodome tops $100,000",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "‘No voter found’: What to do if you’re purged from Texas’ voter rolls",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Major 'Marvel' exhibition coming to Houston Museum of Natural Science. Here's when to go.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "The best candidates on the 2026 Texas election ballot | Editorial",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Talarico holds slim lead in Senate race, UH poll shows",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Ed Emmett: I admit that I am an angry Republican. Here's why. | Opinion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Want to end HISD's state takeover? Check Gina for yes, Greg for no. | Editorial",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Dozens of abandoned dogs found dumped near north Houston park, rescuers say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Air Force sergeant who died in fall before UTSA Saturday game identified",
       "reason": "missing business relevance signal"
     },
     {
@@ -495,12 +445,42 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Major 'Marvel' exhibition coming to Houston Museum of Natural Science. Here's when to go.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Want to end HISD's state takeover? Check Gina for yes, Greg for no. | Editorial",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ed Emmett: I admit that I am an angry Republican. Here's why. | Opinion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Dozens of abandoned dogs found dumped near north Houston park, rescuers say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "James Talarico rallies students, Democrats in Houston in final Senate push",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "The best candidates on the 2026 Texas election ballot | Editorial",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "1.5M pounds of meat recalled in highest-risk category over storage concerns",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston dad in daughter’s fentanyl death case gets 15 years for sexual assault",
+      "title": "Chocolate shipped to customers in Texas recalled after broken glass found",
       "reason": "missing business relevance signal"
     },
     {
@@ -530,12 +510,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston resident wants more Flock cameras despite growing privacy backlash",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Rockets preview: the standards — and stakes — are higher now",
+      "title": "Two HISD schools played a volleyball game. Then someone threatened to call ICE.",
       "reason": "missing business relevance signal"
     },
     {
@@ -545,7 +520,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "United is opening a new concourse at IAH. Here's what travelers need to know.",
+      "title": "Houston father charged in daughter’s fentanyl death gets 15 years for sexual assault",
       "reason": "missing business relevance signal"
     },
     {
@@ -590,7 +565,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Hegseth makes unannounced trip and other Mideast news",
+      "title": "Health insurance costs keep climbing for American workers, a new survey finds",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ukraine's strikes on Russian data centers disrupt key services and derail AI research",
       "reason": "missing business relevance signal"
     },
     {
@@ -600,7 +580,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "AI agents are only as good as the personal information you share. That raises privacy concerns",
+      "title": "Iran says 7 tankers were damaged in the Strait of Hormuz, and other Mideast news",
       "reason": "missing business relevance signal"
     },
     {
@@ -620,6 +600,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How Texas’ data center boom could reverse years of air pollution progress",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Baltimore Orioles hire Jared Banner as general manager to work alongside team president Mike Elias",
       "reason": "missing business relevance signal"
     },
@@ -635,7 +620,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Forget Paxton. It’s Talarico vs. Musk from here on out.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "How Houston developed: Timeline traces neighborhood growth",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Some schools are banning caffeine pouches. Here's what parents and students should know",
       "reason": "missing business relevance signal"
     },
     {
@@ -651,11 +646,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Facing a ban on horse-drawn carriages, Central Park's drivers fear for their livelihoods",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Ironworker challenges Rep. Max Miller as the Ohio congressman fights to hold seat amid abuse claims",
       "reason": "missing business relevance signal"
     },
     {
@@ -700,6 +690,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Almost all coral reef ecosystems face risk of collapse in 50 years, study warns",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Carney says Trump’s tariffs hurt Americans as US alleges Canadian interference",
       "reason": "missing business relevance signal"
     },
@@ -720,7 +715,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Counties race to regulate groundwater as data centers and water demand surge",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Athletics hire Taylor Smith as president of baseball operations",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Athletics bet on youth with 31-year-old Taylor Smith to lead baseball operations",
       "reason": "missing business relevance signal"
     },
     {
@@ -740,7 +745,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Early voting starts today in Texas. Here’s what you need to know.",
+      "title": "Forget Talarico. For these Houston Hispanic voters, it's about Lorenzo Salgado.",
       "reason": "missing business relevance signal"
     },
     {
@@ -755,7 +760,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Who’s running for Texas governor? Meet Greg Abbott’s challengers - Austin American-Statesman",
+      "title": "Former Flock Safety employee alleges 'boys club' culture in Austin lawsuit - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -765,37 +770,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Shakey Graves, Adrian Quesada headline free grand opening at new South Austin venue - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Austin's nightclub goes phone-free. Here's the reaction - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Texas bans fan who flipped off Florida players on field after loss - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Who's to blame as Texas football tumbles in the polls? - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "'We got your plates': Video shows North Austin ICE arrest - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Where to vote early near Austin: 2026 locations and hours - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Travis County’s 40,777 first-day votes set a 20-year midterm high - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Man arrested after police say he struck man with glass at Matt's El Rancho - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -805,7 +785,27 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Who's to blame as Texas football tumbles in the polls? - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "George W. Bush's brother Neil Bush backs James Talarico - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "'We got your plates': Video shows North Austin ICE arrest - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Travis County’s 40,777 first-day votes set a 20-year midterm high - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Former Texas football players take to social media to voice frustration - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -820,12 +820,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Former Texas football players take to social media to voice frustration - Austin American-Statesman",
+      "title": "Texas bans fan who flipped off Florida players on field after loss - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Shakey Graves, Adrian Quesada headline free grand opening at new South Austin venue - Austin American-Statesman",
+      "title": "What caused those odd 'hole-punch' clouds over Central Texas Saturday? - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
