@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24T18:08:34.408Z",
+  "checked_at": "2026-10-24T20:48:23.945Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -173,7 +173,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 1,
-      "firewall_rejected": 5
+      "firewall_rejected": 4
     },
     {
       "source": "Texas Comptroller",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 81
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 80
+      "firewall_rejected": 76
     },
     {
       "source": "Dallas Morning News Business",
@@ -291,7 +291,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 2,
+      "accepted": 4,
       "firewall_rejected": 0
     },
     {
@@ -365,11 +365,6 @@
       "source": "On3 - Texas A&M Aggies",
       "title": "Joseph Hastings",
       "reason": "blocked sports noise"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "El Paso's secret speakeasy 1922 has closed its doors",
-      "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
@@ -543,6 +538,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Inside the effort to reach voters in Harris County's low-turnout neighborhoods",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "North Shore gets a surprise visit from Texans quarterback C.J. Stroud",
       "reason": "missing business relevance signal"
     },
@@ -554,11 +554,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "HISD plans 25 more AI-focused 'Future 2' schools as Mike Miles' vision expands",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Four Democrats and one Republican for Harris County civil courts at law",
       "reason": "missing business relevance signal"
     },
     {
@@ -579,11 +574,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Florida officer took possession of man's home after finding him dead 4 years ago, police say",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Some websites go dark as operators address an AI-detected flaw in a web programming language",
       "reason": "missing business relevance signal"
     },
     {
@@ -614,11 +604,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Some US transit systems weigh whether to run trains without a human at the controls",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "6 people have been arrested for allegedly running a marriage fraud ring, federal authorities say",
       "reason": "missing business relevance signal"
     },
     {
@@ -688,27 +673,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "H-E-B Wine Walk returns Saturday with new location at The Woodlands Resort",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "David Dow Bentley III: A country twist for another YTA Classic Cabaret kickoff event",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "What to know about Ebola outbreak that has spread from Congo to multiple African countries",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "John Anderson, country music star whose hits included 'Wild and Blue,' dies at 71",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Central Park's horse-drawn carriage drivers fear for their future as New York City passes a ban",
       "reason": "missing business relevance signal"
     },
     {
@@ -763,6 +733,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Central Park's horse-drawn carriage drivers fear for their future as New York City passes a ban",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Houston Galleria parking fees are coming. Will shoppers pay up or stay away?",
       "reason": "missing business relevance signal"
     },
@@ -783,6 +758,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Mourinho – ‘I am not stupid’ – keeps game plan under wraps for Madrid’s trip to Barcelona",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Mural honoring women’s rights activist vandalized again in Houston Heights",
       "reason": "missing business relevance signal"
     },
@@ -792,23 +772,23 @@
       "reason": "missing business relevance signal"
     },
     {
+      "source": "Houston Chronicle Business",
+      "title": "Chronicle launches 'Change of State' video series on the trends reshaping Texas",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Rush is on to patch a software vulnerability that could impact 70% of websites worldwide",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "‘Looksmaxxing’ streamer known as Clavicular pleads not guilty to rape charge",
+      "reason": "missing business relevance signal"
+    },
+    {
       "source": "Austin American-Statesman Business",
       "title": "See the $2.25M Austin home featured in the new Elizabeth Holmes documentary - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "'I feel horrible:' LASA forfeits the 3 games left on its high school football schedule - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Texas bans fan who flipped off Florida players on field after loss - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Talarico deepfake ad raises questions about Texas election law - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -818,12 +798,32 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Arch Manning, No. 19 Texas vs No. 7 Ole Miss. Full preview, how to watch - Austin American-Statesman",
+      "title": "Austin police link man to more than 500 child sexual abuse files - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin police link man to more than 500 child sexual abuse files - Austin American-Statesman",
+      "title": "Texas coach Steve Sarkisian is open to subbing KJ Lacey for QB Manning - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Pflugerville candidate gets cease-and-desist over ‘Mister Rogers’ branding - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Talarico deepfake ad raises questions about Texas election law - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas football midseason grades for Steve Sarkisian, Arch Manning, each position - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Arch Manning, No. 19 Texas vs No. 7 Ole Miss. Full preview, how to watch - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
