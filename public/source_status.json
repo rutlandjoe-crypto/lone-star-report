@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-24T00:41:21.863Z",
+  "checked_at": "2026-10-24T05:52:08.887Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 33,
+  "working_sources": 32,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -178,9 +178,8 @@
       "source": "Texas Comptroller",
       "region": "Statewide",
       "mode": "direct",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "HTTP 503"
     },
     {
       "source": "Dallas Fed Economic Updates",
@@ -204,7 +203,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 77
+      "firewall_rejected": 78
     },
     {
       "source": "Austin American-Statesman Business",
@@ -212,7 +211,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 94
+      "firewall_rejected": 93
     },
     {
       "source": "San Antonio Express-News Business",
@@ -228,7 +227,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 75
+      "firewall_rejected": 81
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +235,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 74
     },
     {
       "source": "Dallas Morning News Business",
@@ -417,12 +416,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harris, Dallas counties shatter early voting records. What it means for GOP",
+      "title": "Predictions on UT: A 7-5 season, Manning to NFL and Sarkisian stays | Bohls",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harris County Treasurer Carla Wyatt had no insurance, tried to leave crash scene, drivers allege",
+      "title": "Harris, Dallas counties shatter early voting records. What it means for GOP",
       "reason": "missing business relevance signal"
     },
     {
@@ -432,12 +431,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Predictions on UT: A 7-5 season, Manning to NFL and Sarkisian stays | Bohls",
+      "title": "Thomas J. Henry says he'll vote for Talarico after giving $600K to boost Paxton",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Thomas J. Henry says he'll vote for Talarico after giving $600K to boost Paxton",
+      "title": "Harris County Treasurer Carla Wyatt had no insurance, tried to leave crash scene, drivers allege",
       "reason": "missing business relevance signal"
     },
     {
@@ -457,6 +456,16 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Texas won’t name the private schools and vendors profiting from state vouchers",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Talarico, Hinojosa lead GOP opponents among Latino voters, UH poll shows",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Want to end HISD's state takeover? Check Gina for yes, Greg for no. | Editorial",
       "reason": "missing business relevance signal"
     },
@@ -467,22 +476,32 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "At Astroworld, I thought I was going to die. 5 years later, I still feel it in every crowd.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "James Talarico rallies students, Democrats in Houston in final Senate push",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Toya Jones, a former Texas A&M football player and Texas high school track legend, dead at 49",
+      "title": "At Astroworld, I thought I was going to die. 5 years later, I still feel it in every crowd.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "United is opening a new concourse at IAH. Here's what travelers need to know.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Independent journalist Joy Reid warns Texas voters: 'If they win this one, we're done'",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Republicans spend heavily to win the South Texas seats they redistricted",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "How Rockets turned preseason talking points into opening-night success",
       "reason": "missing business relevance signal"
     },
     {
@@ -502,7 +521,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Rockets turned preseason talking points into opening-night success",
+      "title": "Toya Jones, former Texas A&M football player and high school track legend, dead",
       "reason": "missing business relevance signal"
     },
     {
@@ -512,7 +531,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Katy's vibrant dining scene adds to its historical charm",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "North Shore gets a surprise visit from Texans quarterback C.J. Stroud",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Three Houston Zoo elephants are moving to another zoo together",
       "reason": "missing business relevance signal"
     },
     {
@@ -527,7 +556,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Three Houston Zoo elephants are moving to another zoo together",
+      "title": "Four Democrats and one Republican for Harris County civil courts at law",
       "reason": "missing business relevance signal"
     },
     {
@@ -538,11 +567,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "A chemical tank explodes in Ohio, forcing evacuations and prompting fears of another blast",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston’s Latinos spend billions. Here’s what else the numbers reveal.",
       "reason": "missing business relevance signal"
     },
     {
@@ -568,11 +592,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Health insurance costs keep climbing for American workers, a new survey finds",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "HISD opens new Sunrise Center for families in need at Worthing High School",
       "reason": "missing business relevance signal"
     },
     {
@@ -627,17 +646,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Aaron Rodgers urges better funding for US women's flag football team",
+      "title": "Texas sues OpenAI over ChatGPT safety claims",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Some schools are banning caffeine pouches. Here's what parents and students should know",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas sues OpenAI over ChatGPT safety claims",
       "reason": "missing business relevance signal"
     },
     {
@@ -652,12 +666,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Central Park's horse-drawn carriage drivers fear for their future as New York City passes a ban",
+      "title": "Pear orchards, a Polish count and barbecue have shaped Pearland’s history",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Sugar Land's century-old Char House is getting a new life. Here's what's planned",
+      "title": "HISD opens new Sunrise Center for families in need at Worthing High School",
       "reason": "missing business relevance signal"
     },
     {
@@ -687,12 +701,27 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Lake Conroe Lions: Club hosts record-breaking Cruisin' 2026 Car Show",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Bo Nix says his ankle is fine, but a mental hurdle lingers as his slump drags on",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Congo’s Ebola outbreak leaves grieving families struggling with fear and stigma",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Wine Walk: Let us raise a glass to the pioneers of Texas wines in October",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "H-E-B Wine Walk returns Saturday with new location at The Woodlands Resort",
       "reason": "missing business relevance signal"
     },
     {
@@ -707,7 +736,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Medical lab Quest Diagnostics cyber breach may impact patient records",
+      "title": "John Anderson, country music star whose hits included 'Wild and Blue,' dies at 71",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Central Park's horse-drawn carriage drivers fear for their future as New York City passes a ban",
       "reason": "missing business relevance signal"
     },
     {
@@ -722,52 +756,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Sugar Land's century-old Char House is getting a new life. Here's what's planned",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "With lockout looming, the World Series could be Major League Baseball's last games for a while",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Project Row Houses melds art, community in Third Ward",
+      "title": "Vinícius Júnior goes scoreless again for Real Madrid in Champions League. Drought extends to 9 games",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Subtropical Storm Josephine forms off Northeast coast with 65 mph winds",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Virginia state Sen. L. Louise Lucas is charged with drug trafficking and money laundering, DOJ says",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "‘They can just squeeze out a couple dollars\": Galleria shoppers react to new parking fees",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Athletics bet on youth with 31-year-old Taylor Smith to lead baseball operations",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "In struggling LA, Mayor Karen Bass fights for 2nd term against democratic socialist-backed Raman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Evacuation area around Toledo chemical tank leak is reduced as conditions improve",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston churches’ architecture reflects changing times, growing population",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "What would it take for the Rockets to reach the NBA Finals? NBA scouts, executive weigh in",
+      "title": "Texas Southern police issue alert after armed robbery at on-campus apartment",
       "reason": "missing business relevance signal"
     },
     {
@@ -777,7 +781,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Tesla Cybercab hits pothole in Austin, raising questions about sensors - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Pflugerville candidate gets cease-and-desist over ‘Mister Rogers’ branding - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas bans fan who flipped off Florida players on field after loss - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -792,12 +806,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin has billions in unfinished bond projects. Now it wants to borrow more. - Austin American-Statesman",
+      "title": "Talarico deepfake ad raises questions about Texas election law - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Tesla Cybercab hits pothole in Austin, raising questions about sensors - Austin American-Statesman",
+      "title": "Davis champions ‘decision and action,' unveiling new UT college to oversee core - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -808,21 +822,6 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "Arch Manning, No. 19 Texas vs No. 7 Ole Miss. Full preview, how to watch - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Austin police link man to more than 500 child sexual abuse files - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Who's to blame as Texas football tumbles in the polls? - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Talarico deepfake ad raises questions about Texas election law - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
