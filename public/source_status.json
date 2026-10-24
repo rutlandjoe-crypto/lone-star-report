@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-24T05:52:08.887Z",
+  "checked_at": "2026-10-24T10:58:16.285Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 32,
+  "working_sources": 34,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -171,15 +171,17 @@
       "source": "El Paso Inc.",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 1,
+      "firewall_rejected": 4
     },
     {
       "source": "Texas Comptroller",
       "region": "Statewide",
       "mode": "direct",
-      "status": "failed",
-      "error": "HTTP 503"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Dallas Fed Economic Updates",
@@ -203,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 78
+      "firewall_rejected": 79
     },
     {
       "source": "Austin American-Statesman Business",
@@ -211,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 93
+      "firewall_rejected": 92
     },
     {
       "source": "San Antonio Express-News Business",
@@ -219,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 80
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -227,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 80
     },
     {
       "source": "El Paso Times Business",
@@ -235,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 74
+      "firewall_rejected": 79
     },
     {
       "source": "Dallas Morning News Business",
@@ -298,7 +300,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Dave Campbell's Texas Football - College",
@@ -356,7 +358,7 @@
     },
     {
       "source": "San Antonio Express-News",
-      "title": "Opinion: Response to airman’s fatal fall shows San Antonio’s character - San Antonio Express-News",
+      "title": "Opinion: To City Council: Please, do right on data centers - San Antonio Express-News",
       "reason": "blocked editorial/opinion phrase"
     },
     {
@@ -416,11 +418,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Predictions on UT: A 7-5 season, Manning to NFL and Sarkisian stays | Bohls",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Harris, Dallas counties shatter early voting records. What it means for GOP",
       "reason": "missing business relevance signal"
     },
@@ -451,22 +448,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Man detained by ICE agents taken to hospital after crash in northwest Houston",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Texas won’t name the private schools and vendors profiting from state vouchers",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Talarico, Hinojosa lead GOP opponents among Latino voters, UH poll shows",
+      "title": "Man detained by ICE agents taken to hospital after crash in northwest Houston",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Want to end HISD's state takeover? Check Gina for yes, Greg for no. | Editorial",
+      "title": "Talarico, Hinojosa lead GOP opponents among Latino voters, UH poll shows",
       "reason": "missing business relevance signal"
     },
     {
@@ -486,22 +478,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "United is opening a new concourse at IAH. Here's what travelers need to know.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Independent journalist Joy Reid warns Texas voters: 'If they win this one, we're done'",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Republicans spend heavily to win the South Texas seats they redistricted",
+      "title": "United is opening a new concourse at IAH. Here's what travelers need to know.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How Rockets turned preseason talking points into opening-night success",
+      "title": "Republicans spend heavily to win the South Texas seats they redistricted",
       "reason": "missing business relevance signal"
     },
     {
@@ -521,12 +508,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "How Rockets turned preseason talking points into opening-night success",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Toya Jones, former Texas A&M football player and high school track legend, dead",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Two HISD schools played a volleyball game. Then someone threatened to call ICE.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas high school football: Friday's scores from Week 9",
       "reason": "missing business relevance signal"
     },
     {
@@ -546,12 +543,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "HISD plans 25 more AI-focused 'Future 2' schools as Mike Miles' vision expands",
+      "title": "Talarico v. Paxton U.S. Senate race draws dueling religious endorsements",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Talarico v. Paxton U.S. Senate race draws dueling religious endorsements",
+      "title": "HISD plans 25 more AI-focused 'Future 2' schools as Mike Miles' vision expands",
       "reason": "missing business relevance signal"
     },
     {
@@ -631,11 +628,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Taxpayers are funding private school tuition. It's helping classical Christian schools expand",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Former MLB player opens Houston-area Pilates studio after injury comeback",
       "reason": "missing business relevance signal"
     },
@@ -666,6 +658,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Sawyer Yards to host interactive art and music event with rapper Mike Jones",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Pear orchards, a Polish count and barbecue have shaped Pearland’s history",
       "reason": "missing business relevance signal"
     },
@@ -681,11 +678,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "When it comes to Boca Chica, tell Elon Musk: Come and take it. | Opinion",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Conroe delays Hyatt budget as hotel faces $2M debt shortfall",
       "reason": "missing business relevance signal"
     },
@@ -696,22 +688,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Sawyer Yards to host interactive art and music event with rapper Mike Jones",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Lake Conroe Lions: Club hosts record-breaking Cruisin' 2026 Car Show",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Bo Nix says his ankle is fine, but a mental hurdle lingers as his slump drags on",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Congo’s Ebola outbreak leaves grieving families struggling with fear and stigma",
       "reason": "missing business relevance signal"
     },
     {
@@ -771,17 +753,37 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "When it comes to Boca Chica, tell Elon Musk: Come and take it. | Opinion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Texas Southern police issue alert after armed robbery at on-campus apartment",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Project Row Houses melds art, community in Third Ward",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Subtropical Storm Josephine forms off Northeast coast with 65 mph winds",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Virginia state Sen. L. Louise Lucas is charged with drug trafficking and money laundering, DOJ says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston Galleria parking fees are coming. Will shoppers pay up or stay away?",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "See the $2.25M Austin home featured in the new Elizabeth Holmes documentary - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Tesla Cybercab hits pothole in Austin, raising questions about sensors - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
