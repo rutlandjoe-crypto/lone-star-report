@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24T14:31:59.351Z",
+  "checked_at": "2026-10-24T18:08:34.408Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 34,
   "sources": [
@@ -72,7 +72,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 5
     },
     {
       "source": "El Paso Times",
@@ -88,7 +88,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Dave Campbell's Texas Football",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 79
+      "firewall_rejected": 80
     },
     {
       "source": "Austin American-Statesman Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 83
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 79
+      "firewall_rejected": 80
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 79
+      "firewall_rejected": 80
     },
     {
       "source": "Dallas Morning News Business",
@@ -291,7 +291,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 2,
       "firewall_rejected": 0
     },
     {
@@ -338,7 +338,27 @@
     },
     {
       "source": "Austin American-Statesman",
+      "title": "Election season surprise: Many Texans actually want the same things | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman",
+      "title": "There’s no money in Texas government — at least, not for you | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman",
       "title": "Youth need a home base. New RBI Austin complex will provide it | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman",
+      "title": "Ted Cruz’s college sports win could be a loss for Texas football | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "San Antonio Express-News",
+      "title": "Opinion: To City Council: Please, do right on data centers - San Antonio Express-News",
       "reason": "blocked editorial/opinion phrase"
     },
     {
@@ -383,17 +403,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Don’t toss your 'I Voted' stickers just yet",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Forget Talarico. For these Houston Hispanic voters, it's about Lorenzo Salgado.",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Dozens of abandoned dogs found dumped near north Houston park, rescuers say",
       "reason": "missing business relevance signal"
     },
     {
@@ -418,17 +428,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Gov. Greg Abbott has a dire warning for nation should Texas go blue",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "As attorney general, Paxton fought Big Tech. He'll do it as a senator. | Opinion",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Texas won’t name the private schools and vendors profiting from state vouchers",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "James Talarico casts ballot in Austin on Friday",
       "reason": "missing business relevance signal"
     },
     {
@@ -443,17 +453,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "James Talarico casts ballot in Austin on Friday",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "James Talarico rallies students, Democrats in Houston in final Senate push",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "At Astroworld, I thought I was going to die. 5 years later, I still feel it in every crowd.",
+      "title": "Gov. Greg Abbott has a dire warning for nation should Texas go blue",
       "reason": "missing business relevance signal"
     },
     {
@@ -463,17 +463,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "At Astroworld, I thought I was going to die. 5 years later, I still feel it in every crowd.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "James Talarico rallies students, Democrats in Houston in final Senate push",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "United is opening a new concourse at IAH. Here's what travelers need to know.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Republicans spend heavily to win the South Texas seats they redistricted",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Early voting is underway in Texas. See where turnout is highest.",
+      "title": "Texas early voting tracker: Search by county and see where turnout is highest",
       "reason": "missing business relevance signal"
     },
     {
@@ -498,17 +503,42 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Dozens of abandoned dogs found dumped near north Houston park, rescuers say",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Toya Jones, former Texas A&M football player and high school track legend, dead",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Two HISD schools played a volleyball game. Then someone threatened to call ICE.",
+      "title": "Republicans spend heavily to win the South Texas seats they redistricted",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "As nation sees more of UH, Cougars have chance to boost CFP odds against No. 10 Utah",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "'I can jump pretty high.' Rockets and Amen Thompson stuff Victor Wembanyama",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Kyrie Irving speaks on friendship with Azeez Al-Shaair and why he paid his fine",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Texas high school football: Friday's scores from Week 9",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Two HISD schools played a volleyball game. Then someone threatened to call ICE.",
       "reason": "missing business relevance signal"
     },
     {
@@ -534,11 +564,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Talarico v. Paxton U.S. Senate race draws dueling religious endorsements",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "A chemical tank explodes in Ohio, forcing evacuations and prompting fears of another blast",
       "reason": "missing business relevance signal"
     },
     {
@@ -623,17 +648,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Pear orchards, a Polish count and barbecue have shaped Pearland’s history",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "HISD opens new Sunrise Center for families in need at Worthing High School",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Brazil's Congress's shift to the right could change Latin America's powerhouse. Here’s what to know",
       "reason": "missing business relevance signal"
     },
     {
@@ -649,6 +664,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Sawyer Yards to host interactive art and music event with rapper Mike Jones",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Pear orchards, a Polish count and barbecue have shaped Pearland’s history",
       "reason": "missing business relevance signal"
     },
     {
@@ -689,6 +709,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Central Park's horse-drawn carriage drivers fear for their future as New York City passes a ban",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Brazil's Congress's shift to the right could change Latin America's powerhouse. Here’s what to know",
       "reason": "missing business relevance signal"
     },
     {
@@ -778,27 +803,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Pflugerville candidate gets cease-and-desist over ‘Mister Rogers’ branding - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Texas bans fan who flipped off Florida players on field after loss - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Bravo releases first trailer for its new Boerne reality show - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "'There's blood everywhere': Witness recounts Matt's El Rancho assault - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Texas coach Steve Sarkisian is open to subbing KJ Lacey for QB Manning - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -808,22 +813,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas football midseason grades for Steve Sarkisian, Arch Manning, each position - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Davis champions ‘decision and action,' unveiling new UT college to oversee core - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "George W. Bush's brother Neil Bush backs James Talarico - Austin American-Statesman",
+      "title": "Arch Manning, No. 19 Texas vs No. 7 Ole Miss. Full preview, how to watch - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Arch Manning, No. 19 Texas vs No. 7 Ole Miss. Full preview, how to watch - Austin American-Statesman",
+      "title": "Austin police link man to more than 500 child sexual abuse files - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
