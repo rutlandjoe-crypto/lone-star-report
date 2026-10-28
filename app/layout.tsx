@@ -1,4 +1,5 @@
 import GsrNewsletterSignup from "./GsrNewsletterSignup";
+import GsrAppLinks from "./GsrAppLinks";
 import "./globals.css";
 import type { Metadata } from "next";
 
@@ -114,7 +115,9 @@ export default function RootLayout({
             __html: JSON.stringify(structuredData),
           }}
         />
+        <GsrAppLinks source="lone-star" />
         {children}
+        <GsrAppLinks source="lone-star" placement="footer" />
         <GsrNewsletterSignup />
       </body>
     </html>
