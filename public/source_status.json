@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31T09:38:07.505Z",
+  "checked_at": "2026-10-31T15:44:43.336Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 36,
   "sources": [
@@ -72,7 +72,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 6
+      "firewall_rejected": 5
     },
     {
       "source": "El Paso Times",
@@ -173,7 +173,7 @@
       "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 2,
       "firewall_rejected": 12
     },
     {
@@ -214,7 +214,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 94
     },
     {
       "source": "San Antonio Express-News Business",
@@ -222,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 36
+      "firewall_rejected": 40
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -230,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 71
+      "firewall_rejected": 36
     },
     {
       "source": "El Paso Times Business",
@@ -238,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 74
     },
     {
       "source": "Dallas Morning News Business",
@@ -253,7 +253,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "Houston Chronicle Astros Desk",
@@ -345,6 +345,11 @@
     },
     {
       "source": "Austin American-Statesman",
+      "title": "I'm a lifelong Republican. I voted for Democrats to save my party | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman",
       "title": "Elon Musk lawyer running for Congress distances himself | Editorial - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
     },
@@ -355,22 +360,12 @@
     },
     {
       "source": "Austin American-Statesman",
-      "title": "I'm a lifelong Republican. I voted for Democrats to save my party | Opinion - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "Austin American-Statesman",
-      "title": "Texas’ social media lawsuits are about state power, not child safety | Opinion - Austin American-Statesman",
+      "title": "Texas Muslims should ask who stands with them at the ballot box | Opinion - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
     },
     {
       "source": "Austin American-Statesman",
       "title": "I left Texas for an abortion. Texans shouldn't elect Paxton to Senate | Opinion - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "Austin American-Statesman",
-      "title": "Texas Muslims should ask who stands with them at the ballot box | Opinion - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
     },
     {
@@ -470,11 +465,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "ICE agent indicted in Houston crash had prior discipline at state prison",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston leaders react to ICE agent's indictment in crash that injured immigrant",
       "reason": "missing business relevance signal"
     },
@@ -490,17 +480,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harris County breaks early voting records for a midterm election",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Elizabeth Sander named to new Houston Chronicle education beat",
+      "title": "‘The way it should happen’: How Harris County’s ICE crash probe differs from HPD's ICE shooting response",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Ken Paxton's office sues Harris County for 'discriminatory' get-out-the-vote ads",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Harris County breaks early voting records for a midterm election",
       "reason": "missing business relevance signal"
     },
     {
@@ -545,11 +535,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Airbnb.org has a 10-cent plan to raise $500 million for emergency housing",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Google misses Wall Street expectations, Alphabet stock sinks in early after-hours trading",
       "reason": "missing business relevance signal"
     },
@@ -585,7 +570,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "NASA telescope is on the verge of plunging back to Earth after failed rescue mission",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Dartmouth provost resigns following accusations he used artificial intelligence for writing",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mideast leaders call for calm as fears mount of a renewed war in the region, and other Mideast news",
       "reason": "missing business relevance signal"
     },
     {
@@ -640,12 +635,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "How Austin robotaxis are changing the ride-hailing equation for drivers - Austin American-Statesman",
+      "title": "Why were there so many police escorts during Austin’s F1 weekend? - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin is getting a nonstop flight to Alaska. Here’s when it starts. - Austin American-Statesman",
+      "title": "Now you see why SEC coaches were nervous about adding a 9th conference game | Golden - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "How Austin robotaxis are changing the ride-hailing equation for drivers - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -655,7 +655,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Austin is getting a nonstop flight to Alaska. Here’s when it starts. - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Could Ryan Alter's taxpayer-funded mailer violate Texas election law? - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Austin ISD takeover opponents' biggest hope: a Gina Hinojosa win - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -670,37 +680,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas football: Impact with QB Kamario Taylor out for Mississippi State - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Why were there so many police escorts during Austin’s F1 weekend? - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Austin judge orders depositions in trans mailer campaign days before midterms - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "These sixth-graders were roughhousing at school. They wound up in handcuffs. - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Colt McCoy was expected at Trump's Texas events. He wasn't there - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Texas football flips second LB this week to boost 2027 recruiting class - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Now you see why SEC coaches were nervous about adding a 9th conference game | Golden - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -725,17 +710,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin ISD takeover opponents' biggest hope: a Gina Hinojosa win - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Noah Kahan is bringing his stadium tour to University of Texas - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Tech manufacturer seeks tax cuts for Williamson County facilities - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -755,6 +730,16 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Ramen Tatsu-Ya, Olive Garden among new restaurants planned in Austin suburbs - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Pflugerville approves new rules for AI, surveillance and data sharing - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "The Arboretum in Austin is getting a makeover. Here's what's planned - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
@@ -765,12 +750,57 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Will dried-out Austin finally get rain this week? Here's how much is possible. - Austin American-Statesman",
+      "title": "‘It ain’t weird if you’re weird’: Austin remembers David Arnsberger - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Pflugerville approves new rules for AI, surveillance and data sharing - Austin American-Statesman",
+      "title": "Bee Cave approves redesign of busy Texas 71, Hamilton Pool Road intersection - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas voters will reveal where they stand in the midterm election | Letters - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "I left Texas for an abortion. Texans shouldn't elect Paxton to Senate | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Cotopaxi just marked down jackets, fleece and rain shells by up to 40% - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas Muslims should ask who stands with them at the ballot box | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "When does the time change in Texas? Here's when daylight saving time ends in 2026 - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "How a Baylor reunion replaced an Eastern New Mexico exhibition on Texas' preseason schedule - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "I'm a lifelong Republican. I voted for Democrats to save my party | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas women's basketball defeats Baylor in exhibition game: see photos - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "You might be surprised who has Austin ties. Here are 15 famous names - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -796,36 +826,6 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "\"I love you\": Veteran with partial blindness uses free Meta glasses to send wife first text - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Amazon’s Alexa Photo Frame can arrive preloaded with family photos - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "What’s so 'embarrassing' about the messages between Abbott and Musk? | Opinion - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Alamo City XC Halloween Meet - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Get five years of interactive piano lessons for under $60 - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Texas Muslims should ask who stands with them at the ballot box | Opinion - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Shop vampire, mummy and pumpkin Bogg bags for up to 40% off - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
