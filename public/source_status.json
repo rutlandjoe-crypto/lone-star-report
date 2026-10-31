@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-30T22:58:24.979Z",
+  "checked_at": "2026-10-31T02:22:42.923Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 35,
+  "working_sources": 36,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -180,8 +180,9 @@
       "source": "Texas Comptroller",
       "region": "Statewide",
       "mode": "direct",
-      "status": "failed",
-      "error": "HTTP 502"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Dallas Fed Economic Updates",
@@ -205,7 +206,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 35
+      "firewall_rejected": 40
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +214,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 94
+      "firewall_rejected": 78
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +222,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 42
+      "firewall_rejected": 40
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +230,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 48
+      "firewall_rejected": 47
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +238,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 72
+      "firewall_rejected": 76
     },
     {
       "source": "Dallas Morning News Business",
@@ -404,6 +405,11 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "Justice in the age of artificial intelligence",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "Austin Immigration Lawyer Hosts Livestream To Discuss Immigration News & Updates",
       "reason": "missing business relevance signal"
     },
@@ -424,11 +430,6 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Justice in the age of artificial intelligence",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "Whispers: GEPAR move, Tear down & Blooming perfect",
       "reason": "missing business relevance signal"
     },
@@ -439,17 +440,17 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Justice has an address, and it’s usually near Downtown",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "Trust robots over doctors? Many AI users already do",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
       "title": "From the editor",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Justice has an address, and it’s usually near Downtown",
       "reason": "missing business relevance signal"
     },
     {
@@ -464,12 +465,37 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Orlando Sanchez kept using Johnny Mata's face in ads after a demand to stop",
+      "title": "ICE agent indicted in Houston crash had prior discipline at state prison",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas GOP leader filmed abducting a pregnant woman and newborn in mockumentary",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A $500 interception and running game at UT and Jeff Traylor to Baylor? | Bohls",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "‘It's horrible. I'm so sorry’: Miles Fridrich’s mother apologizes to Khan family",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston leaders react to ICE agent's indictment in crash that injured immigrant",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Ken Paxton isn't pro-life. He's anti-family. | Opinion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Tired of Paxton-Talarico ads? Here's what each side is actually talking about.",
       "reason": "missing business relevance signal"
     },
     {
@@ -484,7 +510,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Sandoitchi, the buzzy Japanese sando popup, opens this weekend in the Heights",
+      "title": "Lamar Junior High assistant principal resigns after softball game assault charge",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ken Paxton's office sues Harris County for 'discriminatory' get-out-the-vote ads",
       "reason": "missing business relevance signal"
     },
     {
@@ -499,22 +530,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "If you see federal agents near a polling place, what are your rights?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Texans WR Jaylin Noel expected to miss rest of season with turf toe",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ken Paxton's office sues Harris County for 'discriminatory' get-out-the-vote ads",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Who is Mario Alberto Morales? What to know about ICE agent indicted in Houston",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Tired of Paxton-Talarico ads? Here's what each side is actually talking about.",
+      "title": "Groups tied to Trump, Anthropic pump money into Houston-area congressional race",
       "reason": "missing business relevance signal"
     },
     {
@@ -524,7 +550,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Miles Fridrich gets life for killing Conroe doctor Talat Khan in 2023",
+      "title": "Lone Star College police officer dies in U.S. 290 crash in Jersey Village",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Sandoitchi, the buzzy Japanese sando popup, opens this weekend in the Heights",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Rockets are 5-0 — and look like a true contender in NBA's reshaped West",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "His parents knew autism didn't explain everything. Then came a genetic clue.",
       "reason": "missing business relevance signal"
     },
     {
@@ -534,7 +575,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Miles Fridrich gets life for killing Conroe doctor Talat Khan in 2023",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Lance McCullers Jr. likely gets third World Series ring with Brewers' win",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Rockets center Alperen Şengün to be sidelined with back soreness",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas high school football: Thursday's scores from Week 10",
       "reason": "missing business relevance signal"
     },
     {
@@ -544,12 +600,37 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Orlando Sanchez kept using Johnny Mata's face in ads after a demand to stop",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Pitcher Tatsuya Imai opts to return to Houston Astros for 2027 at $18 million",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Astros coach Jason Bell departing for role with Red Sox staff",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "The sell-off for tech stocks deepens and drags Wall Street toward its worst day since June",
+      "title": "Antonio Armstrong Jr. loses bid for new trial in parents’ Houston-area killings",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Singer Noah Kahan to come to Houston during 'The Last of the Bugs' tour",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston’s sunsets are about to arrive much earlier. Here’s when.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
       "reason": "missing business relevance signal"
     },
     {
@@ -570,61 +651,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Federal Reserve likely to skip rate hike despite elevated inflation",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Wendy's, struggling with beef prices and growing competition, gets a buyout offer",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Google misses Wall Street expectations, Alphabet stock sinks in early after-hours trading",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "DoorDash offers $17 billion for Instacart in what would be a big consolidation for grocery delivery",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "How to have the best day ever in Houston, according to Maureen McNamara",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "ExxonMobil and Chevron top Q3 estimates on higher prices and strong output",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Pentagon watchdog tells lawmakers it won't investigate Starlink slowdowns to Ukraine",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Airbnb pledges $500M to nonprofit, scaling emergency stays and raising questions over housing relief",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Dartmouth provost resigns following accusations he used artificial intelligence for writing",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "What to know about the $6.3B hack on Binance, likely the biggest-ever crypto theft",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Judge orders 30-year prison sentence for key figure in Minnesota food fraud",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Big 12 commissioner Brett Yormark to leave conference",
       "reason": "missing business relevance signal"
     },
     {
@@ -669,11 +695,6 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "3 killed in Texas 71 crash in Travis County, including 2 TxDOT contractors - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Austin must release Major the dog after 575 days in isolation, judge rules - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
@@ -684,12 +705,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Petition to uncover who sent Texas transgender mailers can proceed, judge says - Austin American-Statesman",
+      "title": "Colt McCoy was expected at Trump's Texas events. He wasn't there - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Colt McCoy was expected at Trump's Texas events. He wasn't there - Austin American-Statesman",
+      "title": "3 killed in Texas 71 crash in Travis County, including 2 TxDOT contractors - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -714,6 +735,11 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Man in Halloween costume accused of stabbing 2 at Austin coffee shop - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Will moisture from Vance mean rain in Austin Thursday? Here's what to expect - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
@@ -729,22 +755,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Austin ISD takeover opponents' biggest hope: a Gina Hinojosa win - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Noah Kahan is bringing his stadium tour to University of Texas - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Man in Halloween costume accused of stabbing 2 at Austin coffee shop - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Tech manufacturer seeks tax cuts for Williamson County facilities - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "SpaceX sued over Terafab records. Now a Grimes County group is fighting back - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -755,6 +776,11 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "Inside the new luxury condos rising along Lady Bird Lake's south shore - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "SpaceX sued over Terafab records. Now a Grimes County group is fighting back - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -800,31 +826,6 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "\"I love you\": Veteran with partial blindness uses free Meta glasses to send wife first text - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Amazon’s Alexa Photo Frame can arrive preloaded with family photos - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "What’s so 'embarrassing' about the messages between Abbott and Musk? | Opinion - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Alamo City XC Halloween Meet - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Get five years of interactive piano lessons for under $60 - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Shop vampire, mummy and pumpkin Bogg bags for up to 40% off - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
