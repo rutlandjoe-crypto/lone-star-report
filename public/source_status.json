@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04T06:20:25.831Z",
+  "checked_at": "2026-11-04T15:25:52.378Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 36,
   "sources": [
@@ -72,7 +72,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 3
     },
     {
       "source": "El Paso Times",
@@ -112,7 +112,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 61
+      "firewall_rejected": 54
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 89
+      "firewall_rejected": 92
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 49
+      "firewall_rejected": 45
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 81
+      "firewall_rejected": 83
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 76
+      "firewall_rejected": 75
     },
     {
       "source": "Dallas Morning News Business",
@@ -330,7 +330,12 @@
   "firewall_rejections": [
     {
       "source": "Austin American-Statesman",
-      "title": "Yes, Texas' maps are rigged. All the more reason you must vote | Editorial - Austin American-Statesman",
+      "title": "Texas voters chose change. Democrats must turn it into progress | Editorial - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "Austin American-Statesman",
+      "title": "Win or lose, beware of the election story you most want to believe | Opinion - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
     },
     {
@@ -349,11 +354,6 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Joseph Hastings",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "El Paso Inc.",
       "title": "Pediatric palliative care addresses the unique needs of seriously ill children and their families",
       "reason": "missing business relevance signal"
@@ -370,12 +370,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "James Talarico takes large lead over Ken Paxton in Texas' US Senate race",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Gina Hinojosa takes early lead over Greg Abbott in close Texas governor race",
+      "title": "Democrat Vikki Goodwin wins Texas Lt. Governor race, unseating Dan Patrick",
       "reason": "missing business relevance signal"
     },
     {
@@ -390,7 +385,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Readers react to demolition of Houston's Kirby Mansion in Midtown",
+      "title": "James Talarico vows to unite Texans in speech after U.S. Senate victory",
       "reason": "missing business relevance signal"
     },
     {
@@ -400,17 +395,22 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Mariners choose another ex-Astros coach Jason Kanzler as manager over Joe Espada",
+      "title": "Gina Hinojosa wins Texas governor race in stunning upset over Greg Abbott",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Letitia Plummer wins Harris County judge race to succeed Lina Hidalgo",
+      "title": "Democrat Nathan Johnson wins Texas AG race, flipping seat from Republicans",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Gov. Abbott must love Sharia law. Because the alternative is too awful to imagine. | Opinion",
+      "title": "See how your neighbor voted in the Abbott-Hinojosa election for Governor",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "James Talarico beats Ken Paxton to flip a Texas US Senate seat for Democrats",
       "reason": "missing business relevance signal"
     },
     {
@@ -425,12 +425,47 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "5 takeaways from the Texas election that upended GOP political power",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Gina Hinojosa's stunning victory marks new era for Texas politics",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston Democrats lead several GOP-held Texas House races, election tallies show",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Letitia Plummer wins Harris County judge race to succeed Lina Hidalgo",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Gov. Abbott must love Sharia law. Because the alternative is too awful to imagine. | Opinion",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "See how your neighbor voted in the Paxton-Talarico Senate election",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Mariners choose another ex-Astros coach Jason Kanzler as manager over Joe Espada",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "It's Election Day. Here's what to know and key races to watch",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "I wrote a book about the KKK. Texas Republicans sound like the Klan at its peak.",
+      "title": "Democrats win the US House and Senate as voters deliver a strong rebuke to Trump and Republicans",
       "reason": "missing business relevance signal"
     },
     {
@@ -440,7 +475,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Democrat Marcy Kaptur wins reelection to U.S. House in Ohio's 9th Congressional District",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Iran's top diplomat hopes US shows 'rationality,' and other Mideast news",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Real Madrid hosts Falcons, home of world champion welcomes Bengals ahead of NFL game in Madrid",
       "reason": "missing business relevance signal"
     },
     {
@@ -450,13 +495,13 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Incumbent Mark Keough leads James Graf in Montgomery County judge race",
-      "reason": "missing business relevance signal"
+      "title": "Pacific Northwest Sportswatch Daily Listings",
+      "reason": "blocked non-Texas or non-business content"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Pacific Northwest Sportswatch Daily Listings",
-      "reason": "blocked non-Texas or non-business content"
+      "title": "Incumbent Mark Keough defeats James Graf in Montgomery County judge race",
+      "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
@@ -470,17 +515,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Mid-Atlantic Sportswatch Daily Listings",
-      "reason": "blocked non-Texas or non-business content"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Nicholls State beats North American 110-56 behind Sheridan Sharp’s 14 points",
+      "title": "Former 49ers coach Jim Tomsula trying to boost American football in Europe",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "No. 15 TCU women beat Oral Roberts 99-43 for school's largest margin of victory in season opener",
+      "title": "Tennis player Burrage receives death threats, abuse on social media after 1st WTA match in 16 months",
       "reason": "missing business relevance signal"
     },
     {
@@ -505,7 +545,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Falcons place defensive end Samson Ebukam on injured reserve with a hamstring injury",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Blue Jackets snap 2-game skid with a 7-2 win over the Avalanche",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Nicholls State beats North American 110-56 behind Sheridan Sharp’s 14 points",
       "reason": "missing business relevance signal"
     },
     {
@@ -515,7 +565,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Bayern teenager Karl becomes fourth youngest to score 5 career goals in Champions League",
+      "title": "Cameron Grant scores 19 as UNC Greensboro beats Milligan 96-43",
       "reason": "missing business relevance signal"
     },
     {
@@ -525,7 +575,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Kadri and Schwartz lead the Avalanche past the Blackhawks 5-2 for their 3rd straight win",
+      "title": "Duquesne beats Purdue Fort Wayne 78-71 behind 16 points from Kerem Konan",
       "reason": "missing business relevance signal"
     },
     {
@@ -535,17 +585,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Bills release safety Gardner-Johnson day after he completes 1-game NFL suspension for spitting",
+      "title": "Pacific opens season with a 102-47 win over Bethesda (CA)",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Cardinals RB Jeremiyah Love goes to IR with high ankle sprain in another setback",
+      "title": "West Ham hires Scott Parker as coach after firing Nuno Espirito Santo",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Former 49ers coach Jim Tomsula trying to boost American football in Europe",
+      "title": "Northern Iowa opens season with a 106-70 win over Cornell (IA) behind Carson Vis",
       "reason": "missing business relevance signal"
     },
     {
@@ -560,22 +610,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Mullins and Khamenia lead No. 4 UConn past Gardner-Webb 86-46 for Hurley's 200th win with Huskies",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Saros makes 29 saves to lead Predators over Hurricanes 4-1",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ravens set to give Joe Fagnano his first career start at QB with Jackson and Huntley injured",
+      "title": "Cardinals RB Jeremiyah Love goes to IR with high ankle sprain in another setback",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Texas is No. 7 in first CFP rankings with Texas Tech at 15 and UH at 17",
+      "title": "Williamson's 25 points, free throws by Fears, give Pelicans 135-134 win over Grizzlies in overtime",
       "reason": "missing business relevance signal"
     },
     {
@@ -585,92 +630,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Gauthier scores 2nd straight hat trick in Ducks’ 5-4 win over Canucks",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Wright accounts for 4TDs to send Buffalo past Miami (Ohio) 34-31 in OT",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "West Ham fires coach Nuno after back-to-back losses in bid to regain Premier League place",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Rybakina and Sabalenka to lead season-ending WTA Finals groups at Indian Wells",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Duncan Brune's 91-yard TD rallies Ohio over Akron 28-20",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "London Jemison, Drew Fielder power No. 20 Alabama to 96-74 win over Sam Houston State",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Ben Hammond, Jaylen Curry lead Virginia Tech to 88-54 victory over Coppin State in season opener",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Referee halts Feyenoord-Inter Champions League game after fans fire flares on to field",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Kane braces for Atlético test in Champions League after Bayern hit by injuries",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Man United co-owner Ineos' Swiss club Lausanne fires coach",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "After rough first term, LA Mayor Karen Bass fights for job against DSA-backed Nithya Raman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "No. 8 Tennessee beats Wofford 90-59 in season opener",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Venables pushing for points after OC change at Oklahoma, doesn't say if QB switch coming",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Seahawks have a 'sense of urgency' after loss to the Bears",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Billionaire Rick Jackson faces former Atlanta Mayor Keisha Lance Bottoms for Georgia governor",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "UH football notes: Cougars get key players back from injury after off week",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Schmaltz scores on the power play late in regulation to lift Mammoth past Maple Leafs 3",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Texas Democrats have a real shot this year. Can they afford to lose again? - Austin American-Statesman",
+      "title": "Longtime journalist and ESPN commentator Michael Wilbon is taking a leave of absence",
       "reason": "missing business relevance signal"
     },
     {
@@ -695,22 +655,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "The top Austin-area donors funding the Paxton-Talarico Senate race - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "'The devil is in the dose': Texas hemp sellers challenge state's delta-8 rules - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "New Austin restaurants, coffee shops and closures to know this October - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "The top Austin-area donors funding the Paxton-Talarico Senate race - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Before Torchy’s Tacos, this Austin spot was home to a legendary cafe - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -735,12 +690,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas football: Arch Manning posts solid numbers in Mississippi State win - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "James Talarico and Gina Hinojosa bring Democrats’ closing message home to Austin - Austin American-Statesman",
+      "title": "When do polls close in Texas? Here’s when to be in line - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -750,12 +700,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "CFP projections: Will Texas, Texas Tech make initial rankings? - Austin American-Statesman",
+      "title": "Election replay: Updates from Talarico vs. Paxton, Prop I, City Council and more - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas football film study: Why can't Longhorns protect should-be star QB? - Austin American-Statesman",
+      "title": "James Talarico and Gina Hinojosa bring Democrats’ closing message home to Austin - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas football film study: Why can't the Longhorns protect Arch Manning from being sacked? - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -765,17 +720,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "When do polls close in Texas? Here’s when to be in line - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Strong storms could reach Austin Monday night. Here's when - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Pac-12 issues statement after derogatory chants during Texas State-Utah State - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -785,13 +730,18 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin woman rescued from Shoal Creek after being swept into water - Austin American-Statesman",
+      "title": "CFP projections: Will Texas, Texas Tech make initial rankings? - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "Nearly 450,000 Travis County voters cast ballots early - Austin American-Statesman",
       "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas voters chose change. Democrats must turn it into progress | Editorial - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
     },
     {
       "source": "Austin American-Statesman Business",
@@ -810,22 +760,72 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Inside Austin's 'mermaid house,' where every object has a story - Austin American-Statesman",
+      "title": "Pac-12 issues statement after derogatory chants during Texas State-Utah State - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Rhea has early lead incumbent Boles in Williamson County commissioners race - Austin American-Statesman",
+      "title": "Rhea defeats Boles in Williamson County commissioner race - Austin American-Statesman",
       "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Yes, Texas' maps are rigged. All the more reason you must vote | Editorial - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "Social media lawsuits aren't the protection Texans need | Letters - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "2 injured after shooting at Sixth Street bar on Halloween night, police say - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Here's where to donate your leftover Halloween candy in the Austin area - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas State's 36-point rally not enough in crushing loss to Boise State - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Texas newbies embrace Sean Miller's 'crazy side' with new-look roster - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "5 things for Texas Longhorns fans to know about the Missouri Tigers - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Ninja’s PREPi food processor starts at $180 - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Election Day weather timeline: Will rain interfere with Austin voting plans? - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Rasheem Biles, Texas' star LB, makes a case for the Butkus Award amid family tragedy - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Things to do in Austin, TX - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Chipmaker triples Austin footprint as region sees semiconductor industry surge - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Pflugerville City Council: Ruiz still leading Rogers in Place 2 race - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
