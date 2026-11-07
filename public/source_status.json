@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-07T14:02:07.166Z",
+  "checked_at": "2026-11-07T18:47:59.603Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 35,
   "sources": [
@@ -72,7 +72,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 3
+      "firewall_rejected": 4
     },
     {
       "source": "El Paso Times",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 64
+      "firewall_rejected": 66
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 90
+      "firewall_rejected": 88
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 53
+      "firewall_rejected": 54
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -290,7 +290,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 2,
+      "accepted": 1,
       "firewall_rejected": 0
     },
     {
@@ -353,18 +353,18 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
+      "source": "Austin American-Statesman",
+      "title": "A traffic stop helped flip a Texas seat. The GOP should take note | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "San Antonio Express-News",
-      "title": "Opinion: Newest college at University of Texas shows promise - San Antonio Express-News",
+      "title": "Opinion: Results of midterm elections runs deeper than cost of living - San Antonio Express-News",
       "reason": "blocked editorial/opinion phrase"
     },
     {
       "source": "El Paso Inc.",
       "title": "Downtown Management District elects new board officers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Teens landing in ER for cannabis, adults for alcohol",
       "reason": "missing business relevance signal"
     },
     {
@@ -439,6 +439,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Meet Lloyd Bentsen, the last Texas Democrat elected to the Senate",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Ted Cruz slams Trump's tariffs and says Iran war needs to end",
       "reason": "missing business relevance signal"
     },
@@ -454,17 +459,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harris County Judge Lina Hidalgo sued by former employee alleging discrimination, retaliation",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "IRS announces new income brackets for 2027. See where you fall in the tax rates.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "AI stocks halt their brutal, worldwide sell-off as Wall Street trims its loss for the week",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Berkshire Hathaway buys back $9.6 billion of its own stock but its profits declined",
       "reason": "missing business relevance signal"
     },
     {
@@ -489,11 +494,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles 4.4%",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Google, Meta and TikTok sue California over law designed to protect children from social media harms",
       "reason": "missing business relevance signal"
     },
@@ -505,6 +505,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Wexner name to remain on Ohio State buildings despite Epstein-driven protests",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles 4.4%",
       "reason": "missing business relevance signal"
     },
     {
@@ -599,6 +604,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Billionaire Leon Black sues U.S. Rep. Robert Garcia for defamation over Epstein comments",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Jude Bellingham scores with a brilliant back heel for Real Madrid in Champions League",
       "reason": "missing business relevance signal"
     },
@@ -649,6 +659,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Nithya Raman to take charge in LA amid homeless crisis and political division",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Bijan Robinson plans to meet with soccer stars Vinícius Júnior, Kylian Mbappé while in Madrid",
       "reason": "missing business relevance signal"
     },
@@ -665,6 +680,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Examining Astros GM Randy Flores' connections to three managerial candidates",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Formula 1 announces 5-year contract extension with Sao Paulo GP through 2035",
       "reason": "missing business relevance signal"
     },
     {
@@ -698,16 +718,6 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Houston Chronicle Business",
-      "title": "Andrej Stojakovic scores 25, Quentin Coleman adds 19 as No. 3 Illinois beats Penn 112-70",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "US officials unveil $280K deal to help Puerto Rico face water and power crises",
-      "reason": "missing business relevance signal"
-    },
-    {
       "source": "Austin American-Statesman Business",
       "title": "Bastrop approves 222-acre annexation for planned hospital, hotel project - Austin American-Statesman",
       "reason": "missing business relevance signal"
@@ -729,8 +739,8 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas voters chose change. Democrats must turn it into progress | Editorial - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
+      "title": "Texas snuffed out THC. Will new Democratic leaders light it back up? - Austin American-Statesman",
+      "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
@@ -739,8 +749,8 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Pflugerville ISD voters reject bid to join Austin Community College District, again - Austin American-Statesman",
-      "reason": "missing business relevance signal"
+      "title": "Texas voters chose change. Democrats must turn it into progress | Editorial - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
     },
     {
       "source": "Austin American-Statesman Business",
@@ -749,7 +759,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Gina Hinojosa's win deflates Austin ISD's takeover threat, but leaves questions - Austin American-Statesman",
+      "title": "Pflugerville ISD voters reject bid to join Austin Community College District, again - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "18-year-old driver charged after 16-year-old passenger killed in Austin crash - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -774,27 +789,12 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "18-year-old driver charged after 16-year-old passenger killed in Austin crash - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "See how your Austin-area neighborhood voted in the Texas U.S. Senate race - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Texas women's basketball has a 'long way to go' after season opener - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "'You're in Texas now': Maraad Watson's size, skill — and personality — gels with Longhorns - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Ryan Alter falls short of majority, will face David Weinberg in runoff - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -809,23 +809,23 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Can candidates keep leftover campaign money? Here's what the FEC says - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Live election results for key Austin, Travis County races - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin, San Antonio lead Texas in income-restricted rental listings - Austin American-Statesman",
+      "title": "Downtown Austin adds 258 hotel rooms as convention center rebuild continues - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "Austin home prices fell 10.2%. See how Dallas, Houston compared - Austin American-Statesman",
       "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "A traffic stop helped flip a Texas seat. The GOP should take note | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
     }
   ]
 }
