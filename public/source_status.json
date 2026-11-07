@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-06T20:54:28.737Z",
+  "checked_at": "2026-11-07T00:56:36.289Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 34,
+  "working_sources": 35,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -88,7 +88,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "Dave Campbell's Texas Football",
@@ -112,7 +112,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -205,7 +205,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 65
+      "firewall_rejected": 60
     },
     {
       "source": "Austin American-Statesman Business",
@@ -213,7 +213,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 88
+      "firewall_rejected": 90
     },
     {
       "source": "San Antonio Express-News Business",
@@ -221,7 +221,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 46
+      "firewall_rejected": 40
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -229,7 +229,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 57
+      "firewall_rejected": 22
     },
     {
       "source": "El Paso Times Business",
@@ -237,7 +237,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 66
+      "firewall_rejected": 65
     },
     {
       "source": "Dallas Morning News Business",
@@ -290,7 +290,7 @@
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
+      "accepted": 2,
       "firewall_rejected": 0
     },
     {
@@ -313,8 +313,9 @@
       "source": "Dave Campbell's Texas Football - High School",
       "region": "Statewide",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 1,
+      "firewall_rejected": 0
     },
     {
       "source": "San Antonio Express-News High School Football",
@@ -352,16 +353,6 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "San Antonio Express-News",
-      "title": "Opinion: Newest college at University of Texas shows promise - San Antonio Express-News",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Joseph Hastings",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "El Paso Inc.",
       "title": "Downtown Management District elects new board officers",
       "reason": "missing business relevance signal"
@@ -389,11 +380,6 @@
     {
       "source": "El Paso Inc.",
       "title": "Women veterans may face more than twice the odds of early menopause",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Firstdayofschool",
       "reason": "missing business relevance signal"
     },
     {
@@ -433,11 +419,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "'Brutal loss': Texas Republicans express fear, frustration as Texas turns blue in huge upset",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "James Talarico vows to unite Texans in speech after U.S. Senate victory",
       "reason": "missing business relevance signal"
     },
@@ -473,6 +454,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "TEA orders HISD must fix special education program bugs or face more sanctions",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Democrat Sarah Eckhardt pushes Greg Abbott for early start as Texas comptroller",
       "reason": "missing business relevance signal"
     },
@@ -493,21 +479,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Gina Hinojosa campaigned on $1,500 checks for Texans. Will lawmakers go for it?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "5 takeaways from the Texas election that upended GOP political power",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "See how your neighbor voted in the Paxton-Talarico Senate election",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston Super K with a lucky reputation sells another $5 million winning ticket",
       "reason": "missing business relevance signal"
     },
@@ -523,27 +494,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Gina Hinojosa pledged an end to Texas school vouchers. Can she do it?",
+      "title": "Texas Democrats likely can't repeal abortion ban. But enforcement could change.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "IRS announces new income brackets for 2027. See where you fall in the tax rates.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Democrat Marcy Kaptur wins reelection to U.S. House in Ohio's 9th Congressional District",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Google will cut off search access for students at schools that reject AI",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Former Mississippi district attorney sentenced to more than 3 years in prison for bribery scheme",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "EU says 'rabbit hole' video feeds on TikTok violate its digital rules",
       "reason": "missing business relevance signal"
     },
     {
@@ -558,12 +519,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "JetBlue raises baggage fees for a second time as jet fuel prices stay elevated",
+      "title": "EU says 'rabbit hole' video feeds on TikTok violate its digital rules",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Production of Tesla's Cybertruck will wind down soon with allure escaping most potential buyers",
+      "title": "JetBlue raises baggage fees for a second time as jet fuel prices stay elevated",
       "reason": "missing business relevance signal"
     },
     {
@@ -578,7 +539,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles 4.4%",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Google, Meta and TikTok sue California over law designed to protect children from social media harms",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "3M agrees to pay more than $7 billion to settle 'forever chemical' groundwater contamination claims",
       "reason": "missing business relevance signal"
     },
     {
@@ -593,17 +564,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Wexner name to remain on Ohio State buildings despite Epstein-driven protests",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Uninsured and flooded out, a Colorado man worries if life will be normal again",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Asian shares mostly advance following US midterms, though Kospi falls on selling of chipmakers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "3M agrees to pay more than $7 billion to settle 'forever chemical' groundwater contamination claims",
+      "title": "Tesla’s Cybertruck heads for an exit after years of hype and division",
       "reason": "missing business relevance signal"
     },
     {
@@ -614,11 +585,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Low air pressure south of Bermuda could become a subtropical storm. What does that mean?",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston Democrats hold off GOP redistricting push as Leticia Gutierrez wins",
       "reason": "missing business relevance signal"
     },
     {
@@ -634,11 +600,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "After taking control of Congress, Democrats vow major probes into Trump's 'tentacles of corruption'",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Meet Houston's new U.S. congressional delegation",
       "reason": "missing business relevance signal"
     },
     {
@@ -668,21 +629,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Max Alexander scores 19 to lead Houston Christian over Louisiana Christian 108-45 in opener",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Falcons place defensive end Samson Ebukam on injured reserve with a hamstring injury",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "London Jemison, Drew Fielder power No. 20 Alabama to 96-74 win over Sam Houston State",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Jason Crowe Jr. scores 23 to help Missouri rout Cleveland State 111-50 in season opener",
       "reason": "missing business relevance signal"
     },
@@ -703,7 +649,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Black women helped deliver a historic Texas victory. Don’t take it for granted.",
+      "title": "Iran is reviewing proposals focusing on Tehran’s nuclear program, officials say",
       "reason": "missing business relevance signal"
     },
     {
@@ -718,7 +664,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Black women helped deliver a historic Texas victory. Don’t take it for granted.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Billionaire Leon Black sues U.S. Rep. Robert Garcia for defamation over Epstein comments",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Wright accounts for 4TDs to send Buffalo past Miami (Ohio) 34-31 in OT",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Ice hockey world championship main sponsor Skoda to 'reassess' backing if Russia plays",
       "reason": "missing business relevance signal"
     },
     {
@@ -743,18 +704,13 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "John Robison built a network of big Texas promises. Then it all unraveled. - Austin American-Statesman",
+      "title": "A conservative billionaire, Texas film studio and fraud years in the making - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Austin driver charged with DWI after fatal South Congress crash - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Vikki Goodwin vows to lead Texas Senate despite GOP push to curb her power - Austin American-Statesman",
-      "reason": "missing business relevance signal"
+      "title": "The one culture war worth fighting could bring Texans together | Opinion - Austin American-Statesman",
+      "reason": "blocked editorial/opinion phrase"
     },
     {
       "source": "Austin American-Statesman Business",
@@ -773,6 +729,21 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Vikki Goodwin vows to lead Texas Senate despite GOP push to curb her power - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "See how your Austin-area neighborhood voted in the Texas U.S. Senate race - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Austin driver charged with DWI after fatal South Congress crash - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Democrats take control of Texas House, ending 24 years of GOP rule - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
@@ -783,17 +754,22 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Texas women's basketball has a 'long way to go' after season opener - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
       "title": "Texas colleges could see a shift under Gina Hinojosa, but it won't happen fast - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Selena Xie wins open Austin City Council seat in landslide - Austin American-Statesman",
+      "title": "Texas women's basketball has a 'long way to go' after season opener - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "'You're in Texas now': Maraad Watson's size, skill — and personality — gels with Longhorns - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "How tight ends, backs can help the worst passing game in the Sarkisian-era - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -813,8 +789,8 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "The one culture war worth fighting could bring Texans together | Opinion - Austin American-Statesman",
-      "reason": "blocked editorial/opinion phrase"
+      "title": "Winter forecast: How will El Niño affect early predictions for Texas? - Austin American-Statesman",
+      "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
@@ -824,6 +800,31 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "College Football Playoff rankings: Texas' title hopes alive — for now - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Want Luck Reunion 2027 tickets? Send Willie a postcard - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Can candidates keep leftover campaign money? Here's what the FEC says - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "How to watch Texas vs Missouri football Saturday - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Bastrop approves 222-acre annexation for planned hospital, hotel project - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Austin, San Antonio lead Texas in income-restricted rental listings - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
