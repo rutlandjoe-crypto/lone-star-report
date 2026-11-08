@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T17:03:38.241Z",
+  "checked_at": "2026-11-08T21:10:43.443Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 32,
   "sources": [
@@ -33,7 +33,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "El Paso Matters",
@@ -204,7 +204,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 72
+      "firewall_rejected": 77
     },
     {
       "source": "Austin American-Statesman Business",
@@ -212,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 83
+      "firewall_rejected": 78
     },
     {
       "source": "San Antonio Express-News Business",
@@ -220,7 +220,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 75
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -228,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 71
+      "firewall_rejected": 72
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 82
+      "firewall_rejected": 81
     },
     {
       "source": "Dallas Morning News Business",
@@ -325,18 +325,13 @@
   ],
   "firewall_rejections": [
     {
-      "source": "San Antonio Report",
-      "title": "What makes Texas food taste like Texas",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
       "source": "Beaumont Enterprise",
       "title": "Column: Game against SFA marks important step in Lamar's resurgence",
       "reason": "blocked editorial/opinion phrase"
     },
     {
       "source": "Austin American-Statesman",
-      "title": "Hinojosa’s win may spare Austin ISD. Students still need help | Editorial - Austin American-Statesman",
+      "title": "Texas' blue wave was also a pink wave sweeping women into power | Opinion - Austin American-Statesman",
       "reason": "blocked editorial/opinion phrase"
     },
     {
@@ -356,11 +351,6 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Downtown Management District elects new board officers",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "El Paso city Reps. Chávez, Fierro and Canales face December runoffs",
       "reason": "missing business relevance signal"
     },
@@ -372,11 +362,6 @@
     {
       "source": "El Paso Inc.",
       "title": "Women veterans may face more than twice the odds of early menopause",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Texas data centers could see delays, cancellations as statewide Dems take office",
       "reason": "missing business relevance signal"
     },
     {
@@ -406,6 +391,16 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Astros prospect Nehomar Ochoa Jr. perseveres after surviving a freak accident",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Texas Democrats plan to undo GOP’s work on State Board of Education",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Round Top’s antiques show is changing. Who gets to decide what belongs?",
       "reason": "missing business relevance signal"
     },
@@ -416,12 +411,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "SNL audience erupts as James Talarico drops in during cold open",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Six-year legal battle over Barbers Hill ISD's hair policy ends in settlement",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Rockets lose second straight: What went wrong against the Suns",
+      "title": "How the Aggies squandered chances in 17-9 loss to South Carolina",
       "reason": "missing business relevance signal"
     },
     {
@@ -432,6 +432,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Houston weather: Rain likely Sunday. When will it be heaviest?",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Rockets lose second straight: What went wrong against the Suns",
       "reason": "missing business relevance signal"
     },
     {
@@ -486,11 +491,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged, and other Mideast news",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Former Mississippi district attorney sentenced to more than 3 years in prison for bribery scheme",
       "reason": "missing business relevance signal"
     },
@@ -511,12 +511,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Houston buried its waterways. An artist is bringing them back into view.",
+      "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged, and other Mideast news",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Kenya’s mining ambitions raise fears for farms and ancestral graves",
+      "title": "Houston buried its waterways. An artist is bringing them back into view.",
       "reason": "missing business relevance signal"
     },
     {
@@ -616,7 +616,7 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Astros prospect Nehomar Ochoa Jr. perseveres after surviving a freak accident",
+      "title": "What to know about Pope Leo XIV's trip to Uruguay, Argentina and Peru",
       "reason": "missing business relevance signal"
     },
     {
@@ -651,12 +651,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Burrow powers Bengals past the Falcons in Madrid for their 4th straight win",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "HISD’s appointed board will meet with elected trustees, district says",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Miami-Notre Dame tops wall-to-wall slate of must-watch games as the playoff race begins in earnest",
+      "title": "Alcaraz saves 2 match points against Fritz to reach Paris Masters semifinals with Shelton",
       "reason": "missing business relevance signal"
     },
     {
@@ -671,17 +676,17 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Trump and his Justice Department stand defiant as Democrats ready an investigative blitz",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "'We've got to finish.' UH enters November stretch with bigger goals",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
       "title": "Houston high school volleyball: Scores from the regional semifinals",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Trump’s grip on his party is in question as Republicans reel from the midterm wipeout",
       "reason": "missing business relevance signal"
     },
     {
@@ -696,12 +701,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Proposal to extend the NCAA men's soccer season over 2 semesters fails",
+      "title": "Jalen Johnson scores 30 points in his return as Hawks make 4th-quarter charge to beat Nets 124-121",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Jalen Johnson scores 30 points in his return as Hawks make 4th-quarter charge to beat Nets 124-121",
+      "title": "Wucherpfennig scores 17, Fairfield knocks off Bryant 68-59",
       "reason": "missing business relevance signal"
     },
     {
@@ -711,8 +716,8 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Gulf States Sportswatch Daily Listings",
-      "reason": "blocked non-Texas or non-business content"
+      "title": "Olson scores 19 points, No. 5 Michigan forces 28 turnovers in 109-52 romp over Wright State",
+      "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
@@ -726,6 +731,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Broncos WR Jaylen Waddle, CB Riley Moss ruled out against Panthers with concussions",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "All Blacks down Scotland 43-21 and stay perfect in Nations Championship rugby",
       "reason": "missing business relevance signal"
     },
@@ -735,8 +745,8 @@
       "reason": "missing business relevance signal"
     },
     {
-      "source": "Austin American-Statesman Business",
-      "title": "Bastrop approves 222-acre annexation for planned hospital, hotel project - Austin American-Statesman",
+      "source": "Houston Chronicle Business",
+      "title": "Pope scores 18, Mgbako 14 and well-balanced Texas A&M rolls over Northern Kentucky 104-67",
       "reason": "missing business relevance signal"
     },
     {
@@ -751,22 +761,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "After 54 years in the Texas House, Senfronia Thompson is poised to make history - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Dozens party outside Elon Musk's West Lake Hills home after campaign donations fell flat - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Austin driver charged with DWI after fatal South Congress crash - Austin American-Statesman",
+      "title": "Dozens party outside Elon Musk's Austin home after campaign donations fell flat - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Austin American-Statesman Business",
       "title": "Vikki Goodwin vows to lead Texas Senate despite GOP push to curb her power - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "After 54 years in the Texas House, Senfronia Thompson is poised to make history - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -777,6 +782,11 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "'You're in Texas now': Maraad Watson's size, skill — and personality — gels with Longhorns - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Abbott’s defeat is personal for DA José Garza, who may have more room to act - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -812,16 +822,6 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "After a historic blue wave, Texas cities are rethinking data center tax breaks - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Ally Medical ER is Austin's top midsize workplace for the 4th year - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "New Blanton Museum cafe from the owners of Justine’s Brasserie sets opening date - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
