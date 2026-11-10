@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T17:50:03.709Z",
+  "checked_at": "2026-11-10T23:20:01.946Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 18,
   "sources": [
@@ -24,8 +24,8 @@
       "region": "North Texas / DFW",
       "mode": "direct",
       "status": "working",
-      "accepted": 3,
-      "firewall_rejected": 0
+      "accepted": 4,
+      "firewall_rejected": 1
     },
     {
       "source": "Texas Tech Public Media (KTTZ)",
@@ -80,7 +80,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Texas A&M Aggies",
@@ -192,6 +192,11 @@
   ],
   "firewall_rejections": [
     {
+      "source": "Fort Worth Report",
+      "title": "Thanksgiving Made Easy: Let Central Market Bring the Feast to Your Table",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "Texas Tech Public Media (KTTZ)",
       "title": "Texans grapple with AI campaign ads, and what they say about candidates",
       "reason": "blocked editorial/opinion phrase"
@@ -200,11 +205,6 @@
       "source": "San Antonio Report",
       "title": "Destination campus: Expanding workforce-focused academics at A&#038;M-San Antonio",
       "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "VIDEO: Texas Practice Intel — The Latest From Fall Camp",
-      "reason": "blocked sports noise"
     },
     {
       "source": "On3 - Texas A&M Aggies",
@@ -224,6 +224,11 @@
     {
       "source": "El Paso Inc.",
       "title": "Cars.com Announces Inducement Award Under NYSE Rule 303A.08",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Paso del Norte Community Foundation launches Latina giving circle",
       "reason": "missing business relevance signal"
     },
     {
