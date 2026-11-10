@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T02:08:04.574Z",
+  "checked_at": "2026-11-10T09:49:03.527Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 32,
   "sources": [
@@ -111,7 +111,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -119,7 +119,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -212,7 +212,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 73
+      "firewall_rejected": 71
     },
     {
       "source": "San Antonio Express-News Business",
@@ -220,7 +220,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 69
+      "firewall_rejected": 70
     },
     {
       "source": "Beaumont Enterprise Business",
@@ -228,7 +228,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 88
+      "firewall_rejected": 84
     },
     {
       "source": "El Paso Times Business",
@@ -236,7 +236,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 75
+      "firewall_rejected": 67
     },
     {
       "source": "Dallas Morning News Business",
@@ -355,6 +355,16 @@
       "reason": "blocked sports noise"
     },
     {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Joseph Hastings",
+      "reason": "blocked sports noise"
+    },
+    {
+      "source": "On3 - Texas Tech Red Raiders",
+      "title": "Lady Raiders Allow Fewest Points Since 2010, Okechukwu Scores 21 in Rout of Lamar",
+      "reason": "blocked sports noise"
+    },
+    {
       "source": "El Paso Inc.",
       "title": "Cars.com Announces Inducement Award Under NYSE Rule 303A.08",
       "reason": "missing business relevance signal"
@@ -371,17 +381,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Exclusive: Gina Hinojosa’s call for resumes draws 6,000 in two days",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houston buried its waterways. An artist is bringing them back into view.",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "They longed to hold their fragile NICU babies. A new device made it possible.",
+      "title": "Exclusive: Gina Hinojosa’s call for resumes draws 6,000 in two days",
       "reason": "missing business relevance signal"
     },
     {
@@ -391,17 +396,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "James Talarico meets with John Cornyn in Washington for 'advice and guidance'",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "SNL audience erupts as James Talarico drops in during cold open",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "FBI investigating 'suspected homicide' on Galveston cruise ship",
+      "title": "How young Houston Latinas helped power Gina Hinojosa’s historic win",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Cincinnati's JV Gibson out of hospital after taking hard hit in loss to UH",
+      "title": "Rockets centers Steven Adam and Clint Capela expected to return next week",
       "reason": "missing business relevance signal"
     },
     {
@@ -411,12 +421,27 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "FBI investigating 'suspected homicide' on Galveston cruise ship",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Houston council members move to lock in Mayor Whitmire’s new ICE limits",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Dedan Thomas Jr. leads the way as No. 10 UH beats Cal in Lake Tahoe Classic",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "What we got wrong — and right — about the Texas elections | Opinion",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Harris County sheriff's deputy charged with DWI, evading, resisting arrest along I-45",
+      "title": "T. Cullen Davis, acquitted in a nationally watched Texas murder case, dies at 93",
       "reason": "missing business relevance signal"
     },
     {
@@ -427,11 +452,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Man arrested after woman's fatal fall from vehicle near Katy",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Houston weather: Rain likely Sunday. When will it be heaviest?",
       "reason": "missing business relevance signal"
     },
     {
@@ -491,6 +511,11 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Democrat Jon Rosenthal joins GOP-led Texas Railroad Commission with ideas, but faces an uphill fight",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged, and other Mideast news",
       "reason": "missing business relevance signal"
     },
@@ -506,17 +531,12 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Democrat Jon Rosenthal joins GOP-led Texas Railroad Commission with ideas, but faces an uphill fight",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Williams scores on opening kickoff and Parson accounts for 3 TDs, leading Austin Peay over EKU 55-31",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "After the US midterm rout of Trumpism, the world struggles to trust America again",
+      "title": "California voters reject measure to tax the wealth of billionaires",
       "reason": "missing business relevance signal"
     },
     {
@@ -532,11 +552,6 @@
     {
       "source": "Houston Chronicle Business",
       "title": "Former Real Madrid great Raúl González named new coach of 2nd-division club Oviedo in Spain",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Young voters overwhelmingly backed Democrats this year. The question is whether they'll stay",
       "reason": "missing business relevance signal"
     },
     {
@@ -586,11 +601,6 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "UFC's Dana White says he will meet with Trump Monday over offer to be White House press secretary",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Jaguars take a Super Bowl swing by trading for Eagles DT Jordan Davis and Falcons S Jessie Bates",
       "reason": "missing business relevance signal"
     },
@@ -616,27 +626,22 @@
     },
     {
       "source": "Houston Chronicle Business",
+      "title": "Brazil to present plan for moving economies toward renewable energies at UN climate talks",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Spurs star Victor Wembanyama 'where I want to be' after another spectacular night on the court",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
       "title": "Second-year Warriors guard Will Richard sidelined by torn ligament in left thumb",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Ja'Marr Chase has career 1st half in Madrid and gets crowd going with matador touchdown celebration",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "Rusnák helps Sounders clinch playoff spot with 2-1 victory over LAFC; will host wild-card match",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Native American women made history in tribal, state and federal elections",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
-      "title": "James Talarico meets with John Cornyn in Washington for 'advice and guidance'",
       "reason": "missing business relevance signal"
     },
     {
@@ -652,6 +657,11 @@
     {
       "source": "Houston Chronicle Business",
       "title": "The CFP is expanding to 24 teams: Is that good or bad? What coaches are saying",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "Injured Warriors guard Jimmy Butler dresses up as member of coaching staff for game with Pelicans",
       "reason": "missing business relevance signal"
     },
     {
@@ -681,17 +691,17 @@
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "How young Houston Latinas helped power Gina Hinojosa’s historic win",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Houston Chronicle Business",
       "title": "Houthi rebels say at least 44 killed in airstrike near Yemeni capital, and other Mideast news",
       "reason": "missing business relevance signal"
     },
     {
       "source": "Houston Chronicle Business",
-      "title": "Trump and his Justice Department stand defiant as Democrats ready an investigative blitz",
+      "title": "Texas oyster season is open in bays across the coast. Here’s where and when to harvest.",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Houston Chronicle Business",
+      "title": "AJ Barner has a TD catch and runs for a score in Seahawks' 17-3 win over Cardinals",
       "reason": "missing business relevance signal"
     },
     {
@@ -702,6 +712,11 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "Texas snuffed out THC. Will new Democratic leaders light it back up? - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Musk says Tesla Cybertruck deposits may be returned as production ends - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -717,6 +732,11 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "Dozens party outside Elon Musk's West Lake Hills home after campaign donations fell flat - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "New video, photos show aftermath of Austin shooting range explosion - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -741,7 +761,7 @@
     },
     {
       "source": "Austin American-Statesman Business",
-      "title": "Abbott’s defeat is personal for DA José Garza, who may have more room to act - Austin American-Statesman",
+      "title": "Austin police identify man killed in gas station shooting; no charges filed - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -756,7 +776,17 @@
     },
     {
       "source": "Austin American-Statesman Business",
+      "title": "Abbott’s defeat is personal for DA José Garza, who may have more room to act - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
       "title": "Robert Godwin, longtime chronicler of Austin’s social scene, dies at 72 - Austin American-Statesman",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "Austin American-Statesman Business",
+      "title": "Arch Manning's Playoff beard? Texas football QB can't shave goatee anytime soon. - Austin American-Statesman",
       "reason": "missing business relevance signal"
     },
     {
@@ -792,36 +822,6 @@
     {
       "source": "Austin American-Statesman Business",
       "title": "Austin police say man suspected in Cenote, Via 313 burglaries - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Musk says Tesla Cybertruck deposits may be returned as production ends - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Govee’s triple-lens TV backlight syncs LED strips with your screen - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "This Samsung 65-inch Mini LED TV is under $400 at Amazon - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "Who said the Horns couldn't win a big road game? Not me | Golden - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "One of Central Texas’ most conservative counties went blue. Now what? - Austin American-Statesman",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "Austin American-Statesman Business",
-      "title": "District volleyball rivals Round Rock and Lake Travis win to set up UIL playoff rematch - Austin American-Statesman",
       "reason": "missing business relevance signal"
     }
   ]
