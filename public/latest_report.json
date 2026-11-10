@@ -1,14 +1,14 @@
 {
   "platform": "GSR Lone Star Report",
-  "generated_at": "2026-11-10T16:17:56.496Z",
+  "generated_at": "2026-11-10T17:50:03.710Z",
   "editorial_standard": "Journalistic integrity is the No. 1 standard.",
   "editorial_firewall": "Opinion, editorial, commentary, columns, endorsements, letters, sponsored content and advertorial material are excluded.",
   "sourcing_policy": "Straight-news reporting from credible Texas newsrooms and approved Texas sports sources only.",
   "source_headline_policy": "Original source headlines are preserved.",
   "source_counts": {
-    "Houston Public Media": 2,
+    "Houston Public Media": 3,
     "Texas Public Radio": 1,
-    "KUT News": 3,
+    "KUT News": 2,
     "San Antonio Report": 2,
     "El Paso Matters": 3,
     "Fort Worth Report": 2,
@@ -21,9 +21,9 @@
     "On3 - SMU Mustangs": 1
   },
   "region_counts": {
-    "Houston / Gulf Coast": 2,
+    "Houston / Gulf Coast": 3,
     "San Antonio / South Central Texas": 1,
-    "Austin / Central Texas": 4,
+    "Austin / Central Texas": 3,
     "San Antonio": 2,
     "El Paso / Border": 3,
     "North Texas / DFW": 3,
@@ -31,6 +31,20 @@
     "Lubbock / West Texas": 3
   },
   "homepage_cards": [
+    {
+      "headline": "Texas football is as 'connected' as ever. Why that matters for 2026's stretch run.",
+      "title": "Texas football is as 'connected' as ever. Why that matters for 2026's stretch run.",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUlc5VHJCNmFTcktXNHU3LWlZVVRSN1NrVUlCbjNVclUtYmxWMlc5bUgtN3hvd1ZqYWNpUEtrSkctMHBQbTFUaXcyRkpLU0pUQ2tjVTFHOHBraWlrWjVHN3A1UWJ6NFBnNkgtRU9PTDhCSlQ5MFhCancwSGRaY1cxcFQ2cmtsOTFwV0VlaDhiaGtPaVg3dTI3a2FkXzFsVHVmN0dCUkI3RWl5eGpWT1F1MWVJaFZoTFMt?oc=5",
+      "source": "On3 - Texas Longhorns",
+      "source_attribution": "On3",
+      "source_type": "sports-specialty",
+      "region": "Austin / Central Texas",
+      "published_at": "Tue, 10 Nov 2026 17:22:28 GMT",
+      "section": "State Sports",
+      "sport_desk": "College Football",
+      "ingestion_mode": "discovery",
+      "editorial_firewall": "passed"
+    },
     {
       "headline": "Houston Mayor Whitmire opposes effort to enshrine HPD-ICE executive order as an ordinance",
       "title": "Houston Mayor Whitmire opposes effort to enshrine HPD-ICE executive order as an ordinance",
@@ -43,20 +57,6 @@
       "section": "State News",
       "sport_desk": null,
       "ingestion_mode": "direct",
-      "editorial_firewall": "passed"
-    },
-    {
-      "headline": "Everything LSU's Lane Kiffin said about Arch Manning, Steve Sarkisian and Texas football",
-      "title": "Everything LSU's Lane Kiffin said about Arch Manning, Steve Sarkisian and Texas football",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN0lhTkt0YnhIbWJ2RUJjZzZXYmhwUndDZ1FtbzR4b1l0Qkl2OE9QV3BpOVI3cmdpOXdPc3ZLMlI2YkN5eHBVVXdPaFh2SWFfSG1aZmJxYklHZkhsRjR3RnNpVWpuQWpqd19jYzBqemlLSHcyb1VyeERvT3MycUF2dnlvZHhnUDBuQlhnWnM5eFl3UVRCWHR1aG1lZzltRXgtSlMyVkdSb0JsZ0dYSW81SFdxREItdUdf?oc=5",
-      "source": "On3 - Texas Longhorns",
-      "source_attribution": "On3",
-      "source_type": "sports-specialty",
-      "region": "Austin / Central Texas",
-      "published_at": "Tue, 10 Nov 2026 14:33:36 GMT",
-      "section": "State Sports",
-      "sport_desk": "College Football",
-      "ingestion_mode": "discovery",
       "editorial_firewall": "passed"
     },
     {
@@ -83,6 +83,20 @@
       "region": "San Antonio / South Central Texas",
       "published_at": "Tue, 10 Nov 2026 14:29:18 GMT",
       "section": "State News",
+      "sport_desk": null,
+      "ingestion_mode": "direct",
+      "editorial_firewall": "passed"
+    },
+    {
+      "headline": "Battered and bruised by the election, Texas Republicans reckon with a blue Texas",
+      "title": "Battered and bruised by the election, Texas Republicans reckon with a blue Texas",
+      "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/11/10/566703/battered-and-bruised-by-the-election-texas-republicans-reckon-with-a-blue-texas/?utm_source=rss-election-2026-article&utm_medium=link&utm_campaign=hpm-rss-link",
+      "source": "Houston Public Media",
+      "source_attribution": "Houston Public Media",
+      "source_type": "public-media",
+      "region": "Houston / Gulf Coast",
+      "published_at": "Tue, 10 Nov 2026 14:08:24 +0000",
+      "section": "State Politics",
       "sport_desk": null,
       "ingestion_mode": "direct",
       "editorial_firewall": "passed"
@@ -158,8 +172,8 @@
       "editorial_firewall": "passed"
     },
     {
-      "headline": "Battered and bruised by the election, Texas Republicans reckon with a blue Texas",
-      "title": "Battered and bruised by the election, Texas Republicans reckon with a blue Texas",
+      "headline": "Battered and bruised by the election, Republican voters reckon with a blue Texas",
+      "title": "Battered and bruised by the election, Republican voters reckon with a blue Texas",
       "url": "https://feeds.texastribune.org/link/16799/17521232/texas-republicans-2026-election-reaction",
       "source": "The Texas Tribune",
       "source_attribution": "The Texas Tribune",
@@ -209,20 +223,6 @@
       "region": "Statewide",
       "published_at": "Mon, 09 Nov 2026 15:55:19 -0600",
       "section": "State Business",
-      "sport_desk": null,
-      "ingestion_mode": "direct",
-      "editorial_firewall": "passed"
-    },
-    {
-      "headline": "Deaths by suicide in Austin Fire Department lead to focus on mental health and prevention",
-      "title": "Deaths by suicide in Austin Fire Department lead to focus on mental health and prevention",
-      "url": "https://www.kut.org/austin/2026-11-09/suicide-mental-health-austin-tx-fire-department-afd-firefighter",
-      "source": "KUT News",
-      "source_attribution": "KUT News",
-      "source_type": "public-media",
-      "region": "Austin / Central Texas",
-      "published_at": "Mon, 09 Nov 2026 21:28:25 GMT",
-      "section": "State News",
       "sport_desk": null,
       "ingestion_mode": "direct",
       "editorial_firewall": "passed"
@@ -525,20 +525,6 @@
         "editorial_firewall": "passed"
       },
       {
-        "headline": "Deaths by suicide in Austin Fire Department lead to focus on mental health and prevention",
-        "title": "Deaths by suicide in Austin Fire Department lead to focus on mental health and prevention",
-        "url": "https://www.kut.org/austin/2026-11-09/suicide-mental-health-austin-tx-fire-department-afd-firefighter",
-        "source": "KUT News",
-        "source_attribution": "KUT News",
-        "source_type": "public-media",
-        "region": "Austin / Central Texas",
-        "published_at": "Mon, 09 Nov 2026 21:28:25 GMT",
-        "section": "State News",
-        "sport_desk": null,
-        "ingestion_mode": "direct",
-        "editorial_firewall": "passed"
-      },
-      {
         "headline": "Rain fades Monday night for San Antonio, some flooding in the region",
         "title": "Rain fades Monday night for San Antonio, some flooding in the region",
         "url": "https://sanantonioreport.org/rain-monday-night-san-antonio/",
@@ -568,6 +554,20 @@
       }
     ],
     "State Politics": [
+      {
+        "headline": "Battered and bruised by the election, Texas Republicans reckon with a blue Texas",
+        "title": "Battered and bruised by the election, Texas Republicans reckon with a blue Texas",
+        "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/11/10/566703/battered-and-bruised-by-the-election-texas-republicans-reckon-with-a-blue-texas/?utm_source=rss-election-2026-article&utm_medium=link&utm_campaign=hpm-rss-link",
+        "source": "Houston Public Media",
+        "source_attribution": "Houston Public Media",
+        "source_type": "public-media",
+        "region": "Houston / Gulf Coast",
+        "published_at": "Tue, 10 Nov 2026 14:08:24 +0000",
+        "section": "State Politics",
+        "sport_desk": null,
+        "ingestion_mode": "direct",
+        "editorial_firewall": "passed"
+      },
       {
         "headline": "Dan Patrick backs stripping powers from incoming Democratic lieutenant governor",
         "title": "Dan Patrick backs stripping powers from incoming Democratic lieutenant governor",
@@ -611,8 +611,8 @@
         "editorial_firewall": "passed"
       },
       {
-        "headline": "Battered and bruised by the election, Texas Republicans reckon with a blue Texas",
-        "title": "Battered and bruised by the election, Texas Republicans reckon with a blue Texas",
+        "headline": "Battered and bruised by the election, Republican voters reckon with a blue Texas",
+        "title": "Battered and bruised by the election, Republican voters reckon with a blue Texas",
         "url": "https://feeds.texastribune.org/link/16799/17521232/texas-republicans-2026-election-reaction",
         "source": "The Texas Tribune",
         "source_attribution": "The Texas Tribune",
@@ -881,14 +881,14 @@
     ],
     "State Sports": [
       {
-        "headline": "Everything LSU's Lane Kiffin said about Arch Manning, Steve Sarkisian and Texas football",
-        "title": "Everything LSU's Lane Kiffin said about Arch Manning, Steve Sarkisian and Texas football",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN0lhTkt0YnhIbWJ2RUJjZzZXYmhwUndDZ1FtbzR4b1l0Qkl2OE9QV3BpOVI3cmdpOXdPc3ZLMlI2YkN5eHBVVXdPaFh2SWFfSG1aZmJxYklHZkhsRjR3RnNpVWpuQWpqd19jYzBqemlLSHcyb1VyeERvT3MycUF2dnlvZHhnUDBuQlhnWnM5eFl3UVRCWHR1aG1lZzltRXgtSlMyVkdSb0JsZ0dYSW81SFdxREItdUdf?oc=5",
+        "headline": "Texas football is as 'connected' as ever. Why that matters for 2026's stretch run.",
+        "title": "Texas football is as 'connected' as ever. Why that matters for 2026's stretch run.",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUlc5VHJCNmFTcktXNHU3LWlZVVRSN1NrVUlCbjNVclUtYmxWMlc5bUgtN3hvd1ZqYWNpUEtrSkctMHBQbTFUaXcyRkpLU0pUQ2tjVTFHOHBraWlrWjVHN3A1UWJ6NFBnNkgtRU9PTDhCSlQ5MFhCancwSGRaY1cxcFQ2cmtsOTFwV0VlaDhiaGtPaVg3dTI3a2FkXzFsVHVmN0dCUkI3RWl5eGpWT1F1MWVJaFZoTFMt?oc=5",
         "source": "On3 - Texas Longhorns",
         "source_attribution": "On3",
         "source_type": "sports-specialty",
         "region": "Austin / Central Texas",
-        "published_at": "Tue, 10 Nov 2026 14:33:36 GMT",
+        "published_at": "Tue, 10 Nov 2026 17:22:28 GMT",
         "section": "State Sports",
         "sport_desk": "College Football",
         "ingestion_mode": "discovery",
