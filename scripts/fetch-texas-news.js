@@ -32,6 +32,28 @@ const SOURCES = [
     mode: "direct"
   },
   {
+    name: "KUT News",
+    url: "https://www.kut.org/kut-rss-feed-all-content.rss",
+    region: "Austin / Central Texas",
+    type: "public-media",
+    mode: "direct"
+  },
+  {
+    name: "Fort Worth Report",
+    url: "https://fortworthreport.org/feed/",
+    region: "North Texas / DFW",
+    type: "nonprofit-news",
+    mode: "direct",
+    excludedCategories: ["obituary"]
+  },
+  {
+    name: "Texas Tech Public Media (KTTZ)",
+    url: "https://radio.kttz.org/tags/local-news.rss",
+    region: "Lubbock / West Texas",
+    type: "public-media",
+    mode: "direct"
+  },
+  {
     name: "Houston Public Media",
     url: "https://www.houstonpublicmedia.org/feed/",
     region: "Houston / Gulf Coast",
@@ -1427,6 +1449,10 @@ function parseFeed(
 
     const categories =
       extractCategories(block);
+
+    if (categories.some(category => source.excludedCategories?.includes(category))) {
+      continue;
+    }
 
     const actualSource =
       source.mode === "discovery"

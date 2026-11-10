@@ -16,6 +16,8 @@ const texasSignals = [
   "houston",
   "dallas",
   "fort worth",
+  "arlington isd",
+  "haltom high school",
   "austin",
   "san antonio",
   "el paso",
