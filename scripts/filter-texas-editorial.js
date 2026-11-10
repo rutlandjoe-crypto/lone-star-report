@@ -1,4 +1,5 @@
 const fs = require("fs");
+const { isPausedNewspaper } = require("./newspaper-access");
 
 const REPORT = "public/latest_report.json";
 
@@ -361,6 +362,7 @@ function isSpanishEditionItem(story) {
 }
 
 function allowStory(story, section) {
+  if (isPausedNewspaper(story.source)) return false;
   if (isSpanishEditionItem(story)) return false;
   const headline = String(story.headline || story.title || "").trim();
   if (!headline || /\s[-??:]\s*page\s+\d+\s*$/i.test(headline)) return false;
@@ -538,7 +540,7 @@ for (const section of [
 }
 
 console.log(
-  `Removed as off-topic/opinion: ${removed.length}`
+  `Removed by editorial gate: ${removed.length}`
 );
 
 console.log("");

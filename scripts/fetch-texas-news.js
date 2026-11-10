@@ -1,6 +1,7 @@
 const fs = require("fs");
 const https = require("https");
 const http = require("http");
+const { isPausedNewspaper } = require("./newspaper-access");
 
 const OUTPUT = "public/latest_report.json";
 const STATUS_OUTPUT = "public/source_status.json";
@@ -60,7 +61,7 @@ const SOURCES = [
   },
 
   // ----------------------------------------------------------
-  // REQUIRED TEXAS METRO NEWSPAPERS
+  // TEXAS METRO NEWSPAPERS (PAUSED WHILE ACCESS IS MIXED)
   // Google News is discovery only.
   // Attribution must match the requested newsroom.
   // ----------------------------------------------------------
@@ -1634,6 +1635,8 @@ async function main() {
   for (
     const source of SOURCES
   ) {
+    if (isPausedNewspaper(source.name)) continue;
+
     process.stdout.write(
       `Fetching ${source.name} ... `
     );
