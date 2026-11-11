@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T14:29:40.659Z",
+  "checked_at": "2026-11-11T21:57:13.885Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 18,
   "sources": [
@@ -65,7 +65,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "Dave Campbell's Texas Football",
@@ -202,6 +202,11 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
+      "source": "El Paso Matters",
+      "title": "Opinion: El Paso lets employers undervalue our talent. That must change.",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "On3 - Texas A&M Aggies",
       "title": "Joseph Hastings",
       "reason": "blocked sports noise"
@@ -225,6 +230,11 @@
       "source": "El Paso Inc.",
       "title": "Paso del Norte Community Foundation launches Latina giving circle",
       "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Study finds kids who go to parks grow up with better mental health",
+      "reason": "blocked non-business or soft-content term"
     },
     {
       "source": "El Paso Inc.",
