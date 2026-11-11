@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T23:20:01.946Z",
+  "checked_at": "2026-11-11T06:17:00.666Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 18,
   "sources": [
@@ -25,7 +25,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "Texas Tech Public Media (KTTZ)",
@@ -191,11 +191,6 @@
     }
   ],
   "firewall_rejections": [
-    {
-      "source": "Fort Worth Report",
-      "title": "Thanksgiving Made Easy: Let Central Market Bring the Feast to Your Table",
-      "reason": "blocked editorial/opinion phrase"
-    },
     {
       "source": "Texas Tech Public Media (KTTZ)",
       "title": "Texans grapple with AI campaign ads, and what they say about candidates",
