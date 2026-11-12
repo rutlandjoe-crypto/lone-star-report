@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-12T11:06:51.357Z",
+  "checked_at": "2026-11-12T18:55:11.643Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 17,
+  "working_sources": 19,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -65,7 +65,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 2
     },
     {
       "source": "Dave Campbell's Texas Football",
@@ -148,8 +148,9 @@
       "source": "El Paso Inc.",
       "region": "El Paso / West Texas",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 2,
+      "firewall_rejected": 6
     },
     {
       "source": "Texas Comptroller",
@@ -163,8 +164,9 @@
       "source": "Dallas Fed Economic Updates",
       "region": "Statewide",
       "mode": "direct",
-      "status": "failed",
-      "error": "read ECONNRESET"
+      "status": "working",
+      "accepted": 4,
+      "firewall_rejected": 0
     },
     {
       "source": "Dallas Fed News Releases",
@@ -197,6 +199,11 @@
     },
     {
       "source": "El Paso Matters",
+      "title": "Opinion: Fixing El Paso's schools starts with showing up",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "El Paso Matters",
       "title": "Opinion: El Paso lets employers undervalue our talent. That must change.",
       "reason": "blocked editorial/opinion phrase"
     },
@@ -217,6 +224,21 @@
     },
     {
       "source": "El Paso Inc.",
+      "title": "UTEP opens applications for Loya engineering scholarship",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "El Paso County attorney receives NAMI mental health award",
+      "reason": "blocked non-business or soft-content term"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "City of El Paso launches first Poet Laureate Program",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
       "title": "Paso del Norte Community Foundation launches Latina giving circle",
       "reason": "missing business relevance signal"
     },
@@ -227,8 +249,8 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "How nutrition choices shape long-term health outcomes",
-      "reason": "blocked non-business or soft-content term"
+      "title": "Study warns eating fatty foods may increase colon cancer risk",
+      "reason": "missing business relevance signal"
     }
   ]
 }
