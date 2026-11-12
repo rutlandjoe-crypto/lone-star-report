@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-12T02:59:04.003Z",
+  "checked_at": "2026-11-12T11:06:51.357Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 18,
+  "working_sources": 17,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -163,9 +163,8 @@
       "source": "Dallas Fed Economic Updates",
       "region": "Statewide",
       "mode": "direct",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "read ECONNRESET"
     },
     {
       "source": "Dallas Fed News Releases",
@@ -215,11 +214,6 @@
       "source": "On3 - TCU Horned Frogs",
       "title": "Mizzou men's basketball recruiting: Signing Day Central",
       "reason": "blocked sports noise"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "5 Holiday Shopping Tips to Save Money and Reduce Stress",
-      "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
