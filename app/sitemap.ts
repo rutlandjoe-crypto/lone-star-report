@@ -1,4 +1,5 @@
-﻿import type { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
+import { texasPoliticsStory } from "./stories/texas-politics-story";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.gsrlonestarreport.com";
@@ -9,6 +10,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "hourly",
       priority: 1,
+    },
+    {
+      url: `${baseUrl}${texasPoliticsStory.path}`,
+      lastModified: texasPoliticsStory.date,
     },
   ];
 }

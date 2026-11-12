@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { texasPoliticsStory } from "./stories/texas-politics-story";
 import fs from "fs";
 import path from "path";
 import EditorialStandard from "@/components/EditorialStandard";
@@ -736,6 +738,18 @@ export default function Page() {
           </div>
         </div>
       </header>
+
+      <section className="mx-auto max-w-7xl px-5 py-3">
+        <div className="gsr-card border-l-4 border-l-[#bf0a30] p-5">
+          <p className="texas-section-label">Lone Star Report Analysis</p>
+          <h2 className="mt-2 text-xl font-black">
+            <Link href={texasPoliticsStory.path} className="underline">
+              {texasPoliticsStory.title}
+            </Link>
+          </h2>
+          <p className="mt-2 text-sm">By {texasPoliticsStory.byline}</p>
+        </div>
+      </section>
 
       <EditorialStandard />
 
