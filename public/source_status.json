@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T07:57:08.047Z",
+  "checked_at": "2026-11-13T16:22:09.254Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 19,
   "sources": [
@@ -150,7 +150,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 2,
-      "firewall_rejected": 17
+      "firewall_rejected": 18
     },
     {
       "source": "Texas Comptroller",
@@ -270,6 +270,11 @@
     {
       "source": "El Paso Inc.",
       "title": "Could your stomachaches be linked to ADHD? What new research says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Americans feel mentally checked out nearly 2 months a year",
       "reason": "missing business relevance signal"
     },
     {
