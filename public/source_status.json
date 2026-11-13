@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T00:22:37.616Z",
+  "checked_at": "2026-11-13T07:57:08.047Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 19,
   "sources": [
@@ -24,7 +24,7 @@
       "region": "North Texas / DFW",
       "mode": "direct",
       "status": "working",
-      "accepted": 4,
+      "accepted": 3,
       "firewall_rejected": 0
     },
     {
@@ -88,7 +88,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -96,7 +96,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -112,7 +112,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - SMU Mustangs",
@@ -149,8 +149,8 @@
       "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 3,
-      "firewall_rejected": 19
+      "accepted": 2,
+      "firewall_rejected": 17
     },
     {
       "source": "Texas Comptroller",
@@ -209,27 +209,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Kentucky Basketball Recruiting: Is this Mark Pope's best class yet?",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
       "title": "Joseph Hastings",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas Tech Red Raiders",
-      "title": "Lady Raiders Allow Fewest Points Since 2010, Okechukwu Scores 21 in Rout of Lamar",
       "reason": "blocked sports noise"
     },
     {
       "source": "On3 - TCU Horned Frogs",
       "title": "Mizzou men's basketball recruiting: Signing Day Central",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Baylor Bears",
-      "title": "Lady Raiders Allow Fewest Points Since 2010, Okechukwu Scores 21 in Rout of Lamar",
       "reason": "blocked sports noise"
     },
     {
@@ -246,16 +231,6 @@
       "source": "El Paso Inc.",
       "title": "El Paso County attorney receives NAMI mental health award",
       "reason": "blocked non-business or soft-content term"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "City of El Paso awards $300,000 in cultural grants",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "City of El Paso launches first Poet Laureate Program",
-      "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
