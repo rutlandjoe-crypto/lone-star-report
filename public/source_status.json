@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T22:37:36.310Z",
+  "checked_at": "2026-11-14T03:14:27.144Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 19,
   "sources": [
@@ -120,7 +120,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Houston Cougars",
@@ -218,11 +218,6 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - SMU Mustangs",
-      "title": "Kentucky Basketball Recruiting: Is this Mark Pope's best class yet?",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "El Paso Inc.",
       "title": "Kastner Hill Learning to Open Second Austin Location in Northwest Austin",
       "reason": "missing business relevance signal"
@@ -254,22 +249,22 @@
     },
     {
       "source": "El Paso Inc.",
-      "title": "Could your stomachaches be linked to ADHD? What new research says",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
       "title": "White-knuckling the holidays: Why so many Americans put mental health on hold at the end of the year",
       "reason": "blocked non-business or soft-content term"
     },
     {
       "source": "El Paso Inc.",
-      "title": "Study warns eating fatty foods may increase colon cancer risk",
+      "title": "How much you're paying to skip streaming ads",
       "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
-      "title": "How much you're paying to skip streaming ads",
+      "title": "Could your stomachaches be linked to ADHD? What new research says",
+      "reason": "missing business relevance signal"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Study warns eating fatty foods may increase colon cancer risk",
       "reason": "missing business relevance signal"
     },
     {
