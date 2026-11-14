@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T10:27:18.165Z",
+  "checked_at": "2026-11-14T17:07:00.744Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 19,
   "sources": [
@@ -104,7 +104,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Baylor Bears",
@@ -150,7 +150,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 11
+      "firewall_rejected": 10
     },
     {
       "source": "Texas Comptroller",
@@ -213,11 +213,6 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "On3 - TCU Horned Frogs",
-      "title": "Mizzou men's basketball recruiting: Signing Day Central",
-      "reason": "blocked sports noise"
-    },
-    {
       "source": "El Paso Inc.",
       "title": "Kastner Hill Learning to Open Second Austin Location in Northwest Austin",
       "reason": "missing business relevance signal"
@@ -231,11 +226,6 @@
       "source": "El Paso Inc.",
       "title": "Study warns eating fatty foods may increase colon cancer risk",
       "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "Kids who go to parks grow up with better mental health?",
-      "reason": "blocked non-business or soft-content term"
     },
     {
       "source": "El Paso Inc.",
