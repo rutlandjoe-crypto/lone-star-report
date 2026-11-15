@@ -1,11 +1,12 @@
 {
   "platform": "GSR Lone Star Report",
-  "generated_at": "2026-11-14T21:29:35.500Z",
+  "generated_at": "2026-11-15T01:55:04.171Z",
   "editorial_standard": "Journalistic integrity is the No. 1 standard.",
   "editorial_firewall": "Opinion, editorial, commentary, columns, endorsements, letters, sponsored content and advertorial material are excluded.",
   "sourcing_policy": "Straight-news reporting from credible Texas newsrooms and approved Texas sports sources only.",
   "source_headline_policy": "Original source headlines are preserved.",
   "source_counts": {
+    "Fort Worth Report": 1,
     "San Antonio Report": 2,
     "El Paso Matters": 2,
     "Houston Public Media": 2,
@@ -18,27 +19,41 @@
     "On3 - SMU Mustangs": 1
   },
   "region_counts": {
+    "North Texas / DFW": 2,
     "San Antonio": 2,
     "El Paso / Border": 2,
     "Houston / Gulf Coast": 2,
     "Austin / Central Texas": 3,
     "Statewide": 14,
-    "Lubbock / West Texas": 2,
-    "North Texas / DFW": 1
+    "Lubbock / West Texas": 2
   },
   "homepage_cards": [
     {
-      "headline": "Wake Forest's blowout of SMU proved it's being undervalued by the College Football Playoff Committee",
-      "title": "Wake Forest's blowout of SMU proved it's being undervalued by the College Football Playoff Committee",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdWJJNy1rQ0dHWjAtWGZoemJCaUJaWTNkbURPaXctSFkxSVpvUXFhWmRWcnZzSFdrd3F4bWxGdlpGa09sT2ZvRnRPQndRQzE4UWxCd0NJZkdRM2piaTRVRkF6aDdXcnpZSlJvam9BYUZWTE9uOWFfTEplWDJmaXc4RnBjX3lUajFQd29Vek9pdGlHX2pwdnZQRWVtODlzMXJhbk1ERzBHaWQ0SDNId0FVNGJZM2hneTBIVFhZMnhzVEw?oc=5",
+      "headline": "4-star QB TK Gaines commits to SMU over LSU, Oregon",
+      "title": "4-star QB TK Gaines commits to SMU over LSU, Oregon",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWjJkdXZXWm4tOTFMSzNEUm9yc3FwdnVJQ3F5WUgzazFMdHVCV3k5OHJwdXRBOXUzbUpaU3RqYjdENTk1aFcxUU5WU3N1Nzl1VV9Hbkx4UGszY21qdmpOdnZRdGJaNXZQQk9OejB4ZWxQdUhJT1dWZU5MZEhoN2w2YWtPaVpHNzYxQ0dVWmpzVzY2dkwtbkVQZER2NA?oc=5",
       "source": "On3 - SMU Mustangs",
       "source_attribution": "On3",
       "source_type": "sports-specialty",
       "region": "North Texas / DFW",
-      "published_at": "Sat, 14 Nov 2026 20:30:55 GMT",
+      "published_at": "Sun, 15 Nov 2026 00:53:24 GMT",
       "section": "State Sports",
       "sport_desk": "College Football",
       "ingestion_mode": "discovery",
+      "editorial_firewall": "passed"
+    },
+    {
+      "headline": "What is a military chaplain’s role? Fort Worth theology school weighs proposed bill",
+      "title": "What is a military chaplain’s role? Fort Worth theology school weighs proposed bill",
+      "url": "https://fortworthreport.org/2026/11/14/what-is-a-military-chaplains-role-fort-worth-theology-school-weighs-proposed-bill/",
+      "source": "Fort Worth Report",
+      "source_attribution": "Fort Worth Report",
+      "source_type": "nonprofit-news",
+      "region": "North Texas / DFW",
+      "published_at": "Sat, 14 Nov 2026 22:30:00 +0000",
+      "section": "State News",
+      "sport_desk": null,
+      "ingestion_mode": "direct",
       "editorial_firewall": "passed"
     },
     {
@@ -394,6 +409,20 @@
   ],
   "sections": {
     "State News": [
+      {
+        "headline": "What is a military chaplain’s role? Fort Worth theology school weighs proposed bill",
+        "title": "What is a military chaplain’s role? Fort Worth theology school weighs proposed bill",
+        "url": "https://fortworthreport.org/2026/11/14/what-is-a-military-chaplains-role-fort-worth-theology-school-weighs-proposed-bill/",
+        "source": "Fort Worth Report",
+        "source_attribution": "Fort Worth Report",
+        "source_type": "nonprofit-news",
+        "region": "North Texas / DFW",
+        "published_at": "Sat, 14 Nov 2026 22:30:00 +0000",
+        "section": "State News",
+        "sport_desk": null,
+        "ingestion_mode": "direct",
+        "editorial_firewall": "passed"
+      },
       {
         "headline": "Parents of students with disabilities fear losing Texas’ “life-changing” school vouchers",
         "title": "Parents of students with disabilities fear losing Texas’ “life-changing” school vouchers",
@@ -751,14 +780,14 @@
     ],
     "State Sports": [
       {
-        "headline": "Wake Forest's blowout of SMU proved it's being undervalued by the College Football Playoff Committee",
-        "title": "Wake Forest's blowout of SMU proved it's being undervalued by the College Football Playoff Committee",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdWJJNy1rQ0dHWjAtWGZoemJCaUJaWTNkbURPaXctSFkxSVpvUXFhWmRWcnZzSFdrd3F4bWxGdlpGa09sT2ZvRnRPQndRQzE4UWxCd0NJZkdRM2piaTRVRkF6aDdXcnpZSlJvam9BYUZWTE9uOWFfTEplWDJmaXc4RnBjX3lUajFQd29Vek9pdGlHX2pwdnZQRWVtODlzMXJhbk1ERzBHaWQ0SDNId0FVNGJZM2hneTBIVFhZMnhzVEw?oc=5",
+        "headline": "4-star QB TK Gaines commits to SMU over LSU, Oregon",
+        "title": "4-star QB TK Gaines commits to SMU over LSU, Oregon",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWjJkdXZXWm4tOTFMSzNEUm9yc3FwdnVJQ3F5WUgzazFMdHVCV3k5OHJwdXRBOXUzbUpaU3RqYjdENTk1aFcxUU5WU3N1Nzl1VV9Hbkx4UGszY21qdmpOdnZRdGJaNXZQQk9OejB4ZWxQdUhJT1dWZU5MZEhoN2w2YWtPaVpHNzYxQ0dVWmpzVzY2dkwtbkVQZER2NA?oc=5",
         "source": "On3 - SMU Mustangs",
         "source_attribution": "On3",
         "source_type": "sports-specialty",
         "region": "North Texas / DFW",
-        "published_at": "Sat, 14 Nov 2026 20:30:55 GMT",
+        "published_at": "Sun, 15 Nov 2026 00:53:24 GMT",
         "section": "State Sports",
         "sport_desk": "College Football",
         "ingestion_mode": "discovery",

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T21:29:35.500Z",
+  "checked_at": "2026-11-15T01:55:04.171Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 19,
   "sources": [
@@ -112,7 +112,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - SMU Mustangs",
@@ -150,7 +150,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 10
+      "firewall_rejected": 8
     },
     {
       "source": "Texas Comptroller",
@@ -213,14 +213,9 @@
       "reason": "blocked sports noise"
     },
     {
-      "source": "El Paso Inc.",
-      "title": "Kastner Hill Learning to Open Second Austin Location in Northwest Austin",
-      "reason": "missing business relevance signal"
-    },
-    {
-      "source": "El Paso Inc.",
-      "title": "UTEP opens applications for Loya engineering scholarship",
-      "reason": "missing business relevance signal"
+      "source": "On3 - Baylor Bears",
+      "title": "Upper St. Clair Dominates Armstrong in WPIAL Class 5A Quarterfinal Matchup",
+      "reason": "blocked sports noise"
     },
     {
       "source": "El Paso Inc.",
