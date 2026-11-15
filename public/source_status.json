@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T01:55:04.171Z",
+  "checked_at": "2026-11-15T09:24:45.699Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 19,
   "sources": [
@@ -88,7 +88,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -112,7 +112,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "On3 - SMU Mustangs",
@@ -149,7 +149,7 @@
       "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "working",
-      "accepted": 4,
+      "accepted": 3,
       "firewall_rejected": 8
     },
     {
@@ -206,16 +206,6 @@
       "source": "El Paso Matters",
       "title": "Opinion: El Paso lets employers undervalue our talent. That must change.",
       "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Joseph Hastings",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Baylor Bears",
-      "title": "Upper St. Clair Dominates Armstrong in WPIAL Class 5A Quarterfinal Matchup",
-      "reason": "blocked sports noise"
     },
     {
       "source": "El Paso Inc.",
