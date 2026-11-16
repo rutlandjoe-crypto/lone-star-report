@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T21:49:18.004Z",
+  "checked_at": "2026-11-16T02:06:21.161Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 19,
   "sources": [
@@ -88,7 +88,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 0
+      "firewall_rejected": 1
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -206,6 +206,11 @@
       "source": "El Paso Matters",
       "title": "Opinion: El Paso lets employers undervalue our talent. That must change.",
       "reason": "blocked editorial/opinion phrase"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Joseph Hastings",
+      "reason": "blocked sports noise"
     },
     {
       "source": "El Paso Inc.",

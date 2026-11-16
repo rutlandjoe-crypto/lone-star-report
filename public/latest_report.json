@@ -1,13 +1,13 @@
 {
   "platform": "GSR Lone Star Report",
-  "generated_at": "2026-11-15T21:49:18.004Z",
+  "generated_at": "2026-11-16T02:06:21.161Z",
   "editorial_standard": "Journalistic integrity is the No. 1 standard.",
   "editorial_firewall": "Opinion, editorial, commentary, columns, endorsements, letters, sponsored content and advertorial material are excluded.",
   "sourcing_policy": "Straight-news reporting from credible Texas newsrooms and approved Texas sports sources only.",
   "source_headline_policy": "Original source headlines are preserved.",
   "source_counts": {
+    "Fort Worth Report": 1,
     "San Antonio Report": 2,
-    "Fort Worth Report": 2,
     "Texas Public Radio": 2,
     "El Paso Matters": 3,
     "Houston Public Media": 1,
@@ -17,21 +17,35 @@
     "Texas Comptroller": 4,
     "Dallas Fed Economic Updates": 4,
     "Dallas Fed News Releases": 4,
-    "On3 - Texas A&M Aggies": 2,
-    "On3 - TCU Horned Frogs": 1
+    "On3 - Texas A&M Aggies": 1,
+    "On3 - TCU Horned Frogs": 2
   },
   "region_counts": {
-    "San Antonio": 2,
     "North Texas / DFW": 3,
+    "San Antonio": 2,
     "San Antonio / South Central Texas": 2,
     "El Paso / Border": 3,
     "Houston / Gulf Coast": 1,
     "Austin / Central Texas": 3,
     "Statewide": 14,
     "Lubbock / West Texas": 2,
-    "Central Texas": 2
+    "Central Texas": 1
   },
   "homepage_cards": [
+    {
+      "headline": "Talking turkey: Fort Worth Thanksgiving dinner less costly than last year except for beverages",
+      "title": "Talking turkey: Fort Worth Thanksgiving dinner less costly than last year except for beverages",
+      "url": "https://fortworthreport.org/2026/11/15/talking-turkey-fort-worth-thanksgiving-dinner-less-costly-than-last-year-except-for-beverages/",
+      "source": "Fort Worth Report",
+      "source_attribution": "Fort Worth Report",
+      "source_type": "nonprofit-news",
+      "region": "North Texas / DFW",
+      "published_at": "Mon, 16 Nov 2026 00:06:19 +0000",
+      "section": "State News",
+      "sport_desk": null,
+      "ingestion_mode": "direct",
+      "editorial_firewall": "passed"
+    },
     {
       "headline": "Texas A&M vs. Oklahoma kickoff time, TV channel designation changed for Nov. 21 game",
       "title": "Texas A&M vs. Oklahoma kickoff time, TV channel designation changed for Nov. 21 game",
@@ -75,20 +89,6 @@
       "editorial_firewall": "passed"
     },
     {
-      "headline": "Recruiting intel coming out of another busy weekend at Texas A&M",
-      "title": "Recruiting intel coming out of another busy weekend at Texas A&M",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZXhTbFdtNmtxS0llQ2JrdWhlaUhTRTByQXNtcjYteC0zaTZkTlk2cDUxckM2S2hRRkhmVEdtc1ZtbEhxUjdQVHh3NW13U3NfZlNuZTY3OGJ2ZlZNNzNzaGp1SHZjbVF0eGJrdVNUUjhfYTRwZnk4TWNyeV90MzlRSnZjcDR1amk3NEJGMm1uaG5iR0NVQW1RY3BDRVdYZ3FLQlVrMzJ4V3VWUQ?oc=5",
-      "source": "On3 - Texas A&M Aggies",
-      "source_attribution": "On3",
-      "source_type": "sports-specialty",
-      "region": "Central Texas",
-      "published_at": "Sun, 15 Nov 2026 19:31:32 GMT",
-      "section": "State Sports",
-      "sport_desk": "College Football",
-      "ingestion_mode": "discovery",
-      "editorial_firewall": "passed"
-    },
-    {
       "headline": "San Antonio holds nearly a third of 1882 schools in Texas, but most school districts remain holdouts",
       "title": "San Antonio holds nearly a third of 1882 schools in Texas, but most school districts remain holdouts",
       "url": "https://www.tpr.org/education/2026-11-15/san-antonio-holds-nearly-a-third-of-1882-schools-in-texas-but-most-school-districts-remain-holdouts",
@@ -103,31 +103,17 @@
       "editorial_firewall": "passed"
     },
     {
-      "headline": "Photographer builds name documenting Fort Worth’s Black communities free of charge",
-      "title": "Photographer builds name documenting Fort Worth’s Black communities free of charge",
-      "url": "https://fortworthreport.org/2026/11/15/photographer-builds-name-documenting-fort-worths-black-communities-free-of-charge/",
-      "source": "Fort Worth Report",
-      "source_attribution": "Fort Worth Report",
-      "source_type": "nonprofit-news",
+      "headline": "TCU's win over Kansas State left a mark on top 2027 and 2028 commits and targets",
+      "title": "TCU's win over Kansas State left a mark on top 2027 and 2028 commits and targets",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWGlCWG9MVktvN0dpaHlFbjhNT1BiTDhPX0FxSEpLQTdDSk9iMXNlWXdKNzJjeEVuTFdfM1FOeDA4VTVqN3hJc2xVbmZTR0ZCdkgtZEo2Uk84bEtUUHIzcWxwb1NFWmVBNnJNSkdVanVlN1R6SDc4dExfZkZuaW0yUmVvQ2djclNoYWlwSFRwVFQyejZiNDM4SjhoSlZFdFVJOWVnY05jcW5RVmlhaXRQWWZR?oc=5",
+      "source": "On3 - TCU Horned Frogs",
+      "source_attribution": "On3",
+      "source_type": "sports-specialty",
       "region": "North Texas / DFW",
-      "published_at": "Sun, 15 Nov 2026 18:00:00 +0000",
-      "section": "State News",
-      "sport_desk": null,
-      "ingestion_mode": "direct",
-      "editorial_firewall": "passed"
-    },
-    {
-      "headline": "Fort Worth women face challenges in filling estrogen patch prescriptions. They’re not alone",
-      "title": "Fort Worth women face challenges in filling estrogen patch prescriptions. They’re not alone",
-      "url": "https://fortworthreport.org/2026/11/15/fort-worth-women-face-challenges-in-filling-estrogen-patch-prescriptions-theyre-not-alone/",
-      "source": "Fort Worth Report",
-      "source_attribution": "Fort Worth Report",
-      "source_type": "nonprofit-news",
-      "region": "North Texas / DFW",
-      "published_at": "Sun, 15 Nov 2026 18:00:00 +0000",
-      "section": "State News",
-      "sport_desk": null,
-      "ingestion_mode": "direct",
+      "published_at": "Sun, 15 Nov 2026 18:09:24 GMT",
+      "section": "State Sports",
+      "sport_desk": "College Football",
+      "ingestion_mode": "discovery",
       "editorial_firewall": "passed"
     },
     {
@@ -484,6 +470,20 @@
   "sections": {
     "State News": [
       {
+        "headline": "Talking turkey: Fort Worth Thanksgiving dinner less costly than last year except for beverages",
+        "title": "Talking turkey: Fort Worth Thanksgiving dinner less costly than last year except for beverages",
+        "url": "https://fortworthreport.org/2026/11/15/talking-turkey-fort-worth-thanksgiving-dinner-less-costly-than-last-year-except-for-beverages/",
+        "source": "Fort Worth Report",
+        "source_attribution": "Fort Worth Report",
+        "source_type": "nonprofit-news",
+        "region": "North Texas / DFW",
+        "published_at": "Mon, 16 Nov 2026 00:06:19 +0000",
+        "section": "State News",
+        "sport_desk": null,
+        "ingestion_mode": "direct",
+        "editorial_firewall": "passed"
+      },
+      {
         "headline": "What San Antonio healthcare leaders want from lawmakers in 2027",
         "title": "What San Antonio healthcare leaders want from lawmakers in 2027",
         "url": "https://sanantonioreport.org/what-san-antonio-healthcare-leaders-want-from-lawmakers-in-2027/",
@@ -492,34 +492,6 @@
         "source_type": "nonprofit-news",
         "region": "San Antonio",
         "published_at": "Sun, 15 Nov 2026 20:00:00 +0000",
-        "section": "State News",
-        "sport_desk": null,
-        "ingestion_mode": "direct",
-        "editorial_firewall": "passed"
-      },
-      {
-        "headline": "Photographer builds name documenting Fort Worth’s Black communities free of charge",
-        "title": "Photographer builds name documenting Fort Worth’s Black communities free of charge",
-        "url": "https://fortworthreport.org/2026/11/15/photographer-builds-name-documenting-fort-worths-black-communities-free-of-charge/",
-        "source": "Fort Worth Report",
-        "source_attribution": "Fort Worth Report",
-        "source_type": "nonprofit-news",
-        "region": "North Texas / DFW",
-        "published_at": "Sun, 15 Nov 2026 18:00:00 +0000",
-        "section": "State News",
-        "sport_desk": null,
-        "ingestion_mode": "direct",
-        "editorial_firewall": "passed"
-      },
-      {
-        "headline": "Fort Worth women face challenges in filling estrogen patch prescriptions. They’re not alone",
-        "title": "Fort Worth women face challenges in filling estrogen patch prescriptions. They’re not alone",
-        "url": "https://fortworthreport.org/2026/11/15/fort-worth-women-face-challenges-in-filling-estrogen-patch-prescriptions-theyre-not-alone/",
-        "source": "Fort Worth Report",
-        "source_attribution": "Fort Worth Report",
-        "source_type": "nonprofit-news",
-        "region": "North Texas / DFW",
-        "published_at": "Sun, 15 Nov 2026 18:00:00 +0000",
         "section": "State News",
         "sport_desk": null,
         "ingestion_mode": "direct",
@@ -924,14 +896,14 @@
         "editorial_firewall": "passed"
       },
       {
-        "headline": "Recruiting intel coming out of another busy weekend at Texas A&M",
-        "title": "Recruiting intel coming out of another busy weekend at Texas A&M",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZXhTbFdtNmtxS0llQ2JrdWhlaUhTRTByQXNtcjYteC0zaTZkTlk2cDUxckM2S2hRRkhmVEdtc1ZtbEhxUjdQVHh3NW13U3NfZlNuZTY3OGJ2ZlZNNzNzaGp1SHZjbVF0eGJrdVNUUjhfYTRwZnk4TWNyeV90MzlRSnZjcDR1amk3NEJGMm1uaG5iR0NVQW1RY3BDRVdYZ3FLQlVrMzJ4V3VWUQ?oc=5",
-        "source": "On3 - Texas A&M Aggies",
+        "headline": "TCU's win over Kansas State left a mark on top 2027 and 2028 commits and targets",
+        "title": "TCU's win over Kansas State left a mark on top 2027 and 2028 commits and targets",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWGlCWG9MVktvN0dpaHlFbjhNT1BiTDhPX0FxSEpLQTdDSk9iMXNlWXdKNzJjeEVuTFdfM1FOeDA4VTVqN3hJc2xVbmZTR0ZCdkgtZEo2Uk84bEtUUHIzcWxwb1NFWmVBNnJNSkdVanVlN1R6SDc4dExfZkZuaW0yUmVvQ2djclNoYWlwSFRwVFQyejZiNDM4SjhoSlZFdFVJOWVnY05jcW5RVmlhaXRQWWZR?oc=5",
+        "source": "On3 - TCU Horned Frogs",
         "source_attribution": "On3",
         "source_type": "sports-specialty",
-        "region": "Central Texas",
-        "published_at": "Sun, 15 Nov 2026 19:31:32 GMT",
+        "region": "North Texas / DFW",
+        "published_at": "Sun, 15 Nov 2026 18:09:24 GMT",
         "section": "State Sports",
         "sport_desk": "College Football",
         "ingestion_mode": "discovery",
