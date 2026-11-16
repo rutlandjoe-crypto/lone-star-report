@@ -1,37 +1,46 @@
 {
   "platform": "GSR Lone Star Report",
-  "generated_at": "2026-11-16T02:06:21.161Z",
+  "generated_at": "2026-11-16T09:41:38.874Z",
   "editorial_standard": "Journalistic integrity is the No. 1 standard.",
   "editorial_firewall": "Opinion, editorial, commentary, columns, endorsements, letters, sponsored content and advertorial material are excluded.",
   "sourcing_policy": "Straight-news reporting from credible Texas newsrooms and approved Texas sports sources only.",
   "source_headline_policy": "Original source headlines are preserved.",
   "source_counts": {
+    "Texas Public Radio": 3,
     "Fort Worth Report": 1,
     "San Antonio Report": 2,
-    "Texas Public Radio": 2,
     "El Paso Matters": 3,
-    "Houston Public Media": 1,
     "KUT News": 3,
     "The Texas Tribune": 2,
     "Texas Tech Public Media (KTTZ)": 2,
     "Texas Comptroller": 4,
     "Dallas Fed Economic Updates": 4,
-    "Dallas Fed News Releases": 4,
-    "On3 - Texas A&M Aggies": 1,
-    "On3 - TCU Horned Frogs": 2
+    "Dallas Fed News Releases": 4
   },
   "region_counts": {
-    "North Texas / DFW": 3,
+    "San Antonio / South Central Texas": 3,
+    "North Texas / DFW": 1,
     "San Antonio": 2,
-    "San Antonio / South Central Texas": 2,
     "El Paso / Border": 3,
-    "Houston / Gulf Coast": 1,
     "Austin / Central Texas": 3,
     "Statewide": 14,
-    "Lubbock / West Texas": 2,
-    "Central Texas": 1
+    "Lubbock / West Texas": 2
   },
   "homepage_cards": [
+    {
+      "headline": "‘Satisfactory performer’: How a serial polluter keeps thriving in Texas",
+      "title": "‘Satisfactory performer’: How a serial polluter keeps thriving in Texas",
+      "url": "https://www.tpr.org/environment/2026-11-15/satisfactory-performer-how-a-serial-polluter-keeps-thriving-in-texas",
+      "source": "Texas Public Radio",
+      "source_attribution": "Texas Public Radio",
+      "source_type": "public-media",
+      "region": "San Antonio / South Central Texas",
+      "published_at": "Mon, 16 Nov 2026 02:14:57 GMT",
+      "section": "State News",
+      "sport_desk": null,
+      "ingestion_mode": "direct",
+      "editorial_firewall": "passed"
+    },
     {
       "headline": "Talking turkey: Fort Worth Thanksgiving dinner less costly than last year except for beverages",
       "title": "Talking turkey: Fort Worth Thanksgiving dinner less costly than last year except for beverages",
@@ -44,20 +53,6 @@
       "section": "State News",
       "sport_desk": null,
       "ingestion_mode": "direct",
-      "editorial_firewall": "passed"
-    },
-    {
-      "headline": "Texas A&M vs. Oklahoma kickoff time, TV channel designation changed for Nov. 21 game",
-      "title": "Texas A&M vs. Oklahoma kickoff time, TV channel designation changed for Nov. 21 game",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUEd4MTR2RS1EWHFDNDJ5QUVCcGtsakhtNzNZZU9hWmNUcklnLW5NZTZUenlabWdLanpFRFN0dkdCN0xUeHItek1PNG1CTzZVWUhGT2ZqdU1Fa1ZYRmZXbXctUkVsdERCRkJaYzJMRzdocDY2bGs5alVyMjJSRGhqdHFxY1JVZ2xUY1FxS3pRWmt6RXhjYVZlek9ENFY?oc=5",
-      "source": "On3 - Texas A&M Aggies",
-      "source_attribution": "On3",
-      "source_type": "sports-specialty",
-      "region": "Central Texas",
-      "published_at": "Sun, 15 Nov 2026 21:15:12 GMT",
-      "section": "State Sports",
-      "sport_desk": "College Football",
-      "ingestion_mode": "discovery",
       "editorial_firewall": "passed"
     },
     {
@@ -75,20 +70,6 @@
       "editorial_firewall": "passed"
     },
     {
-      "headline": "BYU vs TCU - College Football Game Chat",
-      "title": "BYU vs TCU - College Football Game Chat",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EZ05paS1zZGRhSlJLQURiVmJscFRzWWEwRTNOZE1rVWIwMTVSWFNJZUdVbGNpNzlEZ3B2cDlGX3ZZQnRORExKWWtpaFdMakhzb2hJN3lHVjhVQ3pjZzJsUk1mejNXSlNDY3c?oc=5",
-      "source": "On3 - TCU Horned Frogs",
-      "source_attribution": "On3",
-      "source_type": "sports-specialty",
-      "region": "North Texas / DFW",
-      "published_at": "Sun, 15 Nov 2026 19:31:52 GMT",
-      "section": "State Sports",
-      "sport_desk": "College Football",
-      "ingestion_mode": "discovery",
-      "editorial_firewall": "passed"
-    },
-    {
       "headline": "San Antonio holds nearly a third of 1882 schools in Texas, but most school districts remain holdouts",
       "title": "San Antonio holds nearly a third of 1882 schools in Texas, but most school districts remain holdouts",
       "url": "https://www.tpr.org/education/2026-11-15/san-antonio-holds-nearly-a-third-of-1882-schools-in-texas-but-most-school-districts-remain-holdouts",
@@ -100,20 +81,6 @@
       "section": "State Politics",
       "sport_desk": null,
       "ingestion_mode": "direct",
-      "editorial_firewall": "passed"
-    },
-    {
-      "headline": "TCU's win over Kansas State left a mark on top 2027 and 2028 commits and targets",
-      "title": "TCU's win over Kansas State left a mark on top 2027 and 2028 commits and targets",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWGlCWG9MVktvN0dpaHlFbjhNT1BiTDhPX0FxSEpLQTdDSk9iMXNlWXdKNzJjeEVuTFdfM1FOeDA4VTVqN3hJc2xVbmZTR0ZCdkgtZEo2Uk84bEtUUHIzcWxwb1NFWmVBNnJNSkdVanVlN1R6SDc4dExfZkZuaW0yUmVvQ2djclNoYWlwSFRwVFQyejZiNDM4SjhoSlZFdFVJOWVnY05jcW5RVmlhaXRQWWZR?oc=5",
-      "source": "On3 - TCU Horned Frogs",
-      "source_attribution": "On3",
-      "source_type": "sports-specialty",
-      "region": "North Texas / DFW",
-      "published_at": "Sun, 15 Nov 2026 18:09:24 GMT",
-      "section": "State Sports",
-      "sport_desk": "College Football",
-      "ingestion_mode": "discovery",
       "editorial_firewall": "passed"
     },
     {
@@ -167,20 +134,6 @@
       "source_type": "nonprofit-news",
       "region": "El Paso / Border",
       "published_at": "Sat, 14 Nov 2026 02:09:35 +0000",
-      "section": "State News",
-      "sport_desk": null,
-      "ingestion_mode": "direct",
-      "editorial_firewall": "passed"
-    },
-    {
-      "headline": "Washington Power Struggles, Texas Politics and the Battle for What's Next",
-      "title": "Washington Power Struggles, Texas Politics and the Battle for What's Next",
-      "url": "https://www.houstonpublicmedia.org/articles/shows/party-politics/2026/11/13/566895/washington-power-struggles-texas-politics-and-the-battle-for-whats-next/?utm_source=rss-party-politics-article&utm_medium=link&utm_campaign=hpm-rss-link",
-      "source": "Houston Public Media",
-      "source_attribution": "Houston Public Media",
-      "source_type": "public-media",
-      "region": "Houston / Gulf Coast",
-      "published_at": "Fri, 13 Nov 2026 23:56:36 +0000",
       "section": "State News",
       "sport_desk": null,
       "ingestion_mode": "direct",
@@ -470,6 +423,20 @@
   "sections": {
     "State News": [
       {
+        "headline": "‘Satisfactory performer’: How a serial polluter keeps thriving in Texas",
+        "title": "‘Satisfactory performer’: How a serial polluter keeps thriving in Texas",
+        "url": "https://www.tpr.org/environment/2026-11-15/satisfactory-performer-how-a-serial-polluter-keeps-thriving-in-texas",
+        "source": "Texas Public Radio",
+        "source_attribution": "Texas Public Radio",
+        "source_type": "public-media",
+        "region": "San Antonio / South Central Texas",
+        "published_at": "Mon, 16 Nov 2026 02:14:57 GMT",
+        "section": "State News",
+        "sport_desk": null,
+        "ingestion_mode": "direct",
+        "editorial_firewall": "passed"
+      },
+      {
         "headline": "Talking turkey: Fort Worth Thanksgiving dinner less costly than last year except for beverages",
         "title": "Talking turkey: Fort Worth Thanksgiving dinner less costly than last year except for beverages",
         "url": "https://fortworthreport.org/2026/11/15/talking-turkey-fort-worth-thanksgiving-dinner-less-costly-than-last-year-except-for-beverages/",
@@ -548,20 +515,6 @@
         "source_type": "nonprofit-news",
         "region": "El Paso / Border",
         "published_at": "Sat, 14 Nov 2026 02:09:35 +0000",
-        "section": "State News",
-        "sport_desk": null,
-        "ingestion_mode": "direct",
-        "editorial_firewall": "passed"
-      },
-      {
-        "headline": "Washington Power Struggles, Texas Politics and the Battle for What's Next",
-        "title": "Washington Power Struggles, Texas Politics and the Battle for What's Next",
-        "url": "https://www.houstonpublicmedia.org/articles/shows/party-politics/2026/11/13/566895/washington-power-struggles-texas-politics-and-the-battle-for-whats-next/?utm_source=rss-party-politics-article&utm_medium=link&utm_campaign=hpm-rss-link",
-        "source": "Houston Public Media",
-        "source_attribution": "Houston Public Media",
-        "source_type": "public-media",
-        "region": "Houston / Gulf Coast",
-        "published_at": "Fri, 13 Nov 2026 23:56:36 +0000",
         "section": "State News",
         "sport_desk": null,
         "ingestion_mode": "direct",
@@ -866,49 +819,6 @@
         "editorial_firewall": "passed"
       }
     ],
-    "State Sports": [
-      {
-        "headline": "Texas A&M vs. Oklahoma kickoff time, TV channel designation changed for Nov. 21 game",
-        "title": "Texas A&M vs. Oklahoma kickoff time, TV channel designation changed for Nov. 21 game",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUEd4MTR2RS1EWHFDNDJ5QUVCcGtsakhtNzNZZU9hWmNUcklnLW5NZTZUenlabWdLanpFRFN0dkdCN0xUeHItek1PNG1CTzZVWUhGT2ZqdU1Fa1ZYRmZXbXctUkVsdERCRkJaYzJMRzdocDY2bGs5alVyMjJSRGhqdHFxY1JVZ2xUY1FxS3pRWmt6RXhjYVZlek9ENFY?oc=5",
-        "source": "On3 - Texas A&M Aggies",
-        "source_attribution": "On3",
-        "source_type": "sports-specialty",
-        "region": "Central Texas",
-        "published_at": "Sun, 15 Nov 2026 21:15:12 GMT",
-        "section": "State Sports",
-        "sport_desk": "College Football",
-        "ingestion_mode": "discovery",
-        "editorial_firewall": "passed"
-      },
-      {
-        "headline": "BYU vs TCU - College Football Game Chat",
-        "title": "BYU vs TCU - College Football Game Chat",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EZ05paS1zZGRhSlJLQURiVmJscFRzWWEwRTNOZE1rVWIwMTVSWFNJZUdVbGNpNzlEZ3B2cDlGX3ZZQnRORExKWWtpaFdMakhzb2hJN3lHVjhVQ3pjZzJsUk1mejNXSlNDY3c?oc=5",
-        "source": "On3 - TCU Horned Frogs",
-        "source_attribution": "On3",
-        "source_type": "sports-specialty",
-        "region": "North Texas / DFW",
-        "published_at": "Sun, 15 Nov 2026 19:31:52 GMT",
-        "section": "State Sports",
-        "sport_desk": "College Football",
-        "ingestion_mode": "discovery",
-        "editorial_firewall": "passed"
-      },
-      {
-        "headline": "TCU's win over Kansas State left a mark on top 2027 and 2028 commits and targets",
-        "title": "TCU's win over Kansas State left a mark on top 2027 and 2028 commits and targets",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWGlCWG9MVktvN0dpaHlFbjhNT1BiTDhPX0FxSEpLQTdDSk9iMXNlWXdKNzJjeEVuTFdfM1FOeDA4VTVqN3hJc2xVbmZTR0ZCdkgtZEo2Uk84bEtUUHIzcWxwb1NFWmVBNnJNSkdVanVlN1R6SDc4dExfZkZuaW0yUmVvQ2djclNoYWlwSFRwVFQyejZiNDM4SjhoSlZFdFVJOWVnY05jcW5RVmlhaXRQWWZR?oc=5",
-        "source": "On3 - TCU Horned Frogs",
-        "source_attribution": "On3",
-        "source_type": "sports-specialty",
-        "region": "North Texas / DFW",
-        "published_at": "Sun, 15 Nov 2026 18:09:24 GMT",
-        "section": "State Sports",
-        "sport_desk": "College Football",
-        "ingestion_mode": "discovery",
-        "editorial_firewall": "passed"
-      }
-    ]
+    "State Sports": []
   }
 }
