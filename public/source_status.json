@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-16T09:41:38.873Z",
+  "checked_at": "2026-11-16T20:29:00.289Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 18,
+  "working_sources": 16,
   "sources": [
     {
       "source": "The Texas Tribune",
@@ -65,22 +65,21 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "Dave Campbell's Texas Football",
       "region": "Statewide",
       "mode": "discovery",
       "status": "failed",
-      "error": "no straight-news items accepted"
+      "error": "HTTP 429"
     },
     {
       "source": "On3 - Texas Longhorns",
       "region": "Austin / Central Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "HTTP 429"
     },
     {
       "source": "On3 - Texas A&M Aggies",
@@ -118,9 +117,8 @@
       "source": "On3 - SMU Mustangs",
       "region": "North Texas / DFW",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 0
+      "status": "failed",
+      "error": "HTTP 429"
     },
     {
       "source": "On3 - Houston Cougars",
@@ -180,7 +178,7 @@
       "region": "Statewide",
       "mode": "discovery",
       "status": "failed",
-      "error": "no straight-news items accepted"
+      "error": "HTTP 429"
     },
     {
       "source": "Dave Campbell's Texas Football - High School",
@@ -202,14 +200,14 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "El Paso Matters",
-      "title": "Opinion: El Paso lets employers undervalue our talent. That must change.",
-      "reason": "blocked editorial/opinion phrase"
-    },
-    {
       "source": "On3 - Texas A&M Aggies",
       "title": "Joseph Hastings",
       "reason": "blocked sports noise"
+    },
+    {
+      "source": "El Paso Inc.",
+      "title": "Pizza, tacos and ramen coming to El Paso's Kress Building",
+      "reason": "missing business relevance signal"
     },
     {
       "source": "El Paso Inc.",
