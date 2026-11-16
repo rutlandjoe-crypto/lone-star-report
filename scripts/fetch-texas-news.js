@@ -2,6 +2,7 @@ const fs = require("fs");
 const https = require("https");
 const http = require("http");
 const { isPausedNewspaper } = require("./newspaper-access");
+const { allowStory } = require("./filter-texas-editorial");
 
 const OUTPUT = "public/latest_report.json";
 const STATUS_OUTPUT = "public/source_status.json";
@@ -20,7 +21,82 @@ function googleNewsSiteFeed(domain, extra = "") {
   );
 }
 
+const DIRECT_SPORTS_SOURCES = [
+  {
+    name: "Dallas Cowboys",
+    url: "https://www.dallascowboys.com/rss/news",
+    region: "North Texas / DFW",
+    sportDesk: "NFL",
+  },
+  {
+    name: "Houston Texans",
+    url: "https://www.houstontexans.com/rss/news",
+    region: "Houston / Gulf Coast",
+    sportDesk: "NFL",
+  },
+  {
+    name: "MLB.com - Houston Astros",
+    url: "https://www.mlb.com/astros/feeds/news/rss.xml",
+    region: "Houston / Gulf Coast",
+    sportDesk: "MLB",
+    pathPrefix: "/astros/",
+  },
+  {
+    name: "MLB.com - Texas Rangers",
+    url: "https://www.mlb.com/rangers/feeds/news/rss.xml",
+    region: "North Texas / DFW",
+    sportDesk: "MLB",
+    pathPrefix: "/rangers/",
+  },
+  {
+    name: "ESPN NBA",
+    url: "https://www.espn.com/espn/rss/nba/news",
+    region: "Statewide",
+    sportDesk: "NBA",
+    headlineMatch: /\b(?:spurs|wembanyama|mavericks|mavs|houston rockets|rockets)\b/i,
+  },
+  {
+    name: "ESPN College Football",
+    url: "https://www.espn.com/espn/rss/ncf/news",
+    region: "Statewide",
+    sportDesk: "College Football",
+    headlineMatch: /\b(?:longhorns|texas a&m|aggies|texas tech|red raiders|tcu|horned frogs|baylor|smu|houston cougars|rice owls|utsa|utep|north texas|mean green|sam houston|texas state)\b/i,
+  },
+  {
+    name: "Texas HS Football",
+    url: "https://texashsfootball.com/feed/",
+    region: "Statewide",
+    sportDesk: "High School Football",
+    excludeHeadline: /\b(?:podcast|recruiting|sponsored|advertorial)\b/i,
+  },
+].map(source => ({
+  ...source,
+  mode: "direct",
+  type: "dedicated-texas-sports",
+  forceSection: "State Sports",
+}));
+
+function matchesDirectSportsFeed(source, title, url, published) {
+  const date = validDate(published);
+  const age = Date.now() - date;
+  if (!date || age < -3600000 || age > 7 * 24 * 60 * 60 * 1000) return false;
+  if (source.headlineMatch && !source.headlineMatch.test(title)) return false;
+  if (source.excludeHeadline && source.excludeHeadline.test(title)) return false;
+
+  try {
+    const article = new URL(url);
+    const host = value => value.replace(/^www\./i, "");
+    if (article.protocol !== "https:" || host(article.hostname) !== host(new URL(source.url).hostname)) {
+      return false;
+    }
+    return !source.pathPrefix || article.pathname.startsWith(source.pathPrefix);
+  } catch {
+    return false;
+  }
+}
+
 const SOURCES = [
+  ...DIRECT_SPORTS_SOURCES,
   // ----------------------------------------------------------
   // KNOWN DIRECT TEXAS NEWS FEEDS
   // ----------------------------------------------------------
@@ -1498,9 +1574,14 @@ function parseFeed(
       continue;
     }
 
+    if (source.type === "dedicated-texas-sports" &&
+        !matchesDirectSportsFeed(source, title, url, published)) {
+      continue;
+    }
+
     if (
-      source.forceSection === "State Sports" ||
-      source.type === "sports-specialty"
+      source.type !== "dedicated-texas-sports" &&
+      (source.forceSection === "State Sports" || source.type === "sports-specialty")
     ) {
       const sportsCheck =
         sportsRelevanceCheck(
@@ -1558,7 +1639,7 @@ function parseFeed(
       }
     }
 
-    accepted.push({
+    const story = {
       headline: title,
       title,
       url,
@@ -1584,7 +1665,14 @@ function parseFeed(
         source.mode,
       editorial_firewall:
         "passed"
-    });
+    };
+
+    if (story.section === "State Sports" && !allowStory(story, story.section)) {
+      rejected.push({ title, reason: "failed final Texas sports relevance check" });
+      continue;
+    }
+
+    accepted.push(story);
   }
 
   return {

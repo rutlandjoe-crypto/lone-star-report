@@ -3,14 +3,6 @@ const { isPausedNewspaper } = require("./newspaper-access");
 
 const REPORT = "public/latest_report.json";
 
-if (!fs.existsSync(REPORT)) {
-  throw new Error("latest_report.json not found");
-}
-
-const report = JSON.parse(
-  fs.readFileSync(REPORT, "utf8")
-);
-
 const texasSignals = [
   "texas",
   "houston",
@@ -290,57 +282,23 @@ function dedicatedSportsFeedCheck(story, text) {
     hasTexasSignal(text);
   }
 
-  if (source.includes("on3 - texas longhorns")) {
-    return (
-      text.includes("texas") ||
-      text.includes("longhorns")
-    ) &&
-    hasAny(text, footballSignals);
-  }
-
-  if (source.includes("on3 - texas a&m")) {
-    return (
-      text.includes("texas a&m") ||
-      text.includes("aggies")
-    ) &&
-    hasAny(text, footballSignals);
-  }
-
-  if (source.includes("on3 - texas tech")) {
-    return (
-      text.includes("texas tech") ||
-      text.includes("red raiders")
-    ) &&
-    hasAny(text, footballSignals);
-  }
-
-  if (source.includes("on3 - tcu")) {
-    return (
-      text.includes("tcu") ||
-      text.includes("horned frogs")
-    ) &&
-    hasAny(text, footballSignals);
-  }
-
-  if (source.includes("on3 - baylor")) {
-    return text.includes("baylor") &&
-           hasAny(text, footballSignals);
-  }
-
-  if (source.includes("on3 - smu")) {
-    return (
-      text.includes("smu") ||
-      text.includes("mustangs")
-    ) &&
-    hasAny(text, footballSignals);
-  }
-
-  if (source.includes("on3 - houston cougars")) {
-    return (
-      text.includes("houston") ||
-      text.includes("cougars")
-    ) &&
-    hasAny(text, footballSignals);
+  const on3Teams = {
+    "on3 - texas longhorns": /\blonghorns\b/,
+    "on3 - texas a&m aggies": /\b(?:texas a&m|aggies)\b/,
+    "on3 - texas tech red raiders": /\b(?:texas tech|red raiders)\b/,
+    "on3 - tcu horned frogs": /\b(?:tcu|horned frogs)\b/,
+    "on3 - baylor bears": /\bbaylor\b/,
+    "on3 - smu mustangs": /\b(?:smu|mustangs)\b/,
+    "on3 - houston cougars": /\b(?:houston cougars|cougars)\b/,
+  };
+  if (Object.prototype.hasOwnProperty.call(on3Teams, source)) {
+    const headline = String(story.headline || story.title || "").trim();
+    if (/\bhigh school football[.!?]?$/i.test(headline)) return false;
+    if (/\breport card\s*:|\bpostmortem\s*:/i.test(headline)) return false;
+    if (/\s[-–—|:]\s*(?:college football(?:\s+(?:game chat|team stats|box score|scoreboard|play-by-play))?|game chat|team stats|box score|scoreboard|play-by-play)\s*$/i.test(headline)) {
+      return false;
+    }
+    return on3Teams[source].test(text) && hasAny(text, footballSignals);
   }
 
   return null;
@@ -383,6 +341,36 @@ function allowStory(story, section) {
   }
 
   if (section === "State Sports") {
+    // The generator checks the host and scope of these feeds before assigning the desk.
+    if (story.source_type === "dedicated-texas-sports" && story.ingestion_mode === "direct") {
+      if (story.source === "Dallas Cowboys") {
+        const headline = String(story.headline || story.title || "").trim();
+        const articlePath = new URL(story.url).pathname;
+
+        // Cowboys staff columns use a surname prefix in the news feed.
+        if (/^\s*(?:spagnola|eatman)\s*:/i.test(headline)) return false;
+        if (/(?:^|\/)(?:es|espanol|en-espanol|spanish)(?:[/-]|$)/i.test(articlePath)) {
+          return false;
+        }
+
+        const words = headline.toLowerCase().normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "").match(/[a-z]+/g) || [];
+        const spanishWords = new Set([
+          "algo", "actuacion", "califica", "cambiar", "de", "defensiva", "del",
+          "el", "equipo", "esta", "frustracion", "inaceptable", "la", "las",
+          "los", "partido", "previa", "que", "reconoce", "resumen", "su", "tiene",
+        ]);
+        const matches = new Set(words.filter(word => spanishWords.has(word)));
+        if (matches.size >= 3) return false;
+      }
+
+      if (story.source === "Houston Texans" && /\bvanderblog\b/.test(text)) {
+        return false;
+      }
+
+      return true;
+    }
+
     const dedicated =
       dedicatedSportsFeedCheck(
         story,
@@ -454,101 +442,111 @@ function allowStory(story, section) {
   return false;
 }
 
-const removed = [];
+function filterReport() {
+  const report = JSON.parse(fs.readFileSync(REPORT, "utf8"));
 
-for (const section of [
-  "State News",
-  "State Politics",
-  "State Business",
-  "State Sports"
-]) {
-  const original =
-    report.sections?.[section] || [];
+  const removed = [];
 
-  const cleaned = [];
+  for (const section of [
+    "State News",
+    "State Politics",
+    "State Business",
+    "State Sports"
+  ]) {
+    const original =
+      report.sections?.[section] || [];
 
-  for (const rawStory of original) {
-    const story =
-      normalizeStory(rawStory);
+    const cleaned = [];
 
-    if (allowStory(story, section)) {
-      cleaned.push(story);
+    for (const rawStory of original) {
+      const story =
+        normalizeStory(rawStory);
+
+      if (allowStory(story, section)) {
+        cleaned.push(story);
+      }
+      else {
+        removed.push({
+          section,
+          source: story.source,
+          headline: story.headline
+        });
+      }
     }
-    else {
-      removed.push({
-        section,
-        source: story.source,
-        headline: story.headline
-      });
-    }
+
+    report.sections[section] =
+      cleaned;
   }
 
-  report.sections[section] =
-    cleaned;
-}
+  // Rebuild homepage_cards from the cleaned sections
+  // if that field exists in the report.
 
-// Rebuild homepage_cards from the cleaned sections
-// if that field exists in the report.
-
-if (Array.isArray(report.homepage_cards)) {
-  const validUrls =
-    new Set(
-      Object.values(report.sections)
-        .flat()
-        .map(story => story.url)
-        .filter(Boolean)
-    );
-
-  report.homepage_cards =
-    report.homepage_cards
-      .map(normalizeStory)
-      .filter(story =>
-        validUrls.has(story.url)
+  if (Array.isArray(report.homepage_cards)) {
+    const validUrls =
+      new Set(
+        Object.values(report.sections)
+          .flat()
+          .map(story => story.url)
+          .filter(Boolean)
       );
-}
 
-const retained = Object.values(report.sections).flat();
-if (!retained.length) throw new Error("Editorial filter retained no stories; refusing to publish");
-report.source_counts = {};
-report.region_counts = {};
-for (const story of retained) {
-  if (story.source) report.source_counts[story.source] = (report.source_counts[story.source] || 0) + 1;
-  if (story.region) report.region_counts[story.region] = (report.region_counts[story.region] || 0) + 1;
-}
-fs.writeFileSync(
-  REPORT,
-  JSON.stringify(
-    report,
-    null,
-    2
-  ) + "\n",
-  "utf8"
-);
+    report.homepage_cards =
+      report.homepage_cards
+        .map(normalizeStory)
+        .filter(story =>
+          validUrls.has(story.url)
+        );
+  }
 
-console.log("");
-console.log(
-  "FINAL EDITORIAL GATE"
-);
-
-for (const section of [
-  "State News",
-  "State Politics",
-  "State Business",
-  "State Sports"
-]) {
-  console.log(
-    `${section}: ${report.sections[section].length}`
+  const retained = Object.values(report.sections).flat();
+  if (!retained.length) throw new Error("Editorial filter retained no stories; refusing to publish");
+  report.source_counts = {};
+  report.region_counts = {};
+  for (const story of retained) {
+    if (story.source) report.source_counts[story.source] = (report.source_counts[story.source] || 0) + 1;
+    if (story.region) report.region_counts[story.region] = (report.region_counts[story.region] || 0) + 1;
+  }
+  fs.writeFileSync(
+    REPORT,
+    JSON.stringify(
+      report,
+      null,
+      2
+    ) + "\n",
+    "utf8"
   );
+
+  console.log("");
+  console.log(
+    "FINAL EDITORIAL GATE"
+  );
+
+  for (const section of [
+    "State News",
+    "State Politics",
+    "State Business",
+    "State Sports"
+  ]) {
+    console.log(
+      `${section}: ${report.sections[section].length}`
+    );
+  }
+
+  console.log(
+    `Removed by editorial gate: ${removed.length}`
+  );
+
+  console.log("");
+
+  for (const item of removed.slice(0, 40)) {
+    console.log(
+      `REJECTED | ${item.section} | ${item.source} | ${item.headline}`
+    );
+  }
 }
 
-console.log(
-  `Removed by editorial gate: ${removed.length}`
-);
+module.exports = { allowStory };
 
-console.log("");
-
-for (const item of removed.slice(0, 40)) {
-  console.log(
-    `REJECTED | ${item.section} | ${item.source} | ${item.headline}`
-  );
+if (require.main === module) {
+  filterReport();
 }

@@ -15,6 +15,8 @@ type Story = {
   published_at?: string;
   section: string;
   sport_desk?: string | null;
+  source_type?: string;
+  ingestion_mode?: string;
 };
 
 type WeatherLocation = {
@@ -356,6 +358,15 @@ function TexasWeatherDesk({
   );
 }
 function classifyTexasSport(story: Story) {
+  if (
+    story.source_type === "dedicated-texas-sports" &&
+    story.ingestion_mode === "direct" &&
+    story.sport_desk &&
+    SPORTS_DESKS.includes(story.sport_desk)
+  ) {
+    return story.sport_desk;
+  }
+
   const text = [
     story.headline,
     story.title

@@ -39,7 +39,7 @@ jobs:
 
       - name: Validate generated report
         run: |
-          node -e "const fs=require('fs'); const p='public/latest_report.json'; if(!fs.existsSync(p)) process.exit(1); const d=JSON.parse(fs.readFileSync(p,'utf8')); console.log('Lone Star report validated'); console.log('Bytes:', fs.statSync(p).size);"
+          node -e "const fs=require('fs'); const p='public/latest_report.json'; if(!fs.existsSync(p)) process.exit(1); const d=JSON.parse(fs.readFileSync(p,'utf8')); console.log('Lone Star report validated'); console.log('Bytes:', fs.statSync(p).size); const count=d.sections?.['State Sports']?.length ?? 0; console.log('State Sports:',count); if(count===0) console.log('::warning title=Lone Star Report::State Sports has zero verified stories');"
 
       - name: Commit fresh Lone Star data
         run: |
