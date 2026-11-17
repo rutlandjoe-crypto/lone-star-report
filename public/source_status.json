@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-17T13:24:49.289Z",
+  "checked_at": "2026-11-17T22:24:53.568Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 20,
+  "working_sources": 16,
   "sources": [
     {
       "source": "Dallas Cowboys",
@@ -9,7 +9,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 6
+      "firewall_rejected": 7
     },
     {
       "source": "Houston Texans",
@@ -40,14 +40,14 @@
       "region": "Statewide",
       "mode": "direct",
       "status": "failed",
-      "error": "HTTP 202"
+      "error": "no straight-news items accepted"
     },
     {
       "source": "ESPN College Football",
       "region": "Statewide",
       "mode": "direct",
       "status": "failed",
-      "error": "HTTP 202"
+      "error": "no straight-news items accepted"
     },
     {
       "source": "Texas HS Football",
@@ -78,8 +78,8 @@
       "region": "North Texas / DFW",
       "mode": "direct",
       "status": "working",
-      "accepted": 2,
-      "firewall_rejected": 0
+      "accepted": 4,
+      "firewall_rejected": 1
     },
     {
       "source": "Texas Tech Public Media (KTTZ)",
@@ -126,81 +126,77 @@
       "region": "Statewide",
       "mode": "discovery",
       "status": "failed",
-      "error": "no straight-news items accepted"
+      "error": "HTTP 503"
     },
     {
       "source": "On3 - Texas Longhorns",
       "region": "Austin / Central Texas",
       "mode": "discovery",
       "status": "failed",
-      "error": "no straight-news items accepted"
+      "error": "HTTP 503"
     },
     {
       "source": "On3 - Texas A&M Aggies",
       "region": "Central Texas",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 84
+      "status": "failed",
+      "error": "HTTP 503"
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
       "region": "West Texas / Lubbock",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 95
+      "status": "failed",
+      "error": "HTTP 503"
     },
     {
       "source": "On3 - TCU Horned Frogs",
       "region": "North Texas / DFW",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 2,
-      "firewall_rejected": 56
+      "status": "failed",
+      "error": "HTTP 503"
     },
     {
       "source": "On3 - Baylor Bears",
       "region": "Central Texas / Waco",
       "mode": "discovery",
       "status": "failed",
-      "error": "no straight-news items accepted"
+      "error": "HTTP 503"
     },
     {
       "source": "On3 - SMU Mustangs",
       "region": "North Texas / DFW",
       "mode": "discovery",
-      "status": "working",
-      "accepted": 4,
-      "firewall_rejected": 95
+      "status": "failed",
+      "error": "HTTP 503"
     },
     {
       "source": "On3 - Houston Cougars",
       "region": "Houston / Gulf Coast",
       "mode": "discovery",
       "status": "failed",
-      "error": "no straight-news items accepted"
+      "error": "HTTP 503"
     },
     {
       "source": "Houston Business Journal",
       "region": "Houston / Gulf Coast",
       "mode": "discovery",
       "status": "failed",
-      "error": "no straight-news items accepted"
+      "error": "HTTP 503"
     },
     {
       "source": "Austin Business Journal",
       "region": "Austin / Central Texas",
       "mode": "discovery",
       "status": "failed",
-      "error": "no straight-news items accepted"
+      "error": "HTTP 503"
     },
     {
       "source": "El Paso Inc.",
       "region": "El Paso / West Texas",
       "mode": "discovery",
       "status": "failed",
-      "error": "no straight-news items accepted"
+      "error": "HTTP 503"
     },
     {
       "source": "Texas Comptroller",
@@ -231,17 +227,22 @@
       "region": "Statewide",
       "mode": "discovery",
       "status": "failed",
-      "error": "no straight-news items accepted"
+      "error": "HTTP 503"
     },
     {
       "source": "Dave Campbell's Texas Football - High School",
       "region": "Statewide",
       "mode": "discovery",
       "status": "failed",
-      "error": "no straight-news items accepted"
+      "error": "HTTP 503"
     }
   ],
   "firewall_rejections": [
+    {
+      "source": "Dallas Cowboys",
+      "title": "Jerry Jones no descarta cambios en la defensiva de los Cowboys",
+      "reason": "failed final Texas sports relevance check"
+    },
     {
       "source": "Dallas Cowboys",
       "title": "Spagnola: The good, the bad & the very ugly",
@@ -278,6 +279,11 @@
       "reason": "failed final Texas sports relevance check"
     },
     {
+      "source": "Fort Worth Report",
+      "title": "Wynonna Judd and Mickey Guyton to perform at 2027 Legends Concert Series",
+      "reason": "blocked editorial/opinion phrase"
+    },
+    {
       "source": "Texas Tech Public Media (KTTZ)",
       "title": "Texas Tech regents cut some classes on race, gender as options for graduation requirements",
       "reason": "failed final Texas sports relevance check"
@@ -306,441 +312,6 @@
       "source": "El Paso Matters",
       "title": "Opinion: Fixing El Paso's schools starts with showing up",
       "reason": "blocked editorial/opinion phrase"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas Basketball's massive win over Baylor highlighted the ceiling of the roster, but also points of improvement heading forward",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Explaining Inside Texas score predictions for Longhorns vs. LSU Tigers",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas football likes adversity. The Horns can prove it at LSU following travel snafu. | The Last Word",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "From USC to the SEC: What LenDale White, Matt Leinart told Inside Texas about Steve Sarkisian, Lane Kiffin",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "15 thoughts after Week 11: Lincoln Riley's final referendum game, Lane Kiffin's failure, SEC deception and more",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas remains No. 8 in Week 11 AP Poll",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas' Jelani McDonald, Gianni Spetic garner SEC weekly honors",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Everything LSU coach Lane Kiffin said after losing 22-21 to the Texas Longhorns",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "The Brightest Spots in Texas Football's Season Deserve More Attention",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Inside Scoop: Latest Texas Flip Targets and 2027 Recruiting Notes, plus one SEC pledge",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas DT Hero Kanu has season-ending surgery, Steve Sarkisian announces",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "2026 Texas Longhorns - LSU Tigers Postmortem: Offense",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "'Give Him His Flowers' Texas Football Player of the Week (11): Jelani McDonald",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "2026 Texas Longhorns - LSU Tigers Football Postmortem: Defense/Special Teams",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas and Beyond: Week 11 SEC & Playoff Updates",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Everything Steve Sarkisian said about 'calloused' and 'hungry' Texas Longhorns",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Paul Finebaum on Arch Manning: 'He's one of the greatest winners I've ever seen'",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "SEC Title Race Update: Texas Longhorns alive in 39% of scenarios",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Steve Sarkisian and Texas Fans View the SEC Championship Game a Bit Differently",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "PFF grades, snap counts for every player from the Texas defense in 22-21 win at LSU",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Isaiah Johnson Paces Texas Longhorns Past Former Conference Foe Baylor",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "PFF grades, snap counts for every player from the Texas offense in 22-21 win at LSU",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Top 5 JUCO prospect Hayden Lowe narrows list to two, decision looming",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas Has Flaws. It Also Has More Ranked Wins Than Anyone Since 2023",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "McDonald's hat trick and Texas' fourth-quarter defensive heroics propel Longhorns past Tigers in Baton Rouge",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Steve Sarkisian on Cam Coleman: “A Better Version” Is Coming",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Report Card: Grading Texas football in every area of Longhorns' 22-21 win at LSU",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas Wins by the Hair on Arch Manning's Chinny Chin Chin",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Wasserman’s College Football Top 10: Despite lack of upsets, Texas moves into the top five",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Sarkisian vs. Kiffin: Backs against the wall, who is better built for the moment?",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas vs LSU: Five Longhorns to Watch Tonight",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Callin’ Raleek Brown: Texas RB stuns LSU in final seconds in Longhorn win",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "College Football Rankings: ESPN updates FPI Top 25 in Week 11, before third CFP rankings",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Five quick thoughts: Muschamp's adjustments and Manning's final drive push Texas past LSU",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Arch Manning came through against LSU, but how far can he take Texas?",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "College Football Rankings: AP Poll Top 25 after Week 11 released",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "What Texas Players said after No. 6 UT's 22-21 win over No. 21 LSU in Baton Rouge",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "UNC, Arkansas, Florida & more: PG1 Beckham Black details recruitment and schedules another visit",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "McDonald's hat trick and Texas' fourth-quarter defensive heroics propel Longhorns past Tigers in Baton Rouge",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Ryan Grubb throws possible shade at Sam Leavitt, Arch Manning when discussing play of Keelon Russell",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "What Steve Sarkisian said following No. 6 Texas' 23-21 win over LSU on Saturday Night",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M starting OL expected to miss rest of 2026 campaign for Aggies",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Mike Matthews suffers season-ending injury in Tennessee vs Texas A&M",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M flip target has made final decision following visit to Kyle Field",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "The latest on Tennessee's Nic Moore after offensive guard missed win at Texas A&M",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "2027 Industry Football Team Recruiting Rankings",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Tennessee WR Mike Matthews goes down with serious apparent leg injury",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Tennessee WR Mike Matthews expected to miss rest of the season with knee injury",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "BCS formula sets 12-team College Football Playoff bracket ahead of third CFP rankings reveal",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "AP Poll Prediction: Projecting Top 25 ranking after Week 11 of college football",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "College Football Rankings: AP Poll Top 25 after Week 11 released",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "ESPN College GameDay heading to Miami vs. Virginia Tech in Week 12",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Brett McMurphy's college football AP Top 25 ballot after Week 11",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "College Football Rankings: ESPN updates FPI Top 25 in Week 11, before third CFP rankings",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M hosts a flip target, makes waves with new 2028 offers and top prospects",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "BCS formula Top 25 makes changes after Week 11 results, before latest CFP rankings reveal",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "College Football Rankings: Coaches Poll Top 25 released after Week 11",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "CFB Cheat Sheet: Week 11",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Meet The Commits: Miami boasts No. 1 recruiting class in the country",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Miami owns the nation's No. 1 class after latest Rivals300 update but others are chasing",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Rivals300: Counting down 5-star recruits in latest rankings update",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "College Basketball Rankings: AP Poll Top 25 updated after Week 2 results",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "2027 Bracketology: First NCAA Tournament projections of season, surprise bubble teams",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Jackson Vaughn surges, other Notre Dame commits make big moves in updated Rivals300",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "The Hilltop Review: Following nightmare loss, where does SMU go from here?",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas remains No. 8 in Week 11 AP Poll",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Shane Beamer fires back after questions regarding LaNorris Sellers' injury status for Arkansas game",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "OU center Duke Brennan to undergo ankle surgery, expected out until February",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Why Josh Heupel put Faizon Brandon in for George MacIntyre at Texas A&M",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Top 5 JUCO prospect Hayden Lowe narrows list to two, decision looming",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "How Tennessee stayed on schedule despite delays in 22-7 win at Texas A&M",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "How To Watch: Tennessee vs. LSU on Senior Day at Neyland Stadium",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Mississippi State fires multiple assistant coaches after loss to Auburn",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Tennessee opens as home underdog against LSU on Saturday at Neyland Stadium",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Wasserman’s College Football Top 10: Despite lack of upsets, Texas moves into the top five",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Carter Karels",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M snap count tracker: How much time each Aggie player received vs. Tennessee, this season so far",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "What Mike Elko said after Tennessee defeated Texas A&M in College Station",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Mike Elko - Texas A&M Aggies - Head Coach - Coach Profile - On3.Com",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Mike Elko apologizes to Texas A&M fans after Tennessee loss: ‘You deserve so much better’",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Hubbs Five: What I learned in Tennessee's 22-7 win over Texas A&M",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Why Texas A&M, upcoming opponent Oklahoma share many similarities but have one big contrast",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "The Game Day Cheat Sheet: No. 8 Tennessee at Texas A&M",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Where Tennessee is ranked in the AP Top 25 after the win at Texas A&M",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Josh Heupel: No update on Mike Matthews' injury in Tennessee's win at Texas A&M",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Where Tennessee is ranked after the 22-7 win at Texas A&M",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Tennessee players react to win at Texas A&M",
-      "reason": "failed final Texas sports relevance check"
     }
   ]
 }
