@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-22T19:38:58.142Z",
+  "checked_at": "2026-11-23T00:52:40.912Z",
   "editorial_firewall": "ACTIVE",
   "working_sources": 23,
   "sources": [
@@ -9,7 +9,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 8
+      "firewall_rejected": 9
     },
     {
       "source": "Houston Texans",
@@ -17,7 +17,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 2
+      "firewall_rejected": 1
     },
     {
       "source": "MLB.com - Houston Astros",
@@ -78,7 +78,7 @@
       "region": "North Texas / DFW",
       "mode": "direct",
       "status": "working",
-      "accepted": 3,
+      "accepted": 4,
       "firewall_rejected": 0
     },
     {
@@ -111,7 +111,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "El Paso Matters",
@@ -134,7 +134,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 49
+      "firewall_rejected": 47
     },
     {
       "source": "On3 - Texas A&M Aggies",
@@ -149,8 +149,8 @@
       "region": "West Texas / Lubbock",
       "mode": "discovery",
       "status": "working",
-      "accepted": 1,
-      "firewall_rejected": 99
+      "accepted": 2,
+      "firewall_rejected": 98
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -166,7 +166,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 3,
-      "firewall_rejected": 97
+      "firewall_rejected": 93
     },
     {
       "source": "On3 - SMU Mustangs",
@@ -247,6 +247,11 @@
   "firewall_rejections": [
     {
       "source": "Dallas Cowboys",
+      "title": "Eatman: This offense stole the show and the storylines",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "Dallas Cowboys",
       "title": "Spagnola: No matter what, winning name of game",
       "reason": "failed final Texas sports relevance check"
     },
@@ -291,11 +296,6 @@
       "reason": "failed final Texas sports relevance check"
     },
     {
-      "source": "Houston Texans",
-      "title": "Short Week Setback | VanderBlog",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
       "source": "Texas Tech Public Media (KTTZ)",
       "title": "Texas Tech regents cut some classes on race, gender as options for graduation requirements",
       "reason": "failed final Texas sports relevance check"
@@ -306,23 +306,8 @@
       "reason": "blocked editorial/opinion phrase"
     },
     {
-      "source": "San Antonio Report",
-      "title": "University’s holiday tradition on the South Side returns",
-      "reason": "blocked editorial/opinion category"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "A five-word answer says everything about Steve Sarkisian's 2026 end-game vision for Texas",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
       "source": "On3 - Texas Longhorns",
       "title": "Texas to honor seniors in final home game of the year vs. Arkansas",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas hosting 2027 Arkansas CB commit John Catlin IV for Official Visit",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -332,17 +317,7 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "How a whiteboard (not that one) connects Texas' Will Muschamp to Arkansas' Ryan Silverfield",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
       "title": "What made the Texas offense's big day vs. Arkansas all the more impressive",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas Football Intel: Key Updates on Brad Spence, Bo Mascoe, and the Portal",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -352,12 +327,22 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "2026 Texas Longhorns - Arkansas Razorbacks Post Mortem: Offense",
+      "title": "Recruiting Humidor: New Flip Targets Headed to ATX + Elite 2028 Prospects and More",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Recruiting Humidor: New Flip Targets Headed to ATX + Elite 2028 Prospects and More",
+      "title": "What Steve Sarkisian said following No. 5 Texas 45-3 win over Arkansas",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "How a whiteboard (not that one) connects Texas' Will Muschamp to Arkansas' Ryan Silverfield",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Texas Football Intel: Key Updates on Brad Spence, Bo Mascoe, and the Portal",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -372,27 +357,12 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Inside the Program: Latest Texas Intel at Every Position",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "What Steve Sarkisian said following No. 5 Texas 45-3 win over Arkansas",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
       "title": "That Could Have Been an E-Mail: Texas Blasts Arkansas 45-3",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Tying the Bow on Arkansas: Arch Manning heating up, Wingo and Mosley's consistency and the best defense in the nation",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas LB Rasheem Biles shakes prior snubs, is named Butkus Award finalist",
+      "title": "Everything Arkansas coach Ryan Silverfield said after 'step backwards' vs. Texas",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -412,6 +382,21 @@
     },
     {
       "source": "On3 - Texas Longhorns",
+      "title": "PFF grades, snap counts for every player from the Texas defense in 45-3 win vs. Arkansas",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "PFF grades, snap counts for every player from the Texas offense in 45-3 win vs. Arkansas",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Tying the Bow on Arkansas: Arch Manning heating up, Wingo and Mosley's consistency and the best defense in the nation",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
       "title": "Behind Enemy Lines: Who are the biggest Razorback threats to a Texas victory on Senior Day?",
       "reason": "failed final Texas sports relevance check"
     },
@@ -427,17 +412,27 @@
     },
     {
       "source": "On3 - Texas Longhorns",
+      "title": "Texas Fires on All Cylinders in Easy Arkansas Win | Texas Rewatch",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
       "title": "Texas Football Intel: Injury Updates, Playing Time and What to Expect vs. Arkansas",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Elite Texas A&M commit scheduled to officially visit Texas this weekend",
+      "title": "Inside Texas staff picks explained: Longhorns will beat Arkansas, but by how much?",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Inside Texas staff picks explained: Longhorns will beat Arkansas, but by how much?",
+      "title": "Inside the Program: Latest Texas Intel at Every Position",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Elite Texas A&M commit scheduled to officially visit Texas this weekend",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -462,22 +457,7 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "How to Watch No. 5 Texas vs Arkansas: TV schedule, Start times, and Storylines",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "PFF grades, snap counts for every player from the Texas defense in 45-3 win vs. Arkansas",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "PFF grades, snap counts for every player from the Texas offense in 45-3 win vs. Arkansas",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas Longhorns vs Arkansas game plan: Developing depth for the postseason",
+      "title": "2026 Texas Longhorns - Arkansas Razorbacks Post Mortem: Offense",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -492,12 +472,12 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Texas is *likely* headed to the SEC Championship Game to play Georgia",
+      "title": "How a whiteboard (not that one) connects Texas' Will Muschamp to Arkansas' Ryan Silverfield",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "How a whiteboard (not that one) connects Texas' Will Muschamp to Arkansas' Ryan Silverfield",
+      "title": "Texas moves up to No. 5 in Week 12 AP Poll",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -517,12 +497,7 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Texas Fires on All Cylinders in Easy Arkansas Win | Texas Rewatch",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Tying the Bow on Arkansas: Arch Manning heating up, Wingo and Mosley's consistency and the best defense in the nation",
+      "title": "Texas is *likely* headed to the SEC Championship Game to play Georgia",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -532,17 +507,22 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Texas moves up to No. 5 in Week 12 AP Poll",
+      "title": "Arch Manning, Jelani McDonald among the top quotes following Texas' 45-3 win over Arkansas",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Tying the Bow on Arkansas: Arch Manning heating up, Wingo and Mosley's consistency and the best defense in the nation",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Texas LB Rasheem Biles shakes prior snubs, is named Butkus Award finalist",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas Longhorns",
       "title": "Simmons, Roberson, new OL injury updates on Thursday's SEC Availability Report",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Rasheem Biles: The most complete defender in the country that award voters keep ignoring",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -556,8 +536,8 @@
       "reason": "failed final Texas sports relevance check"
     },
     {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Oklahoma surging with a few blue-chippers, including No. 1 ATH, visiting for Texas A&M game",
+      "source": "On3 - Texas Longhorns",
+      "title": "Freeman shines, but Texas shooting woes continue in win over Southern Indiana",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -572,12 +552,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "OU football recruiting: Sooners to host the No. 1 TE in class of 2029",
+      "title": "Tennessee stays put in new ESPN College Football Playoff projection after beating LSU",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Tennessee stays put in new ESPN College Football Playoff projection after beating LSU",
+      "title": "College Football Rankings: AP Poll Top 25 after Week 12 released",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -587,7 +567,7 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "College Football Rankings: Coaches Poll Top 25 released after Week 12",
+      "title": "Danny Kanell reveals updated Top 12 college football teams after Week 12",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -597,12 +577,17 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
+      "title": "College Football Rankings: Coaches Poll Top 25 released after Week 12",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
       "title": "Venables sells culture and development, and top 2028 and 2029 recruits are buying in",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "A couple of elite prospects gear up for Oklahoma visit",
+      "title": "As the playoff chase takes focus, Tennessee is doing it the 'old-time' way",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -617,7 +602,7 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "As the playoff chase takes focus, Tennessee is doing it the 'old-time' way",
+      "title": "Notre Dame flips Rivals’ No. 2 LB AJ Randle from Miami",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -627,22 +612,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Shane Beamer provides Thursday update on South Carolina injuries",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Pregame Injury Report: LSU updates status of WR Jackson Harris vs. Tennessee",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
       "title": "Loucks, Seminoles making most of 'unconventional' noon tipoff Friday",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Tosh Lupoi Continues to Bring New Lows in 129th Big Game Loss",
+      "title": "Pregame Injury Report: LSU updates status of WR Jackson Harris vs. Tennessee",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -657,11 +632,6 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Joseph Hastings",
-      "reason": "blocked sports noise"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
       "title": "Texas A&M unable to find answers offensively, big changes prove ineffective in loss at Oklahoma",
       "reason": "failed final Texas sports relevance check"
     },
@@ -672,7 +642,7 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas LB Rasheem Biles shakes prior snubs, is named Butkus Award finalist",
+      "title": "Photo gallery from Texas A&M basketball's overtime win over TCU",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -687,17 +657,7 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Photo gallery from Texas A&M basketball's overtime win over TCU",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Top 100 Prospect is a Late Add to Strong Sooners Visit List",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M snap count tracker: How much time each Aggie player received vs. Oklahoma, this season so far",
+      "title": "Can Tennessee still make the SEC Championship Game? Where things stand with one game remaining",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -712,12 +672,7 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Inside the Program: Latest Texas Intel at Every Position",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M vs. Oklahoma final score predictions, analysis from Aggie Yell staff",
+      "title": "Intel as Signing Day approaches: New leaders emerging, commitments wavering and flips brewing",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -727,12 +682,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M basketball erases 14-point deficit in thrilling overtime win over TCU: 3 takeaways",
+      "title": "Texas A&M vs. Oklahoma final score predictions, analysis from Aggie Yell staff",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas A&M vs Oklahoma live game updates from Norman; Fourth Quarter - Aggies 7, Sooners 14",
+      "title": "Texas A&M basketball erases 14-point deficit in thrilling overtime win over TCU: 3 takeaways",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -742,7 +697,52 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
+      "title": "Inside the Program: Latest Texas Intel at Every Position",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Texas A&M vs Oklahoma live game updates from Norman; Fourth Quarter - Aggies 7, Sooners 14",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
       "title": "Week 12 Intel: Key official visits at Oklahoma, Texas; Baylor, TCU host elite recruits, Flips in play",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "A job well done is an opportunity to do more: Michael Terry's role at Texas continues to grow",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Faizon Brandon to start at QB for Tennessee vs. LSU",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Keys to victory: What Texas A&M must do to beat Oklahoma in Norman",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Jaxson Callaway",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Jason Witten's fingerprints have been very good for OU's offense",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Mike Wilson",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Nick Saban rejects narrative surrounding Big Ten title runs, looks to SEC’s ‘top to bottom’ strength",
       "reason": "failed final Texas sports relevance check"
     }
   ]
