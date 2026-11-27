@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-26T23:52:11.494Z",
+  "checked_at": "2026-11-27T08:29:41.309Z",
   "editorial_firewall": "ACTIVE",
-  "working_sources": 22,
+  "working_sources": 23,
   "sources": [
     {
       "source": "Dallas Cowboys",
@@ -9,7 +9,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 5
+      "firewall_rejected": 6
     },
     {
       "source": "Houston Texans",
@@ -17,7 +17,7 @@
       "mode": "direct",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 1
+      "firewall_rejected": 0
     },
     {
       "source": "MLB.com - Houston Astros",
@@ -32,7 +32,7 @@
       "region": "North Texas / DFW",
       "mode": "direct",
       "status": "working",
-      "accepted": 4,
+      "accepted": 3,
       "firewall_rejected": 0
     },
     {
@@ -134,7 +134,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 1,
-      "firewall_rejected": 40
+      "firewall_rejected": 38
     },
     {
       "source": "On3 - Texas A&M Aggies",
@@ -142,7 +142,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 92
+      "firewall_rejected": 93
     },
     {
       "source": "On3 - Texas Tech Red Raiders",
@@ -150,7 +150,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 4,
-      "firewall_rejected": 96
+      "firewall_rejected": 95
     },
     {
       "source": "On3 - TCU Horned Frogs",
@@ -164,16 +164,17 @@
       "source": "On3 - Baylor Bears",
       "region": "Central Texas / Waco",
       "mode": "discovery",
-      "status": "failed",
-      "error": "no straight-news items accepted"
+      "status": "working",
+      "accepted": 1,
+      "firewall_rejected": 64
     },
     {
       "source": "On3 - SMU Mustangs",
       "region": "North Texas / DFW",
       "mode": "discovery",
       "status": "working",
-      "accepted": 2,
-      "firewall_rejected": 66
+      "accepted": 1,
+      "firewall_rejected": 61
     },
     {
       "source": "On3 - Houston Cougars",
@@ -202,7 +203,7 @@
       "mode": "discovery",
       "status": "working",
       "accepted": 2,
-      "firewall_rejected": 20
+      "firewall_rejected": 18
     },
     {
       "source": "Texas Comptroller",
@@ -246,6 +247,11 @@
   "firewall_rejections": [
     {
       "source": "Dallas Cowboys",
+      "title": "Eatman: No thanks after this unreal Milt-down",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "Dallas Cowboys",
       "title": "Schottenheimer evalúa el debut de Mike Pettine al frente de la defensiva",
       "reason": "failed final Texas sports relevance check"
     },
@@ -267,11 +273,6 @@
     {
       "source": "Dallas Cowboys",
       "title": "Spagnola: No matter what, winning name of game",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "Houston Texans",
-      "title": "Stroud Cooks On Rivalries Night | VanderBlog",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -306,12 +307,37 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Texas moves up past Alabama in the College Football Playoff rankings",
+      "title": "Remember When All We Wanted Was for Texas Football to Be Good Again?",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Latest Recruiting Buzz on Top Texas Flip Candidate 5-Star Marcus Fakatou",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas Longhorns",
       "title": "Which Longhorns actually deserve national awards?",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Inside Texas Roundtable: Lone Star Showdown Preview, Prediction and Picks!",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Texas vs Texas A&M preview: The Aggies' underdog blueprint and Longhorn counters",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Back to Georgia? Texas DC Will Muschamp says he's made his 'last move' to Austin",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Texas moves up past Alabama in the College Football Playoff rankings",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -322,16 +348,6 @@
     {
       "source": "On3 - Texas Longhorns",
       "title": "Why the CFP committee moved Texas past Alabama in the latest rankings",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Inside Texas Roundtable: Lone Star Showdown Preview, Prediction and Picks!",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Back to Georgia? Texas DC Will Muschamp says he's made his 'last move' to Austin",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -351,37 +367,7 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Texas men's basketball feasts on Georgetown in big Thanksgiving win",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Jim Schlossnagle talks Texas Baseball, Stadium Renovations, Young Players to Watch and the Transfer Portal with Inside Texas",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "'Give Him His Flowers' Texas Football Player of the Week (12): Emmett Mosley",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Steve Sarkisian says Hero Kanu could 'potentially' return for Texas in the College Football Playoff",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Takeaways from the latest College Football Playoff ranking: Major course correction within SEC",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas DE Colin Simmons named Bednarik Award finalist with Chris Cole, Leonard Moore",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Commitment Analysis: Close-up look at new Texas OL commit Lance Ciechanowski",
+      "title": "Subscribe to the Texas Longhorns | On3.com",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -391,27 +377,32 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "College Football TV Ratings: Tracking the most-watched games of the 2026 season",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Some Texas Longhorn College Football Playoff Possibilities",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Remember When All We Wanted Was for Texas Football to Be Good Again?",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Bowl chaos looms as 14 teams fight for eligibility in the final week; updated projections",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
       "title": "Intel on Texas' Most Recent Availability Report",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Texas DE Colin Simmons named Bednarik Award finalist with Chris Cole, Leonard Moore",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Takeaways from the latest College Football Playoff ranking: Major course correction within SEC",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Texas men's basketball feasts on Georgetown in big Thanksgiving win",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "\"Texas felt like home from the beginning.\" 2028 Horns commit OL Lance Ciechanowski details decision",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Jim Schlossnagle talks Texas Baseball, Stadium Renovations, Young Players to Watch and the Transfer Portal with Inside Texas",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -426,32 +417,22 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "College Football Playoff: The 17 teams that still have a chance to make the field",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "\"Texas felt like home from the beginning.\" 2028 Horns commit OL Lance Ciechanowski details decision",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
       "title": "How to Watch No. 3 Texas vs Texas A&M: TV schedule, Start times, and Storylines",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Deep Dive film room: How Texas made it look easy against Arkansas",
+      "title": "Some Texas Longhorn College Football Playoff Possibilities",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Sarkisian takes responsibility, admits to 'lull' in middle of the season and need to 'get to one and zero' this week",
+      "title": "Bowl chaos looms as 14 teams fight for eligibility in the final week; updated projections",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "How Bad Is the 2026 Texas A&M Offense? The numbers are brutal",
+      "title": "Three Specific Matchups To Watch For Friday Night: Texas Longhorns vs. Texas A&M Aggies",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -461,7 +442,27 @@
     },
     {
       "source": "On3 - Texas Longhorns",
-      "title": "Three Specific Matchups To Watch For Friday Night: Texas Longhorns vs. Texas A&M Aggies",
+      "title": "Deep Dive film room: How Texas made it look easy against Arkansas",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "How Bad Is the 2026 Texas A&M Offense? The numbers are brutal",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Inside Texas Black Friday Sale: Get 75% off an IT subscription this weekend ONLY",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Inside Texas News, Analysis & Insider Reports",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas Longhorns",
+      "title": "Nov. 26 injury report: Colin Simmons is not trending to play against Texas A&M",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -472,16 +473,6 @@
     {
       "source": "On3 - Texas Longhorns",
       "title": "Colin Simmons, Andre Cojoe Updates, Longhorns-Aggies on the initial SEC Availability Report",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Texas gets commitment from 2028 offensive tackle Lance Ciechanowski",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas Longhorns",
-      "title": "Three Texas players Steve Sarkisian said must step up after the Kobe Black injury",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -516,7 +507,7 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Inside Texas Roundtable: Lone Star Showdown Preview, Prediction and Picks!",
+      "title": "Remember When All We Wanted Was for Texas Football to Be Good Again?",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -526,22 +517,7 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas Playoff Rankings: Recognized for Their Resume at Last",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Which Longhorns actually deserve national awards?",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas moves up past Alabama in the College Football Playoff rankings",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Why the CFP committee moved Texas past Alabama in the latest rankings",
+      "title": "Texas vs Texas A&M preview: The Aggies' underdog blueprint and Longhorn counters",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -551,12 +527,47 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
+      "title": "Texas moves up past Alabama in the College Football Playoff rankings",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Inside Texas Roundtable: Lone Star Showdown Preview, Prediction and Picks!",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Texas Playoff Rankings: Recognized for Their Resume at Last",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Latest Recruiting Buzz on Top Texas Flip Candidate 5-Star Marcus Fakatou",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Back to Georgia? Texas DC Will Muschamp says he's made his 'last move' to Austin",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Which Longhorns actually deserve national awards?",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Why the CFP committee moved Texas past Alabama in the latest rankings",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
       "title": "Three Texas players Steve Sarkisian said must step up after the Kobe Black injury",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "5-star LB Kaden Henderson still 'in flux' with nine days until the Early Signing Period",
+      "title": "Texas safety Jelani McDonald forces hands, is named Jim Thorpe Award finalist",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -566,27 +577,17 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "OU football intel: With Powers banged up, Newcombe poised for expanded role",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Situational practice paying off for OU quarterback John Mateer: 'He feels like a dude again'",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
       "title": "Trev Alberts hire falls through: Michigan may pay $17.2 million buyout, still searching for next athletic director",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Hunter Yuracheck explains Tennessee's rise, Alabama's drop in fourth CFP Rankings",
+      "title": "Paul Finebaum on Michigan backing out of Trev Alberts as AD: 'It is a total clown show'",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Texas safety Jelani McDonald forces hands, is named Jim Thorpe Award finalist",
+      "title": "Hunter Yuracheck explains Tennessee's rise, Alabama's drop in fourth CFP Rankings",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -621,27 +622,7 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Andi Jackson likely to bypass fifth year at Nebraska to become Omaha Supernova",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Texas men's basketball feasts on Georgetown in big Thanksgiving win",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Jim Schlossnagle talks Texas Baseball, Stadium Renovations, Young Players to Watch and the Transfer Portal with Inside Texas",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
       "title": "Who should Texas Tech root for this week? Every game that impacts the Red Raiders' CFP chances",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "'Give Him His Flowers' Texas Football Player of the Week (12): Emmett Mosley",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -661,22 +642,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Steve Sarkisian says Hero Kanu could 'potentially' return for Texas in the College Football Playoff",
+      "title": "Texas DE Colin Simmons named Bednarik Award finalist with Chris Cole, Leonard Moore",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas A&M Aggies",
       "title": "Takeaways from the latest College Football Playoff ranking: Major course correction within SEC",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Sarkisian takes responsibility, admits to 'lull' in middle of the season and need to 'get to one and zero' this week",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Some Texas Longhorn College Football Playoff Possibilities",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -691,7 +662,12 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Why Texas A&M is still locked in on Texas, what else Mike Elko said Monday",
+      "title": "Three Specific Matchups To Watch For Friday Night: Texas Longhorns vs. Texas A&M Aggies",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Some Texas Longhorn College Football Playoff Possibilities",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -701,12 +677,7 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Deep Dive film room: How Texas made it look easy against Arkansas",
-      "reason": "failed final Texas sports relevance check"
-    },
-    {
-      "source": "On3 - Texas A&M Aggies",
-      "title": "Bowl chaos looms as 14 teams fight for eligibility in the final week; updated projections",
+      "title": "Why Texas A&M is still locked in on Texas, what else Mike Elko said Monday",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -716,7 +687,7 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Remember When All We Wanted Was for Texas Football to Be Good Again?",
+      "title": "Bowl chaos looms as 14 teams fight for eligibility in the final week; updated projections",
       "reason": "failed final Texas sports relevance check"
     },
     {
@@ -736,12 +707,42 @@
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Paul Finebaum on Michigan backing out of Trev Alberts as AD: 'It is a total clown show'",
+      "title": "Texas A&M Black Friday special: 75% off annual memberships",
       "reason": "failed final Texas sports relevance check"
     },
     {
       "source": "On3 - Texas A&M Aggies",
-      "title": "Four Texas A&M standouts ruled out vs. Texas, key Aggie defender designated as questionable",
+      "title": "Deep Dive film room: How Texas made it look easy against Arkansas",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Jaxson Callaway",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "4-star 2028 DL Landen Wade set to announce commitment on Dec. 7 on Rivals' YouTube",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "College Football Announcer Schedule: Broadcasters for top Week 13 games",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Inside Texas Black Friday Sale: Get 75% off an IT subscription this weekend ONLY",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Aggie Yell News, Analysis & Insider Reports",
+      "reason": "failed final Texas sports relevance check"
+    },
+    {
+      "source": "On3 - Texas A&M Aggies",
+      "title": "Where is OU in the latest College Football Playoff rankings?",
       "reason": "failed final Texas sports relevance check"
     }
   ]
